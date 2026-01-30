@@ -29,6 +29,10 @@ poules_2025 = ['Joséphine', 'Cunégonde', 'Valérie', 'Pioupioute', 'Rémiel', 
 poules = set(poules_2023).union(set(poules_2024)).union(set(poules_2025))
 print(poules)
 
+poules_individuelles = ['Joséphine', 'Augustine', 'Pioupioute', 'Rémiel', 'Saquiel', 'Albertine', 'Tina', 'Nina']
+poules_marans_2_niveaux = ['Marans','Tina et Nina']    
+poules_autres = [poule for poule in poules if poule not in poules_marans_2_niveaux]
+
 # Extraire les colonnes qui ne sont pas les poules
 autres_colonnes_2023 = df_2023.columns.difference(poules_2023)
 autres_colonnes_2024 = df_2024.columns.difference(poules_2024)
@@ -51,7 +55,8 @@ comp.to_csv('interim/audit_autres_colonnes.csv', index=False, encoding='utf-8-si
 
 autres_colonnes = ['Date', 'Météo', 'Pluie(mm)','Humidité', 'Commentaires','T°C (12h-15h)', 'œuf trouvé/date de la trouvaille']
 
-# Pivot des colonnes Poules pour aboutir à un format plus exploitable 
+
+# Dépivotage des colonnes Poules pour aboutir à un format plus exploitable 
 # On garde Date, Poule_brute, Ponte_brute (notation d'origine)
 
 def format_long_poules(df, poules):
@@ -86,6 +91,31 @@ def pivoter_et_concatener_poules(df_2023, df_2024, df_2025, poules):
 
 df_pontes = pivoter_et_concatener_poules(df_2023, df_2024, df_2025, poules)
 df_pontes.sort_values(by='Date', inplace=True)
+
+# Traitement des poules Marans et non Marans / Individuelles ou groupe
+
+
+def format_poules_marans_2_niveaux(df, poules_marans_2_niveaux):
+    # On ajoute les colonnes niveau_observation et group_id 
+    # et on remplace le nom de poule Marans par MARANS_TOTAL 
+    # et on remplace le nom de poule Tina et Nina par TINA_NINA
+    df = df.copy()
+ 
+    df.loc[df['Poule_brute'] == 'Marans', 'Poule_brute'] = 'MARANS_TOTAL'
+    df.loc[df['Poule_brute'] == 'Tina et Nina', 'Poule_brute'] = 'TINA_NINA'
+
+     #  Pour les poules individuelles, on précise le niveau d'observation (individuel)
+
+    df.loc[df['Poule_brute'].isin(poules_individuelles), 'niveau_observation'] = 'individuel'
+    # pour les poules marans, on précise le niveau d'observation (groupe) et on remplace le group_id par MARANS 
+    # Lorsque les poules brutes sont dans la liste [MARANS_TOTAL, TINA_NINA, TINA, NINA, ALBERTINE]
+    # on remplace le group_id par MARANS
+    df.loc[df['Poule_brute'].isin(['MARANS_TOTAL', 'TINA_NINA', 'Tina', 'Nina', 'Albertine']), 'group_id'] = 'MARANS'
+    df.loc[df['Poule_brute'].isin(['MARANS_TOTAL', 'TINA_NINA']), 'niveau_observation'] = 'groupe'
+
+    return df
+
+df_pontes = format_poules_marans_2_niveaux(df_pontes, poules_marans_2_niveaux)
 
 def selection_meteo_commentaires(df, poules):
     # Utiliser ~isin pour exclure les colonnes qui sont des poules
