@@ -1,0 +1,15 @@
+﻿Colonne;Type;Non-Nuls;Nuls;% Nuls;Uniques;Top 3 Valeurs
+Date;datetime64[ns];365;0;0.0%;365;'2025-01-01 00:00:00': 1, '2025-01-02 00:00:00': 1, '2025-01-03 00:00:00': 1
+Cunégonde;object;146;219;60.0%;9;'x': 138, 'x?': 1, 'x(cassé)x': 1
+Valérie;object;84;281;77.0%;5;'x': 47, 'x ': 34, 'x(obus)': 1
+3 Marans;object;194;171;46.8%;26;'x(t)': 44, 'x': 31, 'xxx': 22
+Joséphine;object;2;363;99.5%;2;'malade': 1, 'dcd': 1
+Rémiel;object;4;361;98.9%;3;'veut pondre': 2, 'malade': 1, 'dcd': 1
+Pioupioute;object;1;364;99.7%;1;'mue': 1
+œuf trouvé/date de la trouvaille;object;7;358;98.1%;4;'x(marans)': 4, 'x ': 1, 'x': 1
+T°C (12h-15h);float64;349;16;4.4%;34;'16.0': 25, '15.0': 23, '18.0': 21
+T° mini;float64;352;13;3.6%;33;'15.0': 27, '13.0': 25, '10.0': 23
+Humidité;float64;348;17;4.7%;61;'0.42': 16, '0.37': 15, '0.41': 15
+Pluie(mm);float64;108;257;70.4%;31;'1.0': 13, '3.0': 12, '7.0': 8
+Météo;object;365;0;0.0%;86;'beau': 91, 'ensoleillé': 30, 'couvert': 28
+Commentaires;object;184;181;49.6%;89;'vent': 66, 'gelée matinale': 9, 'vent/alerte jaune orages': 6
