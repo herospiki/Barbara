@@ -2,34 +2,18 @@ import pandas as pd
 import re
 
 # Charger les données
-df_2023 = pd.read_excel('ponte_2023.xlsx')
-df_2024 = pd.read_excel('ponte_2024.xlsx')
-df_2025 = pd.read_excel('ponte_2025.xlsx')
+df_commentaires = pd.read_csv('interim/df_commentaires.csv', sep=';')
 
-def extraire_commentaires(df, annee):
-    # La colonne peut s'appeler 'Commentaires' ou 'commentaires' (vu dans data_treatment_v3.py)
-    col_name = 'Commentaires' if 'Commentaires' in df.columns else 'commentaires' if 'commentaires' in df.columns else None
-    
-    if col_name is None:
-        return pd.DataFrame()
-        
-    comments = df[['Date', col_name]].dropna()
-    comments.columns = ['Date', 'Texte']
-    comments['Année'] = annee
-    return comments
+def nettoyer_commentaires(df_commentaires):
+    # Séparer les commentaires multiples (ceux contenant un /)
+    # On évite de couper les dates (ex: 22/02) en ne coupant que si le slash n'est pas entouré de chiffres
+    df_commentaires['Commentaires_clean'] = df_commentaires['Commentaires'].str.split(r'(?<!\d)/(?!\d)')
+    df_commentaires = df_commentaires.explode('Commentaires_clean')
+    df_commentaires['Commentaires_clean'] = df_commentaires['Commentaires_clean'].str.strip()
+    df_commentaires = df_commentaires[df_commentaires['Commentaires_clean'] != ""] # Supprimer les segments vides éventuels
+    return df_commentaires
 
-all_comments = pd.concat([
-    extraire_commentaires(df_2023, 2023),
-    extraire_commentaires(df_2024, 2024),
-    extraire_commentaires(df_2025, 2025)
-], ignore_index=True)
-
-# Séparer les commentaires multiples (ceux contenant un /)
-# On évite de couper les dates (ex: 22/02) en ne coupant que si le slash n'est pas entouré de chiffres
-all_comments['Texte'] = all_comments['Texte'].str.split(r'(?<!\d)/(?!\d)')
-all_comments = all_comments.explode('Texte')
-all_comments['Texte'] = all_comments['Texte'].str.strip()
-all_comments = all_comments[all_comments['Texte'] != ""] # Supprimer les segments vides éventuels
+print(nettoyer_commentaires(df_commentaires))
 
 # Liste exhaustive des poules pour détection
 liste_poules = [
@@ -39,7 +23,8 @@ liste_poules = [
 
 # Définition des catégories et mots-clés prioritaires
 # L'ordre dans le dictionnaire définit la priorité (Mutuellement exclusif)
-categories_prioritaires = {
+def definition_categories():
+    categories_prioritaires = {
     'Météo / Environnement': [
         r'°c', r'h%', r'gel', r'neige', r'tempête', r'orage', r'froid', r'canicule', r'chaleur', 
         r'frais', r'chaud', r'humide', r'humidité', r'inondation', r'temps', r'ciel',
@@ -77,8 +62,8 @@ categories_prioritaires = {
     ],
     'Vie du Poulailler / Divers': [
         r'absente', r'départ', r'arrivée', r'retour', r'nouveau', r'ancienne', r'morts', r'idem'
-    ]
-}
+    ]}
+    return categories_prioritaires
 
 def identifier_poules(texte):
     texte_lower = str(texte).lower()
@@ -90,6 +75,7 @@ def identifier_poules(texte):
     return ", ".join(trouvees) if trouvees else "Aucune"
 
 def categoriser_unique(texte):
+    categories_prioritaires = definition_categories()
     texte = str(texte).lower()
     # On cherche la première catégorie qui matche (Ordre de priorité respecté)
     for cat, keywords in categories_prioritaires.items():
@@ -98,22 +84,25 @@ def categoriser_unique(texte):
                 return cat
     return "Autre"
 
-all_comments['Catégorie'] = all_comments['Texte'].apply(categoriser_unique)
-all_comments['Poules_Cités'] = all_comments['Texte'].apply(identifier_poules)
+df_commentaires['Catégorie'] = df_commentaires['Commentaires'].apply(categoriser_unique)
+df_commentaires['Poules_Citées'] = df_commentaires['Commentaires'].apply(identifier_poules)
 
-# Analyse par catégorie
-stats_cat = all_comments['Catégorie'].str.split(', ').explode().value_counts()
+def stats_cat(df_commentaires):
+    # Analyse par catégorie 
+    stats_cat = df_commentaires['Catégorie'].str.split(', ').explode().value_counts()
+    print("\n--- Statistiques par Catégorie de Commentaires ---")
+    print(stats_cat)
+    categories_prioritaires = definition_categories()
+    print("\n--- Exemples par Catégorie ---")
+    for cat in categories_prioritaires.keys():
+        print(f"\n[{cat.upper()}]")
+        exemples = df_commentaires[df_commentaires['Catégorie'] == cat]['Commentaires'].unique()[:5]
+        for ex in exemples:
+            print(f" - {ex}")
+    return stats_cat
 
-print("\n--- Statistiques par Catégorie de Commentaires ---")
-print(stats_cat)
 
-print("\n--- Exemples par Catégorie ---")
-for cat in categories_prioritaires.keys():
-    print(f"\n[{cat.upper()}]")
-    exemples = all_comments[all_comments['Catégorie'] == cat]['Texte'].unique()[:5]
-    for ex in exemples:
-        print(f" - {ex}")
 
 # Sauvegarder l'analyse détaillée
-all_comments.to_csv('analyse_detaillee_commentaires.csv', index=False, encoding='utf-8-sig', sep=';')
+df_commentaires.to_csv('analyse_detaillee_commentaires.csv', index=False, encoding='utf-8-sig', sep=';')
 print("\nL'analyse détaillée a été exportée dans 'analyse_detaillee_commentaires.csv'")

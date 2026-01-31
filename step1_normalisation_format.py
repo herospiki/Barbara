@@ -111,45 +111,58 @@ def format_poules_marans_2_niveaux(df, poules_marans_2_niveaux):
     # Lorsque les poules brutes sont dans la liste [MARANS_TOTAL, TINA_NINA, TINA, NINA, ALBERTINE]
     # on remplace le group_id par MARANS
     df.loc[df['Poule_brute'].isin(['MARANS_TOTAL', 'TINA_NINA', 'Tina', 'Nina', 'Albertine']), 'group_id'] = 'MARANS'
-    df.loc[df['Poule_brute'].isin(['MARANS_TOTAL', 'TINA_NINA']), 'niveau_observation'] = 'groupe'
-
+    df.loc[df['Poule_brute'].isin(['MARANS_TOTAL']), 'niveau_observation'] = 'groupe'
+    df.loc[df['Poule_brute'].isin(['TINA_NINA']), 'niveau_observation'] = 'sous-groupe'
     return df
 
 df_pontes = format_poules_marans_2_niveaux(df_pontes, poules_marans_2_niveaux)
 
-def selection_meteo_commentaires(df, poules):
-    # Utiliser ~isin pour exclure les colonnes qui sont des poules
-    colonnes_a_garder = ['Date'] + [col for col in df.columns if col not in poules]
-    return df[colonnes_a_garder]
 
 # Premiers choix de conservation de certaines colonnes 
 # On conserve les colonnes communes aux 3 années ainsi que la colonne Humidité
 # même si elle n'apparait pas en 2023 car elle a une valeur métier : l'humidité
 # rend la chaleur beaucoup plus difficile à supporter et cela peut affecter les 
 # animaux. 
+# On va séparer les colonnes météo des colonnes commentaires
 # On va conserver aussi la nouvelle colonne "oeuf trouvé/date de la trouvaille"
 # qui est apparue en 2025 et voir si on peut l'utiliser plus tard pour 
 # améliorer la qualité de nos données.
 
-def selectionner_colonnes(df):
-    colonnes_cibles = ['Date', 'Météo', 'Pluie(mm)', 'Humidité', 'Commentaires', 'T°C (12h-15h)', 'œuf trouvé/date de la trouvaille']
+colonnes_meteo = ['Date', 'Météo', 'Pluie(mm)', 'Humidité',  'T°C (12h-15h)',]
+colonnes_commentaires = ['Date', 'Commentaires','œuf trouvé/date de la trouvaille']
+
+def selectionner_colonnes_meteo(df):
     # On ne garde que les colonnes présentes dans la liste des colonnes cibles
-    existantes = [col for col in colonnes_cibles if col in df.columns]
+    existantes = [col for col in colonnes_meteo if col in df.columns]
+    return df[existantes]
+
+def selectionner_colonnes_commentaires(df):
+    # On ne garde que les colonnes présentes dans la liste des colonnes cibles
+    existantes = [col for col in colonnes_commentaires if col in df.columns]
     return df[existantes]
 
 # Application
-df_meteo_2023 = selectionner_colonnes(df_2023)
-df_meteo_2024 = selectionner_colonnes(df_2024)
-df_meteo_2025 = selectionner_colonnes(df_2025)
+df_meteo_2023 = selectionner_colonnes_meteo(df_2023)
+df_meteo_2024 = selectionner_colonnes_meteo(df_2024)
+df_meteo_2025 = selectionner_colonnes_meteo(df_2025)
 
 print("\nColonnes conservées pour la météo 2023 :", df_meteo_2023.columns.tolist())
 print("\nColonnes conservées pour la météo 2024 :", df_meteo_2024.columns.tolist())
 print("\nColonnes conservées pour la météo 2025 :", df_meteo_2025.columns.tolist())
 
-# On concatène les df_meteo en un seul dataframe
+    # On concatène les df_meteo en un seul dataframe
 df_meteo = pd.concat([df_meteo_2023, df_meteo_2024, df_meteo_2025], axis=0)
 df_meteo.sort_values(by='Date', inplace=True)
 
+df_commentaires_2023 = selectionner_colonnes_commentaires(df_2023)
+df_commentaires_2024 = selectionner_colonnes_commentaires(df_2024)
+df_commentaires_2025 = selectionner_colonnes_commentaires(df_2025)
+
+# On concatène les df_commentaires en un seul dataframe
+df_commentaires = pd.concat([df_commentaires_2023, df_commentaires_2024, df_commentaires_2025], axis=0)
+df_commentaires.sort_values(by='Date', inplace=True)
+
 # On sauvegarde les df_pontes et df_meteo dans le répertoire interim
 df_pontes.to_csv('interim/df_pontes.csv', index=False, encoding='utf-8-sig', sep=';')
-df_meteo.to_csv('interim/df_meteo_commentaires_oeuf.csv', index=False, encoding='utf-8-sig', sep=';')
+df_meteo.to_csv('interim/df_meteo.csv', index=False, encoding='utf-8-sig', sep=';')
+df_commentaires.to_csv('interim/df_commentaires.csv', index=False, encoding='utf-8-sig', sep=';')

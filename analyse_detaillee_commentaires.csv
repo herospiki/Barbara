@@ -1,436 +1,1097 @@
-﻿Date;Texte;Année;Catégorie;Poules_Cités
-2023-01-23;malade (moi);2023;Santé / Soins;Aucune
-2023-01-28;Cunégonde pique Shrek;2023;Comportement;Cunégonde, Shrek
-2023-01-29;aliment poulette+vitamines;2023;Santé / Soins;Aucune
-2023-02-01;pas sûre de l'œuf de Pioupioute;2023;Suivi de Ponte / Observation;Pioupioute
-2023-02-02;petit lait en boisson;2023;Anomalies Œufs;Aucune
-2023-02-02;aliment pondeuse;2023;Alimentation;Aucune
-2023-02-03;petit lait+aliment;2023;Anomalies Œufs;Aucune
-2023-02-04;petit lait+aliment;2023;Anomalies Œufs;Aucune
-2023-02-05;aliment;2023;Alimentation;Aucune
-2023-02-11;aliment+blé;2023;Alimentation;Aucune
-2023-02-18;avipar(vermifuge naturel);2023;Santé / Soins;Aucune
-2023-02-20;antibio Pioupioute suspicion pb génital;2023;Santé / Soins;Pioupioute
-2023-02-23;pluie nuit 22,à23/02;2023;Météo / Environnement;Aucune
-2023-02-24;pluie nuit 23,à24/02;2023;Météo / Environnement;Aucune
-2023-03-08;lentypou;2023;Santé / Soins;Aucune
-2023-03-09;qq gouttes dans la nuit;2023;Météo / Environnement;Aucune
-2023-03-12;17°C à 3h30 du mat;2023;Météo / Environnement;Aucune
-2023-03-14;pluie nuit du 13/03 au 14/03;2023;Météo / Environnement;Aucune
-2023-03-17;arrêt lentypou;2023;Santé / Soins;Aucune
-2023-03-20;pas sûr de l'œuf de Rémiel;2023;Suivi de Ponte / Observation;Rémiel
-2023-03-25;Pioupioute à l'ENVT;2023;Santé / Soins;Pioupioute
-2023-03-26;trouvé un micro œuf;2023;Anomalies Œufs;Aucune
-2023-03-27;tempête la nuit;2023;Météo / Environnement;Aucune
-2023-04-01;œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte;2023;Localisation Œufs;Augustine
-2023-04-02;Augustine malade: amirudène 7J;2023;Santé / Soins;Augustine
-2023-04-04;Augustine DCD;2023;Santé / Soins;Augustine
-2023-04-05;aliment pondeuse;2023;Alimentation;Aucune
-2023-04-15;arrêt antibiotique Pioupioute;2023;Santé / Soins;Pioupioute
-2023-04-15;ponction à l'envt;2023;Santé / Soins;Aucune
-2023-04-16;Pioupioute a pondu un œuf normal;2023;Installation / Technique;Pioupioute
-2023-04-16;veut couver;2023;Comportement;Aucune
-2023-04-23;15°C à 5h du mat;2023;Météo / Environnement;Aucune
-2023-04-24;découverte d'une fibrine (?) dans le poulailler;2023;Anomalies Œufs;Aucune
-2023-04-24;mini œuf de Saquiel?;2023;Suivi de Ponte / Observation;Saquiel
-2023-04-30;œuf d'Albertine très clair;2023;Suivi de Ponte / Observation;Albertine
-2023-05-01;dont 29mm dans la nuit du 29 au 30/04;2023;Météo / Environnement;Aucune
-2023-05-07;1 œuf trouvé dans le poulailler cassé;2023;Anomalies Œufs;Aucune
-2023-05-16;petit trou dans certains œufs, à surveiller si poules ou pie;2023;Anomalies Œufs;Aucune
-2023-06-04;changement de poulailler;2023;Installation / Technique;Aucune
-2023-06-13;les 2 œufs ont été cassé par une poule ou une bête;2023;Anomalies Œufs;Aucune
-2023-06-14;l'œuf d'Albertine très fragile, elle a des vers en plus;2023;Suivi de Ponte / Observation;Albertine
-2023-06-14;Avipar;2023;Santé / Soins;Aucune
-2023-06-14;Avipou;2023;Santé / Soins;Aucune
-2023-06-16;Saquiel malade;2023;Santé / Soins;Saquiel
-2023-06-16;doxycycline;2023;Santé / Soins;Aucune
-2023-06-18;0 œuf;2023;Anomalies Œufs;Aucune
-2023-06-20;quelques gouttes;2023;Météo / Environnement;Aucune
-2023-06-21;œuf de Valérie très fragile trouvé ds poulailler;2023;Localisation Œufs;Valérie
-2023-06-23;Cunégonde veut couver;2023;Comportement;Cunégonde
-2023-07-01;8 œuf sous Cunégonde: 6marans+1valérie+1joséphine;2023;Installation / Technique;Cunégonde
-2023-07-02;1œuf valérie et 1oeuf Joséphine sous Cunégonde;2023;Suivi de Ponte / Observation;Joséphine, Cunégonde, Valérie
-2023-07-03;1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde;2023;Suivi de Ponte / Observation;Albertine, Cunégonde, Valérie
-2023-07-05;Valérie tousse, avicoryl dans l'eau;2023;Santé / Soins;Valérie
-2023-07-08;vit C dans l'eau+oligoélément;2023;Santé / Soins;Aucune
-2023-07-10;21°c et 80%H le matin;2023;Météo / Environnement;Aucune
-2023-07-11;22°C et 82%H  matin, 27°c à 22h;2023;Météo / Environnement;Aucune
-2023-07-12;œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler;2023;Installation / Technique;Albertine, Rémiel
-2023-07-15;fin doxycyline pour Saquiel;2023;Santé / Soins;Saquiel
-2023-07-15;24°C et 75%H à 23h ext/0 œuf;2023;Météo / Environnement;Aucune
-2023-07-16;17°C et 80%H à 20h;2023;Météo / Environnement;Aucune
-2023-07-18;installation voile d'ombrage sur la terrasse;2023;Installation / Technique;Aucune
-2023-07-19;36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver;2023;Météo / Environnement;Joséphine
-2023-07-20;orages la nuit du 18 au 19/07;2023;Météo / Environnement;Aucune
-2023-07-21;Valérie semble vouloir couver aussi cette coquine!!;2023;Comportement;Valérie
-2023-07-22;Valérie couve…........;2023;Comportement;Valérie
-2023-07-24;0 œuf;2023;Anomalies Œufs;Aucune
-2023-07-24;26°c à 21h30;2023;Météo / Environnement;Aucune
-2023-07-26;trouvé 1 œuf d'Albertine dans le jardin;2023;Localisation Œufs;Albertine
-2023-07-28;0 œuf;2023;Anomalies Œufs;Aucune
-2023-08-01;découverte de poux rouges;2023;Santé / Soins;Aucune
-2023-08-01;retour dans l'ancien poulailler;2023;Installation / Technique;Aucune
-2023-08-01;T°p=T°ext;2023;Météo / Environnement;Aucune
-2023-08-02;"retour dans le poulailler ""terrasse""";2023;Installation / Technique;Aucune
-2023-08-03;traitement exzolt;2023;Santé / Soins;Aucune
-2023-08-05;1 œuf cassé et 1 œuf mou;2023;Anomalies Œufs;Aucune
-2023-08-05;retour ancien poulailler;2023;Installation / Technique;Aucune
-2023-08-08;0 œuf;2023;Anomalies Œufs;Aucune
-2023-08-09;0 oeuf;2023;Anomalies Œufs;Aucune
-2023-08-09;T°C poulailler à 22-23h;2023;Météo / Environnement;Aucune
-2023-08-10;traitement exzolt;2023;Santé / Soins;Aucune
-2023-08-11;avhydratC+Gascodrène;2023;Santé / Soins;Aucune
-2023-08-12;avhydratC+Gascodrène;2023;Santé / Soins;Aucune
-2023-08-13;avhydratC+Gascodrène;2023;Santé / Soins;Aucune
-2023-08-14;avhydratC+Gascodrène;2023;Santé / Soins;Aucune
-2023-08-15;avhydratC+Gascodrène;2023;Santé / Soins;Aucune
-2023-08-18;avhydrat C+gascodrène;2023;Santé / Soins;Aucune
-2023-08-19;avhydratC+Gascodrène;2023;Santé / Soins;Aucune
-2023-08-20;avhydratC+Gascodrène;2023;Santé / Soins;Aucune
-2023-08-21;avhydratC+Gascodrène;2023;Santé / Soins;Aucune
-2023-08-22;idem;2023;Vie du Poulailler / Divers;Aucune
-2023-08-23;C+Gasco;2023;Santé / Soins;Aucune
-2023-08-23;nuit tropicale 27°c;2023;Météo / Environnement;Aucune
-2023-08-23;73% H à 22h40;2023;Autre;Aucune
-2023-08-24;C+Gasco;2023;Santé / Soins;Aucune
-2023-08-25;c+Gasco;2023;Santé / Soins;Aucune
-2023-09-03;trouvé un oeuf minuscule Saquiel ou Albertine;2023;Anomalies Œufs;Albertine, Saquiel
-2023-09-05;sable du Sahara dans l'air;2023;Météo / Environnement;Aucune
-2023-09-06;sable du Sahara dans l'air;2023;Météo / Environnement;Aucune
-2023-09-07;sable du Sahara dans l'air;2023;Météo / Environnement;Aucune
-2023-10-24;Albertine malade;2023;Santé / Soins;Albertine
-2023-10-24;rhume;2023;Santé / Soins;Aucune
-2023-10-25;avicoryl;2023;Santé / Soins;Aucune
-2023-11-09;petite gelée matinale;2023;Météo / Environnement;Aucune
-2023-11-19;environ 20°C;2023;Météo / Environnement;Aucune
-2023-11-27;belle gelée matinale -3°c;2023;Météo / Environnement;Aucune
-2023-12-04;gelée matinale;2023;Météo / Environnement;Aucune
-2023-12-18;-4°C ce matin;2023;Météo / Environnement;Aucune
-2023-12-19;gelée matinale;2023;Météo / Environnement;Aucune
-2023-12-28;grosse gelée matinale;2023;Météo / Environnement;Aucune
-2024-01-01;pas se fier aux noms des marans mais juste à la colonne marans;2024;Installation / Technique;Marans
-2024-01-10;-4°c ce matin;2024;Météo / Environnement;Aucune
-2024-01-12;gelée matinale;2024;Météo / Environnement;Aucune
-2024-01-13;gelée matinale;2024;Météo / Environnement;Aucune
-2024-01-18;tempête à 18h30;2024;Météo / Environnement;Aucune
-2024-01-20;-4°C ce matin à 6h;2024;Météo / Environnement;Aucune
-2024-01-21;-4°C ce matin 6h;2024;Météo / Environnement;Aucune
-2024-01-22;petite gelée matinale;2024;Météo / Environnement;Aucune
-2024-01-22;pluie la nuit;2024;Météo / Environnement;Aucune
-2024-01-27;petite gelée matinale;2024;Météo / Environnement;Aucune
-2024-01-31;petite gelée matinale;2024;Météo / Environnement;Aucune
-2024-02-02;très humide ce matin;2024;Météo / Environnement;Aucune
-2024-02-02;sol mouillé;2024;Anomalies Œufs;Aucune
-2024-02-04;petite gelée matinale;2024;Météo / Environnement;Aucune
-2024-02-05;petite gelée matinale;2024;Météo / Environnement;Aucune
-2024-02-09;14°C vers 8h du mat, 19°C à 15h30;2024;Météo / Environnement;Aucune
-2024-02-15;T°C relevée à 11h du mat;2024;Météo / Environnement;Aucune
-2024-02-20;T°C relevée à 11h du mat;2024;Météo / Environnement;Aucune
-2024-02-28;Valérie malade - début traitement Valérie;2024;Santé / Soins;Valérie
-2024-03-04;dernier jour de traitement Valérie;2024;Santé / Soins;Valérie
-2024-03-09;orage sec dans la nuit;2024;Météo / Environnement;Aucune
-2024-03-19;24°C vers 16h;2024;Météo / Environnement;Aucune
-2024-03-20;vent toute la journée;2024;Météo / Environnement;Aucune
-2024-03-31;1 œuf de marans trouvé dans le poulailler;2024;Localisation Œufs;Marans
-2024-04-06;sable du Sahara;2024;Météo / Environnement;Aucune
-2024-04-07;sable du Sahara;2024;Météo / Environnement;Aucune
-2024-04-08;sable du Sahara;2024;Météo / Environnement;Aucune
-2024-04-09;un œuf sans coquille dans le pondoir;2024;Anomalies Œufs;Aucune
-2024-04-14;29°C dans l’après midi;2024;Météo / Environnement;Aucune
-2024-04-19;petite gelée matinale/1 œuf cassé dans le pondoir;2024;Météo / Environnement;Aucune
-2024-04-21;petite gelée matinale;2024;Météo / Environnement;Aucune
-2024-05-15;6°C ce matin;2024;Météo / Environnement;Aucune
-2024-06-04;attaque de rapace;2024;Comportement;Aucune
-2024-06-04;Rémiel blessée;2024;Santé / Soins;Rémiel
-2024-06-16;Trouvé 3 œufs de marans dans le jardin (date de ponte?);2024;Localisation Œufs;Marans
-2024-06-25;Cunégonde couve;2024;Comportement;Cunégonde
-2024-06-26;Trouvé 1 œuf de marans dans le jardin;2024;Localisation Œufs;Marans
-2024-07-05;absente toute la journée;2024;Vie du Poulailler / Divers;Aucune
-2024-07-05;environ 30°C;2024;Météo / Environnement;Aucune
-2024-07-07;décès de Shrek;2024;Santé / Soins;Shrek
-2024-07-25;1 œuf de marans trouvé dans le jardin;2024;Localisation Œufs;Marans
-2024-07-27;Nina coup de chaud à 5h du mat;2024;Météo / Environnement;Nina
-2024-07-27;changement de poulailler le soir;2024;Installation / Technique;Aucune
-2024-07-29;"alerte canicule/39;2°C relevé au Mas d’Azil";2024;Météo / Environnement;Aucune
-2024-07-30;alerte canicule+poussière du Sahara;2024;Météo / Environnement;Aucune
-2024-07-31;alerte canicule;2024;Météo / Environnement;Aucune
-2024-08-03;1 œuf de marans trouvé dans le jardin (date de ponte?);2024;Localisation Œufs;Marans
-2024-08-11;1 œuf de marans trouvé dans le jardin;2024;Localisation Œufs;Marans
-2024-08-17;œuf de marans trouvé dans le jardin;2024;Localisation Œufs;Marans
-2024-08-24;alerte orange orages;2024;Météo / Environnement;Aucune
-2024-08-27;frais le matin puis chaud;2024;Météo / Environnement;Aucune
-2024-09-15;Albertine fatiguée par sa mue;2024;Santé / Soins;Albertine
-2024-09-15;vitamines+vermifuge pour tt le monde;2024;Santé / Soins;Aucune
-2024-09-25;vent;2024;Météo / Environnement;Aucune
-2024-10-04;Cunégonde de retour avec les autres;2024;Vie du Poulailler / Divers;Cunégonde
-2024-10-05;retrait du voile d’ombrage;2024;Installation / Technique;Aucune
-2024-10-07;chaud en fin d’aprèm;2024;Météo / Environnement;Aucune
-2024-10-09;tempête en début de soirée;2024;Météo / Environnement;Aucune
-2024-10-17;vigilance orange pluie;2024;Météo / Environnement;Aucune
-2024-10-17;inondations;2024;Météo / Environnement;Aucune
-2024-10-18;avicoryl;2024;Santé / Soins;Aucune
-2024-11-14;temps agréable, brouillard cette nuit;2024;Météo / Environnement;Aucune
-2024-11-15;gelée matinale;2024;Météo / Environnement;Aucune
-2024-11-17;venteux;2024;Météo / Environnement;Aucune
-2024-11-20;vigilance jaune pluie;2024;Météo / Environnement;Aucune
-2024-11-20;inondations;2024;Météo / Environnement;Aucune
-2024-11-21;tempête la nuit;2024;Météo / Environnement;Aucune
-2024-11-22;vent;2024;Météo / Environnement;Aucune
-2024-11-23;gelée matinale;2024;Météo / Environnement;Aucune
-2024-11-25;vent/19°C à 7h30 du mat;2024;Météo / Environnement;Aucune
-2024-11-27;aliment;2024;Alimentation;Aucune
-2024-11-28;vitamines+avipar (vermifuge);2024;Santé / Soins;Aucune
-2024-11-29;même temps qu’hier;2024;Météo / Environnement;Aucune
-2024-11-29;petite gelée matinale;2024;Météo / Environnement;Aucune
-2024-12-05;petite gelée matinale;2024;Météo / Environnement;Aucune
-2024-12-06;vent;2024;Météo / Environnement;Aucune
-2024-12-07;vigilance orange;2024;Météo / Environnement;Aucune
-2024-12-07;pluie;2024;Météo / Environnement;Aucune
-2024-12-07;grêle;2024;Météo / Environnement;Aucune
-2024-12-08;tempête;2024;Météo / Environnement;Aucune
-2024-12-16;gelée matinale;2024;Météo / Environnement;Aucune
-2024-12-17;gelée matinale;2024;Météo / Environnement;Aucune
-2024-12-19;tempête en fin de journée;2024;Météo / Environnement;Aucune
-2024-12-22;tempête;2024;Météo / Environnement;Aucune
-2024-12-23;vent;2024;Météo / Environnement;Aucune
-2024-12-24;Cunégonde et Albertine enrhumées;2024;Santé / Soins;Albertine, Cunégonde
-2024-12-24;avicoryl pour tt le monde;2024;Santé / Soins;Aucune
-2024-12-28;gelée matinale;2024;Météo / Environnement;Aucune
-2024-12-29;gelée matinale;2024;Météo / Environnement;Aucune
-2024-12-30;gelée matinale;2024;Météo / Environnement;Aucune
-2024-12-31;gelée matinale;2024;Météo / Environnement;Aucune
-2025-01-01;gelée matinale;2025;Météo / Environnement;Aucune
-2025-01-02;gelée matinale (x(c)=oeuf cassé);2025;Météo / Environnement;Aucune
-2025-01-04;1 œuf marans minuscule dans le poulailler;2025;Anomalies Œufs;Marans
-2025-01-11;vent;2025;Météo / Environnement;Aucune
-2025-01-12;vent la nuit;2025;Météo / Environnement;Aucune
-2025-01-13;gelée matinale;2025;Météo / Environnement;Aucune
-2025-01-14;gelée matinale;2025;Météo / Environnement;Aucune
-2025-01-14;eau des poules gelée -6°C d’après météoFrance;2025;Météo / Environnement;Aucune
-2025-01-15;gelée matinale;2025;Météo / Environnement;Aucune
-2025-01-18;gelée matinale;2025;Météo / Environnement;Aucune
-2025-01-21;vent;2025;Météo / Environnement;Aucune
-2025-01-22;vitamine;2025;Santé / Soins;Aucune
-2025-01-24;petite gelée matinale;2025;Météo / Environnement;Aucune
-2025-01-28;fin vitamine;2025;Santé / Soins;Aucune
-2025-01-28;vermifuge avipar;2025;Santé / Soins;Aucune
-2025-01-28;tempête en fin de journée;2025;Météo / Environnement;Aucune
-2025-01-29;changement du thermomètre;2025;Installation / Technique;Aucune
-2025-02-01;changement de place du thermomètre;2025;Localisation Œufs;Aucune
-2025-02-03;gelée matinale;2025;Météo / Environnement;Aucune
-2025-02-04;gelée matinale;2025;Météo / Environnement;Aucune
-2025-02-05;gelée matinale;2025;Météo / Environnement;Aucune
-2025-02-06;gelée matinale;2025;Météo / Environnement;Aucune
-2025-02-07;gelée matinale;2025;Météo / Environnement;Aucune
-2025-02-07;venteux;2025;Météo / Environnement;Aucune
-2025-02-08;un peu de neige cette nuit;2025;Météo / Environnement;Aucune
-2025-02-09;gelée matinale;2025;Météo / Environnement;Aucune
-2025-02-11;pose anti picage Cunégonde;2025;Comportement;Cunégonde
-2025-02-12;retrai anti picage Cunégonde;2025;Comportement;Cunégonde
-2025-02-15;pose anti picage Cunégonde;2025;Comportement;Cunégonde
-2025-02-18;Petit vent;2025;Météo / Environnement;Aucune
-2025-02-19;Petit vent;2025;Météo / Environnement;Aucune
-2025-02-19;épervier dans la volière;2025;Comportement;Aucune
-2025-02-21;vent;2025;Météo / Environnement;Aucune
-2025-02-25;vent;2025;Météo / Environnement;Aucune
-2025-02-26;Pioupioute et Rémiel chez le véto;2025;Santé / Soins;Pioupioute, Rémiel
-2025-02-27;Gelée matinale;2025;Météo / Environnement;Aucune
-2025-02-27;traitement Pioupioute 10j;2025;Santé / Soins;Pioupioute
-2025-03-01;vent;2025;Météo / Environnement;Aucune
-2025-03-03;gelée matinale;2025;Météo / Environnement;Aucune
-2025-03-05;vent;2025;Météo / Environnement;Aucune
-2025-03-06;vent (changement de place du pondoir);2025;Météo / Environnement;Aucune
-2025-03-07;vent;2025;Météo / Environnement;Aucune
-2025-03-08;vent (alerte jaune);2025;Météo / Environnement;Aucune
-2025-03-08;tempête en fin de journée+nuit;2025;Météo / Environnement;Aucune
-2025-03-15;vent;2025;Météo / Environnement;Aucune
-2025-03-18;vent;2025;Météo / Environnement;Aucune
-2025-03-19;vent;2025;Météo / Environnement;Aucune
-2025-03-19;Pioupioute attaquée par le coq;2025;Comportement;Pioupioute
-2025-03-20;vent;2025;Météo / Environnement;Aucune
-2025-03-20;alerte jaune vent;2025;Météo / Environnement;Aucune
-2025-03-21;fin tempête vers 11h;2025;Météo / Environnement;Aucune
-2025-03-22;œuf mou trouvé dans le poulailler de P+V+T;2025;Anomalies Œufs;Aucune
-2025-03-24;grêle et pluie en fin de journée;2025;Météo / Environnement;Aucune
-2025-03-25;gros temps de merde l’après midi orage grêle pluie;2025;Météo / Environnement;Aucune
-2025-03-28;vent;2025;Météo / Environnement;Aucune
-2025-03-29;pluie la nuit;2025;Météo / Environnement;Aucune
-2025-03-29;vent;2025;Météo / Environnement;Aucune
-2025-04-02;vent;2025;Météo / Environnement;Aucune
-2025-04-03;vent;2025;Météo / Environnement;Aucune
-2025-04-04;vent;2025;Météo / Environnement;Aucune
-2025-04-10;vent;2025;Météo / Environnement;Aucune
-2025-04-10;oeufs de Tina cassé;2025;Anomalies Œufs;Tina
-2025-04-11;vent;2025;Météo / Environnement;Aucune
-2025-04-18;vent;2025;Météo / Environnement;Aucune
-2025-04-19;vent;2025;Météo / Environnement;Aucune
-2025-04-19;alerte jaune orages;2025;Météo / Environnement;Aucune
-2025-04-20;2 œufs de marans cassés dans le poulailler ce matin (A et N) +1oeuf de A ds le pondoir (cassé);2025;Anomalies Œufs;Marans
-2025-04-23;vent;2025;Météo / Environnement;Aucune
-2025-04-24;vent;2025;Météo / Environnement;Aucune
-2025-04-29;vent;2025;Météo / Environnement;Aucune
-2025-04-30;vent;2025;Météo / Environnement;Aucune
-2025-05-01;vent/22°C à 18h;2025;Météo / Environnement;Aucune
-2025-05-02;vent;2025;Météo / Environnement;Aucune
-2025-05-02;sable du Sahara;2025;Météo / Environnement;Aucune
-2025-05-03;orage vers minuit;2025;Météo / Environnement;Aucune
-2025-05-04;alerte jaune orage;2025;Météo / Environnement;Aucune
-2025-05-05;alerte jaune orage inondations;2025;Météo / Environnement;Aucune
-2025-05-05;vent;2025;Météo / Environnement;Aucune
-2025-05-06;vent;2025;Météo / Environnement;Aucune
-2025-05-07;vent;2025;Météo / Environnement;Aucune
-2025-05-07;un œuf de marans trouvé dans le poulailler;2025;Localisation Œufs;Marans
-2025-05-09;vent;2025;Météo / Environnement;Aucune
-2025-05-10;vent;2025;Météo / Environnement;Aucune
-2025-05-10;oeuf d’Alberrtine cassé dans le poulailler;2025;Anomalies Œufs;Aucune
-2025-05-13;fortes averses+grêle en fin de journée;2025;Météo / Environnement;Aucune
-2025-05-15;vent;2025;Météo / Environnement;Aucune
-2025-05-16;vent;2025;Météo / Environnement;Aucune
-2025-05-19;vent;2025;Météo / Environnement;Aucune
-2025-05-19;alerte orange orages pour l’après midi;2025;Météo / Environnement;Aucune
-2025-05-19;tempête en fin de journée;2025;Météo / Environnement;Aucune
-2025-05-20;vent;2025;Météo / Environnement;Aucune
-2025-05-21;vent;2025;Météo / Environnement;Aucune
-2025-05-22;vent;2025;Météo / Environnement;Aucune
-2025-06-01;alerte jaune orage;2025;Météo / Environnement;Aucune
-2025-06-01;orage vers 21h30;2025;Météo / Environnement;Aucune
-2025-06-05;un œuf de marans trouvé ds le poulailler du coq : Albertine ou Nina;2025;Localisation Œufs;Albertine, Nina, Marans
-2025-06-05;Calcium pour Valérie+P+T;2025;Santé / Soins;Valérie
-2025-06-09;ciel bizarre, fumée du Canada;2025;Météo / Environnement;Aucune
-2025-06-10;fumée du Canada;2025;Météo / Environnement;Aucune
-2025-06-11;vent;2025;Météo / Environnement;Aucune
-2025-06-11;dernier jour calcium;2025;Santé / Soins;Aucune
-2025-06-11;vit C+oligoélément;2025;Santé / Soins;Aucune
-2025-06-11;fumée Canada;2025;Météo / Environnement;Aucune
-2025-06-12;fumée du Canada;2025;Météo / Environnement;Aucune
-2025-06-13;vent;2025;Météo / Environnement;Aucune
-2025-06-13;fumée Canada+sable Sahara;2025;Météo / Environnement;Aucune
-2025-06-14;œuf de Cunégonde trouvé dans le poulailler+1 dans le pondoire aujourd’hui !!!;2025;Localisation Œufs;Cunégonde
-2025-06-16;vent;2025;Météo / Environnement;Aucune
-2025-06-18;vent;2025;Météo / Environnement;Aucune
-2025-06-19;cure calcium à refaire;2025;Santé / Soins;Aucune
-2025-06-19;vitC;2025;Santé / Soins;Aucune
-2025-06-20;œuf de Tina cassé;2025;Anomalies Œufs;Tina
-2025-06-20;vitC;2025;Santé / Soins;Aucune
-2025-06-21;exzolt;2025;Santé / Soins;Aucune
-2025-06-21;vitC;2025;Santé / Soins;Aucune
-2025-06-24;cunégonde semble s’apprêter à couver;2025;Comportement;Cunégonde
-2025-06-25;vent;2025;Météo / Environnement;Aucune
-2025-06-25;alerte jaune orages;2025;Météo / Environnement;Aucune
-2025-06-25;tempête vers 18h pdt 3/4h environ;2025;Météo / Environnement;Aucune
-2025-06-27;œuf d’Albertine et Tina cassé;2025;Anomalies Œufs;Albertine, Tina
-2025-06-28;exzolt;2025;Santé / Soins;Aucune
-2025-06-28;vitC;2025;Santé / Soins;Aucune
-2025-06-29;alerte orange canicule;2025;Météo / Environnement;Aucune
-2025-06-30;alerte orange canicule;2025;Météo / Environnement;Aucune
-2025-07-01;alerte orange canicule/35°C à 17h;2025;Météo / Environnement;Aucune
-2025-07-01;oeuf de Tina tordu et rugueux;2025;Anomalies Œufs;Tina
-2025-07-02;alerte jaune orage et canicule;2025;Météo / Environnement;Aucune
-2025-07-02;vent;2025;Météo / Environnement;Aucune
-2025-07-06;vent;2025;Météo / Environnement;Aucune
-2025-07-06;Nina boite;2025;Comportement;Nina
-2025-07-07;vent;2025;Météo / Environnement;Aucune
-2025-07-08;vent;2025;Météo / Environnement;Aucune
-2025-07-09;27°C à 15h40;2025;Météo / Environnement;Aucune
-2025-07-12;vent;2025;Météo / Environnement;Aucune
-2025-07-13;2 œufs de marans mou dans le poulailler du coq (Albertine et;2025;Anomalies Œufs;Albertine, Marans
-2025-07-13;ou Nina);2025;Autre;Nina
-2025-07-13;départ de Dark Vador;2025;Comportement;Aucune
-2025-07-16;"rdv véto pour Nina ; traitement anti inflamatoire +antibiotique 5j, mise ce soir avec les poussins";2025;Santé / Soins;Nina
-2025-07-20;vent;2025;Météo / Environnement;Aucune
-2025-07-20;alerte jaune orages;2025;Météo / Environnement;Aucune
-2025-07-21;vent;2025;Météo / Environnement;Aucune
-2025-07-23;alerte jaune orage;2025;Météo / Environnement;Aucune
-2025-07-26;vent;2025;Météo / Environnement;Aucune
-2025-07-27;vent;2025;Météo / Environnement;Aucune
-2025-07-28;vent;2025;Météo / Environnement;Aucune
-2025-07-29;vent;2025;Météo / Environnement;Aucune
-2025-07-30;vent;2025;Météo / Environnement;Aucune
-2025-08-01;Nina décédée;2025;Santé / Soins;Nina
-2025-08-03;vent;2025;Météo / Environnement;Aucune
-2025-08-05;vent;2025;Météo / Environnement;Aucune
-2025-08-06;vent;2025;Météo / Environnement;Aucune
-2025-08-07;alerte jaune canicule/33°C à 18h;2025;Météo / Environnement;Aucune
-2025-08-08;vent;2025;Météo / Environnement;Aucune
-2025-08-08;Alerte jaune canicule/33°C à 17h;2025;Météo / Environnement;Aucune
-2025-08-09;vigilance orange canicule/33°C à 19h;2025;Météo / Environnement;Aucune
-2025-08-10;vigilance orange canicule/34°C à 18h30;2025;Météo / Environnement;Aucune
-2025-08-11;alerte orange canicule/37°C à 18h;2025;Météo / Environnement;Aucune
-2025-08-12;alerte orange canicule/37°C à 17h;2025;Météo / Environnement;Aucune
-2025-08-12;Albertine fatiguée;2025;Santé / Soins;Albertine
-2025-08-13;alerte orange canicule;2025;Météo / Environnement;Aucune
-2025-08-13;alerte jaune orage/36°c à 17h;2025;Météo / Environnement;Aucune
-2025-08-13;tempête vers 17h/23°C à 18h30;2025;Météo / Environnement;Aucune
-2025-08-14;alerte orange canicule/31°C à 17h;2025;Météo / Environnement;Aucune
-2025-08-15;alerte orange canicule/34°C à 17h30;2025;Météo / Environnement;Aucune
-2025-08-16;tina veut pondre;2025;Installation / Technique;Tina
-2025-08-16;fumée d’Espagne/35°C à 18h;2025;Météo / Environnement;Aucune
-2025-08-17;Albertine mue;2025;Santé / Soins;Albertine
-2025-08-17;fumée d’Espagne/32°C à 17h;2025;Météo / Environnement;Aucune
-2025-08-18;alerte jaune orage/26°C à 17h30;2025;Météo / Environnement;Aucune
-2025-08-19;alerte jaune orage;2025;Météo / Environnement;Aucune
-2025-08-21;vent;2025;Météo / Environnement;Aucune
-2025-08-27;alerte orange orage;2025;Météo / Environnement;Aucune
-2025-08-28;alerte jaune orage;2025;Météo / Environnement;Aucune
-2025-08-28;vent;2025;Météo / Environnement;Aucune
-2025-08-29;vent en fin de journée;2025;Météo / Environnement;Aucune
-2025-08-31;vent;2025;Météo / Environnement;Aucune
-2025-08-31;alerte jaune orages;2025;Météo / Environnement;Aucune
-2025-09-03;vent;2025;Météo / Environnement;Aucune
-2025-09-04;vent;2025;Météo / Environnement;Aucune
-2025-09-06;vent;2025;Météo / Environnement;Aucune
-2025-09-07;vent;2025;Météo / Environnement;Aucune
-2025-09-07;alerte jaune orages;2025;Météo / Environnement;Aucune
-2025-09-08;alerte jaune orage;2025;Météo / Environnement;Aucune
-2025-09-14;vent;2025;Météo / Environnement;Aucune
-2025-09-18;vent;2025;Météo / Environnement;Aucune
-2025-09-19;vent;2025;Météo / Environnement;Aucune
-2025-09-20;vent;2025;Météo / Environnement;Aucune
-2025-09-20;alerte jaune orages;2025;Météo / Environnement;Aucune
-2025-09-21;vent;2025;Météo / Environnement;Aucune
-2025-09-21;alerte jaune orages;2025;Météo / Environnement;Aucune
-2025-09-22;vent;2025;Météo / Environnement;Aucune
-2025-09-24;vent;2025;Météo / Environnement;Aucune
-2025-09-29;vent;2025;Météo / Environnement;Aucune
-2025-09-30;vent;2025;Météo / Environnement;Aucune
-2025-10-01;vent;2025;Météo / Environnement;Aucune
-2025-10-04;vent;2025;Météo / Environnement;Aucune
-2025-10-04;tempête en fin de journée;2025;Météo / Environnement;Aucune
-2025-10-05;vent;2025;Météo / Environnement;Aucune
-2025-10-08;vent;2025;Météo / Environnement;Aucune
-2025-10-09;vent;2025;Météo / Environnement;Aucune
-2025-10-21;vent;2025;Météo / Environnement;Aucune
-2025-10-23;vent violent;2025;Météo / Environnement;Aucune
-2025-10-23;alerte jaune vent;2025;Météo / Environnement;Aucune
-2025-10-26;vent;2025;Météo / Environnement;Aucune
-2025-10-27;vent;2025;Météo / Environnement;Aucune
-2025-11-03;vent;2025;Météo / Environnement;Aucune
-2025-11-04;vent;2025;Météo / Environnement;Aucune
-2025-11-05;vent;2025;Météo / Environnement;Aucune
-2025-11-06;vigilance jaune pluie inondation orage;2025;Météo / Environnement;Aucune
-2025-11-08;vigilance jaune pluie inondation;2025;Météo / Environnement;Aucune
-2025-11-11;vent;2025;Météo / Environnement;Aucune
-2025-11-12;vent;2025;Météo / Environnement;Aucune
-2025-11-13;vigilance jaune vent violent;2025;Météo / Environnement;Aucune
-2025-11-14;vigilance jaune vent violent;2025;Météo / Environnement;Aucune
-2025-11-15;vent;2025;Météo / Environnement;Aucune
-2025-11-17;vent en fin de journée;2025;Météo / Environnement;Aucune
-2025-11-18;vent;2025;Météo / Environnement;Aucune
-2025-11-19;petite gelée matinale;2025;Météo / Environnement;Aucune
-2025-11-19;vent;2025;Météo / Environnement;Aucune
-2025-11-19;alerte jaune neige-verglas;2025;Météo / Environnement;Aucune
-2025-11-21;vent;2025;Météo / Environnement;Aucune
-2025-11-22;petite gelée matinale;2025;Météo / Environnement;Aucune
-2025-11-24;vent en fin de journée;2025;Météo / Environnement;Aucune
-2025-11-25;arcus vers 17h;2025;Météo / Environnement;Aucune
-2025-11-27;belle gelée matinale;2025;Météo / Environnement;Aucune
-2025-11-28;belle gelée matinale;2025;Météo / Environnement;Aucune
-2025-11-29;gelée matinale;2025;Météo / Environnement;Aucune
-2025-12-03;Petit vent;2025;Météo / Environnement;Aucune
-2025-12-05;Petit vent;2025;Météo / Environnement;Aucune
-2025-12-09;vent;2025;Météo / Environnement;Aucune
-2025-12-14;gelée matinale;2025;Météo / Environnement;Aucune
-2025-12-18;vent;2025;Météo / Environnement;Aucune
-2025-12-21;vent dès 17h;2025;Météo / Environnement;Aucune
-2025-12-27;vent;2025;Météo / Environnement;Aucune
-2025-12-29;gelée matinale;2025;Météo / Environnement;Aucune
+﻿Date;Commentaires;œuf trouvé/date de la trouvaille;Commentaires_clean;Catégorie;Poules_Citées
+2023-01-01;;;;Autre;Aucune
+2023-01-02;;;;Autre;Aucune
+2023-01-03;;;;Autre;Aucune
+2023-01-04;;;;Autre;Aucune
+2023-01-05;;;;Autre;Aucune
+2023-01-06;;;;Autre;Aucune
+2023-01-07;;;;Autre;Aucune
+2023-01-08;;;;Autre;Aucune
+2023-01-09;;;;Autre;Aucune
+2023-01-10;;;;Autre;Aucune
+2023-01-11;;;;Autre;Aucune
+2023-01-12;;;;Autre;Aucune
+2023-01-13;;;;Autre;Aucune
+2023-01-14;;;;Autre;Aucune
+2023-01-15;;;;Autre;Aucune
+2023-01-16;;;;Autre;Aucune
+2023-01-17;;;;Autre;Aucune
+2023-01-18;;;;Autre;Aucune
+2023-01-19;;;;Autre;Aucune
+2023-01-20;;;;Autre;Aucune
+2023-01-21;;;;Autre;Aucune
+2023-01-22;;;;Autre;Aucune
+2023-01-23;malade (moi);;['malade (moi)'];Santé / Soins;Aucune
+2023-01-24;;;;Autre;Aucune
+2023-01-25;;;;Autre;Aucune
+2023-01-26;;;;Autre;Aucune
+2023-01-27;;;;Autre;Aucune
+2023-01-28;Cunégonde pique Shrek;;['Cunégonde pique Shrek'];Comportement;Cunégonde, Shrek
+2023-01-29;aliment poulette+vitamines;;['aliment poulette+vitamines'];Santé / Soins;Aucune
+2023-01-30;;;;Autre;Aucune
+2023-01-31;;;;Autre;Aucune
+2023-02-01;pas sûre de l'œuf de Pioupioute;;"[""pas sûre de l'œuf de Pioupioute""]";Suivi de Ponte / Observation;Pioupioute
+2023-02-02;petit lait en boisson/aliment pondeuse;;['petit lait en boisson', 'aliment pondeuse'];Anomalies Œufs;Aucune
+2023-02-03;petit lait+aliment;;['petit lait+aliment'];Anomalies Œufs;Aucune
+2023-02-04;petit lait+aliment;;['petit lait+aliment'];Anomalies Œufs;Aucune
+2023-02-05;aliment;;['aliment'];Alimentation;Aucune
+2023-02-06;;;;Autre;Aucune
+2023-02-07;;;;Autre;Aucune
+2023-02-08;;;;Autre;Aucune
+2023-02-09;;;;Autre;Aucune
+2023-02-10;;;;Autre;Aucune
+2023-02-11;aliment+blé;;['aliment+blé'];Alimentation;Aucune
+2023-02-12;;;;Autre;Aucune
+2023-02-13;;;;Autre;Aucune
+2023-02-14;;;;Autre;Aucune
+2023-02-15;;;;Autre;Aucune
+2023-02-16;;;;Autre;Aucune
+2023-02-17;;;;Autre;Aucune
+2023-02-18;avipar(vermifuge naturel);;['avipar(vermifuge naturel)'];Santé / Soins;Aucune
+2023-02-19;;;;Autre;Aucune
+2023-02-20;antibio Pioupioute suspicion pb génital;;['antibio Pioupioute suspicion pb génital'];Santé / Soins;Pioupioute
+2023-02-21;;;;Autre;Aucune
+2023-02-22;;;;Autre;Aucune
+2023-02-23;pluie nuit 22,à23/02;;['pluie nuit 22,à23/02'];Météo / Environnement;Aucune
+2023-02-24;pluie nuit 23,à24/02;;['pluie nuit 23,à24/02'];Météo / Environnement;Aucune
+2023-02-25;;;;Autre;Aucune
+2023-02-26;;;;Autre;Aucune
+2023-02-27;;;;Autre;Aucune
+2023-02-28;;;;Autre;Aucune
+2023-03-01;;;;Autre;Aucune
+2023-03-02;;;;Autre;Aucune
+2023-03-03;;;;Autre;Aucune
+2023-03-04;;;;Autre;Aucune
+2023-03-05;;;;Autre;Aucune
+2023-03-06;;;;Autre;Aucune
+2023-03-07;;;;Autre;Aucune
+2023-03-08;lentypou;;['lentypou'];Santé / Soins;Aucune
+2023-03-09;qq gouttes dans la nuit;;['qq gouttes dans la nuit'];Météo / Environnement;Aucune
+2023-03-10;;;;Autre;Aucune
+2023-03-11;;;;Autre;Aucune
+2023-03-12;17°C à 3h30 du mat;;['17°C à 3h30 du mat'];Météo / Environnement;Aucune
+2023-03-13;;;;Autre;Aucune
+2023-03-14;pluie nuit du 13/03 au 14/03;;['pluie nuit du 13/03 au 14/03'];Météo / Environnement;Aucune
+2023-03-15;;;;Autre;Aucune
+2023-03-16;;;;Autre;Aucune
+2023-03-17;arrêt lentypou;;['arrêt lentypou'];Santé / Soins;Aucune
+2023-03-18;;;;Autre;Aucune
+2023-03-19;;;;Autre;Aucune
+2023-03-20;pas sûr de l'œuf de Rémiel;;"[""pas sûr de l'œuf de Rémiel""]";Suivi de Ponte / Observation;Rémiel
+2023-03-21;;;;Autre;Aucune
+2023-03-22;;;;Autre;Aucune
+2023-03-23;;;;Autre;Aucune
+2023-03-24;;;;Autre;Aucune
+2023-03-25;Pioupioute à l'ENVT;;"[""Pioupioute à l'ENVT""]";Santé / Soins;Pioupioute
+2023-03-26;trouvé un micro œuf;;['trouvé un micro œuf'];Anomalies Œufs;Aucune
+2023-03-27;tempête la nuit;;['tempête la nuit'];Météo / Environnement;Aucune
+2023-03-28;;;;Autre;Aucune
+2023-03-29;;;;Autre;Aucune
+2023-03-30;;;;Autre;Aucune
+2023-03-31;;;;Autre;Aucune
+2023-04-01;œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte;;"[""œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte""]";Localisation Œufs;Augustine
+2023-04-02;Augustine malade: amirudène 7J;;['Augustine malade: amirudène 7J'];Santé / Soins;Augustine
+2023-04-03;;;;Autre;Aucune
+2023-04-04;Augustine DCD;;['Augustine DCD'];Santé / Soins;Augustine
+2023-04-05;aliment pondeuse;;['aliment pondeuse'];Alimentation;Aucune
+2023-04-06;;;;Autre;Aucune
+2023-04-07;;;;Autre;Aucune
+2023-04-08;;;;Autre;Aucune
+2023-04-09;;;;Autre;Aucune
+2023-04-10;;;;Autre;Aucune
+2023-04-11;;;;Autre;Aucune
+2023-04-12;;;;Autre;Aucune
+2023-04-13;;;;Autre;Aucune
+2023-04-14;;;;Autre;Aucune
+2023-04-15;arrêt antibiotique Pioupioute/ponction à l'envt;;"['arrêt antibiotique Pioupioute', ""ponction à l'envt""]";Santé / Soins;Pioupioute
+2023-04-16;Pioupioute a pondu un œuf normal/veut couver;;['Pioupioute a pondu un œuf normal', 'veut couver'];Comportement;Pioupioute
+2023-04-17;;;;Autre;Aucune
+2023-04-18;;;;Autre;Aucune
+2023-04-19;;;;Autre;Aucune
+2023-04-20;;;;Autre;Aucune
+2023-04-21;;;;Autre;Aucune
+2023-04-22;;;;Autre;Aucune
+2023-04-23;15°C à 5h du mat;;['15°C à 5h du mat'];Météo / Environnement;Aucune
+2023-04-24;découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?;;"[""découverte d'une fibrine (?) dans le poulailler"", 'mini œuf de Saquiel?']";Anomalies Œufs;Saquiel
+2023-04-25;;;;Autre;Aucune
+2023-04-26;;;;Autre;Aucune
+2023-04-27;;;;Autre;Aucune
+2023-04-28;;;;Autre;Aucune
+2023-04-29;;;;Autre;Aucune
+2023-04-30;œuf d'Albertine très clair;;"[""œuf d'Albertine très clair""]";Suivi de Ponte / Observation;Albertine
+2023-05-01;dont 29mm dans la nuit du 29 au 30/04;;['dont 29mm dans la nuit du 29 au 30/04'];Météo / Environnement;Aucune
+2023-05-02;;;;Autre;Aucune
+2023-05-03;;;;Autre;Aucune
+2023-05-04;;;;Autre;Aucune
+2023-05-05;;;;Autre;Aucune
+2023-05-06;;;;Autre;Aucune
+2023-05-07;1 œuf trouvé dans le poulailler cassé;;['1 œuf trouvé dans le poulailler cassé'];Anomalies Œufs;Aucune
+2023-05-08;;;;Autre;Aucune
+2023-05-09;;;;Autre;Aucune
+2023-05-10;;;;Autre;Aucune
+2023-05-11;;;;Autre;Aucune
+2023-05-12;;;;Autre;Aucune
+2023-05-13;;;;Autre;Aucune
+2023-05-14;;;;Autre;Aucune
+2023-05-15;;;;Autre;Aucune
+2023-05-16;petit trou dans certains œufs, à surveiller si poules ou pie;;['petit trou dans certains œufs, à surveiller si poules ou pie'];Anomalies Œufs;Aucune
+2023-05-17;;;;Autre;Aucune
+2023-05-18;;;;Autre;Aucune
+2023-05-19;;;;Autre;Aucune
+2023-05-20;;;;Autre;Aucune
+2023-05-21;;;;Autre;Aucune
+2023-05-22;;;;Autre;Aucune
+2023-05-23;;;;Autre;Aucune
+2023-05-24;;;;Autre;Aucune
+2023-05-25;;;;Autre;Aucune
+2023-05-26;;;;Autre;Aucune
+2023-05-27;;;;Autre;Aucune
+2023-05-28;;;;Autre;Aucune
+2023-05-29;;;;Autre;Aucune
+2023-05-30;;;;Autre;Aucune
+2023-05-31;;;;Autre;Aucune
+2023-06-01;;;;Autre;Aucune
+2023-06-02;;;;Autre;Aucune
+2023-06-03;;;;Autre;Aucune
+2023-06-04;changement de poulailler;;['changement de poulailler'];Installation / Technique;Aucune
+2023-06-05;;;;Autre;Aucune
+2023-06-06;;;;Autre;Aucune
+2023-06-07;;;;Autre;Aucune
+2023-06-08;;;;Autre;Aucune
+2023-06-09;;;;Autre;Aucune
+2023-06-10;;;;Autre;Aucune
+2023-06-11;;;;Autre;Aucune
+2023-06-12;;;;Autre;Aucune
+2023-06-13;les 2 œufs ont été cassé par une poule ou une bête;;['les 2 œufs ont été cassé par une poule ou une bête'];Anomalies Œufs;Aucune
+2023-06-14;l'œuf d'Albertine très fragile, elle a des vers en plus/ Avipar/Avipou;;"[""l'œuf d'Albertine très fragile, elle a des vers en plus"", ' Avipar', 'Avipou']";Santé / Soins;Albertine
+2023-06-15;;;;Autre;Aucune
+2023-06-16;Saquiel malade/doxycycline;;['Saquiel malade', 'doxycycline'];Santé / Soins;Saquiel
+2023-06-17;;;;Autre;Aucune
+2023-06-18;0 œuf;;['0 œuf'];Anomalies Œufs;Aucune
+2023-06-19;;;;Autre;Aucune
+2023-06-20;quelques gouttes;;['quelques gouttes'];Météo / Environnement;Aucune
+2023-06-21;œuf de Valérie très fragile trouvé ds poulailler;;['œuf de Valérie très fragile trouvé ds poulailler'];Localisation Œufs;Valérie
+2023-06-22;;;;Autre;Aucune
+2023-06-23;Cunégonde veut couver;;['Cunégonde veut couver'];Comportement;Cunégonde
+2023-06-24;;;;Autre;Aucune
+2023-06-25;;;;Autre;Aucune
+2023-06-26;;;;Autre;Aucune
+2023-06-27;;;;Autre;Aucune
+2023-06-28;;;;Autre;Aucune
+2023-06-29;;;;Autre;Aucune
+2023-06-30;;;;Autre;Aucune
+2023-07-01;8 œuf sous Cunégonde: 6marans+1valérie+1joséphine;;['8 œuf sous Cunégonde: 6marans+1valérie+1joséphine'];Installation / Technique;Cunégonde
+2023-07-02;1œuf valérie et 1oeuf Joséphine sous Cunégonde;;['1œuf valérie et 1oeuf Joséphine sous Cunégonde'];Suivi de Ponte / Observation;Joséphine, Cunégonde, Valérie
+2023-07-03;1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde;;['1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde'];Suivi de Ponte / Observation;Albertine, Cunégonde, Valérie
+2023-07-04;;;;Autre;Aucune
+2023-07-05;Valérie tousse, avicoryl dans l'eau;;"[""Valérie tousse, avicoryl dans l'eau""]";Santé / Soins;Valérie
+2023-07-06;;;;Autre;Aucune
+2023-07-07;;;;Autre;Aucune
+2023-07-08;vit C dans l'eau+oligoélément;;"[""vit C dans l'eau+oligoélément""]";Santé / Soins;Aucune
+2023-07-09;;;;Autre;Aucune
+2023-07-10;21°c et 80%H le matin;;['21°c et 80%H le matin'];Météo / Environnement;Aucune
+2023-07-11;22°C et 82%H  matin, 27°c à 22h;;['22°C et 82%H  matin, 27°c à 22h'];Météo / Environnement;Aucune
+2023-07-12;œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler;;"[""œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler""]";Installation / Technique;Albertine, Rémiel
+2023-07-13;;;;Autre;Aucune
+2023-07-14;;;;Autre;Aucune
+2023-07-15;fin doxycyline pour Saquiel/ 24°C et 75%H à 23h ext/0 œuf;;['fin doxycyline pour Saquiel', ' 24°C et 75%H à 23h ext/0 œuf'];Météo / Environnement;Saquiel
+2023-07-16;17°C et 80%H à 20h;;['17°C et 80%H à 20h'];Météo / Environnement;Aucune
+2023-07-17;;;;Autre;Aucune
+2023-07-18;installation voile d'ombrage sur la terrasse;;"[""installation voile d'ombrage sur la terrasse""]";Installation / Technique;Aucune
+2023-07-19;36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver;;['36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver'];Météo / Environnement;Joséphine
+2023-07-20;orages la nuit du 18 au 19/07;;['orages la nuit du 18 au 19/07'];Météo / Environnement;Aucune
+2023-07-21;Valérie semble vouloir couver aussi cette coquine!!;;['Valérie semble vouloir couver aussi cette coquine!!'];Comportement;Valérie
+2023-07-22;Valérie couve…........;;['Valérie couve…........'];Comportement;Valérie
+2023-07-23;;;;Autre;Aucune
+2023-07-24;0 œuf/ 26°c à 21h30;;['0 œuf', ' 26°c à 21h30'];Météo / Environnement;Aucune
+2023-07-25;;;;Autre;Aucune
+2023-07-26;trouvé 1 œuf d'Albertine dans le jardin;;"[""trouvé 1 œuf d'Albertine dans le jardin""]";Localisation Œufs;Albertine
+2023-07-27;;;;Autre;Aucune
+2023-07-28;0 œuf;;['0 œuf'];Anomalies Œufs;Aucune
+2023-07-29;;;;Autre;Aucune
+2023-07-30;;;;Autre;Aucune
+2023-07-31;;;;Autre;Aucune
+2023-08-01;découverte de poux rouges/retour dans l'ancien poulailler/T°p=T°ext;;"['découverte de poux rouges', ""retour dans l'ancien poulailler"", 'T°p=T°ext']";Météo / Environnement;Aucune
+2023-08-02;"retour dans le poulailler ""terrasse""";;"['retour dans le poulailler ""terrasse""']";Installation / Technique;Aucune
+2023-08-03;traitement exzolt;;['traitement exzolt'];Santé / Soins;Aucune
+2023-08-04;;;;Autre;Aucune
+2023-08-05;1 œuf cassé et 1 œuf mou/retour ancien poulailler;;['1 œuf cassé et 1 œuf mou', 'retour ancien poulailler'];Anomalies Œufs;Aucune
+2023-08-06;;;;Autre;Aucune
+2023-08-07;;;;Autre;Aucune
+2023-08-08;0 œuf;;['0 œuf'];Anomalies Œufs;Aucune
+2023-08-09;0 oeuf/T°C poulailler à 22-23h;;['0 oeuf', 'T°C poulailler à 22-23h'];Météo / Environnement;Aucune
+2023-08-10;traitement exzolt;;['traitement exzolt'];Santé / Soins;Aucune
+2023-08-11;avhydratC+Gascodrène;;['avhydratC+Gascodrène'];Santé / Soins;Aucune
+2023-08-12;avhydratC+Gascodrène;;['avhydratC+Gascodrène'];Santé / Soins;Aucune
+2023-08-13;avhydratC+Gascodrène;;['avhydratC+Gascodrène'];Santé / Soins;Aucune
+2023-08-14;avhydratC+Gascodrène;;['avhydratC+Gascodrène'];Santé / Soins;Aucune
+2023-08-15;avhydratC+Gascodrène;;['avhydratC+Gascodrène'];Santé / Soins;Aucune
+2023-08-16;;;;Autre;Aucune
+2023-08-17;;;;Autre;Aucune
+2023-08-18;avhydrat C+gascodrène;;['avhydrat C+gascodrène'];Santé / Soins;Aucune
+2023-08-19;avhydratC+Gascodrène;;['avhydratC+Gascodrène'];Santé / Soins;Aucune
+2023-08-20;avhydratC+Gascodrène;;['avhydratC+Gascodrène'];Santé / Soins;Aucune
+2023-08-21;avhydratC+Gascodrène;;['avhydratC+Gascodrène'];Santé / Soins;Aucune
+2023-08-22;idem;;['idem'];Vie du Poulailler / Divers;Aucune
+2023-08-23;C+Gasco/ nuit tropicale 27°c/ 73% H à 22h40;;['C+Gasco', ' nuit tropicale 27°c', ' 73% H à 22h40'];Météo / Environnement;Aucune
+2023-08-24;C+Gasco;;['C+Gasco'];Santé / Soins;Aucune
+2023-08-25;c+Gasco;;['c+Gasco'];Santé / Soins;Aucune
+2023-08-26;;;;Autre;Aucune
+2023-08-27;;;;Autre;Aucune
+2023-08-28;;;;Autre;Aucune
+2023-08-29;;;;Autre;Aucune
+2023-08-30;;;;Autre;Aucune
+2023-08-31;;;;Autre;Aucune
+2023-09-01;;;;Autre;Aucune
+2023-09-02;;;;Autre;Aucune
+2023-09-03;trouvé un oeuf minuscule Saquiel ou Albertine;;['trouvé un oeuf minuscule Saquiel ou Albertine'];Anomalies Œufs;Albertine, Saquiel
+2023-09-04;;;;Autre;Aucune
+2023-09-05;sable du Sahara dans l'air;;"[""sable du Sahara dans l'air""]";Météo / Environnement;Aucune
+2023-09-06;sable du Sahara dans l'air;;"[""sable du Sahara dans l'air""]";Météo / Environnement;Aucune
+2023-09-07;sable du Sahara dans l'air;;"[""sable du Sahara dans l'air""]";Météo / Environnement;Aucune
+2023-09-08;;;;Autre;Aucune
+2023-09-09;;;;Autre;Aucune
+2023-09-10;;;;Autre;Aucune
+2023-09-11;;;;Autre;Aucune
+2023-09-12;;;;Autre;Aucune
+2023-09-13;;;;Autre;Aucune
+2023-09-14;;;;Autre;Aucune
+2023-09-15;;;;Autre;Aucune
+2023-09-16;;;;Autre;Aucune
+2023-09-17;;;;Autre;Aucune
+2023-09-18;;;;Autre;Aucune
+2023-09-19;;;;Autre;Aucune
+2023-09-20;;;;Autre;Aucune
+2023-09-21;;;;Autre;Aucune
+2023-09-22;;;;Autre;Aucune
+2023-09-23;;;;Autre;Aucune
+2023-09-24;;;;Autre;Aucune
+2023-09-25;;;;Autre;Aucune
+2023-09-26;;;;Autre;Aucune
+2023-09-27;;;;Autre;Aucune
+2023-09-28;;;;Autre;Aucune
+2023-09-29;;;;Autre;Aucune
+2023-09-30;;;;Autre;Aucune
+2023-10-01;;;;Autre;Aucune
+2023-10-02;;;;Autre;Aucune
+2023-10-03;;;;Autre;Aucune
+2023-10-04;;;;Autre;Aucune
+2023-10-05;;;;Autre;Aucune
+2023-10-06;;;;Autre;Aucune
+2023-10-07;;;;Autre;Aucune
+2023-10-08;;;;Autre;Aucune
+2023-10-09;;;;Autre;Aucune
+2023-10-10;;;;Autre;Aucune
+2023-10-11;;;;Autre;Aucune
+2023-10-12;;;;Autre;Aucune
+2023-10-13;;;;Autre;Aucune
+2023-10-14;;;;Autre;Aucune
+2023-10-15;;;;Autre;Aucune
+2023-10-16;;;;Autre;Aucune
+2023-10-17;;;;Autre;Aucune
+2023-10-18;;;;Autre;Aucune
+2023-10-19;;;;Autre;Aucune
+2023-10-20;;;;Autre;Aucune
+2023-10-21;;;;Autre;Aucune
+2023-10-22;;;;Autre;Aucune
+2023-10-23;;;;Autre;Aucune
+2023-10-24;Albertine malade/rhume;;['Albertine malade', 'rhume'];Santé / Soins;Albertine
+2023-10-25;avicoryl;;['avicoryl'];Santé / Soins;Aucune
+2023-10-26;;;;Autre;Aucune
+2023-10-27;;;;Autre;Aucune
+2023-10-28;;;;Autre;Aucune
+2023-10-29;;;;Autre;Aucune
+2023-10-30;;;;Autre;Aucune
+2023-10-31;;;;Autre;Aucune
+2023-11-01;;;;Autre;Aucune
+2023-11-02;;;;Autre;Aucune
+2023-11-03;;;;Autre;Aucune
+2023-11-04;;;;Autre;Aucune
+2023-11-05;;;;Autre;Aucune
+2023-11-06;;;;Autre;Aucune
+2023-11-07;;;;Autre;Aucune
+2023-11-08;;;;Autre;Aucune
+2023-11-09;petite gelée matinale;;['petite gelée matinale'];Météo / Environnement;Aucune
+2023-11-10;;;;Autre;Aucune
+2023-11-11;;;;Autre;Aucune
+2023-11-12;;;;Autre;Aucune
+2023-11-13;;;;Autre;Aucune
+2023-11-14;;;;Autre;Aucune
+2023-11-15;;;;Autre;Aucune
+2023-11-16;;;;Autre;Aucune
+2023-11-17;;;;Autre;Aucune
+2023-11-18;;;;Autre;Aucune
+2023-11-19;environ 20°C;;['environ 20°C'];Météo / Environnement;Aucune
+2023-11-20;;;;Autre;Aucune
+2023-11-21;;;;Autre;Aucune
+2023-11-22;;;;Autre;Aucune
+2023-11-23;;;;Autre;Aucune
+2023-11-24;;;;Autre;Aucune
+2023-11-25;;;;Autre;Aucune
+2023-11-26;;;;Autre;Aucune
+2023-11-27;belle gelée matinale -3°c;;['belle gelée matinale -3°c'];Météo / Environnement;Aucune
+2023-11-28;;;;Autre;Aucune
+2023-11-29;;;;Autre;Aucune
+2023-11-30;;;;Autre;Aucune
+2023-12-01;;;;Autre;Aucune
+2023-12-02;;;;Autre;Aucune
+2023-12-03;;;;Autre;Aucune
+2023-12-04;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2023-12-05;;;;Autre;Aucune
+2023-12-06;;;;Autre;Aucune
+2023-12-07;;;;Autre;Aucune
+2023-12-08;;;;Autre;Aucune
+2023-12-09;;;;Autre;Aucune
+2023-12-10;;;;Autre;Aucune
+2023-12-11;;;;Autre;Aucune
+2023-12-12;;;;Autre;Aucune
+2023-12-13;;;;Autre;Aucune
+2023-12-14;;;;Autre;Aucune
+2023-12-15;;;;Autre;Aucune
+2023-12-16;;;;Autre;Aucune
+2023-12-17;;;;Autre;Aucune
+2023-12-18;-4°C ce matin;;['-4°C ce matin'];Météo / Environnement;Aucune
+2023-12-19;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2023-12-20;;;;Autre;Aucune
+2023-12-21;;;;Autre;Aucune
+2023-12-22;;;;Autre;Aucune
+2023-12-23;;;;Autre;Aucune
+2023-12-24;;;;Autre;Aucune
+2023-12-25;;;;Autre;Aucune
+2023-12-26;;;;Autre;Aucune
+2023-12-27;;;;Autre;Aucune
+2023-12-28;grosse gelée matinale;;['grosse gelée matinale'];Météo / Environnement;Aucune
+2023-12-29;;;;Autre;Aucune
+2023-12-30;;;;Autre;Aucune
+2023-12-31;;;;Autre;Aucune
+2024-01-01;pas se fier aux noms des marans mais juste à la colonne marans;;['pas se fier aux noms des marans mais juste à la colonne marans'];Installation / Technique;Marans
+2024-01-02;;;;Autre;Aucune
+2024-01-03;;;;Autre;Aucune
+2024-01-04;;;;Autre;Aucune
+2024-01-05;;;;Autre;Aucune
+2024-01-06;;;;Autre;Aucune
+2024-01-07;;;;Autre;Aucune
+2024-01-08;;;;Autre;Aucune
+2024-01-09;;;;Autre;Aucune
+2024-01-10;-4°c ce matin;;['-4°c ce matin'];Météo / Environnement;Aucune
+2024-01-11;;;;Autre;Aucune
+2024-01-12;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2024-01-13;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2024-01-14;;;;Autre;Aucune
+2024-01-15;;;;Autre;Aucune
+2024-01-16;;;;Autre;Aucune
+2024-01-17;;;;Autre;Aucune
+2024-01-18;tempête à 18h30;;['tempête à 18h30'];Météo / Environnement;Aucune
+2024-01-19;;;;Autre;Aucune
+2024-01-20;-4°C ce matin à 6h;;['-4°C ce matin à 6h'];Météo / Environnement;Aucune
+2024-01-21;-4°C ce matin 6h;;['-4°C ce matin 6h'];Météo / Environnement;Aucune
+2024-01-22;petite gelée matinale/pluie la nuit;;['petite gelée matinale', 'pluie la nuit'];Météo / Environnement;Aucune
+2024-01-23;;;;Autre;Aucune
+2024-01-24;;;;Autre;Aucune
+2024-01-25;;;;Autre;Aucune
+2024-01-26;;;;Autre;Aucune
+2024-01-27;petite gelée matinale;;['petite gelée matinale'];Météo / Environnement;Aucune
+2024-01-28;;;;Autre;Aucune
+2024-01-29;;;;Autre;Aucune
+2024-01-30;;;;Autre;Aucune
+2024-01-31;petite gelée matinale;;['petite gelée matinale'];Météo / Environnement;Aucune
+2024-02-01;;;;Autre;Aucune
+2024-02-02;très humide ce matin/sol mouillé;;['très humide ce matin', 'sol mouillé'];Météo / Environnement;Aucune
+2024-02-03;;;;Autre;Aucune
+2024-02-04;petite gelée matinale;;['petite gelée matinale'];Météo / Environnement;Aucune
+2024-02-05;petite gelée matinale;;['petite gelée matinale'];Météo / Environnement;Aucune
+2024-02-06;;;;Autre;Aucune
+2024-02-07;;;;Autre;Aucune
+2024-02-08;;;;Autre;Aucune
+2024-02-09;14°C vers 8h du mat, 19°C à 15h30;;['14°C vers 8h du mat, 19°C à 15h30'];Météo / Environnement;Aucune
+2024-02-10;;;;Autre;Aucune
+2024-02-11;;;;Autre;Aucune
+2024-02-12;;;;Autre;Aucune
+2024-02-13;;;;Autre;Aucune
+2024-02-14;;;;Autre;Aucune
+2024-02-15;T°C relevée à 11h du mat;;['T°C relevée à 11h du mat'];Météo / Environnement;Aucune
+2024-02-16;;;;Autre;Aucune
+2024-02-17;;;;Autre;Aucune
+2024-02-18;;;;Autre;Aucune
+2024-02-19;;;;Autre;Aucune
+2024-02-20;T°C relevée à 11h du mat;;['T°C relevée à 11h du mat'];Météo / Environnement;Aucune
+2024-02-21;;;;Autre;Aucune
+2024-02-22;;;;Autre;Aucune
+2024-02-23;;;;Autre;Aucune
+2024-02-24;;;;Autre;Aucune
+2024-02-25;;;;Autre;Aucune
+2024-02-26;;;;Autre;Aucune
+2024-02-27;;;;Autre;Aucune
+2024-02-28;Valérie malade - début traitement Valérie;;['Valérie malade - début traitement Valérie'];Santé / Soins;Valérie
+2024-02-29;;;;Autre;Aucune
+2024-03-01;;;;Autre;Aucune
+2024-03-02;;;;Autre;Aucune
+2024-03-03;;;;Autre;Aucune
+2024-03-04;dernier jour de traitement Valérie;;['dernier jour de traitement Valérie'];Santé / Soins;Valérie
+2024-03-05;;;;Autre;Aucune
+2024-03-06;;;;Autre;Aucune
+2024-03-07;;;;Autre;Aucune
+2024-03-08;;;;Autre;Aucune
+2024-03-09;orage sec dans la nuit;;['orage sec dans la nuit'];Météo / Environnement;Aucune
+2024-03-10;;;;Autre;Aucune
+2024-03-11;;;;Autre;Aucune
+2024-03-12;;;;Autre;Aucune
+2024-03-13;;;;Autre;Aucune
+2024-03-14;;;;Autre;Aucune
+2024-03-15;;;;Autre;Aucune
+2024-03-16;;;;Autre;Aucune
+2024-03-17;;;;Autre;Aucune
+2024-03-18;;;;Autre;Aucune
+2024-03-19;24°C vers 16h;;['24°C vers 16h'];Météo / Environnement;Aucune
+2024-03-20;vent toute la journée;;['vent toute la journée'];Météo / Environnement;Aucune
+2024-03-21;;;;Autre;Aucune
+2024-03-22;;;;Autre;Aucune
+2024-03-23;;;;Autre;Aucune
+2024-03-24;;;;Autre;Aucune
+2024-03-25;;;;Autre;Aucune
+2024-03-26;;;;Autre;Aucune
+2024-03-27;;;;Autre;Aucune
+2024-03-28;;;;Autre;Aucune
+2024-03-29;;;;Autre;Aucune
+2024-03-30;;;;Autre;Aucune
+2024-03-31;1 œuf de marans trouvé dans le poulailler;;['1 œuf de marans trouvé dans le poulailler'];Localisation Œufs;Marans
+2024-04-01;;;;Autre;Aucune
+2024-04-02;;;;Autre;Aucune
+2024-04-03;;;;Autre;Aucune
+2024-04-04;;;;Autre;Aucune
+2024-04-05;;;;Autre;Aucune
+2024-04-06;sable du Sahara;;['sable du Sahara'];Météo / Environnement;Aucune
+2024-04-07;sable du Sahara;;['sable du Sahara'];Météo / Environnement;Aucune
+2024-04-08;sable du Sahara;;['sable du Sahara'];Météo / Environnement;Aucune
+2024-04-09;un œuf sans coquille dans le pondoir;;['un œuf sans coquille dans le pondoir'];Anomalies Œufs;Aucune
+2024-04-10;;;;Autre;Aucune
+2024-04-11;;;;Autre;Aucune
+2024-04-12;;;;Autre;Aucune
+2024-04-13;;;;Autre;Aucune
+2024-04-14;29°C dans l’après midi;;['29°C dans l’après midi'];Météo / Environnement;Aucune
+2024-04-15;;;;Autre;Aucune
+2024-04-16;;;;Autre;Aucune
+2024-04-17;;;;Autre;Aucune
+2024-04-18;;;;Autre;Aucune
+2024-04-19;petite gelée matinale/1 œuf cassé dans le pondoir;;['petite gelée matinale/1 œuf cassé dans le pondoir'];Météo / Environnement;Aucune
+2024-04-20;;;;Autre;Aucune
+2024-04-21;petite gelée matinale;;['petite gelée matinale'];Météo / Environnement;Aucune
+2024-04-22;;;;Autre;Aucune
+2024-04-23;;;;Autre;Aucune
+2024-04-24;;;;Autre;Aucune
+2024-04-25;;;;Autre;Aucune
+2024-04-26;;;;Autre;Aucune
+2024-04-27;;;;Autre;Aucune
+2024-04-28;;;;Autre;Aucune
+2024-04-29;;;;Autre;Aucune
+2024-04-30;;;;Autre;Aucune
+2024-05-01;;;;Autre;Aucune
+2024-05-02;;;;Autre;Aucune
+2024-05-03;;;;Autre;Aucune
+2024-05-04;;;;Autre;Aucune
+2024-05-05;;;;Autre;Aucune
+2024-05-06;;;;Autre;Aucune
+2024-05-07;;;;Autre;Aucune
+2024-05-08;;;;Autre;Aucune
+2024-05-09;;;;Autre;Aucune
+2024-05-10;;;;Autre;Aucune
+2024-05-11;;;;Autre;Aucune
+2024-05-12;;;;Autre;Aucune
+2024-05-13;;;;Autre;Aucune
+2024-05-14;;;;Autre;Aucune
+2024-05-15;6°C ce matin;;['6°C ce matin'];Météo / Environnement;Aucune
+2024-05-16;;;;Autre;Aucune
+2024-05-17;;;;Autre;Aucune
+2024-05-18;;;;Autre;Aucune
+2024-05-19;;;;Autre;Aucune
+2024-05-20;;;;Autre;Aucune
+2024-05-21;;;;Autre;Aucune
+2024-05-22;;;;Autre;Aucune
+2024-05-23;;;;Autre;Aucune
+2024-05-24;;;;Autre;Aucune
+2024-05-25;;;;Autre;Aucune
+2024-05-26;;;;Autre;Aucune
+2024-05-27;;;;Autre;Aucune
+2024-05-28;;;;Autre;Aucune
+2024-05-29;;;;Autre;Aucune
+2024-05-30;;;;Autre;Aucune
+2024-05-31;;;;Autre;Aucune
+2024-06-01;;;;Autre;Aucune
+2024-06-02;;;;Autre;Aucune
+2024-06-03;;;;Autre;Aucune
+2024-06-04;attaque de rapace/Rémiel blessée;;['attaque de rapace', 'Rémiel blessée'];Santé / Soins;Rémiel
+2024-06-05;;;;Autre;Aucune
+2024-06-06;;;;Autre;Aucune
+2024-06-07;;;;Autre;Aucune
+2024-06-08;;;;Autre;Aucune
+2024-06-09;;;;Autre;Aucune
+2024-06-10;;;;Autre;Aucune
+2024-06-11;;;;Autre;Aucune
+2024-06-12;;;;Autre;Aucune
+2024-06-13;;;;Autre;Aucune
+2024-06-14;;;;Autre;Aucune
+2024-06-15;;;;Autre;Aucune
+2024-06-16;Trouvé 3 œufs de marans dans le jardin (date de ponte?);;['Trouvé 3 œufs de marans dans le jardin (date de ponte?)'];Localisation Œufs;Marans
+2024-06-17;;;;Autre;Aucune
+2024-06-18;;;;Autre;Aucune
+2024-06-19;;;;Autre;Aucune
+2024-06-20;;;;Autre;Aucune
+2024-06-21;;;;Autre;Aucune
+2024-06-22;;;;Autre;Aucune
+2024-06-23;;;;Autre;Aucune
+2024-06-24;;;;Autre;Aucune
+2024-06-25;Cunégonde couve;;['Cunégonde couve'];Comportement;Cunégonde
+2024-06-26;Trouvé 1 œuf de marans dans le jardin;;['Trouvé 1 œuf de marans dans le jardin'];Localisation Œufs;Marans
+2024-06-27;;;;Autre;Aucune
+2024-06-28;;;;Autre;Aucune
+2024-06-29;;;;Autre;Aucune
+2024-06-30;;;;Autre;Aucune
+2024-07-01;;;;Autre;Aucune
+2024-07-02;;;;Autre;Aucune
+2024-07-03;;;;Autre;Aucune
+2024-07-04;;;;Autre;Aucune
+2024-07-05;absente toute la journée/environ 30°C;;['absente toute la journée', 'environ 30°C'];Météo / Environnement;Aucune
+2024-07-06;;;;Autre;Aucune
+2024-07-07;décès de Shrek;;['décès de Shrek'];Santé / Soins;Shrek
+2024-07-08;;;;Autre;Aucune
+2024-07-09;;;;Autre;Aucune
+2024-07-10;;;;Autre;Aucune
+2024-07-11;;;;Autre;Aucune
+2024-07-12;;;;Autre;Aucune
+2024-07-13;;;;Autre;Aucune
+2024-07-14;;;;Autre;Aucune
+2024-07-15;;;;Autre;Aucune
+2024-07-16;;;;Autre;Aucune
+2024-07-17;;;;Autre;Aucune
+2024-07-18;;;;Autre;Aucune
+2024-07-19;;;;Autre;Aucune
+2024-07-20;;;;Autre;Aucune
+2024-07-21;;;;Autre;Aucune
+2024-07-22;;;;Autre;Aucune
+2024-07-23;;;;Autre;Aucune
+2024-07-24;;;;Autre;Aucune
+2024-07-25;1 œuf de marans trouvé dans le jardin;;['1 œuf de marans trouvé dans le jardin'];Localisation Œufs;Marans
+2024-07-26;;;;Autre;Aucune
+2024-07-27;Nina coup de chaud à 5h du mat/changement de poulailler le soir;;['Nina coup de chaud à 5h du mat', 'changement de poulailler le soir'];Météo / Environnement;Nina
+2024-07-28;;;;Autre;Aucune
+2024-07-29;"alerte canicule/39;2°C relevé au Mas d’Azil";;"['alerte canicule/39;2°C relevé au Mas d’Azil']";Météo / Environnement;Aucune
+2024-07-30;alerte canicule+poussière du Sahara;;['alerte canicule+poussière du Sahara'];Météo / Environnement;Aucune
+2024-07-31;alerte canicule;;['alerte canicule'];Météo / Environnement;Aucune
+2024-08-01;;;;Autre;Aucune
+2024-08-02;;;;Autre;Aucune
+2024-08-03;1 œuf de marans trouvé dans le jardin (date de ponte?);;['1 œuf de marans trouvé dans le jardin (date de ponte?)'];Localisation Œufs;Marans
+2024-08-04;;;;Autre;Aucune
+2024-08-05;;;;Autre;Aucune
+2024-08-06;;;;Autre;Aucune
+2024-08-07;;;;Autre;Aucune
+2024-08-08;;;;Autre;Aucune
+2024-08-09;;;;Autre;Aucune
+2024-08-10;;;;Autre;Aucune
+2024-08-11;1 œuf de marans trouvé dans le jardin;;['1 œuf de marans trouvé dans le jardin'];Localisation Œufs;Marans
+2024-08-12;;;;Autre;Aucune
+2024-08-13;;;;Autre;Aucune
+2024-08-14;;;;Autre;Aucune
+2024-08-15;;;;Autre;Aucune
+2024-08-16;;;;Autre;Aucune
+2024-08-17;œuf de marans trouvé dans le jardin;;['œuf de marans trouvé dans le jardin'];Localisation Œufs;Marans
+2024-08-18;;;;Autre;Aucune
+2024-08-19;;;;Autre;Aucune
+2024-08-20;;;;Autre;Aucune
+2024-08-21;;;;Autre;Aucune
+2024-08-22;;;;Autre;Aucune
+2024-08-23;;;;Autre;Aucune
+2024-08-24;alerte orange orages;;['alerte orange orages'];Météo / Environnement;Aucune
+2024-08-25;;;;Autre;Aucune
+2024-08-26;;;;Autre;Aucune
+2024-08-27;frais le matin puis chaud;;['frais le matin puis chaud'];Météo / Environnement;Aucune
+2024-08-28;;;;Autre;Aucune
+2024-08-29;;;;Autre;Aucune
+2024-08-30;;;;Autre;Aucune
+2024-08-31;;;;Autre;Aucune
+2024-09-01;;;;Autre;Aucune
+2024-09-02;;;;Autre;Aucune
+2024-09-03;;;;Autre;Aucune
+2024-09-04;;;;Autre;Aucune
+2024-09-05;;;;Autre;Aucune
+2024-09-06;;;;Autre;Aucune
+2024-09-07;;;;Autre;Aucune
+2024-09-08;;;;Autre;Aucune
+2024-09-09;;;;Autre;Aucune
+2024-09-10;;;;Autre;Aucune
+2024-09-11;;;;Autre;Aucune
+2024-09-12;;;;Autre;Aucune
+2024-09-13;;;;Autre;Aucune
+2024-09-14;;;;Autre;Aucune
+2024-09-15;Albertine fatiguée par sa mue/vitamines+vermifuge pour tt le monde;;['Albertine fatiguée par sa mue', 'vitamines+vermifuge pour tt le monde'];Santé / Soins;Albertine
+2024-09-16;;;;Autre;Aucune
+2024-09-17;;;;Autre;Aucune
+2024-09-18;;;;Autre;Aucune
+2024-09-19;;;;Autre;Aucune
+2024-09-20;;;;Autre;Aucune
+2024-09-21;;;;Autre;Aucune
+2024-09-22;;;;Autre;Aucune
+2024-09-23;;;;Autre;Aucune
+2024-09-24;;;;Autre;Aucune
+2024-09-25;vent  ;;['vent  '];Météo / Environnement;Aucune
+2024-09-26;;;;Autre;Aucune
+2024-09-27;;;;Autre;Aucune
+2024-09-28;;;;Autre;Aucune
+2024-09-29;;;;Autre;Aucune
+2024-09-30;;;;Autre;Aucune
+2024-10-01;;;;Autre;Aucune
+2024-10-02;;;;Autre;Aucune
+2024-10-03;;;;Autre;Aucune
+2024-10-04;Cunégonde de retour avec les autres;;['Cunégonde de retour avec les autres'];Vie du Poulailler / Divers;Cunégonde
+2024-10-05;retrait du voile d’ombrage;;['retrait du voile d’ombrage'];Installation / Technique;Aucune
+2024-10-06;;;;Autre;Aucune
+2024-10-07;chaud en fin d’aprèm;;['chaud en fin d’aprèm'];Météo / Environnement;Aucune
+2024-10-08;;;;Autre;Aucune
+2024-10-09;tempête en début de soirée;;['tempête en début de soirée'];Météo / Environnement;Aucune
+2024-10-10;;;;Autre;Aucune
+2024-10-11;;;;Autre;Aucune
+2024-10-12;;;;Autre;Aucune
+2024-10-13;;;;Autre;Aucune
+2024-10-14;;;;Autre;Aucune
+2024-10-15;;;;Autre;Aucune
+2024-10-16;;;;Autre;Aucune
+2024-10-17;vigilance orange pluie/inondations;;['vigilance orange pluie', 'inondations'];Météo / Environnement;Aucune
+2024-10-18;avicoryl;;['avicoryl'];Santé / Soins;Aucune
+2024-10-19;;;;Autre;Aucune
+2024-10-20;;;;Autre;Aucune
+2024-10-21;;;;Autre;Aucune
+2024-10-22;;;;Autre;Aucune
+2024-10-23;;;;Autre;Aucune
+2024-10-24;;;;Autre;Aucune
+2024-10-25;;;;Autre;Aucune
+2024-10-26;;;;Autre;Aucune
+2024-10-27;;;;Autre;Aucune
+2024-10-28;;;;Autre;Aucune
+2024-10-29;;;;Autre;Aucune
+2024-10-30;;;;Autre;Aucune
+2024-10-31;;;;Autre;Aucune
+2024-11-01;;;;Autre;Aucune
+2024-11-02;;;;Autre;Aucune
+2024-11-03;;;;Autre;Aucune
+2024-11-04;;;;Autre;Aucune
+2024-11-05;;;;Autre;Aucune
+2024-11-06;;;;Autre;Aucune
+2024-11-07;;;;Autre;Aucune
+2024-11-08;;;;Autre;Aucune
+2024-11-09;;;;Autre;Aucune
+2024-11-10;;;;Autre;Aucune
+2024-11-11;;;;Autre;Aucune
+2024-11-12;;;;Autre;Aucune
+2024-11-13;;;;Autre;Aucune
+2024-11-14;temps agréable, brouillard cette nuit;;['temps agréable, brouillard cette nuit'];Météo / Environnement;Aucune
+2024-11-15;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2024-11-16;;;;Autre;Aucune
+2024-11-17;venteux;;['venteux'];Météo / Environnement;Aucune
+2024-11-18;;;;Autre;Aucune
+2024-11-19;;;;Autre;Aucune
+2024-11-20;vigilance jaune pluie/inondations;;['vigilance jaune pluie', 'inondations'];Météo / Environnement;Aucune
+2024-11-21;tempête la nuit;;['tempête la nuit'];Météo / Environnement;Aucune
+2024-11-22;vent;;['vent'];Météo / Environnement;Aucune
+2024-11-23;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2024-11-24;;;;Autre;Aucune
+2024-11-25;vent/19°C à 7h30 du mat;;['vent/19°C à 7h30 du mat'];Météo / Environnement;Aucune
+2024-11-26;;;;Autre;Aucune
+2024-11-27;aliment;;['aliment'];Alimentation;Aucune
+2024-11-28;vitamines+avipar (vermifuge);;['vitamines+avipar (vermifuge)'];Santé / Soins;Aucune
+2024-11-29;même temps qu’hier/petite gelée matinale;;['même temps qu’hier', 'petite gelée matinale'];Météo / Environnement;Aucune
+2024-11-30;;;;Autre;Aucune
+2024-12-01;;;;Autre;Aucune
+2024-12-02;;;;Autre;Aucune
+2024-12-03;;;;Autre;Aucune
+2024-12-04;;;;Autre;Aucune
+2024-12-05;petite gelée matinale;;['petite gelée matinale'];Météo / Environnement;Aucune
+2024-12-06;vent;;['vent'];Météo / Environnement;Aucune
+2024-12-07;vigilance orange/pluie/grêle;;['vigilance orange', 'pluie', 'grêle'];Météo / Environnement;Aucune
+2024-12-08;tempête;;['tempête'];Météo / Environnement;Aucune
+2024-12-09;;;;Autre;Aucune
+2024-12-10;;;;Autre;Aucune
+2024-12-11;;;;Autre;Aucune
+2024-12-12;;;;Autre;Aucune
+2024-12-13;;;;Autre;Aucune
+2024-12-14;;;;Autre;Aucune
+2024-12-15;;;;Autre;Aucune
+2024-12-16;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2024-12-17;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2024-12-18;;;;Autre;Aucune
+2024-12-19;tempête en fin de journée;;['tempête en fin de journée'];Météo / Environnement;Aucune
+2024-12-20;;;;Autre;Aucune
+2024-12-21;;;;Autre;Aucune
+2024-12-22;tempête;;['tempête'];Météo / Environnement;Aucune
+2024-12-23;vent;;['vent'];Météo / Environnement;Aucune
+2024-12-24;Cunégonde et Albertine enrhumées/avicoryl pour tt le monde;;['Cunégonde et Albertine enrhumées', 'avicoryl pour tt le monde'];Santé / Soins;Albertine, Cunégonde
+2024-12-25;;;;Autre;Aucune
+2024-12-26;;;;Autre;Aucune
+2024-12-27;;;;Autre;Aucune
+2024-12-28;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2024-12-29;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2024-12-30;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2024-12-31;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-01-01;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-01-02;gelée matinale (x(c)=oeuf cassé);;['gelée matinale (x(c)=oeuf cassé)'];Météo / Environnement;Aucune
+2025-01-03;;;;Autre;Aucune
+2025-01-04;1 œuf marans minuscule dans le poulailler;;['1 œuf marans minuscule dans le poulailler'];Anomalies Œufs;Marans
+2025-01-05;;;;Autre;Aucune
+2025-01-06;;;;Autre;Aucune
+2025-01-07;;;;Autre;Aucune
+2025-01-08;;;;Autre;Aucune
+2025-01-09;;;;Autre;Aucune
+2025-01-10;;;;Autre;Aucune
+2025-01-11;vent;;['vent'];Météo / Environnement;Aucune
+2025-01-12;vent la nuit;;['vent la nuit'];Météo / Environnement;Aucune
+2025-01-13;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-01-14;gelée matinale/eau des poules gelée -6°C d’après météoFrance;;['gelée matinale', 'eau des poules gelée -6°C d’après météoFrance'];Météo / Environnement;Aucune
+2025-01-15;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-01-16;;;;Autre;Aucune
+2025-01-17;;;;Autre;Aucune
+2025-01-18;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-01-19;;;;Autre;Aucune
+2025-01-20;;;;Autre;Aucune
+2025-01-21;vent;;['vent'];Météo / Environnement;Aucune
+2025-01-22;vitamine;;['vitamine'];Santé / Soins;Aucune
+2025-01-23;;;;Autre;Aucune
+2025-01-24;petite gelée matinale;;['petite gelée matinale'];Météo / Environnement;Aucune
+2025-01-25;;x(marans);;Autre;Aucune
+2025-01-26;;;;Autre;Aucune
+2025-01-27;;;;Autre;Aucune
+2025-01-28;fin vitamine/vermifuge avipar/tempête en fin de journée;;['fin vitamine', 'vermifuge avipar', 'tempête en fin de journée'];Météo / Environnement;Aucune
+2025-01-29;changement du thermomètre;;['changement du thermomètre'];Installation / Technique;Aucune
+2025-01-30;;;;Autre;Aucune
+2025-01-31;;;;Autre;Aucune
+2025-02-01;changement de place du thermomètre;;['changement de place du thermomètre'];Localisation Œufs;Aucune
+2025-02-02;;;;Autre;Aucune
+2025-02-03;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-02-04;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-02-05;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-02-06;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-02-07;gelée matinale/venteux;;['gelée matinale', 'venteux'];Météo / Environnement;Aucune
+2025-02-08;un peu de neige cette nuit;;['un peu de neige cette nuit'];Météo / Environnement;Aucune
+2025-02-09;gelée matinale;;['gelée matinale'];Météo / Environnement;Aucune
+2025-02-10;;;;Autre;Aucune
+2025-02-11;pose anti picage Cunégonde;;['pose anti picage Cunégonde'];Comportement;Cunégonde
+2025-02-12;retrai anti picage Cunégonde;;['retrai anti picage Cunégonde'];Comportement;Cunégonde
+2025-02-13;;;;Autre;Aucune
+2025-02-14;;;;Autre;Aucune
+2025-02-15;pose anti picage Cunégonde;;['pose anti picage Cunégonde'];Comportement;Cunégonde
+2025-02-16;;;;Autre;Aucune
+2025-02-17;;;;Autre;Aucune
+2025-02-18;Petit vent;;['Petit vent'];Météo / Environnement;Aucune
+2025-02-19;Petit vent/épervier dans la volière;;['Petit vent', 'épervier dans la volière'];Météo / Environnement;Aucune
+2025-02-20;;;;Autre;Aucune
+2025-02-21;vent;;['vent'];Météo / Environnement;Aucune
+2025-02-22;;;;Autre;Aucune
+2025-02-23;;;;Autre;Aucune
+2025-02-24;;;;Autre;Aucune
+2025-02-25;vent;;['vent'];Météo / Environnement;Aucune
+2025-02-26;Pioupioute et Rémiel chez le véto;;['Pioupioute et Rémiel chez le véto'];Santé / Soins;Pioupioute, Rémiel
+2025-02-27;Gelée matinale/ traitement Pioupioute 10j;;['Gelée matinale', ' traitement Pioupioute 10j'];Météo / Environnement;Pioupioute
+2025-02-28;;;;Autre;Aucune
+2025-03-01;vent;;['vent'];Météo / Environnement;Aucune
+2025-03-02;;;;Autre;Aucune
+2025-03-03;gelée matinale/;;['gelée matinale', ''];Météo / Environnement;Aucune
+2025-03-04;;;;Autre;Aucune
+2025-03-05;vent;;['vent'];Météo / Environnement;Aucune
+2025-03-06;vent (changement de place du pondoir);;['vent (changement de place du pondoir)'];Météo / Environnement;Aucune
+2025-03-07;vent;;['vent'];Météo / Environnement;Aucune
+2025-03-08;vent (alerte jaune)/tempête en fin de journée+nuit;;['vent (alerte jaune)', 'tempête en fin de journée+nuit'];Météo / Environnement;Aucune
+2025-03-09;;;;Autre;Aucune
+2025-03-10;;;;Autre;Aucune
+2025-03-11;;;;Autre;Aucune
+2025-03-12;;;;Autre;Aucune
+2025-03-13;;;;Autre;Aucune
+2025-03-14;;;;Autre;Aucune
+2025-03-15;vent;;['vent'];Météo / Environnement;Aucune
+2025-03-16;;;;Autre;Aucune
+2025-03-17;;;;Autre;Aucune
+2025-03-18;vent;;['vent'];Météo / Environnement;Aucune
+2025-03-19;vent/Pioupioute attaquée par le coq;;['vent', 'Pioupioute attaquée par le coq'];Météo / Environnement;Pioupioute
+2025-03-20;vent/ alerte jaune vent;;['vent', ' alerte jaune vent'];Météo / Environnement;Aucune
+2025-03-21;fin tempête vers 11h;;['fin tempête vers 11h'];Météo / Environnement;Aucune
+2025-03-22;œuf mou trouvé dans le poulailler de P+V+T;x ;['œuf mou trouvé dans le poulailler de P+V+T'];Anomalies Œufs;Aucune
+2025-03-23;;;;Autre;Aucune
+2025-03-24;grêle et pluie en fin de journée;;['grêle et pluie en fin de journée'];Météo / Environnement;Aucune
+2025-03-25;gros temps de merde l’après midi orage grêle pluie;;['gros temps de merde l’après midi orage grêle pluie'];Météo / Environnement;Aucune
+2025-03-26;;;;Autre;Aucune
+2025-03-27;;;;Autre;Aucune
+2025-03-28;vent;;['vent'];Météo / Environnement;Aucune
+2025-03-29;pluie la nuit/vent;;['pluie la nuit', 'vent'];Météo / Environnement;Aucune
+2025-03-30;;;;Autre;Aucune
+2025-03-31;;;;Autre;Aucune
+2025-04-01;;;;Autre;Aucune
+2025-04-02;vent;;['vent'];Météo / Environnement;Aucune
+2025-04-03;vent;;['vent'];Météo / Environnement;Aucune
+2025-04-04;vent;;['vent'];Météo / Environnement;Aucune
+2025-04-05;;;;Autre;Aucune
+2025-04-06;;;;Autre;Aucune
+2025-04-07;;;;Autre;Aucune
+2025-04-08;;;;Autre;Aucune
+2025-04-09;;;;Autre;Aucune
+2025-04-10;vent/oeufs de Tina cassé;;['vent', 'oeufs de Tina cassé'];Météo / Environnement;Tina
+2025-04-11;vent;;['vent'];Météo / Environnement;Aucune
+2025-04-12;;;;Autre;Aucune
+2025-04-13;;;;Autre;Aucune
+2025-04-14;;;;Autre;Aucune
+2025-04-15;;;;Autre;Aucune
+2025-04-16;;;;Autre;Aucune
+2025-04-17;;;;Autre;Aucune
+2025-04-18;vent;;['vent'];Météo / Environnement;Aucune
+2025-04-19;vent/alerte jaune orages;;['vent', 'alerte jaune orages'];Météo / Environnement;Aucune
+2025-04-20;2 œufs de marans cassés dans le poulailler ce matin (A et N) +1oeuf de A ds le pondoir (cassé);;['2 œufs de marans cassés dans le poulailler ce matin (A et N) +1oeuf de A ds le pondoir (cassé)'];Anomalies Œufs;Marans
+2025-04-21;;;;Autre;Aucune
+2025-04-22;;;;Autre;Aucune
+2025-04-23;vent;;['vent'];Météo / Environnement;Aucune
+2025-04-24;vent;;['vent'];Météo / Environnement;Aucune
+2025-04-25;;;;Autre;Aucune
+2025-04-26;;;;Autre;Aucune
+2025-04-27;;;;Autre;Aucune
+2025-04-28;;;;Autre;Aucune
+2025-04-29;vent;;['vent'];Météo / Environnement;Aucune
+2025-04-30;vent;;['vent'];Météo / Environnement;Aucune
+2025-05-01;vent/22°C à 18h;;['vent/22°C à 18h'];Météo / Environnement;Aucune
+2025-05-02;vent/sable du Sahara;;['vent', 'sable du Sahara'];Météo / Environnement;Aucune
+2025-05-03;orage vers minuit;;['orage vers minuit'];Météo / Environnement;Aucune
+2025-05-04;alerte jaune orage;;['alerte jaune orage'];Météo / Environnement;Aucune
+2025-05-05;alerte jaune orage inondations/vent;;['alerte jaune orage inondations', 'vent'];Météo / Environnement;Aucune
+2025-05-06;vent;;['vent'];Météo / Environnement;Aucune
+2025-05-07;vent/un œuf de marans trouvé dans le poulailler;;['vent', 'un œuf de marans trouvé dans le poulailler'];Météo / Environnement;Marans
+2025-05-08;;;;Autre;Aucune
+2025-05-09;vent;;['vent'];Météo / Environnement;Aucune
+2025-05-10;vent/oeuf d’Alberrtine cassé dans le poulailler;;['vent', 'oeuf d’Alberrtine cassé dans le poulailler'];Météo / Environnement;Aucune
+2025-05-11;;;;Autre;Aucune
+2025-05-12;;;;Autre;Aucune
+2025-05-13;fortes averses+grêle en fin de journée;;['fortes averses+grêle en fin de journée'];Météo / Environnement;Aucune
+2025-05-14;;;;Autre;Aucune
+2025-05-15;vent;;['vent'];Météo / Environnement;Aucune
+2025-05-16;vent;;['vent'];Météo / Environnement;Aucune
+2025-05-17;;;;Autre;Aucune
+2025-05-18;;;;Autre;Aucune
+2025-05-19;vent/alerte orange orages pour l’après midi/tempête en fin de journée;;['vent', 'alerte orange orages pour l’après midi', 'tempête en fin de journée'];Météo / Environnement;Aucune
+2025-05-20;vent;;['vent'];Météo / Environnement;Aucune
+2025-05-21;vent;;['vent'];Météo / Environnement;Aucune
+2025-05-22;vent;;['vent'];Météo / Environnement;Aucune
+2025-05-23;;;;Autre;Aucune
+2025-05-24;;;;Autre;Aucune
+2025-05-25;;;;Autre;Aucune
+2025-05-26;;;;Autre;Aucune
+2025-05-27;;;;Autre;Aucune
+2025-05-28;;;;Autre;Aucune
+2025-05-29;;;;Autre;Aucune
+2025-05-30;;;;Autre;Aucune
+2025-05-31;;;;Autre;Aucune
+2025-06-01;alerte jaune orage/orage vers 21h30;;['alerte jaune orage', 'orage vers 21h30'];Météo / Environnement;Aucune
+2025-06-02;;;;Autre;Aucune
+2025-06-03;;;;Autre;Aucune
+2025-06-04;;;;Autre;Aucune
+2025-06-05;un œuf de marans trouvé ds le poulailler du coq : Albertine ou Nina/Calcium pour Valérie+P+T;x;['un œuf de marans trouvé ds le poulailler du coq\xa0: Albertine ou Nina', 'Calcium pour Valérie+P+T'];Santé / Soins;Albertine, Valérie, Nina, Marans
+2025-06-06;;;;Autre;Aucune
+2025-06-07;;;;Autre;Aucune
+2025-06-08;;;;Autre;Aucune
+2025-06-09;ciel bizarre, fumée du Canada;;['ciel bizarre, fumée du Canada'];Météo / Environnement;Aucune
+2025-06-10;fumée du Canada;;['fumée du Canada'];Météo / Environnement;Aucune
+2025-06-11;vent/dernier jour calcium/vit C+oligoélément/fumée Canada;;['vent', 'dernier jour calcium', 'vit C+oligoélément', 'fumée Canada'];Météo / Environnement;Aucune
+2025-06-12;fumée du Canada;;['fumée du Canada'];Météo / Environnement;Aucune
+2025-06-13;vent/fumée Canada+sable Sahara;;['vent', 'fumée Canada+sable Sahara'];Météo / Environnement;Aucune
+2025-06-14;œuf de Cunégonde trouvé dans le poulailler+1 dans le pondoire aujourd’hui !!!;;['œuf de Cunégonde trouvé dans le poulailler+1 dans le pondoire aujourd’hui\xa0!!!'];Localisation Œufs;Cunégonde
+2025-06-15;;;;Autre;Aucune
+2025-06-16;vent;;['vent'];Météo / Environnement;Aucune
+2025-06-17;;;;Autre;Aucune
+2025-06-18;vent;;['vent'];Météo / Environnement;Aucune
+2025-06-19;cure calcium à refaire/vitC ;;['cure calcium à refaire', 'vitC '];Santé / Soins;Aucune
+2025-06-20;œuf de Tina cassé/vitC;;['œuf de Tina cassé', 'vitC'];Santé / Soins;Tina
+2025-06-21;exzolt/vitC;;['exzolt', 'vitC'];Santé / Soins;Aucune
+2025-06-22;;;;Autre;Aucune
+2025-06-23;;;;Autre;Aucune
+2025-06-24;cunégonde semble s’apprêter à couver;;['cunégonde semble s’apprêter à couver'];Comportement;Cunégonde
+2025-06-25;vent/alerte jaune orages/tempête vers 18h pdt 3/4h environ;;['vent', 'alerte jaune orages', 'tempête vers 18h pdt 3/4h environ'];Météo / Environnement;Aucune
+2025-06-26;;;;Autre;Aucune
+2025-06-27;œuf d’Albertine et Tina cassé;;['œuf d’Albertine et Tina cassé'];Anomalies Œufs;Albertine, Tina
+2025-06-28;exzolt/vitC;;['exzolt', 'vitC'];Santé / Soins;Aucune
+2025-06-29;alerte orange canicule;;['alerte orange canicule'];Météo / Environnement;Aucune
+2025-06-30;alerte orange canicule;;['alerte orange canicule'];Météo / Environnement;Aucune
+2025-07-01;alerte orange canicule/35°C à 17h/oeuf de Tina tordu et rugueux;;['alerte orange canicule/35°C à 17h', 'oeuf de Tina tordu et rugueux'];Météo / Environnement;Tina
+2025-07-02;alerte jaune orage et canicule/vent;;['alerte jaune orage et canicule', 'vent'];Météo / Environnement;Aucune
+2025-07-03;;;;Autre;Aucune
+2025-07-04;;;;Autre;Aucune
+2025-07-05;;;;Autre;Aucune
+2025-07-06;vent/Nina boite;;['vent', 'Nina boite'];Météo / Environnement;Nina
+2025-07-07;vent;;['vent'];Météo / Environnement;Aucune
+2025-07-08;vent;;['vent'];Météo / Environnement;Aucune
+2025-07-09;27°C à 15h40;;['27°C à 15h40'];Météo / Environnement;Aucune
+2025-07-10;;;;Autre;Aucune
+2025-07-11;;;;Autre;Aucune
+2025-07-12;vent;;['vent'];Météo / Environnement;Aucune
+2025-07-13;2 œufs de marans mou dans le poulailler du coq (Albertine et/ou Nina)/départ de Dark Vador;xx;['2 œufs de marans mou dans le poulailler du coq (Albertine et', 'ou Nina)', 'départ de Dark Vador'];Anomalies Œufs;Albertine, Nina, Marans
+2025-07-14;;;;Autre;Aucune
+2025-07-15;;;;Autre;Aucune
+2025-07-16;"rdv véto pour Nina ; traitement anti inflamatoire +antibiotique 5j, mise ce soir avec les poussins";;"['rdv véto pour Nina\xa0; traitement anti inflamatoire +antibiotique 5j, mise ce soir avec les poussins']";Santé / Soins;Nina
+2025-07-17;;;;Autre;Aucune
+2025-07-18;;;;Autre;Aucune
+2025-07-19;;;;Autre;Aucune
+2025-07-20;vent/alerte jaune orages;;['vent', 'alerte jaune orages'];Météo / Environnement;Aucune
+2025-07-21;vent;;['vent'];Météo / Environnement;Aucune
+2025-07-22;;;;Autre;Aucune
+2025-07-23;alerte jaune orage;;['alerte jaune orage'];Météo / Environnement;Aucune
+2025-07-24;;;;Autre;Aucune
+2025-07-25;;;;Autre;Aucune
+2025-07-26;vent;;['vent'];Météo / Environnement;Aucune
+2025-07-27; vent;;[' vent'];Météo / Environnement;Aucune
+2025-07-28;vent;;['vent'];Météo / Environnement;Aucune
+2025-07-29;vent;;['vent'];Météo / Environnement;Aucune
+2025-07-30;vent;;['vent'];Météo / Environnement;Aucune
+2025-07-31;;;;Autre;Aucune
+2025-08-01;Nina décédée;;['Nina décédée'];Santé / Soins;Nina
+2025-08-02;;;;Autre;Aucune
+2025-08-03;vent;;['vent'];Météo / Environnement;Aucune
+2025-08-04;;;;Autre;Aucune
+2025-08-05;vent;;['vent'];Météo / Environnement;Aucune
+2025-08-06;vent;;['vent'];Météo / Environnement;Aucune
+2025-08-07;alerte jaune canicule/33°C à 18h;;['alerte jaune canicule/33°C à 18h'];Météo / Environnement;Aucune
+2025-08-08;vent/Alerte jaune canicule/33°C à 17h;;['vent', 'Alerte jaune canicule/33°C à 17h'];Météo / Environnement;Aucune
+2025-08-09;vigilance orange canicule/33°C à 19h;;['vigilance orange canicule/33°C à 19h'];Météo / Environnement;Aucune
+2025-08-10;vigilance orange canicule/34°C à 18h30;;['vigilance orange canicule/34°C à 18h30'];Météo / Environnement;Aucune
+2025-08-11;alerte orange canicule/37°C à 18h;;['alerte orange canicule/37°C à 18h'];Météo / Environnement;Aucune
+2025-08-12;alerte orange canicule/37°C à 17h/ Albertine fatiguée;;['alerte orange canicule/37°C à 17h', ' Albertine fatiguée'];Météo / Environnement;Albertine
+2025-08-13;alerte orange canicule/alerte jaune orage/36°c à 17h/ tempête vers 17h/23°C à 18h30;;['alerte orange canicule', 'alerte jaune orage/36°c à 17h', ' tempête vers 17h/23°C à 18h30'];Météo / Environnement;Aucune
+2025-08-14;alerte orange canicule/31°C à 17h;;['alerte orange canicule/31°C à 17h'];Météo / Environnement;Aucune
+2025-08-15;alerte orange canicule/34°C à 17h30;;['alerte orange canicule/34°C à 17h30'];Météo / Environnement;Aucune
+2025-08-16;tina veut pondre/fumée d’Espagne/35°C à 18h;;['tina veut pondre', 'fumée d’Espagne/35°C à 18h'];Météo / Environnement;Tina
+2025-08-17;Albertine mue/fumée d’Espagne/32°C à 17h;x(marans);['Albertine mue', 'fumée d’Espagne/32°C à 17h'];Météo / Environnement;Albertine
+2025-08-18;alerte jaune orage/26°C à 17h30;;['alerte jaune orage/26°C à 17h30'];Météo / Environnement;Aucune
+2025-08-19;alerte jaune orage;;['alerte jaune orage'];Météo / Environnement;Aucune
+2025-08-20;;;;Autre;Aucune
+2025-08-21;vent;;['vent'];Météo / Environnement;Aucune
+2025-08-22;;;;Autre;Aucune
+2025-08-23;;;;Autre;Aucune
+2025-08-24;;;;Autre;Aucune
+2025-08-25;;;;Autre;Aucune
+2025-08-26;;;;Autre;Aucune
+2025-08-27;alerte orange orage;;['alerte orange orage'];Météo / Environnement;Aucune
+2025-08-28;alerte jaune orage/vent;;['alerte jaune orage', 'vent'];Météo / Environnement;Aucune
+2025-08-29;vent en fin de journée;;['vent en fin de journée'];Météo / Environnement;Aucune
+2025-08-30;;;;Autre;Aucune
+2025-08-31;vent/alerte jaune orages;;['vent', 'alerte jaune orages'];Météo / Environnement;Aucune
+2025-09-01;;;;Autre;Aucune
+2025-09-02;;;;Autre;Aucune
+2025-09-03;vent;;['vent'];Météo / Environnement;Aucune
+2025-09-04;vent;x(marans);['vent'];Météo / Environnement;Aucune
+2025-09-05;;;;Autre;Aucune
+2025-09-06;vent;;['vent'];Météo / Environnement;Aucune
+2025-09-07;vent/alerte jaune orages;;['vent', 'alerte jaune orages'];Météo / Environnement;Aucune
+2025-09-08;alerte jaune orage;;['alerte jaune orage'];Météo / Environnement;Aucune
+2025-09-09;;;;Autre;Aucune
+2025-09-10;;;;Autre;Aucune
+2025-09-11;;;;Autre;Aucune
+2025-09-12;;;;Autre;Aucune
+2025-09-13;;;;Autre;Aucune
+2025-09-14;vent;;['vent'];Météo / Environnement;Aucune
+2025-09-15;;;;Autre;Aucune
+2025-09-16;;;;Autre;Aucune
+2025-09-17;;;;Autre;Aucune
+2025-09-18;vent;;['vent'];Météo / Environnement;Aucune
+2025-09-19;vent;;['vent'];Météo / Environnement;Aucune
+2025-09-20;vent/alerte jaune orages;;['vent', 'alerte jaune orages'];Météo / Environnement;Aucune
+2025-09-21;vent/alerte jaune orages;;['vent', 'alerte jaune orages'];Météo / Environnement;Aucune
+2025-09-22;vent;;['vent'];Météo / Environnement;Aucune
+2025-09-23;;;;Autre;Aucune
+2025-09-24;vent;;['vent'];Météo / Environnement;Aucune
+2025-09-25;;;;Autre;Aucune
+2025-09-26;;;;Autre;Aucune
+2025-09-27;;;;Autre;Aucune
+2025-09-28;;;;Autre;Aucune
+2025-09-29;vent;;['vent'];Météo / Environnement;Aucune
+2025-09-30;vent;;['vent'];Météo / Environnement;Aucune
+2025-10-01;vent;;['vent'];Météo / Environnement;Aucune
+2025-10-02;;;;Autre;Aucune
+2025-10-03;;;;Autre;Aucune
+2025-10-04;vent/tempête en fin de journée;;['vent', 'tempête en fin de journée'];Météo / Environnement;Aucune
+2025-10-05;vent;;['vent'];Météo / Environnement;Aucune
+2025-10-06;;;;Autre;Aucune
+2025-10-07;;;;Autre;Aucune
+2025-10-08;vent ;;['vent '];Météo / Environnement;Aucune
+2025-10-09;vent;;['vent'];Météo / Environnement;Aucune
+2025-10-10;;;;Autre;Aucune
+2025-10-11;;;;Autre;Aucune
+2025-10-12;;;;Autre;Aucune
+2025-10-13;;;;Autre;Aucune
+2025-10-14;;;;Autre;Aucune
+2025-10-15;;;;Autre;Aucune
+2025-10-16;;;;Autre;Aucune
+2025-10-17;;;;Autre;Aucune
+2025-10-18;;;;Autre;Aucune
+2025-10-19;;;;Autre;Aucune
+2025-10-20;;;;Autre;Aucune
+2025-10-21;vent;;['vent'];Météo / Environnement;Aucune
+2025-10-22;;;;Autre;Aucune
+2025-10-23;vent violent/alerte jaune vent;;['vent violent', 'alerte jaune vent'];Météo / Environnement;Aucune
+2025-10-24;;;;Autre;Aucune
+2025-10-25;;;;Autre;Aucune
+2025-10-26;vent;;['vent'];Météo / Environnement;Aucune
+2025-10-27;vent;;['vent'];Météo / Environnement;Aucune
+2025-10-28;;;;Autre;Aucune
+2025-10-29;;;;Autre;Aucune
+2025-10-30;;;;Autre;Aucune
+2025-10-31;;;;Autre;Aucune
+2025-11-01;;;;Autre;Aucune
+2025-11-02;;;;Autre;Aucune
+2025-11-03;vent;;['vent'];Météo / Environnement;Aucune
+2025-11-04;vent;;['vent'];Météo / Environnement;Aucune
+2025-11-05;vent ;;['vent '];Météo / Environnement;Aucune
+2025-11-06;vigilance jaune pluie inondation orage;;['vigilance jaune pluie inondation orage'];Météo / Environnement;Aucune
+2025-11-07;;;;Autre;Aucune
+2025-11-08;vigilance jaune pluie inondation ;;['vigilance jaune pluie inondation '];Météo / Environnement;Aucune
+2025-11-09;;;;Autre;Aucune
+2025-11-10;;;;Autre;Aucune
+2025-11-11;vent;;['vent'];Météo / Environnement;Aucune
+2025-11-12;vent;;['vent'];Météo / Environnement;Aucune
+2025-11-13;vigilance jaune vent violent;;['vigilance jaune vent violent'];Météo / Environnement;Aucune
+2025-11-14;vigilance jaune vent violent;;['vigilance jaune vent violent'];Météo / Environnement;Aucune
+2025-11-15;vent;;['vent'];Météo / Environnement;Aucune
+2025-11-16;;;;Autre;Aucune
+2025-11-17;vent en fin de journée;;['vent en fin de journée'];Météo / Environnement;Aucune
+2025-11-18;vent;;['vent'];Météo / Environnement;Aucune
+2025-11-19;petite gelée matinale/vent/alerte jaune neige-verglas;;['petite gelée matinale', 'vent', 'alerte jaune neige-verglas'];Météo / Environnement;Aucune
+2025-11-20;;;;Autre;Aucune
+2025-11-21;vent;;['vent'];Météo / Environnement;Aucune
+2025-11-22;petite gelée matinale;;['petite gelée matinale'];Météo / Environnement;Aucune
+2025-11-23;;;;Autre;Aucune
+2025-11-24;vent en fin de journée;;['vent en fin de journée'];Météo / Environnement;Aucune
+2025-11-25;arcus vers 17h;;['arcus vers 17h'];Météo / Environnement;Aucune
+2025-11-26;;;;Autre;Aucune
+2025-11-27; belle gelée matinale ;;[' belle gelée matinale '];Météo / Environnement;Aucune
+2025-11-28;belle gelée matinale;;['belle gelée matinale'];Météo / Environnement;Aucune
+2025-11-29;gelée matinale/;;['gelée matinale', ''];Météo / Environnement;Aucune
+2025-11-30;;;;Autre;Aucune
+2025-12-01;;;;Autre;Aucune
+2025-12-02;;;;Autre;Aucune
+2025-12-03;Petit vent;;['Petit vent'];Météo / Environnement;Aucune
+2025-12-04;;;;Autre;Aucune
+2025-12-05;Petit vent;;['Petit vent'];Météo / Environnement;Aucune
+2025-12-06;;;;Autre;Aucune
+2025-12-07;;;;Autre;Aucune
+2025-12-08;;;;Autre;Aucune
+2025-12-09;vent;;['vent'];Météo / Environnement;Aucune
+2025-12-10;;;;Autre;Aucune
+2025-12-11;;;;Autre;Aucune
+2025-12-12;;;;Autre;Aucune
+2025-12-13;;;;Autre;Aucune
+2025-12-14;gelée matinale/;;['gelée matinale', ''];Météo / Environnement;Aucune
+2025-12-15;;;;Autre;Aucune
+2025-12-16;;;;Autre;Aucune
+2025-12-17;;;;Autre;Aucune
+2025-12-18;vent;;['vent'];Météo / Environnement;Aucune
+2025-12-19;;;;Autre;Aucune
+2025-12-20;;;;Autre;Aucune
+2025-12-21;vent dès 17h;;['vent dès 17h'];Météo / Environnement;Aucune
+2025-12-22;;;;Autre;Aucune
+2025-12-23;;x(marans);;Autre;Aucune
+2025-12-24;;;;Autre;Aucune
+2025-12-25;;;;Autre;Aucune
+2025-12-26;;;;Autre;Aucune
+2025-12-27;vent;;['vent'];Météo / Environnement;Aucune
+2025-12-28;;;;Autre;Aucune
+2025-12-29;gelée matinale/;;['gelée matinale', ''];Météo / Environnement;Aucune
+2025-12-30;;;;Autre;Aucune
+2025-12-31;;;;Autre;Aucune

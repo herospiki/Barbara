@@ -20,7 +20,7 @@ def traiter_ponte_individuelle(row):
         'Ponte': 0,
         'Etat_oeuf': 'RAS',
         'Doute': False,
-        'Statut_Poule': 'Présente',
+        'Effectif': 1,
         'Remarques': ''
     }
     
@@ -36,11 +36,11 @@ def traiter_ponte_individuelle(row):
     
     # Gestion de la Mue
     if 'mue' in val_lower or '(m)' in val_lower or ' m' in val_lower:
-        resultat['Statut_Poule'] = 'Mue'
+        resultat['Remarques'] = 'Mue'
 
     # Gestion du Décès
     if 'dcd' in val_lower:
-        resultat['Statut_Poule'] = 'Décédée'
+        resultat['Effectif'] = 0
         return pd.Series(resultat)
 
     # Cas 1: Valeurs numériques avec annotations n(+m)
@@ -57,8 +57,8 @@ def traiter_ponte_individuelle(row):
         # Compter les x pour le nombre de pontes
         resultat['Ponte'] = val_lower.count('x')
         
-        # État de l'œuf (Cassé)
-        if 'c' in val_lower:
+        # État de l'œuf (Cassé) si ce n'est pas le c de dcd 
+        if 'c' in val_lower and 'dcd' not in val_lower:
             resultat['Etat_oeuf'] = 'cassé'
             
         return pd.Series(resultat)
@@ -79,7 +79,7 @@ def traiter_ponte_individuelle(row):
 # TRAITEMENT DES PONTES GROUPE
 # ===========================================================================
 
-df_pontes_groupe = df_pontes[df_pontes['niveau_observation'] == 'groupe']
+df_pontes_groupe = df_pontes[df_pontes['niveau_observation'].isin(['groupe','sous-groupe'])]
 print(df_pontes_groupe['Ponte_brute'].unique())
 
 def traiter_ponte_groupe(row):
@@ -95,7 +95,7 @@ def traiter_ponte_groupe(row):
         'Ponte': 0,
         'Etat_oeuf': 'RAS',
         'Doute': False,
-        'Statut_Poule': np.nan,
+        'Effectif': row.get('Effectif_theo', 0),
         'Remarques': ''
     }
     
@@ -141,14 +141,22 @@ def traiter_ponte_groupe(row):
     elif poule_str:
         resultat['Remarques'] = f"Poule(s) : {poule_str}"
 
-    # 4. États et Doute
+    # 4. Ajustement Effectif si décès détecté dans le groupe MARANS
+    if statut_info == "décédée" and 'MARANS' in str(row['Poule_brute']).upper():
+        resultat['Effectif'] = 2 # Passage de 3 à 2 pour les Marans
+    elif row['Poule_brute'] == 'Nina et Tina':
+        resultat['Effectif'] = 1 # Passage de 2 à 1 pour Nina et Tina (cas non rencontré)
+
+    # 5. États et Doute
     if '?' in val:
+        
         resultat['Doute'] = True
         if statut_info:
             resultat['Remarques'] += " (?)"
         
     if 'c' in val: # c = cassé
         resultat['Etat_oeuf'] = 'cassé'
+    
 
     # On conserve la notation originale si vraiment complexe
     if len(val) > nb_x + val.count(' ') + val.count('x') + 2:
@@ -171,6 +179,16 @@ try:
     # On considère par défaut 'individuel' si non renseigné
     df_long['niveau_observation'] = df_long['niveau_observation'].fillna('individuel')
     
+    # Correction Nina et Tina : Niveau Groupe et Race MARANS
+    mask_nina_tina = df_long['Poule_brute'] == 'Nina et Tina'
+    df_long.loc[mask_nina_tina, 'niveau_observation'] = 'groupe'
+    df_long.loc[mask_nina_tina, 'group_id'] = 'MARANS'
+
+    # Pré-remplissage de l'effectif théorique pour les groupes
+    df_long['Effectif_theo'] = 1
+    df_long.loc[df_long['Poule_brute'] == 'Nina et Tina', 'Effectif_theo'] = 2
+    df_long.loc[df_long['Poule_brute'].str.contains('MARANS', na=False), 'Effectif_theo'] = 3
+    
     mask_individuel = df_long['niveau_observation'] == 'individuel'
     mask_groupe = df_long['niveau_observation'] == 'groupe'
     
@@ -187,19 +205,32 @@ try:
         pd.concat([df_long[mask_groupe], res_groupe], axis=1)
     ]).sort_index()
 
-    # 5. Post-traitement : Propagation du décès
-    # Il faut le faire par poule
-    print("🔄 Post-traitement : Propagation du décès...")
-    def propager_deces(group):
+    # 5. Post-traitement : Propagation du décès / effectif
+    print("🔄 Post-traitement : Propagation du décès et des effectifs...")
+    def propager_status(group):
         group = group.sort_values('Date')
-        a_deceder = group['Statut_Poule'] == 'Décédée'
-        if a_deceder.any():
-            premier_deces_pos = np.where(a_deceder)[0][0]
-            group.iloc[premier_deces_pos:, group.columns.get_loc('Statut_Poule')] = 'Décédée'
-            group.iloc[premier_deces_pos:, group.columns.get_loc('Ponte')] = 0
+        poule = group['Poule_brute'].iloc[0]
+        
+        if group['niveau_observation'].iloc[0] == 'individuel':
+            a_deceder = group['Effectif'] == 0
+            if a_deceder.any():
+                premier_deces_pos = np.where(a_deceder)[0][0]
+                group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 0
+                group.iloc[premier_deces_pos:, group.columns.get_loc('Ponte')] = 0
+        else:
+            # Pour les groupes Marans, on propage le passage de 3 à 2
+            if 'MARANS' in str(poule).upper():
+                a_deceder = group['Effectif'] == 2
+                if a_deceder.any():
+                    premier_deces_pos = np.where(a_deceder)[0][0]
+                    group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 2
         return group
 
-    df_result = df_result.groupby('Poule_brute', group_keys=False).apply(propager_deces)
+    df_result = df_result.groupby('Poule_brute', group_keys=False).apply(propager_status)
+
+    # Nettoyage colonnes temporaires
+    if 'Effectif_theo' in df_result.columns:
+        df_result = df_result.drop(columns=['Effectif_theo'])
 
     # 6. Sauvegarde du résultat structuré
     output_meta = 'interim/df_pontes_long_traite.csv'
@@ -209,7 +240,8 @@ try:
     
     # Affichage d'un aperçu
     print("\nAperçu des 10 premières lignes traitées :")
-    print(df_result[['Date', 'Poule_brute', 'Ponte_brute', 'Ponte', 'Statut_Poule']].head(10))
+    cols_to_show = ['Date', 'Poule_brute', 'Ponte_brute', 'Ponte', 'Effectif']
+    print(df_result[cols_to_show].head(10))
 
 except FileNotFoundError as e:
     print(f"❌ Erreur : Fichier non trouvé. {e}")

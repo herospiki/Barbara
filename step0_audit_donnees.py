@@ -137,5 +137,5 @@ def audit_transverse():
 
     print("\n--- Audit terminé avec succès ! ---")
 
-if __name__ == "__main__":
-    audit_transverse()
+
+audit_transverse()
