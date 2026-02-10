@@ -68,6 +68,7 @@ def notations_poules_par_individu_ou_groupe(df_2023, df_2024, df_2025, poules_20
                 else:
                     notations[poule] = notations_poule
     return notations
+
 def get_other_columns_analysis(df, poules_list, year):
         # Colonnes à exclure (poules + Date)
     exclure = set(poules_list) | {'Date'}
@@ -178,4 +179,5 @@ def audit_transverse():
     all_results.to_csv('audit/audit_notations_hors_poules.csv', index=False, encoding='utf-8-sig', sep=';')
     print("✓ audit_notations_hors_poules.csv généré")
     print("\n--- Audit terminé avec succès ! ---")
+
 audit_transverse()

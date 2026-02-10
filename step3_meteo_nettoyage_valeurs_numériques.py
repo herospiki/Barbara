@@ -69,7 +69,7 @@ def traitement_meteo(df_meteo):
 
 df_meteo_clean = traitement_meteo(charger_donnees())
 
-df_meteo_clean.to_csv('interim/df_2_meteo_clean.csv', sep=';', index=False)
+df_meteo_clean.to_csv('interim/df_2_meteo.csv', sep=';', index=False)
 
 
 

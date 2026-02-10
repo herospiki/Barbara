@@ -36,6 +36,9 @@ def definition_categories():
         r'poux rouges', r'envt', r'fatiguée', r'enrhumée', r'décédée', r'décès', r'traitement',
         r'c\+gasco', r'gasco'
     ],
+    'Alimentation': [
+        r'aliment', r'blé', r'lait', r'pain', r'pâtée', r'maïs'
+    ],
     'Anomalies Œufs': [
         r'cassé', r'mou', r'petit', r'micro', r'coquille', r'minuscule', r'géant', 
         r'tordu', r'rugueux', r'sans coquille', r'fibrine', r'0 œuf', r'0 oeuf', r'anomalie'
@@ -43,9 +46,7 @@ def definition_categories():
     'Localisation Œufs': [
         r'trouvé', r'jardin', r'ailleurs', r'n\'importe où', r'place'
     ],
-    'Alimentation': [
-        r'aliment', r'blé', r'lait', r'pain', r'pâtée'
-    ],
+    
     'Comportement': [
         r'pique', r'couve', r'cloque', r'bagarre', r'picage', r'attaque', r'boite', r'coquine',
         r'épervier', r'rapace', r'coq', r'dark vador', r'vador'
@@ -81,12 +82,12 @@ def categoriser_unique(texte):
                 return cat
     return "Autre"
 
-def print_to_file(text):
-    print(text)
+def print_to_file(file_path,text):
+ 
   # 1. Créer le dossier s'il n'existe pas pour éviter l'erreur
     os.makedirs('interim', exist_ok=True)
 
-    file_path = 'interim/analyse_detaillee_commentaires.txt'
+    
     
     # 2. Utiliser le mode 'a' (append) directement. 
     # Si le fichier n'existe pas, 'a' le crée comme 'w'. Pas besoin de IF.
@@ -95,18 +96,18 @@ def print_to_file(text):
         f.write(str(text) + "\n")
 
 def stats_cat(df_commentaires):
-
+    file_path = 'interim/analyse_detaillee_commentaires.txt'
     # Analyse par catégorie 
     stats_cat = df_commentaires['Catégorie'].str.split(', ').explode().value_counts()
-    print_to_file("\n--- Statistiques par Catégorie de Commentaires ---")
-    print_to_file(stats_cat.to_string())
+    print_to_file(file_path,"\n--- Statistiques par Catégorie de Commentaires ---")
+    print_to_file(file_path,stats_cat.to_string())
     categories_prioritaires = definition_categories()
-    print_to_file("\n--- Exemples par Catégorie ---")
+    print_to_file(file_path,"\n--- Exemples par Catégorie ---")
     for cat in categories_prioritaires.keys():
-        print_to_file(f"\n[{cat.upper()}]")
+        print_to_file(file_path,f"\n[{cat.upper()}]")
         exemples = df_commentaires[df_commentaires['Catégorie'] == cat]['Commentaires'].unique()[:5]
         for ex in exemples:
-            print_to_file(f" - {ex}")
+            print_to_file(file_path,f" - {ex}")
 
 def all_steps():
     # Charger les données
@@ -117,7 +118,7 @@ def all_steps():
     
     stats_cat(df_commentaires)
 
-    df_commentaires.to_csv('interim/analyse_detaillee_commentaires.csv', index=False, encoding='utf-8-sig', sep=';')
-    print("\nL'analyse détaillée a été exportée dans 'analyse_detaillee_commentaires.csv'")
+    df_commentaires.to_csv('interim/tableau_commentaires.csv', index=False, encoding='utf-8-sig', sep=';')
+    print("\nLe tableau détaillé a été exporté dans 'tableau_commentaires.csv'")
 
 all_steps()

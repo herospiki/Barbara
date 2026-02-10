@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-df_meteo = pd.read_csv('interim/df_2_meteo_clean.csv', sep=';')
+df_meteo = pd.read_csv('interim/df_2_meteo.csv', sep=';')
 
 df_meteo['Météo'] = df_meteo['Météo'].str.lower()
 df_meteo['Météo'].value_counts().reset_index().to_csv('interim/texte_meteo_count.csv', sep=';', index=False)
@@ -120,9 +120,9 @@ def apply_mapping_meteo(df_meteo):
     
 
 new_df_meteo = nettoyage_et_split_meteo(df_meteo)
-new_df_meteo.to_csv('interim/df_3_meteo_clean_split.csv', sep=';', index=False)
+new_df_meteo.to_csv('interim/df_3_meteo.csv', sep=';', index=False)
 
 meteo_categories_df = apply_mapping_meteo(new_df_meteo)
 print(meteo_categories_df.head())
 
-meteo_categories_df.to_csv('interim/df_4_meteo_avec_categories.csv', sep=';', index=False) 
+meteo_categories_df.to_csv('interim/df_4_meteo.csv', sep=';', index=False) 

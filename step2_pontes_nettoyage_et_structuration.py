@@ -166,91 +166,90 @@ def traiter_ponte_groupe(row):
 # EXECUTION DU SCRIPT
 # ===========================================================================
 
-try:
-  
-    # 1. Chargement des données brute au format long
-    df_long = pd.read_csv('interim/df_long_1_pontes.csv', sep=';')
-    print(f"✅ Chargement de {len(df_long)} lignes de pontes.")
+def nettoyage_et_structuration():
+    try:
+        # 1. Chargement des données brute au format long
+        df_long = pd.read_csv('interim/df_1_pontes.csv', sep=';')
+        print(f"✅ Chargement de {len(df_long)} lignes de pontes.")
 
-    # 2. Séparation Individuel / Groupe
-    # On considère par défaut 'individuel' si non renseigné
-    df_long['niveau_observation'] = df_long['niveau_observation'].fillna('individuel')
-    
-    # Correction Nina et Tina : Niveau Groupe et Race MARANS
-    mask_nina_tina = df_long['Poule_brute'] == 'Nina et Tina'
-    df_long.loc[mask_nina_tina, 'niveau_observation'] = 'groupe'
-    df_long.loc[mask_nina_tina, 'group_id'] = 'MARANS'
-
-    # Pré-remplissage de l'effectif théorique pour les groupes
-    df_long['Effectif_theo'] = 1
-    df_long.loc[df_long['Poule_brute'] == 'Nina et Tina', 'Effectif_theo'] = 2
-    df_long.loc[df_long['Poule_brute'].str.contains('MARANS', na=False), 'Effectif_theo'] = 3
-    
-    mask_individuel = df_long['niveau_observation'] == 'individuel'
-    mask_groupe = df_long['niveau_observation'] == 'groupe'
-    
-    # 3. Application des traitements
-    print("🔄 Traitement des données individuelles...")
-    res_indiv = df_long[mask_individuel].apply(traiter_ponte_individuelle, axis=1)
-    
-    print("🔄 Traitement des données groupes...")
-    res_groupe = df_long[mask_groupe].apply(traiter_ponte_groupe, axis=1)
-    
-    # 4. Fusion des résultats avec le DataFrame original
-    df_result = pd.concat([
-        pd.concat([df_long[mask_individuel], res_indiv], axis=1),
-        pd.concat([df_long[mask_groupe], res_groupe], axis=1)
-    ]).sort_index()
-
-    # 5. Post-traitement : Propagation du décès / effectif
-    print("🔄 Post-traitement : Propagation du décès et des effectifs...")
-    def propager_status(group):
-        group = group.sort_values('Date')
-        poule = group['Poule_brute'].iloc[0]
+        # 2. Préparation des masques pour le traitement
+        # L'étape 1 a déjà normalisé niveau_observation (individuel, groupe, sous-groupe)
+        # et group_id (MARANS).
         
-        if group['niveau_observation'].iloc[0] == 'individuel':
-            a_deceder = group['Effectif'] == 0
-            if a_deceder.any():
-                premier_deces_pos = np.where(a_deceder)[0][0]
-                group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 0
-                group.iloc[premier_deces_pos:, group.columns.get_loc('Ponte')] = 0
-        else:
-            # Pour les groupes Marans, on propage le passage de 3 à 2
-            if 'MARANS' in str(poule).upper():
-                a_deceder = group['Effectif'] == 2
+        # On s'assure que les valeurs manquantes sont gérées
+        df_long['niveau_observation'] = df_long['niveau_observation'].fillna('individuel')
+        
+        # Pré-remplissage de l'effectif théorique (utilisé par les fonctions de traitement)
+        df_long['Effectif_theo'] = 1
+        # 3 pour MARANS_TOTAL, 2 pour TINA_NINA (anciennement Nina et Tina)
+        df_long.loc[df_long['Poule_brute'] == 'MARANS_TOTAL', 'Effectif_theo'] = 3
+        df_long.loc[df_long['Poule_brute'] == 'TINA_NINA', 'Effectif_theo'] = 2
+        
+        mask_individuel = df_long['niveau_observation'] == 'individuel'
+        # On traite les 'groupe' et 'sous-groupe' avec la fonction groupe
+        mask_groupe = df_long['niveau_observation'].isin(['groupe', 'sous-groupe'])
+    
+        # 3. Application des traitements
+        print("🔄 Traitement des données individuelles...")
+        res_indiv = df_long[mask_individuel].apply(traiter_ponte_individuelle, axis=1)
+        
+        print("🔄 Traitement des données groupes...")
+        res_groupe = df_long[mask_groupe].apply(traiter_ponte_groupe, axis=1)
+        
+        # 4. Fusion des résultats avec le DataFrame original
+        df_result = pd.concat([
+            pd.concat([df_long[mask_individuel], res_indiv], axis=1),
+            pd.concat([df_long[mask_groupe], res_groupe], axis=1)
+        ]).sort_index()
+
+        # 5. Post-traitement : Propagation du décès / effectif
+        print("🔄 Post-traitement : Propagation du décès et des effectifs...")
+        def propager_status(group):
+            # Le nom du groupe (Poule_brute) est accessible via l'attribut .name
+            poule = group.name
+            group = group.sort_values('Date')
+            
+            if group['niveau_observation'].iloc[0] == 'individuel':
+                a_deceder = group['Effectif'] == 0
                 if a_deceder.any():
                     premier_deces_pos = np.where(a_deceder)[0][0]
-                    group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 2
-        return group
+                    group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 0
+                    group.iloc[premier_deces_pos:, group.columns.get_loc('Ponte')] = 0
+            else:
+                # Pour les groupes Marans, on propage le passage de 3 à 2
+                if 'MARANS' in str(poule).upper():
+                    a_deceder = group['Effectif'] == 2
+                    if a_deceder.any():
+                        premier_deces_pos = np.where(a_deceder)[0][0]
+                        group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 2
+            
+            # On ré-ajoute la colonne Poule_brute car include_groups=False l'exclut du traitement
+            group['Poule_brute'] = poule
+            return group
 
-    df_result = df_result.groupby('Poule_brute', group_keys=False).apply(propager_status)
+        df_result = df_result.groupby('Poule_brute', group_keys=False).apply(propager_status, include_groups=False)
 
-    # Nettoyage colonnes temporaires
-    if 'Effectif_theo' in df_result.columns:
-        df_result = df_result.drop(columns=['Effectif_theo'])
+        # Nettoyage colonnes temporaires
+        if 'Effectif_theo' in df_result.columns:
+            df_result = df_result.drop(columns=['Effectif_theo'])
 
-    # 6. Sauvegarde du résultat structuré
-    output_meta = 'interim/df_2_long_pontes_traite.csv'
-    df_result.to_csv(output_meta, sep=';', index=False)
-    
-    print(f"✅ Traitement terminé. Fichier sauvegardé : {output_meta}")
-    
-    # Affichage d'un aperçu
-    print("\nAperçu des 10 premières lignes traitées :")
-    cols_to_show = ['Date', 'Poule_brute', 'Ponte_brute', 'Ponte', 'Effectif']
-    print(df_result[cols_to_show].head(10))
+        # 6. Sauvegarde du résultat structuré
+        output_meta = 'interim/df_2_pontes.csv'
+        df_result.to_csv(output_meta, sep=';', index=False)
+        
+        print(f"✅ Traitement terminé. Fichier sauvegardé : {output_meta}")
+        
+        # Aperçu
+        print("\nAperçu des 10 premières lignes traitées :")
+        cols_to_show = ['Date', 'Poule_brute', 'Ponte_brute', 'Ponte', 'Effectif']
+        print(df_result[cols_to_show].head(10))
 
-except FileNotFoundError as e:
-    print(f"❌ Erreur : Fichier non trouvé. {e}")
-except Exception as e:
-    import traceback
-    print(f"❌ Une erreur est survenue : {e}")
-    traceback.print_exc()
+    except FileNotFoundError as e:
+        print(f"❌ Erreur : Fichier non trouvé. {e}")
+    except Exception as e:
+        import traceback
+        print(f"❌ Une erreur est survenue : {e}")
+        traceback.print_exc()
 
-
-
-
-
-
-
+nettoyage_et_structuration()
 
