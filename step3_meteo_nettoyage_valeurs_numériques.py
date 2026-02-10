@@ -2,7 +2,7 @@ import pandas as pd
 import datetime as dt
 
 def charger_donnees():
-    df_meteo = pd.read_csv('interim/df_meteo.csv', sep=';')
+    df_meteo = pd.read_csv('interim/df_1_meteo.csv', sep=';')
     return df_meteo
 
 print(charger_donnees())
@@ -67,13 +67,9 @@ def traitement_meteo(df_meteo):
     df_meteo = traitement_humidite(df_meteo)
     return df_meteo
 
-
-
-
-
 df_meteo_clean = traitement_meteo(charger_donnees())
 
-df_meteo_clean.to_csv('interim/df_meteo_clean.csv', sep=';', index=False)
+df_meteo_clean.to_csv('interim/df_2_meteo_clean.csv', sep=';', index=False)
 
 
 

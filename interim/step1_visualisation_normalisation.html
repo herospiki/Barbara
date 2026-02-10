@@ -1,0 +1,351 @@
+
+    <html>
+    <head>
+        <title>Normalisation des Données - Barbara</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #f1f4f9;
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+                color: white;
+                padding: 50px 20px;
+                text-align: center;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                margin-bottom: 30px;
+            }
+            .container { max-width: 1300px; }
+            .card {
+                background: white;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+                margin-bottom: 40px;
+                padding: 25px;
+                transition: transform 0.2s ease;
+            }
+            h1 { font-weight: 800; letter-spacing: -1px; }
+            h2 { color: #1e3c72; font-weight: 700; margin-bottom: 20px; border-left: 5px solid #1e3c72; padding-left: 15px; }
+            .step-title { font-size: 1.1rem; font-weight: 700; color: #1e3c72; margin-top: 15px; margin-bottom: 10px; }
+            .table-container { overflow-x: auto; }
+            .stat-card {
+                background: #fff;
+                padding: 20px;
+                border-radius: 12px;
+                text-align: center;
+                border-bottom: 4px solid #1e3c72;
+                margin-bottom: 20px;
+            }
+            .stat-value { font-size: 2rem; font-weight: 800; color: #1e3c72; }
+            .stat-label { color: #6c757d; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
+            small { color: #6c757d; display: block; margin-bottom: 8px; }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🛠️ Normalisation & Formatage des Données</h1>
+            <p class="lead">Passage des fichiers bruts vers le format structuré "Interim" (df_1)</p>
+        </div>
+        
+        <div class="container pb-5">
+            <!-- KPIs de Structure -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">3</div>
+                        <div class="stat-label">Fichiers de sortie (df_1)</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">Format Long</div>
+                        <div class="stat-label">Structure des Pontes</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">Normalisé</div>
+                        <div class="stat-label">État des colonnes</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📊 Flow de Transformation Structurelle</h2>
+                <p class="text-muted">Visualisation détaillée du passage des colonnes d'origine vers les nouveaux attributs enrichis.</p>
+                <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.3.0.min.js" integrity="sha256-bO3dS6yCpk9aK4gUpNELtCiDeSYvGYnK7jFI58NQnHI=" crossorigin="anonymous"></script>                <div id="767f7fcc-21e9-44c5-b5e6-682123b5c7d7" class="plotly-graph-div" style="height:700px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("767f7fcc-21e9-44c5-b5e6-682123b5c7d7")) {                    Plotly.newPlot(                        "767f7fcc-21e9-44c5-b5e6-682123b5c7d7",                        [{"link":{"customdata":["Normalisation","Normalisation","Consolidation","Identifiant","Conservation","Conservation","Conservation","Conservation","Conservation","Conservation","Format Long","Format Long","Logique M\u00e9tier","Assignation Niveau (ind \u002f grpe)","Assignation MARANS","Extraction","Extraction","","","","","","","","Nettoyage","Nettoyage"],"hovertemplate":"%{source.label} \u2192 %{target.label}\u003cbr \u002f\u003eAction: %{customdata}\u003cextra\u003e\u003c\u002fextra\u003e","source":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13,14,14,14,15,16,17,18,19,20],"target":[5,6,11,14,21,21,21,21,22,22,12,12,13,15,16,17,18,21,22,23,23,23,23,23,24,24],"value":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]},"node":{"color":["#3498db","#3498db","#3498db","#3498db","#3498db","#3498db","#3498db","#3498db","#3498db","#3498db","#3498db","#3498db","#e67e22","#f1c40f","#3498db","#f1c40f","#f1c40f","#3498db","#3498db","#3498db","#3498db","#2ecc71","#2ecc71","#2ecc71","#e74c3c"],"label":["Pluie","T\u00b0C (12-15h)","3 Marans","Date","M\u00e9t\u00e9o","Pluie(mm)","T\u00b0C (12h-15h)","Humidit\u00e9","Commentaires","\u0153uf trouv\u00e9\u002ft. trouvaille","Poules (Toutes)","Marans","D\u00e9pivotage (Melt)","Enrichissement (Metadata)","Date (index)","niveau_observation","group_id","Poule_brute","Ponte_brute","T\u00b0C nuit","T\u00b0C poulailler","df_1_meteo","df_1_commentaires","df_1_pontes","Filtr\u00e9 \u002f Supprim\u00e9"],"line":{"color":"black","width":0.5},"pad":15,"thickness":20},"type":"sankey"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"title":{"text":"D\u00e9tail du flux structurel (Focus : Structuration des donn\u00e9e de Pontes)"},"font":{"size":12},"height":700},                        {"responsive": true}                    )                };            </script>        </div>
+            </div>
+
+            <div class="card">
+                <h2>📝 Synthèse des Changements</h2>
+                <div class="table-container">
+                    <table border="1" class="dataframe table table-bordered table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Type de changement</th>
+      <th>Description</th>
+      <th>Impact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Normalisation noms</td>
+      <td>Renommage des colonnes Pluie et Température pour uniformité sur 3 ans.</td>
+      <td>Cohérence temporelle</td>
+    </tr>
+    <tr>
+      <td>Traitement Poules</td>
+      <td>Passage d'un format large (1 col par poule) à un format long (1 ligne par observation).</td>
+      <td>Simplification des calculs</td>
+    </tr>
+    <tr>
+      <td>Extraction Météo</td>
+      <td>Isolation des variables climatiques pour analyse environnementale.</td>
+      <td>Modularité des données</td>
+    </tr>
+    <tr>
+      <td>Enrichissement</td>
+      <td>Ajout des colonnes 'niveau_observation' (individuel/groupe) et 'group_id'.</td>
+      <td>Analyses multi-niveaux</td>
+    </tr>
+    <tr>
+      <td>Filtrage</td>
+      <td>Suppression des colonnes techniques non systématiques (T°C nuit, etc.).</td>
+      <td>Réduction du bruit</td>
+    </tr>
+  </tbody>
+</table>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📑 Aperçu des Données (Fichiers Interim)</h2>
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="p-2 border rounded bg-light">
+                            <p class="step-title">1. Pontes (Long Format)</p>
+                            <small>Colonnes enrichies (niveau, group_id)</small>
+                            <div class="table-responsive">
+                                <table border="1" class="dataframe table table-sm table-hover bg-white">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Date</th>
+      <th>Poule_brute</th>
+      <th>Ponte_brute</th>
+      <th>niveau_observation</th>
+      <th>group_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Joséphine</td>
+      <td>x</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Augustine</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Cunégonde</td>
+      <td>x</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Pioupioute</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Rémiel</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Saquiel</td>
+      <td>?</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Valérie</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Albertine</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>MARANS</td>
+    </tr>
+  </tbody>
+</table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="p-2 border rounded bg-light">
+                            <p class="step-title">2. Météo Clean</p>
+                            <small>Colonnes renommées et filtrées</small>
+                            <div class="table-responsive">
+                                <table border="1" class="dataframe table table-sm table-hover bg-white">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Date</th>
+      <th>Météo</th>
+      <th>Pluie(mm)</th>
+      <th>T°C (12h-15h)</th>
+      <th>Humidité</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023-01-01</td>
+      <td>beau</td>
+      <td>0.0</td>
+      <td>14.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-02</td>
+      <td>beau</td>
+      <td>0.0</td>
+      <td>13.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-03</td>
+      <td>beau</td>
+      <td>0.0</td>
+      <td>12.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-04</td>
+      <td>beau</td>
+      <td>0.0</td>
+      <td>15.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-05</td>
+      <td>beau</td>
+      <td>0.0</td>
+      <td>14.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-06</td>
+      <td>beau</td>
+      <td>0.0</td>
+      <td>14.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-07</td>
+      <td>beau</td>
+      <td>0.0</td>
+      <td>13.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-08</td>
+      <td>mitigé</td>
+      <td>0.0</td>
+      <td>9.0</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="p-2 border rounded bg-light">
+                            <p class="step-title">3. Commentaires</p>
+                            <small>Journal d'observations textuelles</small>
+                            <div class="table-responsive">
+                                <table border="1" class="dataframe table table-sm table-hover bg-white">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Date</th>
+      <th>Commentaires</th>
+      <th>œuf trouvé/date de la trouvaille</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023-01-23</td>
+      <td>malade (moi)</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-28</td>
+      <td>Cunégonde pique Shrek</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-29</td>
+      <td>aliment poulette+vitamines</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-02-01</td>
+      <td>pas sûre de l'œuf de Pioupioute</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-02-02</td>
+      <td>petit lait en boisson/aliment pondeuse</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-02-03</td>
+      <td>petit lait+aliment</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-02-04</td>
+      <td>petit lait+aliment</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-02-05</td>
+      <td>aliment</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="text-center py-4 text-muted">
+            Généré automatiquement par Antigravity - Normalisation Audit 10/02/2026 09:49
+        </footer>
+    </body>
+    </html>
+    

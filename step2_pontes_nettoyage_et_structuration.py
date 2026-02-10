@@ -5,9 +5,6 @@ import numpy as np
 # ===========================================================================
 # FONCTIONS DE TRAITEMENT DES PONTES
 # ===========================================================================
-df_pontes = pd.read_csv('interim/df_pontes.csv', sep=';')
-
-
 def traiter_ponte_individuelle(row):
     """
     Traite une ligne de ponte pour une poule individuelle.
@@ -79,8 +76,7 @@ def traiter_ponte_individuelle(row):
 # TRAITEMENT DES PONTES GROUPE
 # ===========================================================================
 
-df_pontes_groupe = df_pontes[df_pontes['niveau_observation'].isin(['groupe','sous-groupe'])]
-print(df_pontes_groupe['Ponte_brute'].unique())
+
 
 def traiter_ponte_groupe(row):
     """
@@ -171,8 +167,9 @@ def traiter_ponte_groupe(row):
 # ===========================================================================
 
 try:
+  
     # 1. Chargement des données brute au format long
-    df_long = pd.read_csv('interim/df_pontes.csv', sep=';')
+    df_long = pd.read_csv('interim/df_long_1_pontes.csv', sep=';')
     print(f"✅ Chargement de {len(df_long)} lignes de pontes.")
 
     # 2. Séparation Individuel / Groupe
@@ -233,7 +230,7 @@ try:
         df_result = df_result.drop(columns=['Effectif_theo'])
 
     # 6. Sauvegarde du résultat structuré
-    output_meta = 'interim/df_pontes_long_traite.csv'
+    output_meta = 'interim/df_2_long_pontes_traite.csv'
     df_result.to_csv(output_meta, sep=';', index=False)
     
     print(f"✅ Traitement terminé. Fichier sauvegardé : {output_meta}")

@@ -1,8 +1,7 @@
 import pandas as pd
 import re
 
-df_meteo = pd.read_csv('interim/df_meteo_clean.csv', sep=';')
-print(df_meteo.head())
+df_meteo = pd.read_csv('interim/df_2_meteo_clean.csv', sep=';')
 
 df_meteo['Météo'] = df_meteo['Météo'].str.lower()
 df_meteo['Météo'].value_counts().reset_index().to_csv('interim/texte_meteo_count.csv', sep=';', index=False)
@@ -46,7 +45,8 @@ def split_meteo(df_meteo):
     # --- Intégration ---
     # 4. Renommer les colonnes de manière explicite (Météo_1, Météo_2, etc.)
     #    On prend le nombre maximum de composants trouvé + 1 (ici, 4 colonnes max par sécurité)
-    num_cols = min(4, df_split.shape[1]) # Limite à 4 colonnes ou moins si moins de séparateurs sont trouvés
+   
+    num_cols = min(4, df_split.shape[1]) 
     colonnes_meteo = [f'Météo_{i+1}' for i in range(num_cols)]
 
     # 5. Joindre ces nouvelles colonnes au DataFrame original (df)
@@ -57,9 +57,6 @@ def nettoyage_et_split_meteo(df_meteo):
     df_meteo['Météo_Corrigée'] = df_meteo['Météo'].apply(corriger_terme_meteo)
     df_meteo = split_meteo(df_meteo)
     return df_meteo
-
-new_df_meteo = nettoyage_et_split_meteo(df_meteo)
-new_df_meteo.to_csv('interim/df_meteo_clean_split.csv', sep=';', index=False)
 
 
 # Mapping des termes détaillés (Clé) vers la catégorie
@@ -103,16 +100,29 @@ MAPPING_METEO = {
 }
     
 
-# Fonction pour nettoyer et mapper (pour les cas complexes non couverts par le split)
+# Fonctions pour nettoyer et mapper 
+
 def mapper_terme_meteo(terme):
     if pd.isna(terme) or terme == '' or terme is None or terme == '?':
-        return 'NON RENSEIGNE' 
+        return None 
     # Nettoyage de base : minuscule, retrait des espaces
     terme_nettoye = terme.lower().strip()
     
     # Essayer de mapper le terme nettoyé
     return MAPPING_METEO.get(terme_nettoye, 'AUTRE/NON CLASSE')
 
+# On va créer de nouvelles colonnes pour les mappings
+def apply_mapping_meteo(df_meteo):
+    for col in ['Météo_1', 'Météo_2', 'Météo_3', 'Météo_4']:
+        if col in df_meteo.columns:
+            df_meteo[col + '_Cat'] = df_meteo[col].apply(mapper_terme_meteo)
+    return df_meteo
     
-    
-    
+
+new_df_meteo = nettoyage_et_split_meteo(df_meteo)
+new_df_meteo.to_csv('interim/df_3_meteo_clean_split.csv', sep=';', index=False)
+
+meteo_categories_df = apply_mapping_meteo(new_df_meteo)
+print(meteo_categories_df.head())
+
+meteo_categories_df.to_csv('interim/df_4_meteo_avec_categories.csv', sep=';', index=False) 

@@ -68,8 +68,33 @@ def notations_poules_par_individu_ou_groupe(df_2023, df_2024, df_2025, poules_20
                 else:
                     notations[poule] = notations_poule
     return notations
+def get_other_columns_analysis(df, poules_list, year):
+        # Colonnes à exclure (poules + Date)
+    exclure = set(poules_list) | {'Date'}
+    autres_cols = [c for c in df.columns if c not in exclure]
+    
+    results = []
+    for col in autres_cols:
+        unique_vals = df[col].dropna().unique()
+        count = len(unique_vals)
+        # Si c'est numérique et qu'il y a beaucoup de valeurs, on ne liste pas tout
+        if df[col].dtype in ['float64', 'int64'] and count > 15:
+            vals_str = f"{count} valeurs numériques (min: {df[col].min()}, max: {df[col].max()})"
+        else:
+            vals_str = ", ".join([str(v) for v in unique_vals[:20]])
+            if count > 20:
+                vals_str += "..."
+        
+        results.append({
+            'Année': year,
+            'Colonne': col,
+            'Type': df[col].dtype,
+            'Nombre Uniques': count,
+            'Notations': vals_str
+        })
+    return pd.DataFrame(results)
 
-def creer_tableau_notations(notations_dict):
+def creer_tableau_notations_poules(notations_dict):
     """
     Crée un DataFrame avec les noms des poules en colonnes et les notations en lignes.
     """
@@ -82,7 +107,7 @@ def audit_transverse():
     print("--- Démarrage de l'Audit Transverse des Données ---")
 
     # 1. Chargement des données
-    print("\n[1/5] Chargement des fichiers Excel...")
+    print("\n[1/6] Chargement des fichiers Excel...")
     try:
         df_2023 = pd.read_excel('data/ponte_2023.xlsx')
         df_2024 = pd.read_excel('data/ponte_2024.xlsx')
@@ -99,20 +124,20 @@ def audit_transverse():
         return
 
     # 2. Structure des colonnes
-    print("\n[2/5] Analyse de la structure des colonnes...")
+    print("\n[2/6] Analyse de la structure des colonnes...")
     df_comparaison = comparer_structures(df_2023, df_2024, df_2025)
     df_comparaison.to_csv('audit/audit_comparaison_colonnes.csv', index=False, encoding='utf-8-sig', sep=';')
     print("✓ audit_comparaison_colonnes.csv généré")
 
     # 3. Statistiques détaillées
-    print("\n[3/5] Analyse statistique par année...")
+    print("\n[3/6] Analyse statistique par année...")
     analyser_colonnes(df_2023).to_csv('audit/audit_stats_2023.csv', index=False, encoding='utf-8-sig', sep=';')
     analyser_colonnes(df_2024).to_csv('audit/audit_stats_2024.csv', index=False, encoding='utf-8-sig', sep=';')
     analyser_colonnes(df_2025).to_csv('audit/audit_stats_2025.csv', index=False, encoding='utf-8-sig', sep=';')
     print("✓ audit_stats_2023.csv, 2024.csv, 2025.csv générés")
 
     # 4. Inventaire des poules
-    print("\n[4/5] Inventaire des poules et groupes...")
+    print("\n[4/6] Inventaire des poules et groupes...")
     poules_2023 = ['Joséphine', 'Albertine', 'Augustine', 'Cunégonde', 'Pioupioute', 'Valérie', 'Rémiel', 'Saquiel']
     poules_2024 = ['Joséphine', 'Albertine', 'Cunégonde', 'Valérie', 'Pioupioute', 'Rémiel', 'Nina et Tina', 'Marans', 'Nina', 'Tina']
     poules_2025 = ['Joséphine', 'Cunégonde', 'Valérie', 'Pioupioute', 'Rémiel', '3 Marans']
@@ -130,12 +155,27 @@ def audit_transverse():
     print("✓ audit_presence_poules_groupes.csv généré")
 
     # 5. Notations de pontes
-    print("\n[5/5] Analyse des notations de pontes (matrice complète)...")
+    print("\n[5/6] Analyse des notations de pontes (matrice complète)...")
     notations_dict = notations_poules_par_individu_ou_groupe(df_2023, df_2024, df_2025, poules_2023, poules_2024, poules_2025)
-    creer_tableau_notations(notations_dict).to_csv('audit/audit_notations_poules.csv', encoding='utf-8-sig', sep=';')
+    creer_tableau_notations_poules(notations_dict).to_csv('audit/audit_notations_poules.csv', encoding='utf-8-sig', sep=';')
     print("✓ audit_notations_poules.csv généré")
 
+
+    # 6. Notations des données hors ponte
+    print("\n[6/6] Analyse des autres notations (matrice complète)...")
+    res_2023 = get_other_columns_analysis(df_2023, poules_2023, 2023)
+    res_2024 = get_other_columns_analysis(df_2024, poules_2024, 2024)
+    res_2025 = get_other_columns_analysis(df_2025, poules_2025, 2025)
+
+    # Fusionner les résultats pour une vue d'ensemble
+    all_results = pd.concat([res_2023, res_2024, res_2025], ignore_index=True)
+
+    # Afficher le résultat final
+    print("\nSynthèse des notations des colonnes techniques/météo :")
+    print(all_results.to_string(index=False))
+
+    # Sauvegarder pour consultation
+    all_results.to_csv('audit/audit_notations_hors_poules.csv', index=False, encoding='utf-8-sig', sep=';')
+    print("✓ audit_notations_hors_poules.csv généré")
     print("\n--- Audit terminé avec succès ! ---")
-
-
 audit_transverse()

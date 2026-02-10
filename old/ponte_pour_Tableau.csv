@@ -1,0 +1,2921 @@
+Date,T°C (12-15h),T°C poulailler,Pluie (0 = non renseigné),Météo,commentaires,Nom de la poule,Ponte,Etat de l'oeuf,Evènement,Nombre d'oeufs
+01/01/2023,,,,,,Joséphine,x,RAS,RAS,1
+02/01/2023,,,,,,Joséphine,x,RAS,RAS,1
+03/01/2023,,,,,,Joséphine,x,RAS,RAS,1
+04/01/2023,15,,0,beau,,Joséphine,x,RAS,RAS,1
+05/01/2023,14,,0,beau,,Joséphine,x,RAS,RAS,1
+06/01/2023,oubli,,0,beau,,Joséphine,x,RAS,RAS,1
+07/01/2023,13,,0,beau,,Joséphine,x,RAS,RAS,1
+08/01/2023,9,,0,mitigé,,Joséphine,x,RAS,RAS,1
+09/01/2023,8,,16,vent éclaircie,,Joséphine,x,RAS,RAS,1
+10/01/2023,14,,0,beau,,Joséphine,x,RAS,RAS,1
+11/01/2023,9,,0,beau,,Joséphine,x,RAS,RAS,1
+12/01/2023,12,,0,beau,,Joséphine,x,RAS,RAS,1
+13/01/2023,13,,0,mitigé,,Joséphine,x,RAS,RAS,1
+14/01/2023,13,,0,beau,,Joséphine,x,RAS,RAS,1
+15/01/2023,10,,2,pluie/beau,,Joséphine,x,RAS,RAS,1
+16/01/2023,6,,50,pluie/vent,,Joséphine,,no egg,RAS,0
+17/01/2023,5,,1,pluie/vent,,Joséphine,x,RAS,RAS,1
+18/01/2023,5,,5,pluie/éclaircie,,Joséphine,x,RAS,RAS,1
+19/01/2023,5,,,couvert/éclaircie,,Joséphine,x,RAS,RAS,1
+20/01/2023,5,,12,pluie/neige/soleil,,Joséphine,x,RAS,RAS,1
+21/01/2023,2,,2,idem/vent,,Joséphine,x,RAS,RAS,1
+22/01/2023,0,,0,Couvert/vent,,Joséphine,x,RAS,RAS,1
+23/01/2023,oubli,,,oubli,malade (moi),Joséphine,x,RAS,RAS,1
+24/01/2023,2,,,couvert/éclaircie,,Joséphine,x,RAS,RAS,1
+25/01/2023,0,,,couvert,,Joséphine,,no egg,RAS,0
+26/01/2023,0,,,couvert,,Joséphine,x,RAS,RAS,1
+27/01/2023,0,,,,,Joséphine,,no egg,RAS,0
+28/01/2023,0,,,couvert,Cunégonde pique Shrek,Joséphine,,no egg,RAS,0
+29/01/2023,0,,,couvert,aliment poulette+vitamines,Joséphine,,no egg,RAS,0
+30/01/2023,4,,,éclaircie,,Joséphine,,no egg,RAS,0
+31/01/2023,8,,0,beau temps,,Joséphine,,no egg,RAS,0
+01/02/2023,10,,0,beau temps,pas sûre de l'œuf de Pioupioute,Joséphine,,no egg,RAS,0
+02/02/2023,12,,0,beau temps,petit lait en boisson/aliment pondeuse,Joséphine,,no egg,RAS,0
+03/02/2023,12,,0,beau temps,petit lait+aliment,Joséphine,,no egg,RAS,0
+04/02/2023,10,,0,beau temps,petit lait+aliment,Joséphine,,no egg,RAS,0
+05/02/2023,10,,0,beau temps,aliment,Joséphine,,no egg,RAS,0
+06/02/2023,12,,0,beau temps,,Joséphine,,no egg,RAS,0
+07/02/2023,8,,0,couvert/vent,,Joséphine,,no egg,RAS,0
+08/02/2023,8,,0,beau/vent,,Joséphine,,no egg,RAS,0
+09/02/2023,10,,0,beau,,Joséphine,,no egg,RAS,0
+10/02/2023,14,,0,beau,,Joséphine,x,RAS,RAS,1
+11/02/2023,14,,0,beau,aliment+blé,Joséphine,x,RAS,RAS,1
+12/02/2023,14,,0,beau,,Joséphine,x,RAS,RAS,1
+13/02/2023,15,,0,beau,,Joséphine,x,RAS,RAS,1
+14/02/2023,15,,0,beau,,Joséphine,,no egg,RAS,0
+15/02/2023,16,,0,beau,,Joséphine,x,RAS,RAS,1
+16/02/2023,16,,0,beau,,Joséphine,x,RAS,RAS,1
+17/02/2023,16,,0,beau,,Joséphine,x,RAS,RAS,1
+18/02/2023,18,,0,beau,avipar(vermifuge naturel),Joséphine,x,RAS,RAS,1
+19/02/2023,18,,0,beau,,Joséphine,x,RAS,RAS,1
+20/02/2023,20,,0,beau,antibio Pioupioute suspicion pb génital,Joséphine,x,RAS,RAS,1
+21/02/2023,15,,0,mitigé,,Joséphine,x,RAS,RAS,1
+22/02/2023,13,,0,couvert,,Joséphine,x,RAS,RAS,1
+23/02/2023,11,,4,couvert,"pluie nuit 22,à23/02",Joséphine,x,RAS,RAS,1
+24/02/2023,12,,"2,5",beau,"pluie nuit 23,à24/02",Joséphine,x,RAS,RAS,1
+25/02/2023,7,,0,couvert,,Joséphine,x,RAS,RAS,1
+26/02/2023,5,,0,vent/froid/couvert,,Joséphine,,no egg,RAS,0
+27/02/2023,1,,0,vent/neige/éclaircie,,Joséphine,x,RAS,RAS,1
+28/02/2023,2,,0,éclaircie/vent,,Joséphine,x,RAS,RAS,1
+01/03/2023,8,,0,beau,,Joséphine,x,RAS,RAS,1
+02/03/2023,7,,0,couvert,,Joséphine,x,RAS,RAS,1
+03/03/2023,7,,0,couvert,,Joséphine,x,RAS,RAS,1
+04/03/2023,10,,"1,5",éclaircie,,Joséphine,x,RAS,RAS,1
+05/03/2023,10,,0,éclaircie,,Joséphine,x,RAS,RAS,1
+06/03/2023,10,,0,beau,,Joséphine,x,RAS,RAS,1
+07/03/2023,12,,0,éclaircie/averse,,Joséphine,x,RAS,RAS,1
+08/03/2023,23,,2,voilé,lentypou,Joséphine,x,RAS,RAS,1
+09/03/2023,20,,0,éclaircies,qq gouttes dans la nuit,Joséphine,x,RAS,RAS,1
+10/03/2023,18,,"0,5",mitigé,,Joséphine,x,RAS,RAS,1
+11/03/2023,15,,0,mitigé/vent violent,,Joséphine,x,RAS,RAS,1
+12/03/2023,15,,"0,5",vent/pluie,17°C à 3h30 du mat,Joséphine,x,RAS,RAS,1
+13/03/2023,23,,4,bruine puis très beau,,Joséphine,x,RAS,RAS,1
+14/03/2023,22,,14,beau/orage/tempête,pluie nuit du 13/03 au 14/03,Joséphine,,no egg,RAS,0
+15/03/2023,12,,2,giboulées,,Joséphine,x,RAS,RAS,1
+16/03/2023,15,,5,pluie/éclaircie,,Joséphine,x,RAS,RAS,1
+17/03/2023,19,,0,beau/vent,arrêt lentypou,Joséphine,x,RAS,RAS,1
+18/03/2023,18,,0,couvert/beau/vent,,Joséphine,x,RAS,RAS,1
+19/03/2023,16,,7,beau/pluie,,Joséphine,x,RAS,RAS,1
+20/03/2023,16,,"1,5",giboulées,pas sûr de l'œuf de Rémiel,Joséphine,x,RAS,RAS,1
+21/03/2023,17,,0,beau,,Joséphine,x,RAS,RAS,1
+22/03/2023,19,,0,beau,,Joséphine,x,RAS,RAS,1
+23/03/2023,22,,0,beau,,Joséphine,x,RAS,RAS,1
+24/03/2023,22,,0,beau,,Joséphine,x,RAS,RAS,1
+25/03/2023,17,,1,beau puis bruine,Pioupioute à l'ENVT,Joséphine,x,RAS,RAS,1
+26/03/2023,19,,0,beau,trouvé un micro œuf,Joséphine,,no egg,RAS,0
+27/03/2023,9,,8,pluie/éclaircie/vent,tempête la nuit,Joséphine,x,RAS,RAS,1
+28/03/2023,10,,5,giboulées,,Joséphine,x,RAS,RAS,1
+29/03/2023,16,,0,beau,,Joséphine,x,RAS,RAS,1
+30/03/2023,22,,0,beau,,Joséphine,x,RAS,RAS,1
+31/03/2023,20,,0,beau,,Joséphine,x,RAS,RAS,1
+01/04/2023,12,,0,couvert/qq gouttes,"œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte",Joséphine,x,RAS,RAS,1
+02/04/2023,12,,3,couvert/vent/pluie,Augustine malade: amirudène 7J,Joséphine,x,RAS,RAS,1
+03/04/2023,9,,15,pluie,,Joséphine,x,RAS,RAS,1
+04/04/2023,9,,3,pluie/éclaircie,Augustine DCD,Joséphine,x,RAS,RAS,1
+05/04/2023,15,,0,beau,aliment pondeuse,Joséphine,x,RAS,RAS,1
+06/04/2023,17,,0,beau,,Joséphine,x,RAS,RAS,1
+07/04/2023,13,,0,beau,,Joséphine,,no egg,RAS,0
+08/04/2023,18,,0,beau,,Joséphine,x,RAS,RAS,1
+09/04/2023,20,,0,beau,,Joséphine,,no egg,RAS,0
+10/04/2023,24,,0,beau,,Joséphine,x,RAS,RAS,1
+11/04/2023,19,,0,beau,,Joséphine,x,RAS,RAS,1
+12/04/2023,16,,0,beau,,Joséphine,x,RAS,RAS,1
+13/04/2023,17,,5,beau/pluie,,Joséphine,,no egg,RAS,0
+14/04/2023,8,,4,giboulées,,Joséphine,x,RAS,RAS,1
+15/04/2023,11,,3,giboulées,arrêt antibiotique Pioupioute/ponction à l'envt,Joséphine,x,RAS,RAS,1
+16/04/2023,13,,1,giboulées/éclaircies,Pioupioute a pondu un œuf normal/veut couver,Joséphine,x,RAS,RAS,1
+17/04/2023,16,,0,beau,,Joséphine,x,RAS,RAS,1
+18/04/2023,16,,0,beau,,Joséphine,x,RAS,RAS,1
+19/04/2023,17,,0,beau,,Joséphine,x,RAS,RAS,1
+20/04/2023,22,,0,beau,,Joséphine,x,RAS,RAS,1
+21/04/2023,22,,0,beau,,Joséphine,x,RAS,RAS,1
+22/04/2023,22,,0,beau,,Joséphine,x,RAS,RAS,1
+23/04/2023,13,,0,couvert/bruine,15°C à 5h du mat,Joséphine,x,RAS,RAS,1
+24/04/2023,19,,7,beau/pluie,découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?,Joséphine,x,RAS,RAS,1
+25/04/2023,17,,0,beau,,Joséphine,x,RAS,RAS,1
+26/04/2023,15,,17,pluie,,Joséphine,x,RAS,RAS,1
+27/04/2023,18,,2,couvert,,Joséphine,x,RAS,RAS,1
+28/04/2023,23,,0,voilé/beau,,Joséphine,,no egg,RAS,0
+29/04/2023,24,,0,voilé,,Joséphine,x,RAS,RAS,1
+30/04/2023,17,,0,couvert/pluie,œuf d'Albertine très clair,Joséphine,,no egg,RAS,0
+01/05/2023,18,,36,giboulées,dont 29mm dans la nuit du 29 au 30/04,Joséphine,x,RAS,RAS,1
+02/05/2023,18,,2,giboulées/éclaircies,,Joséphine,x,RAS,RAS,1
+03/05/2023,20,,0,beau,,Joséphine,x,RAS,RAS,1
+04/05/2023,25,,0,beau,,Joséphine,x,RAS,RAS,1
+05/05/2023,25,,0,beau,,Joséphine,,no egg,RAS,0
+06/05/2023,23,,0,beau,,Joséphine,x,RAS,RAS,1
+07/05/2023,24,,0,beau/orage,1 œuf trouvé dans le poulailler cassé,Joséphine,x,RAS,RAS,1
+08/05/2023,17,,8,averses,,Joséphine,x,RAS,RAS,1
+09/05/2023,22,,0,beau,,Joséphine,x,RAS,RAS,1
+10/05/2023,15,,15,couvert/pluie,,Joséphine,x,RAS,RAS,1
+11/05/2023,16,,2,pluie/giboulées,,Joséphine,,no egg,RAS,0
+12/05/2023,15,,0,éclaircies,,Joséphine,x,RAS,RAS,1
+13/05/2023,17,,6,pluie/éclaircies,,Joséphine,x,RAS,RAS,1
+14/05/2023,13,,15,giboulées,,Joséphine,x,RAS,RAS,1
+15/05/2023,15,,10,"averses, éclaircies",,Joséphine,x,RAS,RAS,1
+16/05/2023,11,,6,averses,"petit trou dans certains œufs, à surveiller si poules ou pie",Joséphine,x,RAS,RAS,1
+17/05/2023,13,,2,pluie/éclaircie,,Joséphine,x,RAS,RAS,1
+18/05/2023,18,,0,beau,,Joséphine,,no egg,RAS,0
+19/05/2023,14,,0,couvert,,Joséphine,,no egg,RAS,0
+20/05/2023,10,,4,pluie/couvert,,Joséphine,,no egg,RAS,0
+21/05/2023,15,,0,éclaircies/beau,,Joséphine,x,RAS,RAS,1
+22/05/2023,16,,0,couvert/beau,,Joséphine,x,RAS,RAS,1
+23/05/2023,18,,4,pluie/éclaircies,,Joséphine,,no egg,RAS,0
+24/05/2023,22,,6,temps lourd/orages,,Joséphine,x,RAS,RAS,1
+25/05/2023,20,,25,lourd/orages,,Joséphine,x,RAS,RAS,1
+26/05/2023,17,,6,couvert/pluie,,Joséphine,x,RAS,RAS,1
+27/05/2023,23,,0,beau,,Joséphine,x,RAS,RAS,1
+28/05/2023,27,,0,beau,,Joséphine,x,RAS,RAS,1
+29/05/2023,27,,0,beau,,Joséphine,x,RAS,RAS,1
+30/05/2023,27,,24,beau/orage fort,,Joséphine,,no egg,RAS,0
+31/05/2023,26,,0,éclaircies,,Joséphine,x,RAS,RAS,1
+01/06/2023,24,,5,beau/pluie,,Joséphine,,no egg,RAS,0
+02/06/2023,22,,1,pluie/éclaircies,,Joséphine,x,RAS,RAS,1
+03/06/2023,23,,0,beau,,Joséphine,x,RAS,RAS,1
+04/06/2023,25,,2,beau/orage,changement de poulailler,Joséphine,x,RAS,RAS,1
+05/06/2023,26,,0,beau,,Joséphine,x,RAS,RAS,1
+06/06/2023,25,,5,beau/pluie,,Joséphine,x,RAS,RAS,1
+07/06/2023,26,,0,beau,,Joséphine,x,RAS,RAS,1
+08/06/2023,27,,0,beau,,Joséphine,,no egg,RAS,0
+09/06/2023,27,,0,beau/orageux,,Joséphine,x,RAS,RAS,1
+10/06/2023,26,,3,couvert/orage,,Joséphine,x,RAS,RAS,1
+11/06/2023,27,,0,beau/orageux,,Joséphine,x,RAS,RAS,1
+12/06/2023,25,,1,beau/orage,,Joséphine,x,RAS,RAS,1
+13/06/2023,27,,31,couvert/orage,les 2 œufs ont été cassé par une poule ou une bête,Joséphine,x(cassé),cassé,RAS,1
+14/06/2023,24,,23,beau/orage,"l'œuf d'Albertine très fragile, elle a des vers en plus/ Avipar/Avipou",Joséphine,x,RAS,RAS,1
+15/06/2023,21,,3,pluie/éclaircie,,Joséphine,,no egg,RAS,0
+16/06/2023,25,,0,couvert/beau,Saquiel malade/doxycycline,Joséphine,x,RAS,RAS,1
+17/06/2023,26,,0,beau,,Joséphine,x,RAS,RAS,1
+18/06/2023,30,,11,beau/orage,0 œuf,Joséphine,,no egg,RAS,0
+19/06/2023,27,,0,mitigé/,,Joséphine,x,RAS,RAS,1
+20/06/2023,22,,0,couvert/beau,quelques gouttes,Joséphine,x,RAS,RAS,1
+21/06/2023,25,,0,lourd,œuf de Valérie très fragile trouvé ds poulailler,Joséphine,,no egg,RAS,0
+22/06/2023,20,,7,orage,,Joséphine,x,RAS,RAS,1
+23/06/2023,23,,6,pluie/éclaircies,Cunégonde veut couver,Joséphine,x,RAS,RAS,1
+24/06/2023,28,,0,beau,,Joséphine,,no egg,RAS,0
+25/06/2023,28,24,0,beau,,Joséphine,,no egg,RAS,0
+26/06/2023,32,28,0,beau,,Joséphine,x,RAS,RAS,1
+27/06/2023,21,22,0,couvert,,Joséphine,x,RAS,RAS,1
+28/06/2023,27,24,0,nuageux,,Joséphine,x,RAS,RAS,1
+29/06/2023,26,24,0,beau,,Joséphine,,no egg,RAS,0
+30/06/2023,24,22,13,nuageux/orage,,Joséphine,x,RAS,RAS,1
+01/07/2023,19,20,3,pluie/couvert/vent,8 œuf sous Cunégonde: 6marans+1valérie+1joséphine,Joséphine,x,RAS,RAS,1
+02/07/2023,22,20,0,couvert/vent,1œuf valérie et 1oeuf Joséphine sous Cunégonde,Joséphine,,no egg,RAS,0
+03/07/2023,25,22,0,éclaircies,1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde,Joséphine,,no egg,RAS,0
+04/07/2023,27,23,0,couvert/éclaircies,,Joséphine,x,RAS,RAS,1
+05/07/2023,26,24,1,lourd/orages,"Valérie tousse, avicoryl dans l'eau",Joséphine,x,RAS,RAS,1
+06/07/2023,27,24,0,éclaircies,,Joséphine,x,RAS,RAS,1
+07/07/2023,27,24,0,beau/lourd/orageux,,Joséphine,x,RAS,RAS,1
+08/07/2023,33,24,6,beau/orages,vit C dans l'eau+oligoélément,Joséphine,x,RAS,RAS,1
+09/07/2023,32,26,0,beau,,Joséphine,x,RAS,RAS,1
+10/07/2023,28,25,0,couvert/lourd,21°c et 80%H le matin,Joséphine,,no egg,RAS,0
+11/07/2023,31,27,0,beau,"22°C et 82%H  matin, 27°c à 22h",Joséphine,x,RAS,RAS,1
+12/07/2023,28,26,1,beau/orageux,œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler,Joséphine,,no egg,RAS,0
+13/07/2023,21,22,1,pluie/couvert,,Joséphine,x,RAS,RAS,1
+14/07/2023,23,22,0,bruine/couvert,,Joséphine,x,RAS,RAS,1
+15/07/2023,31,26,0,beau,fin doxycyline pour Saquiel/ 24°C et 75%H à 23h ext/0 œuf,Joséphine,,no egg,RAS,0
+16/07/2023,30,21,3,beau/averses,17°C et 80%H à 20h,Joséphine,x,RAS,RAS,1
+17/07/2023,27,23,0,mitigé/beau,,Joséphine,x,RAS,RAS,1
+18/07/2023,27,26,0,beau,installation voile d'ombrage sur la terrasse,Joséphine,x,RAS,RAS,1
+19/07/2023,33,26,0,beau,36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver,Joséphine,x,RAS,RAS,1
+20/07/2023,24,23,2,orage/couvert,orages la nuit du 18 au 19/07,Joséphine,,no egg,RAS,0
+21/07/2023,27,23,0,beau,Valérie semble vouloir couver aussi cette coquine!!,Joséphine,,no egg,RAS,0
+22/07/2023,19,21,0,couvert/bruine,Valérie couve…........,Joséphine,,no egg,RAS,0
+23/07/2023,29,23,0,soleil et qq nuages,,Joséphine,x,RAS,RAS,1
+24/07/2023,30,26,0,beau,0 œuf/ 26°c à 21h30,Joséphine,,no egg,RAS,0
+25/07/2023,21,21,3,couvert/pluie,,Joséphine,x,RAS,RAS,1
+26/07/2023,15,19,3,pluie/couvert/vent,trouvé 1 œuf d'Albertine dans le jardin,Joséphine,,no egg,RAS,0
+27/07/2023,28,21,0,beau,,Joséphine,x,RAS,RAS,1
+28/07/2023,30,23,16,beau/orages,0 œuf,Joséphine,,no egg,RAS,0
+29/07/2023,29,24,0,beau,,Joséphine,x,RAS,RAS,1
+30/07/2023,31,25,0,beau/orage,,Joséphine,,no egg,RAS,0
+31/07/2023,22,23,12,pluie/couvert,,Joséphine,x,RAS,RAS,1
+01/08/2023,27,21,0,beau,découverte de poux rouges/retour dans l'ancien poulailler/T°p=T°ext,Joséphine,,no egg,RAS,0
+02/08/2023,24,24,0,couvert/vent,"retour dans le poulailler ""terrasse""",Joséphine,x,RAS,RAS,1
+03/08/2023,28,24,3,beau/couvert/pluie,traitement exzolt,Joséphine,,no egg,RAS,0
+04/08/2023,17,,0,bruine/éclaircies,,Joséphine,x,RAS,RAS,1
+05/08/2023,18,18,13,giboulées,1 œuf cassé et 1 œuf mou/retour ancien poulailler,Joséphine,,no egg,RAS,0
+06/08/2023,22,20,0,éclaircies,,Joséphine,x,RAS,RAS,1
+07/08/2023,23,20,1,Bruine/éclaircies/vent,,Joséphine,x,RAS,RAS,1
+08/08/2023,23,,0,beau,0 œuf,Joséphine,,no egg,RAS,0
+09/08/2023,28,20,0,beau,0 oeuf/T°C poulailler à 22-23h,Joséphine,,no egg,RAS,0
+10/08/2023,30,21,0,beau,traitement exzolt,Joséphine,x,RAS,RAS,1
+11/08/2023,30,25,0,beau,avhydratC+Gascodrène,Joséphine,x,RAS,RAS,1
+12/08/2023,33,21,0,Brumeux/beau,avhydratC+Gascodrène,Joséphine,,no egg,RAS,0
+13/08/2023,32,23,0,beau,avhydratC+Gascodrène,Joséphine,x,RAS,RAS,1
+14/08/2023,30,26,0,voilé,avhydratC+Gascodrène,Joséphine,,no egg,RAS,0
+15/08/2023,32,26,0,beau/vent,avhydratC+Gascodrène,Joséphine,x,RAS,RAS,1
+16/08/2023,26,23,"0,5",pluie fine/couvert,,Joséphine,,no egg,RAS,0
+17/08/2023,25,23,0,couvert,,Joséphine,x,RAS,RAS,1
+18/08/2023,32,26,0,bruine le matin,avhydrat C+gascodrène,Joséphine,x,RAS,RAS,1
+19/08/2023,32,26,0,voilé/vent,avhydratC+Gascodrène,Joséphine,x,RAS,RAS,1
+20/08/2023,34,26,0,vigilance canicule,avhydratC+Gascodrène,Joséphine,x,RAS,RAS,1
+21/08/2023,37,29,0,canicule,avhydratC+Gascodrène,Joséphine,x,RAS,RAS,1
+22/08/2023,34,26,0,canicule,idem,Joséphine,,no egg,RAS,0
+23/08/2023,36,27,0,canicule,C+Gasco/ nuit tropicale 27°c/ 73% H à 22h40,Joséphine,x,RAS,RAS,1
+24/08/2023,40,28,0,canicule,C+Gasco,Joséphine,x,RAS,RAS,1
+25/08/2023,"40,5",28,0,canicule,c+Gasco,Joséphine,,no egg,RAS,0
+26/08/2023,23,20,3,pluie/couvert,,Joséphine,x,RAS,RAS,1
+27/08/2023,19,17,8,pluie,,Joséphine,,no egg,RAS,0
+28/08/2023,16,14,37,pluie/éclaircies,,Joséphine,x,RAS,RAS,1
+29/08/2023,17,16,5,pluie/éclaircies,,Joséphine,x,RAS,RAS,1
+30/08/2023,20,15,0,éclaircies/vent,,Joséphine,x,RAS,RAS,1
+31/08/2023,22,16,1,éclaircies/averses,,Joséphine,,no egg,RAS,0
+01/09/2023,28,17,0,beau,,Joséphine,,no egg,RAS,0
+02/09/2023,31,20,0,beau,,Joséphine,x,RAS,RAS,1
+03/09/2023,22,18,0,couvert,trouvé un oeuf minuscule Saquiel ou Albertine,Joséphine,x,RAS,RAS,1
+04/09/2023,26,21,0,beau/voilé,,Joséphine,,no egg,RAS,0
+05/09/2023,28,22,0,voilé/vent,sable du Sahara dans l'air,Joséphine,x,RAS,RAS,1
+06/09/2023,29,21,0,voilé,sable du Sahara dans l'air,Joséphine,x,RAS,RAS,1
+07/09/2023,27,23,0,voilé,sable du Sahara dans l'air,Joséphine,,no egg,RAS,0
+08/09/2023,30,20,0,beau,,Joséphine,x,RAS,RAS,1
+09/09/2023,29,21,0,beau,,Joséphine,x,RAS,RAS,1
+10/09/2023,30,22,0,beau,,Joséphine,,no egg,RAS,0
+11/09/2023,30,20,0,beau,,Joséphine,x,RAS,RAS,1
+12/09/2023,30,20,0,couvert/éclaircies,,Joséphine,x,RAS,RAS,1
+13/09/2023,24,17,22,mitigé/orages,,Joséphine,,no egg,RAS,0
+14/09/2023,25,17,0,éclaircies,,Joséphine,x,RAS,RAS,1
+15/09/2023,28,18,0,beau,,Joséphine,,no egg,RAS,0
+16/09/2023,28,17,3,beau/orageux/pluie,,Joséphine,x,RAS,RAS,1
+17/09/2023,28,21,0,beau,,Joséphine,,no egg,RAS,0
+18/09/2023,25,19,3,beau/orages,,Joséphine,,no egg,RAS,0
+19/09/2023,26,17,6,beau/orages,,Joséphine,x,RAS,RAS,1
+20/09/2023,25,15,0,beau,,Joséphine,x,RAS,RAS,1
+21/09/2023,27,18,0,couvert/beau,,Joséphine,x,RAS,RAS,1
+22/09/2023,20,14,9,couvert/pluie,,Joséphine,x,RAS,RAS,1
+23/09/2023,20,12,0,éclaircies/vent,,Joséphine,x,RAS,RAS,1
+24/09/2023,23,13,0,éclaircies,,Joséphine,x,RAS,RAS,1
+25/09/2023,24,15,0,beau,,Joséphine,x,RAS,RAS,1
+26/09/2023,27,15,0,beau,,Joséphine,,no egg,RAS,0
+27/09/2023,28,16,0,beau,,Joséphine,x,RAS,RAS,1
+28/09/2023,30,19,0,beau,,Joséphine,,no egg,RAS,0
+29/09/2023,31,20,0,beau,,Joséphine,x,RAS,RAS,1
+30/09/2023,30,20,0,beau,,Joséphine,x(cassé),cassé,RAS,1
+01/10/2023,30,19,0,beau,,Joséphine,,no egg,RAS,0
+02/10/2023,32,20,0,beau,,Joséphine,,no egg,RAS,0
+03/10/2023,31,20,0,beau/vent,,Joséphine,x,RAS,RAS,1
+04/10/2023,22,19,0,couvert,,Joséphine,,no egg,RAS,0
+05/10/2023,28,16,0,nuageux,,Joséphine,,no egg,RAS,0
+06/10/2023,28,16,0,beau,,Joséphine,x,RAS,RAS,1
+07/10/2023,28,17,0,beau,,Joséphine,,no egg,RAS,0
+08/10/2023,30,15,0,beau,,Joséphine,x,RAS,RAS,1
+09/10/2023,29,17,0,beau,,Joséphine,x,RAS,RAS,1
+10/10/2023,29,16,0,beau,,Joséphine,x,RAS,RAS,1
+11/10/2023,30,18,0,beau,,Joséphine,,no egg,RAS,0
+12/10/2023,31,17,0,beau,,Joséphine,x,RAS,RAS,1
+13/10/2023,30,18,0,beau,,Joséphine,,no egg,RAS,0
+14/10/2023,29,18,0,beau,,Joséphine,x,RAS,RAS,1
+15/10/2023,24,16,5,couvert/pluie,,Joséphine,,no egg,RAS,0
+16/10/2023,19,11,0,éclaircies,,Joséphine,x,RAS,RAS,1
+17/10/2023,19,15,0,éclaircies,,Joséphine,,no egg,RAS,0
+18/10/2023,26,17,0,beau/vent,,Joséphine,x,RAS,RAS,1
+19/10/2023,26,17,3,couvert/pluie,,Joséphine,x,RAS,RAS,1
+20/10/2023,25,17,13,couvert/pluie,,Joséphine,,no egg,RAS,0
+21/10/2023,20,14,3,éclaircies/pluie,,Joséphine,x,RAS,RAS,1
+22/10/2023,19,11,0,beau,,Joséphine,,no egg,RAS,0
+23/10/2023,15,13,0,maussade,,Joséphine,x,RAS,RAS,1
+24/10/2023,20,14,0,éclaircies,Albertine malade/rhume,Joséphine,,no egg,RAS,0
+25/10/2023,20,11,0,pluie/éclaircies,avicoryl,Joséphine,x,RAS,RAS,1
+26/10/2023,18,15,1,couvert/pluie,,Joséphine,,no egg,RAS,0
+27/10/2023,15,13,8,couvert/pluie,,Joséphine,x,RAS,RAS,1
+28/10/2023,18,10,0,beau,,Joséphine,,no egg,RAS,0
+29/10/2023,19,14,0,beau,,Joséphine,x,RAS,RAS,1
+30/10/2023,17,14,0,couvert,,Joséphine,,no egg,RAS,0
+31/10/2023,15,10,9,couvert/pluie,,Joséphine,x,RAS,RAS,1
+01/11/2023,19,10,0,beau,,Joséphine,,no egg,RAS,0
+02/11/2023,19,10,5,éclaircies/pluie,,Joséphine,x,RAS,RAS,1
+03/11/2023,13,8,17,pluie,,Joséphine,,no egg,RAS,0
+04/11/2023,10,9,5,pluie,,Joséphine,x,RAS,RAS,1
+05/11/2023,13,9,6,pluie/éclaircies,,Joséphine,,no egg,RAS,0
+06/11/2023,19,9,0,beau,,Joséphine,x,RAS,RAS,1
+07/11/2023,12,8,8,averses/pluie,,Joséphine,,no egg,RAS,0
+08/11/2023,17,5,0,beau,,Joséphine,x,RAS,RAS,1
+09/11/2023,19,6,0,beau,petite gelée matinale,Joséphine,,no egg,RAS,0
+10/11/2023,13,9,6,pluie/beau,,Joséphine,x,RAS,RAS,1
+11/11/2023,11,9,7,pluie/éclaircies,,Joséphine,,no egg,RAS,0
+12/11/2023,12,12,0,pluie,,Joséphine,,no egg,RAS,0
+13/11/2023,17,11,0,couvert/éclaircies,,Joséphine,,no egg,RAS,0
+14/11/2023,24,12,0,beau,,Joséphine,,no egg,RAS,0
+15/11/2023,24,14,5,beau/pluie,,Joséphine,,no egg,RAS,0
+16/11/2023,16,10,5,pluie/éclaircies,,Joséphine,,no egg,RAS,0
+17/11/2023,16,12,2,couvert/pluie,,Joséphine,x,RAS,RAS,1
+18/11/2023,15,9,0,éclaircies,,Joséphine,,no egg,RAS,0
+19/11/2023,oubli,oubli,0,beau,environ 20°C,Joséphine,x,RAS,RAS,1
+20/11/2023,21,10,0,beau,,Joséphine,,no egg,RAS,0
+21/11/2023,14,9,9,couvert/pluie,,Joséphine,,no egg,RAS,0
+22/11/2023,9,oubli,10,pluie,,Joséphine,,no egg,RAS,0
+23/11/2023,9,7,3,pluie/éclaircies/vent,,Joséphine,,no egg,RAS,0
+24/11/2023,11,5,0,beau/vent,,Joséphine,,no egg,RAS,0
+25/11/2023,7,7,0,gris/vent,,Joséphine,,no egg,RAS,0
+26/11/2023,9,4,0,gris ,,Joséphine,,no egg,RAS,0
+27/11/2023,12,0,0,beau,belle gelée matinale -3°c,Joséphine,,no egg,RAS,0
+28/11/2023,13,10,27,éclaircies/pluie/vent,,Joséphine,,no egg,RAS,0
+29/11/2023,9,7,0,éclaircies,,Joséphine,mue,no egg,mue,0
+30/11/2023,16,9,0,éclaircies,,Joséphine,,no egg,RAS,0
+01/12/2023,11,8,6,bruine/pluie,,Joséphine,,no egg,RAS,0
+02/12/2023,8,5,14,pluie,,Joséphine,,no egg,RAS,0
+03/12/2023,6,4,2,pluie/éclaircies,,Joséphine,,no egg,RAS,0
+04/12/2023,11,3,0,beau,gelée matinale,Joséphine,,no egg,RAS,0
+05/12/2023,12,7,"0,5",éclaircies/pluie,,Joséphine,,no egg,RAS,0
+06/12/2023,9,6,0,éclaircies/vent,,Joséphine,,no egg,RAS,0
+07/12/2023,10,2,0,beau,,Joséphine,,no egg,RAS,0
+08/12/2023,14,6,0,beau,,Joséphine,,no egg,RAS,0
+09/12/2023,9,6,18,pluie/vent,,Joséphine,,no egg,RAS,0
+10/12/2023,14,15,1,pluie/éclaircies,,Joséphine,,no egg,RAS,0
+11/12/2023,18,11,0,beau/couvert,,Joséphine,,no egg,RAS,0
+12/12/2023,19,10,0,beau,,Joséphine,,no egg,RAS,0
+13/12/2023,16,9,3,voilé/pluie,,Joséphine,,no egg,RAS,0
+14/12/2023,10,7,20,averses/pluie/vent,,Joséphine,,no egg,RAS,0
+15/12/2023,10,7,1,averses/éclaircies/vent,,Joséphine,,no egg,RAS,0
+16/12/2023,9,7,1,bruine,,Joséphine,,no egg,RAS,0
+17/12/2023,13,3,0,beau,,Joséphine,,no egg,RAS,0
+18/12/2023,15,3,0,beau,-4°C ce matin,Joséphine,,no egg,RAS,0
+19/12/2023,16,3,0,beau,gelée matinale,Joséphine,,no egg,RAS,0
+20/12/2023,4,5,0,gris,,Joséphine,,no egg,RAS,0
+21/12/2023,8,6,11,pluie/éclaircies/vent,,Joséphine,,no egg,RAS,0
+22/12/2023,11,11,0,vent/bruine,,Joséphine,,no egg,RAS,0
+23/12/2023,12,9,1,gris/vent/éclaircies/pluie,,Joséphine,,no egg,RAS,0
+24/12/2023,12,9,0,éclaircies,,Joséphine,,no egg,RAS,0
+25/12/2023,13,7,0,beau,,Joséphine,,no egg,RAS,0
+26/12/2023,12,4,0,beau,,Joséphine,,no egg,RAS,0
+27/12/2023,15,3,0,beau,,Joséphine,,no egg,RAS,0
+28/12/2023,17,5,0,beau,grosse gelée matinale,Joséphine,,no egg,RAS,0
+29/12/2023,10,4,0,gris,,Joséphine,,no egg,RAS,0
+30/12/2023,9,7,0,gris/éclaircies,,Joséphine,,no egg,RAS,0
+31/12/2023,17,7,0,beau,,Joséphine,,no egg,RAS,0
+01/01/2023,,,,,,Albertine,,no egg,RAS,0
+02/01/2023,,,,,,Albertine,,no egg,RAS,0
+03/01/2023,,,,,,Albertine,,no egg,RAS,0
+04/01/2023,15,,0,beau,,Albertine,,no egg,RAS,0
+05/01/2023,14,,0,beau,,Albertine,,no egg,RAS,0
+06/01/2023,oubli,,0,beau,,Albertine,,no egg,RAS,0
+07/01/2023,13,,0,beau,,Albertine,,no egg,RAS,0
+08/01/2023,9,,0,mitigé,,Albertine,,no egg,RAS,0
+09/01/2023,8,,16,vent éclaircie,,Albertine,,no egg,RAS,0
+10/01/2023,14,,0,beau,,Albertine,,no egg,RAS,0
+11/01/2023,9,,0,beau,,Albertine,x,RAS,RAS,1
+12/01/2023,12,,0,beau,,Albertine,,no egg,RAS,0
+13/01/2023,13,,0,mitigé,,Albertine,,no egg,RAS,0
+14/01/2023,13,,0,beau,,Albertine,x,RAS,RAS,1
+15/01/2023,10,,2,pluie/beau,,Albertine,,no egg,RAS,0
+16/01/2023,6,,50,pluie/vent,,Albertine,x,RAS,RAS,1
+17/01/2023,5,,1,pluie/vent,,Albertine,,no egg,RAS,0
+18/01/2023,5,,5,pluie/éclaircie,,Albertine,,no egg,RAS,0
+19/01/2023,5,,,couvert/éclaircie,,Albertine,x,RAS,RAS,1
+20/01/2023,5,,12,pluie/neige/soleil,,Albertine,,no egg,RAS,0
+21/01/2023,2,,2,idem/vent,,Albertine,x,RAS,RAS,1
+22/01/2023,0,,0,Couvert/vent,,Albertine,,no egg,RAS,0
+23/01/2023,oubli,,,oubli,malade (moi),Albertine,,no egg,RAS,0
+24/01/2023,2,,,couvert/éclaircie,,Albertine,,no egg,RAS,0
+25/01/2023,0,,,couvert,,Albertine,,no egg,RAS,0
+26/01/2023,0,,,couvert,,Albertine,,no egg,RAS,0
+27/01/2023,0,,,,,Albertine,,no egg,RAS,0
+28/01/2023,0,,,couvert,Cunégonde pique Shrek,Albertine,,no egg,RAS,0
+29/01/2023,0,,,couvert,aliment poulette+vitamines,Albertine,,no egg,RAS,0
+30/01/2023,4,,,éclaircie,,Albertine,,no egg,RAS,0
+31/01/2023,8,,0,beau temps,,Albertine,,no egg,RAS,0
+01/02/2023,10,,0,beau temps,pas sûre de l'œuf de Pioupioute,Albertine,,no egg,RAS,0
+02/02/2023,12,,0,beau temps,petit lait en boisson/aliment pondeuse,Albertine,,no egg,RAS,0
+03/02/2023,12,,0,beau temps,petit lait+aliment,Albertine,,no egg,RAS,0
+04/02/2023,10,,0,beau temps,petit lait+aliment,Albertine,,no egg,RAS,0
+05/02/2023,10,,0,beau temps,aliment,Albertine,,no egg,RAS,0
+06/02/2023,12,,0,beau temps,,Albertine,,no egg,RAS,0
+07/02/2023,8,,0,couvert/vent,,Albertine,x,RAS,RAS,1
+08/02/2023,8,,0,beau/vent,,Albertine,,no egg,RAS,0
+09/02/2023,10,,0,beau,,Albertine,,no egg,RAS,0
+10/02/2023,14,,0,beau,,Albertine,x,RAS,RAS,1
+11/02/2023,14,,0,beau,aliment+blé,Albertine,,no egg,RAS,0
+12/02/2023,14,,0,beau,,Albertine,x,RAS,RAS,1
+13/02/2023,15,,0,beau,,Albertine,x,RAS,RAS,1
+14/02/2023,15,,0,beau,,Albertine,,no egg,RAS,0
+15/02/2023,16,,0,beau,,Albertine,x,RAS,RAS,1
+16/02/2023,16,,0,beau,,Albertine,x,RAS,RAS,1
+17/02/2023,16,,0,beau,,Albertine,,no egg,RAS,0
+18/02/2023,18,,0,beau,avipar(vermifuge naturel),Albertine,x,RAS,RAS,1
+19/02/2023,18,,0,beau,,Albertine,x,RAS,RAS,1
+20/02/2023,20,,0,beau,antibio Pioupioute suspicion pb génital,Albertine,,no egg,RAS,0
+21/02/2023,15,,0,mitigé,,Albertine,x,RAS,RAS,1
+22/02/2023,13,,0,couvert,,Albertine,x,RAS,RAS,1
+23/02/2023,11,,4,couvert,"pluie nuit 22,à23/02",Albertine,,no egg,RAS,0
+24/02/2023,12,,"2,5",beau,"pluie nuit 23,à24/02",Albertine,x,RAS,RAS,1
+25/02/2023,7,,0,couvert,,Albertine,,no egg,RAS,0
+26/02/2023,5,,0,vent/froid/couvert,,Albertine,x,RAS,RAS,1
+27/02/2023,1,,0,vent/neige/éclaircie,,Albertine,x,RAS,RAS,1
+28/02/2023,2,,0,éclaircie/vent,,Albertine,,no egg,RAS,0
+01/03/2023,8,,0,beau,,Albertine,x,RAS,RAS,1
+02/03/2023,7,,0,couvert,,Albertine,,no egg,RAS,0
+03/03/2023,7,,0,couvert,,Albertine,x,RAS,RAS,1
+04/03/2023,10,,"1,5",éclaircie,,Albertine,,no egg,RAS,0
+05/03/2023,10,,0,éclaircie,,Albertine,x,RAS,RAS,1
+06/03/2023,10,,0,beau,,Albertine,,no egg,RAS,0
+07/03/2023,12,,0,éclaircie/averse,,Albertine,x,RAS,RAS,1
+08/03/2023,23,,2,voilé,lentypou,Albertine,,no egg,RAS,0
+09/03/2023,20,,0,éclaircies,qq gouttes dans la nuit,Albertine,x,RAS,RAS,1
+10/03/2023,18,,"0,5",mitigé,,Albertine,x,RAS,RAS,1
+11/03/2023,15,,0,mitigé/vent violent,,Albertine,,no egg,RAS,0
+12/03/2023,15,,"0,5",vent/pluie,17°C à 3h30 du mat,Albertine,x,RAS,RAS,1
+13/03/2023,23,,4,bruine puis très beau,,Albertine,,no egg,RAS,0
+14/03/2023,22,,14,beau/orage/tempête,pluie nuit du 13/03 au 14/03,Albertine,x,RAS,RAS,1
+15/03/2023,12,,2,giboulées,,Albertine,,no egg,RAS,0
+16/03/2023,15,,5,pluie/éclaircie,,Albertine,x,RAS,RAS,1
+17/03/2023,19,,0,beau/vent,arrêt lentypou,Albertine,x,RAS,RAS,1
+18/03/2023,18,,0,couvert/beau/vent,,Albertine,,no egg,RAS,0
+19/03/2023,16,,7,beau/pluie,,Albertine,x,RAS,RAS,1
+20/03/2023,16,,"1,5",giboulées,pas sûr de l'œuf de Rémiel,Albertine,x,RAS,RAS,1
+21/03/2023,17,,0,beau,,Albertine,,no egg,RAS,0
+22/03/2023,19,,0,beau,,Albertine,x,RAS,RAS,1
+23/03/2023,22,,0,beau,,Albertine,x,RAS,RAS,1
+24/03/2023,22,,0,beau,,Albertine,,no egg,RAS,0
+25/03/2023,17,,1,beau puis bruine,Pioupioute à l'ENVT,Albertine,x,RAS,RAS,1
+26/03/2023,19,,0,beau,trouvé un micro œuf,Albertine,x,RAS,RAS,1
+27/03/2023,9,,8,pluie/éclaircie/vent,tempête la nuit,Albertine,,no egg,RAS,0
+28/03/2023,10,,5,giboulées,,Albertine,x,RAS,RAS,1
+29/03/2023,16,,0,beau,,Albertine,x,RAS,RAS,1
+30/03/2023,22,,0,beau,,Albertine,,no egg,RAS,0
+31/03/2023,20,,0,beau,,Albertine,x,RAS,RAS,1
+01/04/2023,12,,0,couvert/qq gouttes,"œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte",Albertine,,no egg,RAS,0
+02/04/2023,12,,3,couvert/vent/pluie,Augustine malade: amirudène 7J,Albertine,x,RAS,RAS,1
+03/04/2023,9,,15,pluie,,Albertine,x,RAS,RAS,1
+04/04/2023,9,,3,pluie/éclaircie,Augustine DCD,Albertine,,no egg,RAS,0
+05/04/2023,15,,0,beau,aliment pondeuse,Albertine,x,RAS,RAS,1
+06/04/2023,17,,0,beau,,Albertine,x,RAS,RAS,1
+07/04/2023,13,,0,beau,,Albertine,,no egg,RAS,0
+08/04/2023,18,,0,beau,,Albertine,x,RAS,RAS,1
+09/04/2023,20,,0,beau,,Albertine,x,RAS,RAS,1
+10/04/2023,24,,0,beau,,Albertine,,no egg,RAS,0
+11/04/2023,19,,0,beau,,Albertine,x,RAS,RAS,1
+12/04/2023,16,,0,beau,,Albertine,,no egg,RAS,0
+13/04/2023,17,,5,beau/pluie,,Albertine,x,RAS,RAS,1
+14/04/2023,8,,4,giboulées,,Albertine,,no egg,RAS,0
+15/04/2023,11,,3,giboulées,arrêt antibiotique Pioupioute/ponction à l'envt,Albertine,x,RAS,RAS,1
+16/04/2023,13,,1,giboulées/éclaircies,Pioupioute a pondu un œuf normal/veut couver,Albertine,x,RAS,RAS,1
+17/04/2023,16,,0,beau,,Albertine,,no egg,RAS,0
+18/04/2023,16,,0,beau,,Albertine,x,RAS,RAS,1
+19/04/2023,17,,0,beau,,Albertine,,no egg,RAS,0
+20/04/2023,22,,0,beau,,Albertine,x,RAS,RAS,1
+21/04/2023,22,,0,beau,,Albertine,x,RAS,RAS,1
+22/04/2023,22,,0,beau,,Albertine,,no egg,RAS,0
+23/04/2023,13,,0,couvert/bruine,15°C à 5h du mat,Albertine,x,RAS,RAS,1
+24/04/2023,19,,7,beau/pluie,découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?,Albertine,,no egg,RAS,0
+25/04/2023,17,,0,beau,,Albertine,x,RAS,RAS,1
+26/04/2023,15,,17,pluie,,Albertine,x,RAS,RAS,1
+27/04/2023,18,,2,couvert,,Albertine,,no egg,RAS,0
+28/04/2023,23,,0,voilé/beau,,Albertine,x,RAS,RAS,1
+29/04/2023,24,,0,voilé,,Albertine,,no egg,RAS,0
+30/04/2023,17,,0,couvert/pluie,œuf d'Albertine très clair,Albertine,x,RAS,RAS,1
+01/05/2023,18,,36,giboulées,dont 29mm dans la nuit du 29 au 30/04,Albertine,x,RAS,RAS,1
+02/05/2023,18,,2,giboulées/éclaircies,,Albertine,x,RAS,RAS,1
+03/05/2023,20,,0,beau,,Albertine,,no egg,RAS,0
+04/05/2023,25,,0,beau,,Albertine,x,RAS,RAS,1
+05/05/2023,25,,0,beau,,Albertine,,no egg,RAS,0
+06/05/2023,23,,0,beau,,Albertine,,no egg,RAS,0
+07/05/2023,24,,0,beau/orage,1 œuf trouvé dans le poulailler cassé,Albertine,x(cassé),cassé,RAS,1
+08/05/2023,17,,8,averses,,Albertine,,no egg,RAS,0
+09/05/2023,22,,0,beau,,Albertine,x,RAS,RAS,1
+10/05/2023,15,,15,couvert/pluie,,Albertine,,no egg,RAS,0
+11/05/2023,16,,2,pluie/giboulées,,Albertine,x,RAS,RAS,1
+12/05/2023,15,,0,éclaircies,,Albertine,x,RAS,RAS,1
+13/05/2023,17,,6,pluie/éclaircies,,Albertine,,no egg,RAS,0
+14/05/2023,13,,15,giboulées,,Albertine,,no egg,RAS,0
+15/05/2023,15,,10,"averses, éclaircies",,Albertine,x,RAS,RAS,1
+16/05/2023,11,,6,averses,"petit trou dans certains œufs, à surveiller si poules ou pie",Albertine,x(cassé),cassé,RAS,1
+17/05/2023,13,,2,pluie/éclaircie,,Albertine,x,RAS,RAS,1
+18/05/2023,18,,0,beau,,Albertine,x,RAS,RAS,1
+19/05/2023,14,,0,couvert,,Albertine,,no egg,RAS,0
+20/05/2023,10,,4,pluie/couvert,,Albertine,x,RAS,RAS,1
+21/05/2023,15,,0,éclaircies/beau,,Albertine,,no egg,RAS,0
+22/05/2023,16,,0,couvert/beau,,Albertine,x,RAS,RAS,1
+23/05/2023,18,,4,pluie/éclaircies,,Albertine,x,RAS,RAS,1
+24/05/2023,22,,6,temps lourd/orages,,Albertine,,no egg,RAS,0
+25/05/2023,20,,25,lourd/orages,,Albertine,x,RAS,RAS,1
+26/05/2023,17,,6,couvert/pluie,,Albertine,,no egg,RAS,0
+27/05/2023,23,,0,beau,,Albertine,x,RAS,RAS,1
+28/05/2023,27,,0,beau,,Albertine,,no egg,RAS,0
+29/05/2023,27,,0,beau,,Albertine,x,RAS,RAS,1
+30/05/2023,27,,24,beau/orage fort,,Albertine,x,RAS,RAS,1
+31/05/2023,26,,0,éclaircies,,Albertine,,no egg,RAS,0
+01/06/2023,24,,5,beau/pluie,,Albertine,x,RAS,RAS,1
+02/06/2023,22,,1,pluie/éclaircies,,Albertine,,no egg,RAS,0
+03/06/2023,23,,0,beau,,Albertine,x,RAS,RAS,1
+04/06/2023,25,,2,beau/orage,changement de poulailler,Albertine,x,RAS,RAS,1
+05/06/2023,26,,0,beau,,Albertine,,no egg,RAS,0
+06/06/2023,25,,5,beau/pluie,,Albertine,x,RAS,RAS,1
+07/06/2023,26,,0,beau,,Albertine,,no egg,RAS,0
+08/06/2023,27,,0,beau,,Albertine,x?,pondeuse incertaine,RAS,1
+09/06/2023,27,,0,beau/orageux,,Albertine,x,RAS,RAS,1
+10/06/2023,26,,3,couvert/orage,,Albertine,,no egg,RAS,0
+11/06/2023,27,,0,beau/orageux,,Albertine,,no egg,RAS,0
+12/06/2023,25,,1,beau/orage,,Albertine,,no egg,RAS,0
+13/06/2023,27,,31,couvert/orage,les 2 œufs ont été cassé par une poule ou une bête,Albertine,,no egg,RAS,0
+14/06/2023,24,,23,beau/orage,"l'œuf d'Albertine très fragile, elle a des vers en plus/ Avipar/Avipou",Albertine,x(cassé),cassé,RAS,1
+15/06/2023,21,,3,pluie/éclaircie,,Albertine,,no egg,RAS,0
+16/06/2023,25,,0,couvert/beau,Saquiel malade/doxycycline,Albertine,x,RAS,RAS,1
+17/06/2023,26,,0,beau,,Albertine,,no egg,RAS,0
+18/06/2023,30,,11,beau/orage,0 œuf,Albertine,,no egg,RAS,0
+19/06/2023,27,,0,mitigé/,,Albertine,x,RAS,RAS,1
+20/06/2023,22,,0,couvert/beau,quelques gouttes,Albertine,x,RAS,RAS,1
+21/06/2023,25,,0,lourd,œuf de Valérie très fragile trouvé ds poulailler,Albertine,,no egg,RAS,0
+22/06/2023,20,,7,orage,,Albertine,x,RAS,RAS,1
+23/06/2023,23,,6,pluie/éclaircies,Cunégonde veut couver,Albertine,,no egg,RAS,0
+24/06/2023,28,,0,beau,,Albertine,,no egg,RAS,0
+25/06/2023,28,24,0,beau,,Albertine,x,RAS,RAS,1
+26/06/2023,32,28,0,beau,,Albertine,,no egg,RAS,0
+27/06/2023,21,22,0,couvert,,Albertine,x,RAS,RAS,1
+28/06/2023,27,24,0,nuageux,,Albertine,,no egg,RAS,0
+29/06/2023,26,24,0,beau,,Albertine,x,RAS,RAS,1
+30/06/2023,24,22,13,nuageux/orage,,Albertine,,no egg,RAS,0
+01/07/2023,19,20,3,pluie/couvert/vent,8 œuf sous Cunégonde: 6marans+1valérie+1joséphine,Albertine,,no egg,RAS,0
+02/07/2023,22,20,0,couvert/vent,1œuf valérie et 1oeuf Joséphine sous Cunégonde,Albertine,,no egg,RAS,0
+03/07/2023,25,22,0,éclaircies,1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde,Albertine,x,RAS,RAS,1
+04/07/2023,27,23,0,couvert/éclaircies,,Albertine,x,RAS,RAS,1
+05/07/2023,26,24,1,lourd/orages,"Valérie tousse, avicoryl dans l'eau",Albertine,,no egg,RAS,0
+06/07/2023,27,24,0,éclaircies,,Albertine,x,RAS,RAS,1
+07/07/2023,27,24,0,beau/lourd/orageux,,Albertine,,no egg,RAS,0
+08/07/2023,33,24,6,beau/orages,vit C dans l'eau+oligoélément,Albertine,x,RAS,RAS,1
+09/07/2023,32,26,0,beau,,Albertine,,no egg,RAS,0
+10/07/2023,28,25,0,couvert/lourd,21°c et 80%H le matin,Albertine,,no egg,RAS,0
+11/07/2023,31,27,0,beau,"22°C et 82%H  matin, 27°c à 22h",Albertine,,no egg,RAS,0
+12/07/2023,28,26,1,beau/orageux,œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler,Albertine,x(cassé),cassé,RAS,1
+13/07/2023,21,22,1,pluie/couvert,,Albertine,,no egg,RAS,0
+14/07/2023,23,22,0,bruine/couvert,,Albertine,x,RAS,RAS,1
+15/07/2023,31,26,0,beau,fin doxycyline pour Saquiel/ 24°C et 75%H à 23h ext/0 œuf,Albertine,,no egg,RAS,0
+16/07/2023,30,21,3,beau/averses,17°C et 80%H à 20h,Albertine,,no egg,RAS,0
+17/07/2023,27,23,0,mitigé/beau,,Albertine,,no egg,RAS,0
+18/07/2023,27,26,0,beau,installation voile d'ombrage sur la terrasse,Albertine,,no egg,RAS,0
+19/07/2023,33,26,0,beau,36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver,Albertine,,no egg,RAS,0
+20/07/2023,24,23,2,orage/couvert,orages la nuit du 18 au 19/07,Albertine,,no egg,RAS,0
+21/07/2023,27,23,0,beau,Valérie semble vouloir couver aussi cette coquine!!,Albertine,x,RAS,RAS,1
+22/07/2023,19,21,0,couvert/bruine,Valérie couve…........,Albertine,,no egg,RAS,0
+23/07/2023,29,23,0,soleil et qq nuages,,Albertine,,no egg,RAS,0
+24/07/2023,30,26,0,beau,0 œuf/ 26°c à 21h30,Albertine,,no egg,RAS,0
+25/07/2023,21,21,3,couvert/pluie,,Albertine,,no egg,RAS,0
+26/07/2023,15,19,3,pluie/couvert/vent,trouvé 1 œuf d'Albertine dans le jardin,Albertine,,no egg,RAS,0
+27/07/2023,28,21,0,beau,,Albertine,,no egg,RAS,0
+28/07/2023,30,23,16,beau/orages,0 œuf,Albertine,,no egg,RAS,0
+29/07/2023,29,24,0,beau,,Albertine,,no egg,RAS,0
+30/07/2023,31,25,0,beau/orage,,Albertine,x,RAS,RAS,1
+31/07/2023,22,23,12,pluie/couvert,,Albertine,,no egg,RAS,0
+01/08/2023,27,21,0,beau,découverte de poux rouges/retour dans l'ancien poulailler/T°p=T°ext,Albertine,,no egg,RAS,0
+02/08/2023,24,24,0,couvert/vent,"retour dans le poulailler ""terrasse""",Albertine,,no egg,RAS,0
+03/08/2023,28,24,3,beau/couvert/pluie,traitement exzolt,Albertine,,no egg,RAS,0
+04/08/2023,17,,0,bruine/éclaircies,,Albertine,,no egg,RAS,0
+05/08/2023,18,18,13,giboulées,1 œuf cassé et 1 œuf mou/retour ancien poulailler,Albertine,,no egg,RAS,0
+06/08/2023,22,20,0,éclaircies,,Albertine,mue?,no egg,mue,0
+07/08/2023,23,20,1,Bruine/éclaircies/vent,,Albertine,,no egg,RAS,0
+08/08/2023,23,,0,beau,0 œuf,Albertine,,no egg,RAS,0
+09/08/2023,28,20,0,beau,0 oeuf/T°C poulailler à 22-23h,Albertine,,no egg,RAS,0
+10/08/2023,30,21,0,beau,traitement exzolt,Albertine,,no egg,RAS,0
+11/08/2023,30,25,0,beau,avhydratC+Gascodrène,Albertine,,no egg,RAS,0
+12/08/2023,33,21,0,Brumeux/beau,avhydratC+Gascodrène,Albertine,,no egg,RAS,0
+13/08/2023,32,23,0,beau,avhydratC+Gascodrène,Albertine,,no egg,RAS,0
+14/08/2023,30,26,0,voilé,avhydratC+Gascodrène,Albertine,,no egg,RAS,0
+15/08/2023,32,26,0,beau/vent,avhydratC+Gascodrène,Albertine,,no egg,RAS,0
+16/08/2023,26,23,"0,5",pluie fine/couvert,,Albertine,,no egg,RAS,0
+17/08/2023,25,23,0,couvert,,Albertine,,no egg,RAS,0
+18/08/2023,32,26,0,bruine le matin,avhydrat C+gascodrène,Albertine,,no egg,RAS,0
+19/08/2023,32,26,0,voilé/vent,avhydratC+Gascodrène,Albertine,,no egg,RAS,0
+20/08/2023,34,26,0,vigilance canicule,avhydratC+Gascodrène,Albertine,,no egg,RAS,0
+21/08/2023,37,29,0,canicule,avhydratC+Gascodrène,Albertine,,no egg,RAS,0
+22/08/2023,34,26,0,canicule,idem,Albertine,,no egg,RAS,0
+23/08/2023,36,27,0,canicule,C+Gasco/ nuit tropicale 27°c/ 73% H à 22h40,Albertine,,no egg,RAS,0
+24/08/2023,40,28,0,canicule,C+Gasco,Albertine,,no egg,RAS,0
+25/08/2023,"40,5",28,0,canicule,c+Gasco,Albertine,,no egg,RAS,0
+26/08/2023,23,20,3,pluie/couvert,,Albertine,,no egg,RAS,0
+27/08/2023,19,17,8,pluie,,Albertine,,no egg,RAS,0
+28/08/2023,16,14,37,pluie/éclaircies,,Albertine,,no egg,RAS,0
+29/08/2023,17,16,5,pluie/éclaircies,,Albertine,,no egg,RAS,0
+30/08/2023,20,15,0,éclaircies/vent,,Albertine,,no egg,RAS,0
+31/08/2023,22,16,1,éclaircies/averses,,Albertine,,no egg,RAS,0
+01/09/2023,28,17,0,beau,,Albertine,,no egg,RAS,0
+02/09/2023,31,20,0,beau,,Albertine,,no egg,RAS,0
+03/09/2023,22,18,0,couvert,trouvé un oeuf minuscule Saquiel ou Albertine,Albertine,,no egg,RAS,0
+04/09/2023,26,21,0,beau/voilé,,Albertine,,no egg,RAS,0
+05/09/2023,28,22,0,voilé/vent,sable du Sahara dans l'air,Albertine,,no egg,RAS,0
+06/09/2023,29,21,0,voilé,sable du Sahara dans l'air,Albertine,,no egg,RAS,0
+07/09/2023,27,23,0,voilé,sable du Sahara dans l'air,Albertine,,no egg,RAS,0
+08/09/2023,30,20,0,beau,,Albertine,,no egg,RAS,0
+09/09/2023,29,21,0,beau,,Albertine,,no egg,RAS,0
+10/09/2023,30,22,0,beau,,Albertine,,no egg,RAS,0
+11/09/2023,30,20,0,beau,,Albertine,x,RAS,RAS,1
+12/09/2023,30,20,0,couvert/éclaircies,,Albertine,,no egg,RAS,0
+13/09/2023,24,17,22,mitigé/orages,,Albertine,x,RAS,RAS,1
+14/09/2023,25,17,0,éclaircies,,Albertine,,no egg,RAS,0
+15/09/2023,28,18,0,beau,,Albertine,,no egg,RAS,0
+16/09/2023,28,17,3,beau/orageux/pluie,,Albertine,,no egg,RAS,0
+17/09/2023,28,21,0,beau,,Albertine,,no egg,RAS,0
+18/09/2023,25,19,3,beau/orages,,Albertine,,no egg,RAS,0
+19/09/2023,26,17,6,beau/orages,,Albertine,,no egg,RAS,0
+20/09/2023,25,15,0,beau,,Albertine,,no egg,RAS,0
+21/09/2023,27,18,0,couvert/beau,,Albertine,,no egg,RAS,0
+22/09/2023,20,14,9,couvert/pluie,,Albertine,,no egg,RAS,0
+23/09/2023,20,12,0,éclaircies/vent,,Albertine,,no egg,RAS,0
+24/09/2023,23,13,0,éclaircies,,Albertine,,no egg,RAS,0
+25/09/2023,24,15,0,beau,,Albertine,,no egg,RAS,0
+26/09/2023,27,15,0,beau,,Albertine,,no egg,RAS,0
+27/09/2023,28,16,0,beau,,Albertine,,no egg,RAS,0
+28/09/2023,30,19,0,beau,,Albertine,,no egg,RAS,0
+29/09/2023,31,20,0,beau,,Albertine,,no egg,RAS,0
+30/09/2023,30,20,0,beau,,Albertine,,no egg,RAS,0
+01/10/2023,30,19,0,beau,,Albertine,,no egg,RAS,0
+02/10/2023,32,20,0,beau,,Albertine,,no egg,RAS,0
+03/10/2023,31,20,0,beau/vent,,Albertine,,no egg,RAS,0
+04/10/2023,22,19,0,couvert,,Albertine,,no egg,RAS,0
+05/10/2023,28,16,0,nuageux,,Albertine,,no egg,RAS,0
+06/10/2023,28,16,0,beau,,Albertine,,no egg,RAS,0
+07/10/2023,28,17,0,beau,,Albertine,,no egg,RAS,0
+08/10/2023,30,15,0,beau,,Albertine,,no egg,RAS,0
+09/10/2023,29,17,0,beau,,Albertine,,no egg,RAS,0
+10/10/2023,29,16,0,beau,,Albertine,,no egg,RAS,0
+11/10/2023,30,18,0,beau,,Albertine,,no egg,RAS,0
+12/10/2023,31,17,0,beau,,Albertine,,no egg,RAS,0
+13/10/2023,30,18,0,beau,,Albertine,,no egg,RAS,0
+14/10/2023,29,18,0,beau,,Albertine,,no egg,RAS,0
+15/10/2023,24,16,5,couvert/pluie,,Albertine,,no egg,RAS,0
+16/10/2023,19,11,0,éclaircies,,Albertine,,no egg,RAS,0
+17/10/2023,19,15,0,éclaircies,,Albertine,,no egg,RAS,0
+18/10/2023,26,17,0,beau/vent,,Albertine,,no egg,RAS,0
+19/10/2023,26,17,3,couvert/pluie,,Albertine,,no egg,RAS,0
+20/10/2023,25,17,13,couvert/pluie,,Albertine,,no egg,RAS,0
+21/10/2023,20,14,3,éclaircies/pluie,,Albertine,,no egg,RAS,0
+22/10/2023,19,11,0,beau,,Albertine,,no egg,RAS,0
+23/10/2023,15,13,0,maussade,,Albertine,,no egg,RAS,0
+24/10/2023,20,14,0,éclaircies,Albertine malade/rhume,Albertine,,no egg,RAS,0
+25/10/2023,20,11,0,pluie/éclaircies,avicoryl,Albertine,,no egg,RAS,0
+26/10/2023,18,15,1,couvert/pluie,,Albertine,,no egg,RAS,0
+27/10/2023,15,13,8,couvert/pluie,,Albertine,,no egg,RAS,0
+28/10/2023,18,10,0,beau,,Albertine,,no egg,RAS,0
+29/10/2023,19,14,0,beau,,Albertine,,no egg,RAS,0
+30/10/2023,17,14,0,couvert,,Albertine,,no egg,RAS,0
+31/10/2023,15,10,9,couvert/pluie,,Albertine,,no egg,RAS,0
+01/11/2023,19,10,0,beau,,Albertine,rhume,no egg,rhume,0
+02/11/2023,19,10,5,éclaircies/pluie,,Albertine,,no egg,RAS,0
+03/11/2023,13,8,17,pluie,,Albertine,,no egg,RAS,0
+04/11/2023,10,9,5,pluie,,Albertine,,no egg,RAS,0
+05/11/2023,13,9,6,pluie/éclaircies,,Albertine,,no egg,RAS,0
+06/11/2023,19,9,0,beau,,Albertine,,no egg,RAS,0
+07/11/2023,12,8,8,averses/pluie,,Albertine,,no egg,RAS,0
+08/11/2023,17,5,0,beau,,Albertine,,no egg,RAS,0
+09/11/2023,19,6,0,beau,petite gelée matinale,Albertine,,no egg,RAS,0
+10/11/2023,13,9,6,pluie/beau,,Albertine,,no egg,RAS,0
+11/11/2023,11,9,7,pluie/éclaircies,,Albertine,,no egg,RAS,0
+12/11/2023,12,12,0,pluie,,Albertine,,no egg,RAS,0
+13/11/2023,17,11,0,couvert/éclaircies,,Albertine,,no egg,RAS,0
+14/11/2023,24,12,0,beau,,Albertine,,no egg,RAS,0
+15/11/2023,24,14,5,beau/pluie,,Albertine,,no egg,RAS,0
+16/11/2023,16,10,5,pluie/éclaircies,,Albertine,,no egg,RAS,0
+17/11/2023,16,12,2,couvert/pluie,,Albertine,,no egg,RAS,0
+18/11/2023,15,9,0,éclaircies,,Albertine,,no egg,RAS,0
+19/11/2023,oubli,oubli,0,beau,environ 20°C,Albertine,,no egg,RAS,0
+20/11/2023,21,10,0,beau,,Albertine,,no egg,RAS,0
+21/11/2023,14,9,9,couvert/pluie,,Albertine,,no egg,RAS,0
+22/11/2023,9,oubli,10,pluie,,Albertine,,no egg,RAS,0
+23/11/2023,9,7,3,pluie/éclaircies/vent,,Albertine,,no egg,RAS,0
+24/11/2023,11,5,0,beau/vent,,Albertine,,no egg,RAS,0
+25/11/2023,7,7,0,gris/vent,,Albertine,x,RAS,RAS,1
+26/11/2023,9,4,0,gris ,,Albertine,,no egg,RAS,0
+27/11/2023,12,0,0,beau,belle gelée matinale -3°c,Albertine,x,RAS,RAS,1
+28/11/2023,13,10,27,éclaircies/pluie/vent,,Albertine,,no egg,RAS,0
+29/11/2023,9,7,0,éclaircies,,Albertine,x,RAS,RAS,1
+30/11/2023,16,9,0,éclaircies,,Albertine,,no egg,RAS,0
+01/12/2023,11,8,6,bruine/pluie,,Albertine,x,RAS,RAS,1
+02/12/2023,8,5,14,pluie,,Albertine,,no egg,RAS,0
+03/12/2023,6,4,2,pluie/éclaircies,,Albertine,x,RAS,RAS,1
+04/12/2023,11,3,0,beau,gelée matinale,Albertine,,no egg,RAS,0
+05/12/2023,12,7,"0,5",éclaircies/pluie,,Albertine,x,RAS,RAS,1
+06/12/2023,9,6,0,éclaircies/vent,,Albertine,,no egg,RAS,0
+07/12/2023,10,2,0,beau,,Albertine,,no egg,RAS,0
+08/12/2023,14,6,0,beau,,Albertine,,no egg,RAS,0
+09/12/2023,9,6,18,pluie/vent,,Albertine,,no egg,RAS,0
+10/12/2023,14,15,1,pluie/éclaircies,,Albertine,,no egg,RAS,0
+11/12/2023,18,11,0,beau/couvert,,Albertine,,no egg,RAS,0
+12/12/2023,19,10,0,beau,,Albertine,,no egg,RAS,0
+13/12/2023,16,9,3,voilé/pluie,,Albertine,,no egg,RAS,0
+14/12/2023,10,7,20,averses/pluie/vent,,Albertine,,no egg,RAS,0
+15/12/2023,10,7,1,averses/éclaircies/vent,,Albertine,,no egg,RAS,0
+16/12/2023,9,7,1,bruine,,Albertine,,no egg,RAS,0
+17/12/2023,13,3,0,beau,,Albertine,,no egg,RAS,0
+18/12/2023,15,3,0,beau,-4°C ce matin,Albertine,,no egg,RAS,0
+19/12/2023,16,3,0,beau,gelée matinale,Albertine,,no egg,RAS,0
+20/12/2023,4,5,0,gris,,Albertine,,no egg,RAS,0
+21/12/2023,8,6,11,pluie/éclaircies/vent,,Albertine,,no egg,RAS,0
+22/12/2023,11,11,0,vent/bruine,,Albertine,,no egg,RAS,0
+23/12/2023,12,9,1,gris/vent/éclaircies/pluie,,Albertine,,no egg,RAS,0
+24/12/2023,12,9,0,éclaircies,,Albertine,,no egg,RAS,0
+25/12/2023,13,7,0,beau,,Albertine,,no egg,RAS,0
+26/12/2023,12,4,0,beau,,Albertine,,no egg,RAS,0
+27/12/2023,15,3,0,beau,,Albertine,,no egg,RAS,0
+28/12/2023,17,5,0,beau,grosse gelée matinale,Albertine,x,RAS,RAS,1
+29/12/2023,10,4,0,gris,,Albertine,,no egg,RAS,0
+30/12/2023,9,7,0,gris/éclaircies,,Albertine,x,RAS,RAS,1
+31/12/2023,17,7,0,beau,,Albertine,,no egg,RAS,0
+01/01/2023,,,,,,Augustine,,no egg,RAS,0
+02/01/2023,,,,,,Augustine,,no egg,RAS,0
+03/01/2023,,,,,,Augustine,,no egg,RAS,0
+04/01/2023,15,,0,beau,,Augustine,,no egg,RAS,0
+05/01/2023,14,,0,beau,,Augustine,,no egg,RAS,0
+06/01/2023,oubli,,0,beau,,Augustine,,no egg,RAS,0
+07/01/2023,13,,0,beau,,Augustine,,no egg,RAS,0
+08/01/2023,9,,0,mitigé,,Augustine,,no egg,RAS,0
+09/01/2023,8,,16,vent éclaircie,,Augustine,,no egg,RAS,0
+10/01/2023,14,,0,beau,,Augustine,,no egg,RAS,0
+11/01/2023,9,,0,beau,,Augustine,,no egg,RAS,0
+12/01/2023,12,,0,beau,,Augustine,,no egg,RAS,0
+13/01/2023,13,,0,mitigé,,Augustine,,no egg,RAS,0
+14/01/2023,13,,0,beau,,Augustine,,no egg,RAS,0
+15/01/2023,10,,2,pluie/beau,,Augustine,,no egg,RAS,0
+16/01/2023,6,,50,pluie/vent,,Augustine,,no egg,RAS,0
+17/01/2023,5,,1,pluie/vent,,Augustine,,no egg,RAS,0
+18/01/2023,5,,5,pluie/éclaircie,,Augustine,,no egg,RAS,0
+19/01/2023,5,,,couvert/éclaircie,,Augustine,,no egg,RAS,0
+20/01/2023,5,,12,pluie/neige/soleil,,Augustine,,no egg,RAS,0
+21/01/2023,2,,2,idem/vent,,Augustine,,no egg,RAS,0
+22/01/2023,0,,0,Couvert/vent,,Augustine,,no egg,RAS,0
+23/01/2023,oubli,,,oubli,malade (moi),Augustine,,no egg,RAS,0
+24/01/2023,2,,,couvert/éclaircie,,Augustine,,no egg,RAS,0
+25/01/2023,0,,,couvert,,Augustine,,no egg,RAS,0
+26/01/2023,0,,,couvert,,Augustine,,no egg,RAS,0
+27/01/2023,0,,,,,Augustine,,no egg,RAS,0
+28/01/2023,0,,,couvert,Cunégonde pique Shrek,Augustine,,no egg,RAS,0
+29/01/2023,0,,,couvert,aliment poulette+vitamines,Augustine,,no egg,RAS,0
+30/01/2023,4,,,éclaircie,,Augustine,,no egg,RAS,0
+31/01/2023,8,,0,beau temps,,Augustine,,no egg,RAS,0
+01/02/2023,10,,0,beau temps,pas sûre de l'œuf de Pioupioute,Augustine,,no egg,RAS,0
+02/02/2023,12,,0,beau temps,petit lait en boisson/aliment pondeuse,Augustine,,no egg,RAS,0
+03/02/2023,12,,0,beau temps,petit lait+aliment,Augustine,,no egg,RAS,0
+04/02/2023,10,,0,beau temps,petit lait+aliment,Augustine,,no egg,RAS,0
+05/02/2023,10,,0,beau temps,aliment,Augustine,,no egg,RAS,0
+06/02/2023,12,,0,beau temps,,Augustine,,no egg,RAS,0
+07/02/2023,8,,0,couvert/vent,,Augustine,zentonyl,no egg,zentonyl,0
+08/02/2023,8,,0,beau/vent,,Augustine,,no egg,RAS,0
+09/02/2023,10,,0,beau,,Augustine,,no egg,RAS,0
+10/02/2023,14,,0,beau,,Augustine,,no egg,RAS,0
+11/02/2023,14,,0,beau,aliment+blé,Augustine,antibio,no egg,antibio,0
+12/02/2023,14,,0,beau,,Augustine,,no egg,RAS,0
+13/02/2023,15,,0,beau,,Augustine,,no egg,RAS,0
+14/02/2023,15,,0,beau,,Augustine,,no egg,RAS,0
+15/02/2023,16,,0,beau,,Augustine,,no egg,RAS,0
+16/02/2023,16,,0,beau,,Augustine,,no egg,RAS,0
+17/02/2023,16,,0,beau,,Augustine,fin antibio,no egg,fin antibio,0
+18/02/2023,18,,0,beau,avipar(vermifuge naturel),Augustine,,no egg,RAS,0
+19/02/2023,18,,0,beau,,Augustine,,no egg,RAS,0
+20/02/2023,20,,0,beau,antibio Pioupioute suspicion pb génital,Augustine,,no egg,RAS,0
+21/02/2023,15,,0,mitigé,,Augustine,,no egg,RAS,0
+22/02/2023,13,,0,couvert,,Augustine,,no egg,RAS,0
+23/02/2023,11,,4,couvert,"pluie nuit 22,à23/02",Augustine,,no egg,RAS,0
+24/02/2023,12,,"2,5",beau,"pluie nuit 23,à24/02",Augustine,,no egg,RAS,0
+25/02/2023,7,,0,couvert,,Augustine,,no egg,RAS,0
+26/02/2023,5,,0,vent/froid/couvert,,Augustine,,no egg,RAS,0
+27/02/2023,1,,0,vent/neige/éclaircie,,Augustine,,no egg,RAS,0
+28/02/2023,2,,0,éclaircie/vent,,Augustine,,no egg,RAS,0
+01/03/2023,8,,0,beau,,Augustine,,no egg,RAS,0
+02/03/2023,7,,0,couvert,,Augustine,,no egg,RAS,0
+03/03/2023,7,,0,couvert,,Augustine,,no egg,RAS,0
+04/03/2023,10,,"1,5",éclaircie,,Augustine,,no egg,RAS,0
+05/03/2023,10,,0,éclaircie,,Augustine,,no egg,RAS,0
+06/03/2023,10,,0,beau,,Augustine,,no egg,RAS,0
+07/03/2023,12,,0,éclaircie/averse,,Augustine,,no egg,RAS,0
+08/03/2023,23,,2,voilé,lentypou,Augustine,,no egg,RAS,0
+09/03/2023,20,,0,éclaircies,qq gouttes dans la nuit,Augustine,,no egg,RAS,0
+10/03/2023,18,,"0,5",mitigé,,Augustine,,no egg,RAS,0
+11/03/2023,15,,0,mitigé/vent violent,,Augustine,,no egg,RAS,0
+12/03/2023,15,,"0,5",vent/pluie,17°C à 3h30 du mat,Augustine,,no egg,RAS,0
+13/03/2023,23,,4,bruine puis très beau,,Augustine,,no egg,RAS,0
+14/03/2023,22,,14,beau/orage/tempête,pluie nuit du 13/03 au 14/03,Augustine,,no egg,RAS,0
+15/03/2023,12,,2,giboulées,,Augustine,,no egg,RAS,0
+16/03/2023,15,,5,pluie/éclaircie,,Augustine,,no egg,RAS,0
+17/03/2023,19,,0,beau/vent,arrêt lentypou,Augustine,x,RAS,RAS,1
+18/03/2023,18,,0,couvert/beau/vent,,Augustine,,no egg,RAS,0
+19/03/2023,16,,7,beau/pluie,,Augustine,x,RAS,RAS,1
+20/03/2023,16,,"1,5",giboulées,pas sûr de l'œuf de Rémiel,Augustine,,no egg,RAS,0
+21/03/2023,17,,0,beau,,Augustine,x,RAS,RAS,1
+22/03/2023,19,,0,beau,,Augustine,,no egg,RAS,0
+23/03/2023,22,,0,beau,,Augustine,x,RAS,RAS,1
+24/03/2023,22,,0,beau,,Augustine,,no egg,RAS,0
+25/03/2023,17,,1,beau puis bruine,Pioupioute à l'ENVT,Augustine,,no egg,RAS,0
+26/03/2023,19,,0,beau,trouvé un micro œuf,Augustine,x,RAS,RAS,1
+27/03/2023,9,,8,pluie/éclaircie/vent,tempête la nuit,Augustine,,no egg,RAS,0
+28/03/2023,10,,5,giboulées,,Augustine,x,RAS,RAS,1
+29/03/2023,16,,0,beau,,Augustine,,no egg,RAS,0
+30/03/2023,22,,0,beau,,Augustine,,no egg,RAS,0
+31/03/2023,20,,0,beau,,Augustine,,no egg,RAS,0
+01/04/2023,12,,0,couvert/qq gouttes,"œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte",Augustine,x,RAS,RAS,1
+02/04/2023,12,,3,couvert/vent/pluie,Augustine malade: amirudène 7J,Augustine,,no egg,RAS,0
+03/04/2023,9,,15,pluie,,Augustine,,no egg,RAS,0
+04/04/2023,9,,3,pluie/éclaircie,Augustine DCD,Augustine,DCD,no egg,DCD,0
+05/04/2023,15,,0,beau,aliment pondeuse,Augustine,,no egg,RAS,0
+06/04/2023,17,,0,beau,,Augustine,,no egg,RAS,0
+07/04/2023,13,,0,beau,,Augustine,,no egg,RAS,0
+08/04/2023,18,,0,beau,,Augustine,,no egg,RAS,0
+09/04/2023,20,,0,beau,,Augustine,,no egg,RAS,0
+10/04/2023,24,,0,beau,,Augustine,,no egg,RAS,0
+11/04/2023,19,,0,beau,,Augustine,,no egg,RAS,0
+12/04/2023,16,,0,beau,,Augustine,,no egg,RAS,0
+13/04/2023,17,,5,beau/pluie,,Augustine,,no egg,RAS,0
+14/04/2023,8,,4,giboulées,,Augustine,,no egg,RAS,0
+15/04/2023,11,,3,giboulées,arrêt antibiotique Pioupioute/ponction à l'envt,Augustine,,no egg,RAS,0
+16/04/2023,13,,1,giboulées/éclaircies,Pioupioute a pondu un œuf normal/veut couver,Augustine,,no egg,RAS,0
+17/04/2023,16,,0,beau,,Augustine,,no egg,RAS,0
+18/04/2023,16,,0,beau,,Augustine,,no egg,RAS,0
+19/04/2023,17,,0,beau,,Augustine,,no egg,RAS,0
+20/04/2023,22,,0,beau,,Augustine,,no egg,RAS,0
+21/04/2023,22,,0,beau,,Augustine,,no egg,RAS,0
+22/04/2023,22,,0,beau,,Augustine,,no egg,RAS,0
+23/04/2023,13,,0,couvert/bruine,15°C à 5h du mat,Augustine,,no egg,RAS,0
+24/04/2023,19,,7,beau/pluie,découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?,Augustine,,no egg,RAS,0
+25/04/2023,17,,0,beau,,Augustine,,no egg,RAS,0
+26/04/2023,15,,17,pluie,,Augustine,,no egg,RAS,0
+27/04/2023,18,,2,couvert,,Augustine,,no egg,RAS,0
+28/04/2023,23,,0,voilé/beau,,Augustine,,no egg,RAS,0
+29/04/2023,24,,0,voilé,,Augustine,,no egg,RAS,0
+30/04/2023,17,,0,couvert/pluie,œuf d'Albertine très clair,Augustine,,no egg,RAS,0
+01/05/2023,18,,36,giboulées,dont 29mm dans la nuit du 29 au 30/04,Augustine,,no egg,RAS,0
+02/05/2023,18,,2,giboulées/éclaircies,,Augustine,,no egg,RAS,0
+03/05/2023,20,,0,beau,,Augustine,,no egg,RAS,0
+04/05/2023,25,,0,beau,,Augustine,,no egg,RAS,0
+05/05/2023,25,,0,beau,,Augustine,,no egg,RAS,0
+06/05/2023,23,,0,beau,,Augustine,,no egg,RAS,0
+07/05/2023,24,,0,beau/orage,1 œuf trouvé dans le poulailler cassé,Augustine,,no egg,RAS,0
+08/05/2023,17,,8,averses,,Augustine,,no egg,RAS,0
+09/05/2023,22,,0,beau,,Augustine,,no egg,RAS,0
+10/05/2023,15,,15,couvert/pluie,,Augustine,,no egg,RAS,0
+11/05/2023,16,,2,pluie/giboulées,,Augustine,,no egg,RAS,0
+12/05/2023,15,,0,éclaircies,,Augustine,,no egg,RAS,0
+13/05/2023,17,,6,pluie/éclaircies,,Augustine,,no egg,RAS,0
+14/05/2023,13,,15,giboulées,,Augustine,,no egg,RAS,0
+15/05/2023,15,,10,"averses, éclaircies",,Augustine,,no egg,RAS,0
+16/05/2023,11,,6,averses,"petit trou dans certains œufs, à surveiller si poules ou pie",Augustine,,no egg,RAS,0
+17/05/2023,13,,2,pluie/éclaircie,,Augustine,,no egg,RAS,0
+18/05/2023,18,,0,beau,,Augustine,,no egg,RAS,0
+19/05/2023,14,,0,couvert,,Augustine,,no egg,RAS,0
+20/05/2023,10,,4,pluie/couvert,,Augustine,,no egg,RAS,0
+21/05/2023,15,,0,éclaircies/beau,,Augustine,,no egg,RAS,0
+22/05/2023,16,,0,couvert/beau,,Augustine,,no egg,RAS,0
+23/05/2023,18,,4,pluie/éclaircies,,Augustine,,no egg,RAS,0
+24/05/2023,22,,6,temps lourd/orages,,Augustine,,no egg,RAS,0
+25/05/2023,20,,25,lourd/orages,,Augustine,,no egg,RAS,0
+26/05/2023,17,,6,couvert/pluie,,Augustine,,no egg,RAS,0
+27/05/2023,23,,0,beau,,Augustine,,no egg,RAS,0
+28/05/2023,27,,0,beau,,Augustine,,no egg,RAS,0
+29/05/2023,27,,0,beau,,Augustine,,no egg,RAS,0
+30/05/2023,27,,24,beau/orage fort,,Augustine,,no egg,RAS,0
+31/05/2023,26,,0,éclaircies,,Augustine,,no egg,RAS,0
+01/06/2023,24,,5,beau/pluie,,Augustine,,no egg,RAS,0
+02/06/2023,22,,1,pluie/éclaircies,,Augustine,,no egg,RAS,0
+03/06/2023,23,,0,beau,,Augustine,,no egg,RAS,0
+04/06/2023,25,,2,beau/orage,changement de poulailler,Augustine,,no egg,RAS,0
+05/06/2023,26,,0,beau,,Augustine,,no egg,RAS,0
+06/06/2023,25,,5,beau/pluie,,Augustine,,no egg,RAS,0
+07/06/2023,26,,0,beau,,Augustine,,no egg,RAS,0
+08/06/2023,27,,0,beau,,Augustine,,no egg,RAS,0
+09/06/2023,27,,0,beau/orageux,,Augustine,,no egg,RAS,0
+10/06/2023,26,,3,couvert/orage,,Augustine,,no egg,RAS,0
+11/06/2023,27,,0,beau/orageux,,Augustine,,no egg,RAS,0
+12/06/2023,25,,1,beau/orage,,Augustine,,no egg,RAS,0
+13/06/2023,27,,31,couvert/orage,les 2 œufs ont été cassé par une poule ou une bête,Augustine,,no egg,RAS,0
+14/06/2023,24,,23,beau/orage,"l'œuf d'Albertine très fragile, elle a des vers en plus/ Avipar/Avipou",Augustine,,no egg,RAS,0
+15/06/2023,21,,3,pluie/éclaircie,,Augustine,,no egg,RAS,0
+16/06/2023,25,,0,couvert/beau,Saquiel malade/doxycycline,Augustine,,no egg,RAS,0
+17/06/2023,26,,0,beau,,Augustine,,no egg,RAS,0
+18/06/2023,30,,11,beau/orage,0 œuf,Augustine,,no egg,RAS,0
+19/06/2023,27,,0,mitigé/,,Augustine,,no egg,RAS,0
+20/06/2023,22,,0,couvert/beau,quelques gouttes,Augustine,,no egg,RAS,0
+21/06/2023,25,,0,lourd,œuf de Valérie très fragile trouvé ds poulailler,Augustine,,no egg,RAS,0
+22/06/2023,20,,7,orage,,Augustine,,no egg,RAS,0
+23/06/2023,23,,6,pluie/éclaircies,Cunégonde veut couver,Augustine,,no egg,RAS,0
+24/06/2023,28,,0,beau,,Augustine,,no egg,RAS,0
+25/06/2023,28,24,0,beau,,Augustine,,no egg,RAS,0
+26/06/2023,32,28,0,beau,,Augustine,,no egg,RAS,0
+27/06/2023,21,22,0,couvert,,Augustine,,no egg,RAS,0
+28/06/2023,27,24,0,nuageux,,Augustine,,no egg,RAS,0
+29/06/2023,26,24,0,beau,,Augustine,,no egg,RAS,0
+30/06/2023,24,22,13,nuageux/orage,,Augustine,,no egg,RAS,0
+01/07/2023,19,20,3,pluie/couvert/vent,8 œuf sous Cunégonde: 6marans+1valérie+1joséphine,Augustine,,no egg,RAS,0
+02/07/2023,22,20,0,couvert/vent,1œuf valérie et 1oeuf Joséphine sous Cunégonde,Augustine,,no egg,RAS,0
+03/07/2023,25,22,0,éclaircies,1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde,Augustine,,no egg,RAS,0
+04/07/2023,27,23,0,couvert/éclaircies,,Augustine,,no egg,RAS,0
+05/07/2023,26,24,1,lourd/orages,"Valérie tousse, avicoryl dans l'eau",Augustine,,no egg,RAS,0
+06/07/2023,27,24,0,éclaircies,,Augustine,,no egg,RAS,0
+07/07/2023,27,24,0,beau/lourd/orageux,,Augustine,,no egg,RAS,0
+08/07/2023,33,24,6,beau/orages,vit C dans l'eau+oligoélément,Augustine,,no egg,RAS,0
+09/07/2023,32,26,0,beau,,Augustine,,no egg,RAS,0
+10/07/2023,28,25,0,couvert/lourd,21°c et 80%H le matin,Augustine,,no egg,RAS,0
+11/07/2023,31,27,0,beau,"22°C et 82%H  matin, 27°c à 22h",Augustine,,no egg,RAS,0
+12/07/2023,28,26,1,beau/orageux,œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler,Augustine,,no egg,RAS,0
+13/07/2023,21,22,1,pluie/couvert,,Augustine,,no egg,RAS,0
+14/07/2023,23,22,0,bruine/couvert,,Augustine,,no egg,RAS,0
+15/07/2023,31,26,0,beau,fin doxycyline pour Saquiel/ 24°C et 75%H à 23h ext/0 œuf,Augustine,,no egg,RAS,0
+16/07/2023,30,21,3,beau/averses,17°C et 80%H à 20h,Augustine,,no egg,RAS,0
+17/07/2023,27,23,0,mitigé/beau,,Augustine,,no egg,RAS,0
+18/07/2023,27,26,0,beau,installation voile d'ombrage sur la terrasse,Augustine,,no egg,RAS,0
+19/07/2023,33,26,0,beau,36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver,Augustine,,no egg,RAS,0
+20/07/2023,24,23,2,orage/couvert,orages la nuit du 18 au 19/07,Augustine,,no egg,RAS,0
+21/07/2023,27,23,0,beau,Valérie semble vouloir couver aussi cette coquine!!,Augustine,,no egg,RAS,0
+22/07/2023,19,21,0,couvert/bruine,Valérie couve…........,Augustine,,no egg,RAS,0
+23/07/2023,29,23,0,soleil et qq nuages,,Augustine,,no egg,RAS,0
+24/07/2023,30,26,0,beau,0 œuf/ 26°c à 21h30,Augustine,,no egg,RAS,0
+25/07/2023,21,21,3,couvert/pluie,,Augustine,,no egg,RAS,0
+26/07/2023,15,19,3,pluie/couvert/vent,trouvé 1 œuf d'Albertine dans le jardin,Augustine,,no egg,RAS,0
+27/07/2023,28,21,0,beau,,Augustine,,no egg,RAS,0
+28/07/2023,30,23,16,beau/orages,0 œuf,Augustine,,no egg,RAS,0
+29/07/2023,29,24,0,beau,,Augustine,,no egg,RAS,0
+30/07/2023,31,25,0,beau/orage,,Augustine,,no egg,RAS,0
+31/07/2023,22,23,12,pluie/couvert,,Augustine,,no egg,RAS,0
+01/08/2023,27,21,0,beau,découverte de poux rouges/retour dans l'ancien poulailler/T°p=T°ext,Augustine,,no egg,RAS,0
+02/08/2023,24,24,0,couvert/vent,"retour dans le poulailler ""terrasse""",Augustine,,no egg,RAS,0
+03/08/2023,28,24,3,beau/couvert/pluie,traitement exzolt,Augustine,,no egg,RAS,0
+04/08/2023,17,,0,bruine/éclaircies,,Augustine,,no egg,RAS,0
+05/08/2023,18,18,13,giboulées,1 œuf cassé et 1 œuf mou/retour ancien poulailler,Augustine,,no egg,RAS,0
+06/08/2023,22,20,0,éclaircies,,Augustine,,no egg,RAS,0
+07/08/2023,23,20,1,Bruine/éclaircies/vent,,Augustine,,no egg,RAS,0
+08/08/2023,23,,0,beau,0 œuf,Augustine,,no egg,RAS,0
+09/08/2023,28,20,0,beau,0 oeuf/T°C poulailler à 22-23h,Augustine,,no egg,RAS,0
+10/08/2023,30,21,0,beau,traitement exzolt,Augustine,,no egg,RAS,0
+11/08/2023,30,25,0,beau,avhydratC+Gascodrène,Augustine,,no egg,RAS,0
+12/08/2023,33,21,0,Brumeux/beau,avhydratC+Gascodrène,Augustine,,no egg,RAS,0
+13/08/2023,32,23,0,beau,avhydratC+Gascodrène,Augustine,,no egg,RAS,0
+14/08/2023,30,26,0,voilé,avhydratC+Gascodrène,Augustine,,no egg,RAS,0
+15/08/2023,32,26,0,beau/vent,avhydratC+Gascodrène,Augustine,,no egg,RAS,0
+16/08/2023,26,23,"0,5",pluie fine/couvert,,Augustine,,no egg,RAS,0
+17/08/2023,25,23,0,couvert,,Augustine,,no egg,RAS,0
+18/08/2023,32,26,0,bruine le matin,avhydrat C+gascodrène,Augustine,,no egg,RAS,0
+19/08/2023,32,26,0,voilé/vent,avhydratC+Gascodrène,Augustine,,no egg,RAS,0
+20/08/2023,34,26,0,vigilance canicule,avhydratC+Gascodrène,Augustine,,no egg,RAS,0
+21/08/2023,37,29,0,canicule,avhydratC+Gascodrène,Augustine,,no egg,RAS,0
+22/08/2023,34,26,0,canicule,idem,Augustine,,no egg,RAS,0
+23/08/2023,36,27,0,canicule,C+Gasco/ nuit tropicale 27°c/ 73% H à 22h40,Augustine,,no egg,RAS,0
+24/08/2023,40,28,0,canicule,C+Gasco,Augustine,,no egg,RAS,0
+25/08/2023,"40,5",28,0,canicule,c+Gasco,Augustine,,no egg,RAS,0
+26/08/2023,23,20,3,pluie/couvert,,Augustine,,no egg,RAS,0
+27/08/2023,19,17,8,pluie,,Augustine,,no egg,RAS,0
+28/08/2023,16,14,37,pluie/éclaircies,,Augustine,,no egg,RAS,0
+29/08/2023,17,16,5,pluie/éclaircies,,Augustine,,no egg,RAS,0
+30/08/2023,20,15,0,éclaircies/vent,,Augustine,,no egg,RAS,0
+31/08/2023,22,16,1,éclaircies/averses,,Augustine,,no egg,RAS,0
+01/09/2023,28,17,0,beau,,Augustine,,no egg,RAS,0
+02/09/2023,31,20,0,beau,,Augustine,,no egg,RAS,0
+03/09/2023,22,18,0,couvert,trouvé un oeuf minuscule Saquiel ou Albertine,Augustine,,no egg,RAS,0
+04/09/2023,26,21,0,beau/voilé,,Augustine,,no egg,RAS,0
+05/09/2023,28,22,0,voilé/vent,sable du Sahara dans l'air,Augustine,,no egg,RAS,0
+06/09/2023,29,21,0,voilé,sable du Sahara dans l'air,Augustine,,no egg,RAS,0
+07/09/2023,27,23,0,voilé,sable du Sahara dans l'air,Augustine,,no egg,RAS,0
+08/09/2023,30,20,0,beau,,Augustine,,no egg,RAS,0
+09/09/2023,29,21,0,beau,,Augustine,,no egg,RAS,0
+10/09/2023,30,22,0,beau,,Augustine,,no egg,RAS,0
+11/09/2023,30,20,0,beau,,Augustine,,no egg,RAS,0
+12/09/2023,30,20,0,couvert/éclaircies,,Augustine,,no egg,RAS,0
+13/09/2023,24,17,22,mitigé/orages,,Augustine,,no egg,RAS,0
+14/09/2023,25,17,0,éclaircies,,Augustine,,no egg,RAS,0
+15/09/2023,28,18,0,beau,,Augustine,,no egg,RAS,0
+16/09/2023,28,17,3,beau/orageux/pluie,,Augustine,,no egg,RAS,0
+17/09/2023,28,21,0,beau,,Augustine,,no egg,RAS,0
+18/09/2023,25,19,3,beau/orages,,Augustine,,no egg,RAS,0
+19/09/2023,26,17,6,beau/orages,,Augustine,,no egg,RAS,0
+20/09/2023,25,15,0,beau,,Augustine,,no egg,RAS,0
+21/09/2023,27,18,0,couvert/beau,,Augustine,,no egg,RAS,0
+22/09/2023,20,14,9,couvert/pluie,,Augustine,,no egg,RAS,0
+23/09/2023,20,12,0,éclaircies/vent,,Augustine,,no egg,RAS,0
+24/09/2023,23,13,0,éclaircies,,Augustine,,no egg,RAS,0
+25/09/2023,24,15,0,beau,,Augustine,,no egg,RAS,0
+26/09/2023,27,15,0,beau,,Augustine,,no egg,RAS,0
+27/09/2023,28,16,0,beau,,Augustine,,no egg,RAS,0
+28/09/2023,30,19,0,beau,,Augustine,,no egg,RAS,0
+29/09/2023,31,20,0,beau,,Augustine,,no egg,RAS,0
+30/09/2023,30,20,0,beau,,Augustine,,no egg,RAS,0
+01/10/2023,30,19,0,beau,,Augustine,,no egg,RAS,0
+02/10/2023,32,20,0,beau,,Augustine,,no egg,RAS,0
+03/10/2023,31,20,0,beau/vent,,Augustine,,no egg,RAS,0
+04/10/2023,22,19,0,couvert,,Augustine,,no egg,RAS,0
+05/10/2023,28,16,0,nuageux,,Augustine,,no egg,RAS,0
+06/10/2023,28,16,0,beau,,Augustine,,no egg,RAS,0
+07/10/2023,28,17,0,beau,,Augustine,,no egg,RAS,0
+08/10/2023,30,15,0,beau,,Augustine,,no egg,RAS,0
+09/10/2023,29,17,0,beau,,Augustine,,no egg,RAS,0
+10/10/2023,29,16,0,beau,,Augustine,,no egg,RAS,0
+11/10/2023,30,18,0,beau,,Augustine,,no egg,RAS,0
+12/10/2023,31,17,0,beau,,Augustine,,no egg,RAS,0
+13/10/2023,30,18,0,beau,,Augustine,,no egg,RAS,0
+14/10/2023,29,18,0,beau,,Augustine,,no egg,RAS,0
+15/10/2023,24,16,5,couvert/pluie,,Augustine,,no egg,RAS,0
+16/10/2023,19,11,0,éclaircies,,Augustine,,no egg,RAS,0
+17/10/2023,19,15,0,éclaircies,,Augustine,,no egg,RAS,0
+18/10/2023,26,17,0,beau/vent,,Augustine,,no egg,RAS,0
+19/10/2023,26,17,3,couvert/pluie,,Augustine,,no egg,RAS,0
+20/10/2023,25,17,13,couvert/pluie,,Augustine,,no egg,RAS,0
+21/10/2023,20,14,3,éclaircies/pluie,,Augustine,,no egg,RAS,0
+22/10/2023,19,11,0,beau,,Augustine,,no egg,RAS,0
+23/10/2023,15,13,0,maussade,,Augustine,,no egg,RAS,0
+24/10/2023,20,14,0,éclaircies,Albertine malade/rhume,Augustine,,no egg,RAS,0
+25/10/2023,20,11,0,pluie/éclaircies,avicoryl,Augustine,,no egg,RAS,0
+26/10/2023,18,15,1,couvert/pluie,,Augustine,,no egg,RAS,0
+27/10/2023,15,13,8,couvert/pluie,,Augustine,,no egg,RAS,0
+28/10/2023,18,10,0,beau,,Augustine,,no egg,RAS,0
+29/10/2023,19,14,0,beau,,Augustine,,no egg,RAS,0
+30/10/2023,17,14,0,couvert,,Augustine,,no egg,RAS,0
+31/10/2023,15,10,9,couvert/pluie,,Augustine,,no egg,RAS,0
+01/11/2023,19,10,0,beau,,Augustine,,no egg,RAS,0
+02/11/2023,19,10,5,éclaircies/pluie,,Augustine,,no egg,RAS,0
+03/11/2023,13,8,17,pluie,,Augustine,,no egg,RAS,0
+04/11/2023,10,9,5,pluie,,Augustine,,no egg,RAS,0
+05/11/2023,13,9,6,pluie/éclaircies,,Augustine,,no egg,RAS,0
+06/11/2023,19,9,0,beau,,Augustine,,no egg,RAS,0
+07/11/2023,12,8,8,averses/pluie,,Augustine,,no egg,RAS,0
+08/11/2023,17,5,0,beau,,Augustine,,no egg,RAS,0
+09/11/2023,19,6,0,beau,petite gelée matinale,Augustine,,no egg,RAS,0
+10/11/2023,13,9,6,pluie/beau,,Augustine,,no egg,RAS,0
+11/11/2023,11,9,7,pluie/éclaircies,,Augustine,,no egg,RAS,0
+12/11/2023,12,12,0,pluie,,Augustine,,no egg,RAS,0
+13/11/2023,17,11,0,couvert/éclaircies,,Augustine,,no egg,RAS,0
+14/11/2023,24,12,0,beau,,Augustine,,no egg,RAS,0
+15/11/2023,24,14,5,beau/pluie,,Augustine,,no egg,RAS,0
+16/11/2023,16,10,5,pluie/éclaircies,,Augustine,,no egg,RAS,0
+17/11/2023,16,12,2,couvert/pluie,,Augustine,,no egg,RAS,0
+18/11/2023,15,9,0,éclaircies,,Augustine,,no egg,RAS,0
+19/11/2023,oubli,oubli,0,beau,environ 20°C,Augustine,,no egg,RAS,0
+20/11/2023,21,10,0,beau,,Augustine,,no egg,RAS,0
+21/11/2023,14,9,9,couvert/pluie,,Augustine,,no egg,RAS,0
+22/11/2023,9,oubli,10,pluie,,Augustine,,no egg,RAS,0
+23/11/2023,9,7,3,pluie/éclaircies/vent,,Augustine,,no egg,RAS,0
+24/11/2023,11,5,0,beau/vent,,Augustine,,no egg,RAS,0
+25/11/2023,7,7,0,gris/vent,,Augustine,,no egg,RAS,0
+26/11/2023,9,4,0,gris ,,Augustine,,no egg,RAS,0
+27/11/2023,12,0,0,beau,belle gelée matinale -3°c,Augustine,,no egg,RAS,0
+28/11/2023,13,10,27,éclaircies/pluie/vent,,Augustine,,no egg,RAS,0
+29/11/2023,9,7,0,éclaircies,,Augustine,,no egg,RAS,0
+30/11/2023,16,9,0,éclaircies,,Augustine,,no egg,RAS,0
+01/12/2023,11,8,6,bruine/pluie,,Augustine,,no egg,RAS,0
+02/12/2023,8,5,14,pluie,,Augustine,,no egg,RAS,0
+03/12/2023,6,4,2,pluie/éclaircies,,Augustine,,no egg,RAS,0
+04/12/2023,11,3,0,beau,gelée matinale,Augustine,,no egg,RAS,0
+05/12/2023,12,7,"0,5",éclaircies/pluie,,Augustine,,no egg,RAS,0
+06/12/2023,9,6,0,éclaircies/vent,,Augustine,,no egg,RAS,0
+07/12/2023,10,2,0,beau,,Augustine,,no egg,RAS,0
+08/12/2023,14,6,0,beau,,Augustine,,no egg,RAS,0
+09/12/2023,9,6,18,pluie/vent,,Augustine,,no egg,RAS,0
+10/12/2023,14,15,1,pluie/éclaircies,,Augustine,,no egg,RAS,0
+11/12/2023,18,11,0,beau/couvert,,Augustine,,no egg,RAS,0
+12/12/2023,19,10,0,beau,,Augustine,,no egg,RAS,0
+13/12/2023,16,9,3,voilé/pluie,,Augustine,,no egg,RAS,0
+14/12/2023,10,7,20,averses/pluie/vent,,Augustine,,no egg,RAS,0
+15/12/2023,10,7,1,averses/éclaircies/vent,,Augustine,,no egg,RAS,0
+16/12/2023,9,7,1,bruine,,Augustine,,no egg,RAS,0
+17/12/2023,13,3,0,beau,,Augustine,,no egg,RAS,0
+18/12/2023,15,3,0,beau,-4°C ce matin,Augustine,,no egg,RAS,0
+19/12/2023,16,3,0,beau,gelée matinale,Augustine,,no egg,RAS,0
+20/12/2023,4,5,0,gris,,Augustine,,no egg,RAS,0
+21/12/2023,8,6,11,pluie/éclaircies/vent,,Augustine,,no egg,RAS,0
+22/12/2023,11,11,0,vent/bruine,,Augustine,,no egg,RAS,0
+23/12/2023,12,9,1,gris/vent/éclaircies/pluie,,Augustine,,no egg,RAS,0
+24/12/2023,12,9,0,éclaircies,,Augustine,,no egg,RAS,0
+25/12/2023,13,7,0,beau,,Augustine,,no egg,RAS,0
+26/12/2023,12,4,0,beau,,Augustine,,no egg,RAS,0
+27/12/2023,15,3,0,beau,,Augustine,,no egg,RAS,0
+28/12/2023,17,5,0,beau,grosse gelée matinale,Augustine,,no egg,RAS,0
+29/12/2023,10,4,0,gris,,Augustine,,no egg,RAS,0
+30/12/2023,9,7,0,gris/éclaircies,,Augustine,,no egg,RAS,0
+31/12/2023,17,7,0,beau,,Augustine,,no egg,RAS,0
+01/01/2023,,,,,,Cunégonde,x,RAS,RAS,1
+02/01/2023,,,,,,Cunégonde,x,RAS,RAS,1
+03/01/2023,,,,,,Cunégonde,x,RAS,RAS,1
+04/01/2023,15,,0,beau,,Cunégonde,,no egg,RAS,0
+05/01/2023,14,,0,beau,,Cunégonde,x,RAS,RAS,1
+06/01/2023,oubli,,0,beau,,Cunégonde,x,RAS,RAS,1
+07/01/2023,13,,0,beau,,Cunégonde,,no egg,RAS,0
+08/01/2023,9,,0,mitigé,,Cunégonde,x,RAS,RAS,1
+09/01/2023,8,,16,vent éclaircie,,Cunégonde,x,RAS,RAS,1
+10/01/2023,14,,0,beau,,Cunégonde,,no egg,RAS,0
+11/01/2023,9,,0,beau,,Cunégonde,x,RAS,RAS,1
+12/01/2023,12,,0,beau,,Cunégonde,x,RAS,RAS,1
+13/01/2023,13,,0,mitigé,,Cunégonde,,no egg,RAS,0
+14/01/2023,13,,0,beau,,Cunégonde,,no egg,RAS,0
+15/01/2023,10,,2,pluie/beau,,Cunégonde,x,RAS,RAS,1
+16/01/2023,6,,50,pluie/vent,,Cunégonde,,no egg,RAS,0
+17/01/2023,5,,1,pluie/vent,,Cunégonde,x,RAS,RAS,1
+18/01/2023,5,,5,pluie/éclaircie,,Cunégonde,x,RAS,RAS,1
+19/01/2023,5,,,couvert/éclaircie,,Cunégonde,,no egg,RAS,0
+20/01/2023,5,,12,pluie/neige/soleil,,Cunégonde,x,RAS,RAS,1
+21/01/2023,2,,2,idem/vent,,Cunégonde,x,RAS,RAS,1
+22/01/2023,0,,0,Couvert/vent,,Cunégonde,x,RAS,RAS,1
+23/01/2023,oubli,,,oubli,malade (moi),Cunégonde,,no egg,RAS,0
+24/01/2023,2,,,couvert/éclaircie,,Cunégonde,x,RAS,RAS,1
+25/01/2023,0,,,couvert,,Cunégonde,x,RAS,RAS,1
+26/01/2023,0,,,couvert,,Cunégonde,x,RAS,RAS,1
+27/01/2023,0,,,,,Cunégonde,,no egg,RAS,0
+28/01/2023,0,,,couvert,Cunégonde pique Shrek,Cunégonde,,no egg,RAS,0
+29/01/2023,0,,,couvert,aliment poulette+vitamines,Cunégonde,x,RAS,RAS,1
+30/01/2023,4,,,éclaircie,,Cunégonde,,no egg,RAS,0
+31/01/2023,8,,0,beau temps,,Cunégonde,x,RAS,RAS,1
+01/02/2023,10,,0,beau temps,pas sûre de l'œuf de Pioupioute,Cunégonde,x,RAS,RAS,1
+02/02/2023,12,,0,beau temps,petit lait en boisson/aliment pondeuse,Cunégonde,,no egg,RAS,0
+03/02/2023,12,,0,beau temps,petit lait+aliment,Cunégonde,x,RAS,RAS,1
+04/02/2023,10,,0,beau temps,petit lait+aliment,Cunégonde,,no egg,RAS,0
+05/02/2023,10,,0,beau temps,aliment,Cunégonde,x,RAS,RAS,1
+06/02/2023,12,,0,beau temps,,Cunégonde,,no egg,RAS,0
+07/02/2023,8,,0,couvert/vent,,Cunégonde,x,RAS,RAS,1
+08/02/2023,8,,0,beau/vent,,Cunégonde,,no egg,RAS,0
+09/02/2023,10,,0,beau,,Cunégonde,,no egg,RAS,0
+10/02/2023,14,,0,beau,,Cunégonde,x,RAS,RAS,1
+11/02/2023,14,,0,beau,aliment+blé,Cunégonde,,no egg,RAS,0
+12/02/2023,14,,0,beau,,Cunégonde,x,RAS,RAS,1
+13/02/2023,15,,0,beau,,Cunégonde,x,RAS,RAS,1
+14/02/2023,15,,0,beau,,Cunégonde,,no egg,RAS,0
+15/02/2023,16,,0,beau,,Cunégonde,x,RAS,RAS,1
+16/02/2023,16,,0,beau,,Cunégonde,x,RAS,RAS,1
+17/02/2023,16,,0,beau,,Cunégonde,,no egg,RAS,0
+18/02/2023,18,,0,beau,avipar(vermifuge naturel),Cunégonde,x,RAS,RAS,1
+19/02/2023,18,,0,beau,,Cunégonde,x,RAS,RAS,1
+20/02/2023,20,,0,beau,antibio Pioupioute suspicion pb génital,Cunégonde,,no egg,RAS,0
+21/02/2023,15,,0,mitigé,,Cunégonde,x,RAS,RAS,1
+22/02/2023,13,,0,couvert,,Cunégonde,x,RAS,RAS,1
+23/02/2023,11,,4,couvert,"pluie nuit 22,à23/02",Cunégonde,x,RAS,RAS,1
+24/02/2023,12,,"2,5",beau,"pluie nuit 23,à24/02",Cunégonde,x,RAS,RAS,1
+25/02/2023,7,,0,couvert,,Cunégonde,x,RAS,RAS,1
+26/02/2023,5,,0,vent/froid/couvert,,Cunégonde,x,RAS,RAS,1
+27/02/2023,1,,0,vent/neige/éclaircie,,Cunégonde,x,RAS,RAS,1
+28/02/2023,2,,0,éclaircie/vent,,Cunégonde,x,RAS,RAS,1
+01/03/2023,8,,0,beau,,Cunégonde,x,RAS,RAS,1
+02/03/2023,7,,0,couvert,,Cunégonde,x,RAS,RAS,1
+03/03/2023,7,,0,couvert,,Cunégonde,x,RAS,RAS,1
+04/03/2023,10,,"1,5",éclaircie,,Cunégonde,x,RAS,RAS,1
+05/03/2023,10,,0,éclaircie,,Cunégonde,x,RAS,RAS,1
+06/03/2023,10,,0,beau,,Cunégonde,,no egg,RAS,0
+07/03/2023,12,,0,éclaircie/averse,,Cunégonde,x,RAS,RAS,1
+08/03/2023,23,,2,voilé,lentypou,Cunégonde,,no egg,RAS,0
+09/03/2023,20,,0,éclaircies,qq gouttes dans la nuit,Cunégonde,x,RAS,RAS,1
+10/03/2023,18,,"0,5",mitigé,,Cunégonde,x,RAS,RAS,1
+11/03/2023,15,,0,mitigé/vent violent,,Cunégonde,x,RAS,RAS,1
+12/03/2023,15,,"0,5",vent/pluie,17°C à 3h30 du mat,Cunégonde,x,RAS,RAS,1
+13/03/2023,23,,4,bruine puis très beau,,Cunégonde,,no egg,RAS,0
+14/03/2023,22,,14,beau/orage/tempête,pluie nuit du 13/03 au 14/03,Cunégonde,x,RAS,RAS,1
+15/03/2023,12,,2,giboulées,,Cunégonde,x,RAS,RAS,1
+16/03/2023,15,,5,pluie/éclaircie,,Cunégonde,x,RAS,RAS,1
+17/03/2023,19,,0,beau/vent,arrêt lentypou,Cunégonde,,no egg,RAS,0
+18/03/2023,18,,0,couvert/beau/vent,,Cunégonde,x,RAS,RAS,1
+19/03/2023,16,,7,beau/pluie,,Cunégonde,x,RAS,RAS,1
+20/03/2023,16,,"1,5",giboulées,pas sûr de l'œuf de Rémiel,Cunégonde,x,RAS,RAS,1
+21/03/2023,17,,0,beau,,Cunégonde,,no egg,RAS,0
+22/03/2023,19,,0,beau,,Cunégonde,x,RAS,RAS,1
+23/03/2023,22,,0,beau,,Cunégonde,x,RAS,RAS,1
+24/03/2023,22,,0,beau,,Cunégonde,x,RAS,RAS,1
+25/03/2023,17,,1,beau puis bruine,Pioupioute à l'ENVT,Cunégonde,x,RAS,RAS,1
+26/03/2023,19,,0,beau,trouvé un micro œuf,Cunégonde,,no egg,RAS,0
+27/03/2023,9,,8,pluie/éclaircie/vent,tempête la nuit,Cunégonde,x,RAS,RAS,1
+28/03/2023,10,,5,giboulées,,Cunégonde,x,RAS,RAS,1
+29/03/2023,16,,0,beau,,Cunégonde,x,RAS,RAS,1
+30/03/2023,22,,0,beau,,Cunégonde,,no egg,RAS,0
+31/03/2023,20,,0,beau,,Cunégonde,x,RAS,RAS,1
+01/04/2023,12,,0,couvert/qq gouttes,"œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte",Cunégonde,x,RAS,RAS,1
+02/04/2023,12,,3,couvert/vent/pluie,Augustine malade: amirudène 7J,Cunégonde,,no egg,RAS,0
+03/04/2023,9,,15,pluie,,Cunégonde,x?,pondeuse incertaine,RAS,1
+04/04/2023,9,,3,pluie/éclaircie,Augustine DCD,Cunégonde,x,RAS,RAS,1
+05/04/2023,15,,0,beau,aliment pondeuse,Cunégonde,x,RAS,RAS,1
+06/04/2023,17,,0,beau,,Cunégonde,x,RAS,RAS,1
+07/04/2023,13,,0,beau,,Cunégonde,x,RAS,RAS,1
+08/04/2023,18,,0,beau,,Cunégonde,x,RAS,RAS,1
+09/04/2023,20,,0,beau,,Cunégonde,x,RAS,RAS,1
+10/04/2023,24,,0,beau,,Cunégonde,x,RAS,RAS,1
+11/04/2023,19,,0,beau,,Cunégonde,x,RAS,RAS,1
+12/04/2023,16,,0,beau,,Cunégonde,,no egg,RAS,0
+13/04/2023,17,,5,beau/pluie,,Cunégonde,x,RAS,RAS,1
+14/04/2023,8,,4,giboulées,,Cunégonde,x,RAS,RAS,1
+15/04/2023,11,,3,giboulées,arrêt antibiotique Pioupioute/ponction à l'envt,Cunégonde,x,RAS,RAS,1
+16/04/2023,13,,1,giboulées/éclaircies,Pioupioute a pondu un œuf normal/veut couver,Cunégonde,x,RAS,RAS,1
+17/04/2023,16,,0,beau,,Cunégonde,,no egg,RAS,0
+18/04/2023,16,,0,beau,,Cunégonde,x,RAS,RAS,1
+19/04/2023,17,,0,beau,,Cunégonde,x,RAS,RAS,1
+20/04/2023,22,,0,beau,,Cunégonde,x,RAS,RAS,1
+21/04/2023,22,,0,beau,,Cunégonde,x,RAS,RAS,1
+22/04/2023,22,,0,beau,,Cunégonde,,no egg,RAS,0
+23/04/2023,13,,0,couvert/bruine,15°C à 5h du mat,Cunégonde,x,RAS,RAS,1
+24/04/2023,19,,7,beau/pluie,découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?,Cunégonde,x,RAS,RAS,1
+25/04/2023,17,,0,beau,,Cunégonde,x,RAS,RAS,1
+26/04/2023,15,,17,pluie,,Cunégonde,,no egg,RAS,0
+27/04/2023,18,,2,couvert,,Cunégonde,x,RAS,RAS,1
+28/04/2023,23,,0,voilé/beau,,Cunégonde,x,RAS,RAS,1
+29/04/2023,24,,0,voilé,,Cunégonde,x,RAS,RAS,1
+30/04/2023,17,,0,couvert/pluie,œuf d'Albertine très clair,Cunégonde,,no egg,RAS,0
+01/05/2023,18,,36,giboulées,dont 29mm dans la nuit du 29 au 30/04,Cunégonde,x(cassé),cassé,RAS,1
+02/05/2023,18,,2,giboulées/éclaircies,,Cunégonde,x,RAS,RAS,1
+03/05/2023,20,,0,beau,,Cunégonde,x,RAS,RAS,1
+04/05/2023,25,,0,beau,,Cunégonde,x,RAS,RAS,1
+05/05/2023,25,,0,beau,,Cunégonde,,no egg,RAS,0
+06/05/2023,23,,0,beau,,Cunégonde,x,RAS,RAS,1
+07/05/2023,24,,0,beau/orage,1 œuf trouvé dans le poulailler cassé,Cunégonde,x,RAS,RAS,1
+08/05/2023,17,,8,averses,,Cunégonde,x,RAS,RAS,1
+09/05/2023,22,,0,beau,,Cunégonde,x,RAS,RAS,1
+10/05/2023,15,,15,couvert/pluie,,Cunégonde,,no egg,RAS,0
+11/05/2023,16,,2,pluie/giboulées,,Cunégonde,x,RAS,RAS,1
+12/05/2023,15,,0,éclaircies,,Cunégonde,x,RAS,RAS,1
+13/05/2023,17,,6,pluie/éclaircies,,Cunégonde,x,RAS,RAS,1
+14/05/2023,13,,15,giboulées,,Cunégonde,x,RAS,RAS,1
+15/05/2023,15,,10,"averses, éclaircies",,Cunégonde,x,RAS,RAS,1
+16/05/2023,11,,6,averses,"petit trou dans certains œufs, à surveiller si poules ou pie",Cunégonde,x,RAS,RAS,1
+17/05/2023,13,,2,pluie/éclaircie,,Cunégonde,x,RAS,RAS,1
+18/05/2023,18,,0,beau,,Cunégonde,x,RAS,RAS,1
+19/05/2023,14,,0,couvert,,Cunégonde,x,RAS,RAS,1
+20/05/2023,10,,4,pluie/couvert,,Cunégonde,x,RAS,RAS,1
+21/05/2023,15,,0,éclaircies/beau,,Cunégonde,x,RAS,RAS,1
+22/05/2023,16,,0,couvert/beau,,Cunégonde,x,RAS,RAS,1
+23/05/2023,18,,4,pluie/éclaircies,,Cunégonde,,no egg,RAS,0
+24/05/2023,22,,6,temps lourd/orages,,Cunégonde,x,RAS,RAS,1
+25/05/2023,20,,25,lourd/orages,,Cunégonde,x,RAS,RAS,1
+26/05/2023,17,,6,couvert/pluie,,Cunégonde,,no egg,RAS,0
+27/05/2023,23,,0,beau,,Cunégonde,x,RAS,RAS,1
+28/05/2023,27,,0,beau,,Cunégonde,,no egg,RAS,0
+29/05/2023,27,,0,beau,,Cunégonde,,no egg,RAS,0
+30/05/2023,27,,24,beau/orage fort,,Cunégonde,x,RAS,RAS,1
+31/05/2023,26,,0,éclaircies,,Cunégonde,x,RAS,RAS,1
+01/06/2023,24,,5,beau/pluie,,Cunégonde,x,RAS,RAS,1
+02/06/2023,22,,1,pluie/éclaircies,,Cunégonde,x,RAS,RAS,1
+03/06/2023,23,,0,beau,,Cunégonde,x,RAS,RAS,1
+04/06/2023,25,,2,beau/orage,changement de poulailler,Cunégonde,x,RAS,RAS,1
+05/06/2023,26,,0,beau,,Cunégonde,x,RAS,RAS,1
+06/06/2023,25,,5,beau/pluie,,Cunégonde,,no egg,RAS,0
+07/06/2023,26,,0,beau,,Cunégonde,x,RAS,RAS,1
+08/06/2023,27,,0,beau,,Cunégonde,,no egg,RAS,0
+09/06/2023,27,,0,beau/orageux,,Cunégonde,x,RAS,RAS,1
+10/06/2023,26,,3,couvert/orage,,Cunégonde,x,RAS,RAS,1
+11/06/2023,27,,0,beau/orageux,,Cunégonde,x,RAS,RAS,1
+12/06/2023,25,,1,beau/orage,,Cunégonde,x,RAS,RAS,1
+13/06/2023,27,,31,couvert/orage,les 2 œufs ont été cassé par une poule ou une bête,Cunégonde,x(cassé),cassé,RAS,1
+14/06/2023,24,,23,beau/orage,"l'œuf d'Albertine très fragile, elle a des vers en plus/ Avipar/Avipou",Cunégonde,x,RAS,RAS,1
+15/06/2023,21,,3,pluie/éclaircie,,Cunégonde,x,RAS,RAS,1
+16/06/2023,25,,0,couvert/beau,Saquiel malade/doxycycline,Cunégonde,,no egg,RAS,0
+17/06/2023,26,,0,beau,,Cunégonde,x,RAS,RAS,1
+18/06/2023,30,,11,beau/orage,0 œuf,Cunégonde,,no egg,RAS,0
+19/06/2023,27,,0,mitigé/,,Cunégonde,x,RAS,RAS,1
+20/06/2023,22,,0,couvert/beau,quelques gouttes,Cunégonde,x,RAS,RAS,1
+21/06/2023,25,,0,lourd,œuf de Valérie très fragile trouvé ds poulailler,Cunégonde,x,RAS,RAS,1
+22/06/2023,20,,7,orage,,Cunégonde,x,RAS,RAS,1
+23/06/2023,23,,6,pluie/éclaircies,Cunégonde veut couver,Cunégonde,x,RAS,RAS,1
+24/06/2023,28,,0,beau,,Cunégonde,,no egg,RAS,0
+25/06/2023,28,24,0,beau,,Cunégonde,,no egg,RAS,0
+26/06/2023,32,28,0,beau,,Cunégonde,,no egg,RAS,0
+27/06/2023,21,22,0,couvert,,Cunégonde,,no egg,RAS,0
+28/06/2023,27,24,0,nuageux,,Cunégonde,,no egg,RAS,0
+29/06/2023,26,24,0,beau,,Cunégonde,,no egg,RAS,0
+30/06/2023,24,22,13,nuageux/orage,,Cunégonde,,no egg,RAS,0
+01/07/2023,19,20,3,pluie/couvert/vent,8 œuf sous Cunégonde: 6marans+1valérie+1joséphine,Cunégonde,,no egg,RAS,0
+02/07/2023,22,20,0,couvert/vent,1œuf valérie et 1oeuf Joséphine sous Cunégonde,Cunégonde,,no egg,RAS,0
+03/07/2023,25,22,0,éclaircies,1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde,Cunégonde,,no egg,RAS,0
+04/07/2023,27,23,0,couvert/éclaircies,,Cunégonde,,no egg,RAS,0
+05/07/2023,26,24,1,lourd/orages,"Valérie tousse, avicoryl dans l'eau",Cunégonde,,no egg,RAS,0
+06/07/2023,27,24,0,éclaircies,,Cunégonde,,no egg,RAS,0
+07/07/2023,27,24,0,beau/lourd/orageux,,Cunégonde,,no egg,RAS,0
+08/07/2023,33,24,6,beau/orages,vit C dans l'eau+oligoélément,Cunégonde,,no egg,RAS,0
+09/07/2023,32,26,0,beau,,Cunégonde,,no egg,RAS,0
+10/07/2023,28,25,0,couvert/lourd,21°c et 80%H le matin,Cunégonde,,no egg,RAS,0
+11/07/2023,31,27,0,beau,"22°C et 82%H  matin, 27°c à 22h",Cunégonde,,no egg,RAS,0
+12/07/2023,28,26,1,beau/orageux,œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler,Cunégonde,,no egg,RAS,0
+13/07/2023,21,22,1,pluie/couvert,,Cunégonde,,no egg,RAS,0
+14/07/2023,23,22,0,bruine/couvert,,Cunégonde,,no egg,RAS,0
+15/07/2023,31,26,0,beau,fin doxycyline pour Saquiel/ 24°C et 75%H à 23h ext/0 œuf,Cunégonde,,no egg,RAS,0
+16/07/2023,30,21,3,beau/averses,17°C et 80%H à 20h,Cunégonde,,no egg,RAS,0
+17/07/2023,27,23,0,mitigé/beau,,Cunégonde,,no egg,RAS,0
+18/07/2023,27,26,0,beau,installation voile d'ombrage sur la terrasse,Cunégonde,,no egg,RAS,0
+19/07/2023,33,26,0,beau,36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver,Cunégonde,,no egg,RAS,0
+20/07/2023,24,23,2,orage/couvert,orages la nuit du 18 au 19/07,Cunégonde,,no egg,RAS,0
+21/07/2023,27,23,0,beau,Valérie semble vouloir couver aussi cette coquine!!,Cunégonde,,no egg,RAS,0
+22/07/2023,19,21,0,couvert/bruine,Valérie couve…........,Cunégonde,,no egg,RAS,0
+23/07/2023,29,23,0,soleil et qq nuages,,Cunégonde,,no egg,RAS,0
+24/07/2023,30,26,0,beau,0 œuf/ 26°c à 21h30,Cunégonde,,no egg,RAS,0
+25/07/2023,21,21,3,couvert/pluie,,Cunégonde,,no egg,RAS,0
+26/07/2023,15,19,3,pluie/couvert/vent,trouvé 1 œuf d'Albertine dans le jardin,Cunégonde,,no egg,RAS,0
+27/07/2023,28,21,0,beau,,Cunégonde,,no egg,RAS,0
+28/07/2023,30,23,16,beau/orages,0 œuf,Cunégonde,,no egg,RAS,0
+29/07/2023,29,24,0,beau,,Cunégonde,,no egg,RAS,0
+30/07/2023,31,25,0,beau/orage,,Cunégonde,,no egg,RAS,0
+31/07/2023,22,23,12,pluie/couvert,,Cunégonde,,no egg,RAS,0
+01/08/2023,27,21,0,beau,découverte de poux rouges/retour dans l'ancien poulailler/T°p=T°ext,Cunégonde,,no egg,RAS,0
+02/08/2023,24,24,0,couvert/vent,"retour dans le poulailler ""terrasse""",Cunégonde,,no egg,RAS,0
+03/08/2023,28,24,3,beau/couvert/pluie,traitement exzolt,Cunégonde,,no egg,RAS,0
+04/08/2023,17,,0,bruine/éclaircies,,Cunégonde,,no egg,RAS,0
+05/08/2023,18,18,13,giboulées,1 œuf cassé et 1 œuf mou/retour ancien poulailler,Cunégonde,,no egg,RAS,0
+06/08/2023,22,20,0,éclaircies,,Cunégonde,,no egg,RAS,0
+07/08/2023,23,20,1,Bruine/éclaircies/vent,,Cunégonde,,no egg,RAS,0
+08/08/2023,23,,0,beau,0 œuf,Cunégonde,,no egg,RAS,0
+09/08/2023,28,20,0,beau,0 oeuf/T°C poulailler à 22-23h,Cunégonde,,no egg,RAS,0
+10/08/2023,30,21,0,beau,traitement exzolt,Cunégonde,,no egg,RAS,0
+11/08/2023,30,25,0,beau,avhydratC+Gascodrène,Cunégonde,,no egg,RAS,0
+12/08/2023,33,21,0,Brumeux/beau,avhydratC+Gascodrène,Cunégonde,,no egg,RAS,0
+13/08/2023,32,23,0,beau,avhydratC+Gascodrène,Cunégonde,,no egg,RAS,0
+14/08/2023,30,26,0,voilé,avhydratC+Gascodrène,Cunégonde,,no egg,RAS,0
+15/08/2023,32,26,0,beau/vent,avhydratC+Gascodrène,Cunégonde,,no egg,RAS,0
+16/08/2023,26,23,"0,5",pluie fine/couvert,,Cunégonde,,no egg,RAS,0
+17/08/2023,25,23,0,couvert,,Cunégonde,,no egg,RAS,0
+18/08/2023,32,26,0,bruine le matin,avhydrat C+gascodrène,Cunégonde,,no egg,RAS,0
+19/08/2023,32,26,0,voilé/vent,avhydratC+Gascodrène,Cunégonde,,no egg,RAS,0
+20/08/2023,34,26,0,vigilance canicule,avhydratC+Gascodrène,Cunégonde,,no egg,RAS,0
+21/08/2023,37,29,0,canicule,avhydratC+Gascodrène,Cunégonde,,no egg,RAS,0
+22/08/2023,34,26,0,canicule,idem,Cunégonde,,no egg,RAS,0
+23/08/2023,36,27,0,canicule,C+Gasco/ nuit tropicale 27°c/ 73% H à 22h40,Cunégonde,,no egg,RAS,0
+24/08/2023,40,28,0,canicule,C+Gasco,Cunégonde,,no egg,RAS,0
+25/08/2023,"40,5",28,0,canicule,c+Gasco,Cunégonde,,no egg,RAS,0
+26/08/2023,23,20,3,pluie/couvert,,Cunégonde,,no egg,RAS,0
+27/08/2023,19,17,8,pluie,,Cunégonde,,no egg,RAS,0
+28/08/2023,16,14,37,pluie/éclaircies,,Cunégonde,,no egg,RAS,0
+29/08/2023,17,16,5,pluie/éclaircies,,Cunégonde,,no egg,RAS,0
+30/08/2023,20,15,0,éclaircies/vent,,Cunégonde,,no egg,RAS,0
+31/08/2023,22,16,1,éclaircies/averses,,Cunégonde,,no egg,RAS,0
+01/09/2023,28,17,0,beau,,Cunégonde,,no egg,RAS,0
+02/09/2023,31,20,0,beau,,Cunégonde,,no egg,RAS,0
+03/09/2023,22,18,0,couvert,trouvé un oeuf minuscule Saquiel ou Albertine,Cunégonde,,no egg,RAS,0
+04/09/2023,26,21,0,beau/voilé,,Cunégonde,,no egg,RAS,0
+05/09/2023,28,22,0,voilé/vent,sable du Sahara dans l'air,Cunégonde,,no egg,RAS,0
+06/09/2023,29,21,0,voilé,sable du Sahara dans l'air,Cunégonde,,no egg,RAS,0
+07/09/2023,27,23,0,voilé,sable du Sahara dans l'air,Cunégonde,,no egg,RAS,0
+08/09/2023,30,20,0,beau,,Cunégonde,,no egg,RAS,0
+09/09/2023,29,21,0,beau,,Cunégonde,,no egg,RAS,0
+10/09/2023,30,22,0,beau,,Cunégonde,,no egg,RAS,0
+11/09/2023,30,20,0,beau,,Cunégonde,,no egg,RAS,0
+12/09/2023,30,20,0,couvert/éclaircies,,Cunégonde,,no egg,RAS,0
+13/09/2023,24,17,22,mitigé/orages,,Cunégonde,,no egg,RAS,0
+14/09/2023,25,17,0,éclaircies,,Cunégonde,,no egg,RAS,0
+15/09/2023,28,18,0,beau,,Cunégonde,,no egg,RAS,0
+16/09/2023,28,17,3,beau/orageux/pluie,,Cunégonde,,no egg,RAS,0
+17/09/2023,28,21,0,beau,,Cunégonde,,no egg,RAS,0
+18/09/2023,25,19,3,beau/orages,,Cunégonde,,no egg,RAS,0
+19/09/2023,26,17,6,beau/orages,,Cunégonde,,no egg,RAS,0
+20/09/2023,25,15,0,beau,,Cunégonde,,no egg,RAS,0
+21/09/2023,27,18,0,couvert/beau,,Cunégonde,,no egg,RAS,0
+22/09/2023,20,14,9,couvert/pluie,,Cunégonde,,no egg,RAS,0
+23/09/2023,20,12,0,éclaircies/vent,,Cunégonde,,no egg,RAS,0
+24/09/2023,23,13,0,éclaircies,,Cunégonde,,no egg,RAS,0
+25/09/2023,24,15,0,beau,,Cunégonde,,no egg,RAS,0
+26/09/2023,27,15,0,beau,,Cunégonde,,no egg,RAS,0
+27/09/2023,28,16,0,beau,,Cunégonde,x,RAS,RAS,1
+28/09/2023,30,19,0,beau,,Cunégonde,,no egg,RAS,0
+29/09/2023,31,20,0,beau,,Cunégonde,x,RAS,RAS,1
+30/09/2023,30,20,0,beau,,Cunégonde,x,RAS,RAS,1
+01/10/2023,30,19,0,beau,,Cunégonde,,no egg,RAS,0
+02/10/2023,32,20,0,beau,,Cunégonde,x,RAS,RAS,1
+03/10/2023,31,20,0,beau/vent,,Cunégonde,x,RAS,RAS,1
+04/10/2023,22,19,0,couvert,,Cunégonde,x,RAS,RAS,1
+05/10/2023,28,16,0,nuageux,,Cunégonde,,no egg,RAS,0
+06/10/2023,28,16,0,beau,,Cunégonde,x,RAS,RAS,1
+07/10/2023,28,17,0,beau,,Cunégonde,x,RAS,RAS,1
+08/10/2023,30,15,0,beau,,Cunégonde,x,RAS,RAS,1
+09/10/2023,29,17,0,beau,,Cunégonde,,no egg,RAS,0
+10/10/2023,29,16,0,beau,,Cunégonde,x,RAS,RAS,1
+11/10/2023,30,18,0,beau,,Cunégonde,x,RAS,RAS,1
+12/10/2023,31,17,0,beau,,Cunégonde,x,RAS,RAS,1
+13/10/2023,30,18,0,beau,,Cunégonde,,no egg,RAS,0
+14/10/2023,29,18,0,beau,,Cunégonde,x,RAS,RAS,1
+15/10/2023,24,16,5,couvert/pluie,,Cunégonde,x,RAS,RAS,1
+16/10/2023,19,11,0,éclaircies,,Cunégonde,,no egg,RAS,0
+17/10/2023,19,15,0,éclaircies,,Cunégonde,x,RAS,RAS,1
+18/10/2023,26,17,0,beau/vent,,Cunégonde,x,RAS,RAS,1
+19/10/2023,26,17,3,couvert/pluie,,Cunégonde,x,RAS,RAS,1
+20/10/2023,25,17,13,couvert/pluie,,Cunégonde,x,RAS,RAS,1
+21/10/2023,20,14,3,éclaircies/pluie,,Cunégonde,,no egg,RAS,0
+22/10/2023,19,11,0,beau,,Cunégonde,x,RAS,RAS,1
+23/10/2023,15,13,0,maussade,,Cunégonde,x,RAS,RAS,1
+24/10/2023,20,14,0,éclaircies,Albertine malade/rhume,Cunégonde,x,RAS,RAS,1
+25/10/2023,20,11,0,pluie/éclaircies,avicoryl,Cunégonde,,no egg,RAS,0
+26/10/2023,18,15,1,couvert/pluie,,Cunégonde,x,RAS,RAS,1
+27/10/2023,15,13,8,couvert/pluie,,Cunégonde,x,RAS,RAS,1
+28/10/2023,18,10,0,beau,,Cunégonde,x,RAS,RAS,1
+29/10/2023,19,14,0,beau,,Cunégonde,,no egg,RAS,0
+30/10/2023,17,14,0,couvert,,Cunégonde,x,RAS,RAS,1
+31/10/2023,15,10,9,couvert/pluie,,Cunégonde,x,RAS,RAS,1
+01/11/2023,19,10,0,beau,,Cunégonde,x,RAS,RAS,1
+02/11/2023,19,10,5,éclaircies/pluie,,Cunégonde,,no egg,RAS,0
+03/11/2023,13,8,17,pluie,,Cunégonde,x,RAS,RAS,1
+04/11/2023,10,9,5,pluie,,Cunégonde,x,RAS,RAS,1
+05/11/2023,13,9,6,pluie/éclaircies,,Cunégonde,,no egg,RAS,0
+06/11/2023,19,9,0,beau,,Cunégonde,x,RAS,RAS,1
+07/11/2023,12,8,8,averses/pluie,,Cunégonde,x,RAS,RAS,1
+08/11/2023,17,5,0,beau,,Cunégonde,x,RAS,RAS,1
+09/11/2023,19,6,0,beau,petite gelée matinale,Cunégonde,,no egg,RAS,0
+10/11/2023,13,9,6,pluie/beau,,Cunégonde,x,RAS,RAS,1
+11/11/2023,11,9,7,pluie/éclaircies,,Cunégonde,x,RAS,RAS,1
+12/11/2023,12,12,0,pluie,,Cunégonde,,no egg,RAS,0
+13/11/2023,17,11,0,couvert/éclaircies,,Cunégonde,x,RAS,RAS,1
+14/11/2023,24,12,0,beau,,Cunégonde,x,RAS,RAS,1
+15/11/2023,24,14,5,beau/pluie,,Cunégonde,x,RAS,RAS,1
+16/11/2023,16,10,5,pluie/éclaircies,,Cunégonde,,no egg,RAS,0
+17/11/2023,16,12,2,couvert/pluie,,Cunégonde,x,RAS,RAS,1
+18/11/2023,15,9,0,éclaircies,,Cunégonde,x,RAS,RAS,1
+19/11/2023,oubli,oubli,0,beau,environ 20°C,Cunégonde,,no egg,RAS,0
+20/11/2023,21,10,0,beau,,Cunégonde,x,RAS,RAS,1
+21/11/2023,14,9,9,couvert/pluie,,Cunégonde,x,RAS,RAS,1
+22/11/2023,9,oubli,10,pluie,,Cunégonde,,no egg,RAS,0
+23/11/2023,9,7,3,pluie/éclaircies/vent,,Cunégonde,x,RAS,RAS,1
+24/11/2023,11,5,0,beau/vent,,Cunégonde,x,RAS,RAS,1
+25/11/2023,7,7,0,gris/vent,,Cunégonde,x,RAS,RAS,1
+26/11/2023,9,4,0,gris ,,Cunégonde,x,RAS,RAS,1
+27/11/2023,12,0,0,beau,belle gelée matinale -3°c,Cunégonde,x,RAS,RAS,1
+28/11/2023,13,10,27,éclaircies/pluie/vent,,Cunégonde,x,RAS,RAS,1
+29/11/2023,9,7,0,éclaircies,,Cunégonde,x,RAS,RAS,1
+30/11/2023,16,9,0,éclaircies,,Cunégonde,x,RAS,RAS,1
+01/12/2023,11,8,6,bruine/pluie,,Cunégonde,,no egg,RAS,0
+02/12/2023,8,5,14,pluie,,Cunégonde,x,RAS,RAS,1
+03/12/2023,6,4,2,pluie/éclaircies,,Cunégonde,,no egg,RAS,0
+04/12/2023,11,3,0,beau,gelée matinale,Cunégonde,x,RAS,RAS,1
+05/12/2023,12,7,"0,5",éclaircies/pluie,,Cunégonde,,no egg,RAS,0
+06/12/2023,9,6,0,éclaircies/vent,,Cunégonde,,no egg,RAS,0
+07/12/2023,10,2,0,beau,,Cunégonde,x,RAS,RAS,1
+08/12/2023,14,6,0,beau,,Cunégonde,,no egg,RAS,0
+09/12/2023,9,6,18,pluie/vent,,Cunégonde,x,RAS,RAS,1
+10/12/2023,14,15,1,pluie/éclaircies,,Cunégonde,,no egg,RAS,0
+11/12/2023,18,11,0,beau/couvert,,Cunégonde,x,RAS,RAS,1
+12/12/2023,19,10,0,beau,,Cunégonde,,no egg,RAS,0
+13/12/2023,16,9,3,voilé/pluie,,Cunégonde,x,RAS,RAS,1
+14/12/2023,10,7,20,averses/pluie/vent,,Cunégonde,,no egg,RAS,0
+15/12/2023,10,7,1,averses/éclaircies/vent,,Cunégonde,x,RAS,RAS,1
+16/12/2023,9,7,1,bruine,,Cunégonde,,no egg,RAS,0
+17/12/2023,13,3,0,beau,,Cunégonde,,no egg,RAS,0
+18/12/2023,15,3,0,beau,-4°C ce matin,Cunégonde,x,RAS,RAS,1
+19/12/2023,16,3,0,beau,gelée matinale,Cunégonde,,no egg,RAS,0
+20/12/2023,4,5,0,gris,,Cunégonde,,no egg,RAS,0
+21/12/2023,8,6,11,pluie/éclaircies/vent,,Cunégonde,x,RAS,RAS,1
+22/12/2023,11,11,0,vent/bruine,,Cunégonde,,no egg,RAS,0
+23/12/2023,12,9,1,gris/vent/éclaircies/pluie,,Cunégonde,x,RAS,RAS,1
+24/12/2023,12,9,0,éclaircies,,Cunégonde,,no egg,RAS,0
+25/12/2023,13,7,0,beau,,Cunégonde,x,RAS,RAS,1
+26/12/2023,12,4,0,beau,,Cunégonde,,no egg,RAS,0
+27/12/2023,15,3,0,beau,,Cunégonde,,no egg,RAS,0
+28/12/2023,17,5,0,beau,grosse gelée matinale,Cunégonde,x,RAS,RAS,1
+29/12/2023,10,4,0,gris,,Cunégonde,,no egg,RAS,0
+30/12/2023,9,7,0,gris/éclaircies,,Cunégonde,x,RAS,RAS,1
+31/12/2023,17,7,0,beau,,Cunégonde,,no egg,RAS,0
+01/01/2023,,,,,,Pioupioute,,no egg,RAS,0
+02/01/2023,,,,,,Pioupioute,,no egg,RAS,0
+03/01/2023,,,,,,Pioupioute,,no egg,RAS,0
+04/01/2023,15,,0,beau,,Pioupioute,,no egg,RAS,0
+05/01/2023,14,,0,beau,,Pioupioute,,no egg,RAS,0
+06/01/2023,oubli,,0,beau,,Pioupioute,,no egg,RAS,0
+07/01/2023,13,,0,beau,,Pioupioute,,no egg,RAS,0
+08/01/2023,9,,0,mitigé,,Pioupioute,,no egg,RAS,0
+09/01/2023,8,,16,vent éclaircie,,Pioupioute,,no egg,RAS,0
+10/01/2023,14,,0,beau,,Pioupioute,,no egg,RAS,0
+11/01/2023,9,,0,beau,,Pioupioute,,no egg,RAS,0
+12/01/2023,12,,0,beau,,Pioupioute,,no egg,RAS,0
+13/01/2023,13,,0,mitigé,,Pioupioute,,no egg,RAS,0
+14/01/2023,13,,0,beau,,Pioupioute,,no egg,RAS,0
+15/01/2023,10,,2,pluie/beau,,Pioupioute,,no egg,RAS,0
+16/01/2023,6,,50,pluie/vent,,Pioupioute,,no egg,RAS,0
+17/01/2023,5,,1,pluie/vent,,Pioupioute,,no egg,RAS,0
+18/01/2023,5,,5,pluie/éclaircie,,Pioupioute,,no egg,RAS,0
+19/01/2023,5,,,couvert/éclaircie,,Pioupioute,,no egg,RAS,0
+20/01/2023,5,,12,pluie/neige/soleil,,Pioupioute,,no egg,RAS,0
+21/01/2023,2,,2,idem/vent,,Pioupioute,,no egg,RAS,0
+22/01/2023,0,,0,Couvert/vent,,Pioupioute,,no egg,RAS,0
+23/01/2023,oubli,,,oubli,malade (moi),Pioupioute,,no egg,RAS,0
+24/01/2023,2,,,couvert/éclaircie,,Pioupioute,,no egg,RAS,0
+25/01/2023,0,,,couvert,,Pioupioute,,no egg,RAS,0
+26/01/2023,0,,,couvert,,Pioupioute,,no egg,RAS,0
+27/01/2023,0,,,,,Pioupioute,,no egg,RAS,0
+28/01/2023,0,,,couvert,Cunégonde pique Shrek,Pioupioute,,no egg,RAS,0
+29/01/2023,0,,,couvert,aliment poulette+vitamines,Pioupioute,,no egg,RAS,0
+30/01/2023,4,,,éclaircie,,Pioupioute,,no egg,RAS,0
+31/01/2023,8,,0,beau temps,,Pioupioute,,no egg,RAS,0
+01/02/2023,10,,0,beau temps,pas sûre de l'œuf de Pioupioute,Pioupioute,x? ,no egg,RAS,0
+02/02/2023,12,,0,beau temps,petit lait en boisson/aliment pondeuse,Pioupioute,,no egg,RAS,0
+03/02/2023,12,,0,beau temps,petit lait+aliment,Pioupioute,,no egg,RAS,0
+04/02/2023,10,,0,beau temps,petit lait+aliment,Pioupioute,x,RAS,RAS,1
+05/02/2023,10,,0,beau temps,aliment,Pioupioute,,no egg,RAS,0
+06/02/2023,12,,0,beau temps,,Pioupioute,x,RAS,RAS,1
+07/02/2023,8,,0,couvert/vent,,Pioupioute,,no egg,RAS,0
+08/02/2023,8,,0,beau/vent,,Pioupioute,,no egg,RAS,0
+09/02/2023,10,,0,beau,,Pioupioute,,no egg,RAS,0
+10/02/2023,14,,0,beau,,Pioupioute,,no egg,RAS,0
+11/02/2023,14,,0,beau,aliment+blé,Pioupioute,x,RAS,RAS,1
+12/02/2023,14,,0,beau,,Pioupioute,x,RAS,RAS,1
+13/02/2023,15,,0,beau,,Pioupioute,x,RAS,RAS,1
+14/02/2023,15,,0,beau,,Pioupioute,x,RAS,RAS,1
+15/02/2023,16,,0,beau,,Pioupioute,,no egg,RAS,0
+16/02/2023,16,,0,beau,,Pioupioute,,no egg,RAS,0
+17/02/2023,16,,0,beau,,Pioupioute,x(cassé),cassé,RAS,1
+18/02/2023,18,,0,beau,avipar(vermifuge naturel),Pioupioute,,no egg,RAS,0
+19/02/2023,18,,0,beau,,Pioupioute,x,RAS,RAS,1
+20/02/2023,20,,0,beau,antibio Pioupioute suspicion pb génital,Pioupioute,antibio,no egg,antibio,0
+21/02/2023,15,,0,mitigé,,Pioupioute,x,RAS,RAS,1
+22/02/2023,13,,0,couvert,,Pioupioute,,no egg,RAS,0
+23/02/2023,11,,4,couvert,"pluie nuit 22,à23/02",Pioupioute,,no egg,RAS,0
+24/02/2023,12,,"2,5",beau,"pluie nuit 23,à24/02",Pioupioute,fin antibio,no egg,fin antibio,0
+25/02/2023,7,,0,couvert,,Pioupioute,,no egg,RAS,0
+26/02/2023,5,,0,vent/froid/couvert,,Pioupioute,x,RAS,RAS,1
+27/02/2023,1,,0,vent/neige/éclaircie,,Pioupioute,,no egg,RAS,0
+28/02/2023,2,,0,éclaircie/vent,,Pioupioute,,no egg,RAS,0
+01/03/2023,8,,0,beau,,Pioupioute,x,RAS,RAS,1
+02/03/2023,7,,0,couvert,,Pioupioute,x,RAS,RAS,1
+03/03/2023,7,,0,couvert,,Pioupioute,,no egg,RAS,0
+04/03/2023,10,,"1,5",éclaircie,,Pioupioute,,no egg,RAS,0
+05/03/2023,10,,0,éclaircie,,Pioupioute,x(cassé),cassé,RAS,1
+06/03/2023,10,,0,beau,,Pioupioute,,no egg,RAS,0
+07/03/2023,12,,0,éclaircie/averse,,Pioupioute,,no egg,RAS,0
+08/03/2023,23,,2,voilé,lentypou,Pioupioute,x(cassé),cassé,RAS,1
+09/03/2023,20,,0,éclaircies,qq gouttes dans la nuit,Pioupioute,,no egg,RAS,0
+10/03/2023,18,,"0,5",mitigé,,Pioupioute,,no egg,RAS,0
+11/03/2023,15,,0,mitigé/vent violent,,Pioupioute,x(cassé),cassé,RAS,1
+12/03/2023,15,,"0,5",vent/pluie,17°C à 3h30 du mat,Pioupioute,,no egg,RAS,0
+13/03/2023,23,,4,bruine puis très beau,,Pioupioute,x(cassé),cassé,RAS,1
+14/03/2023,22,,14,beau/orage/tempête,pluie nuit du 13/03 au 14/03,Pioupioute,,no egg,RAS,0
+15/03/2023,12,,2,giboulées,,Pioupioute,,no egg,RAS,0
+16/03/2023,15,,5,pluie/éclaircie,,Pioupioute,x,RAS,RAS,1
+17/03/2023,19,,0,beau/vent,arrêt lentypou,Pioupioute,x,RAS,RAS,1
+18/03/2023,18,,0,couvert/beau/vent,,Pioupioute,x,RAS,RAS,1
+19/03/2023,16,,7,beau/pluie,,Pioupioute,,no egg,RAS,0
+20/03/2023,16,,"1,5",giboulées,pas sûr de l'œuf de Rémiel,Pioupioute,,no egg,RAS,0
+21/03/2023,17,,0,beau,,Pioupioute,x,RAS,RAS,1
+22/03/2023,19,,0,beau,,Pioupioute,,no egg,RAS,0
+23/03/2023,22,,0,beau,,Pioupioute,,no egg,RAS,0
+24/03/2023,22,,0,beau,,Pioupioute,,no egg,RAS,0
+25/03/2023,17,,1,beau puis bruine,Pioupioute à l'ENVT,Pioupioute,,no egg,RAS,0
+26/03/2023,19,,0,beau,trouvé un micro œuf,Pioupioute,x(cassé),cassé,RAS,1
+27/03/2023,9,,8,pluie/éclaircie/vent,tempête la nuit,Pioupioute,,no egg,RAS,0
+28/03/2023,10,,5,giboulées,,Pioupioute,x(cassé),cassé,RAS,1
+29/03/2023,16,,0,beau,,Pioupioute,,no egg,RAS,0
+30/03/2023,22,,0,beau,,Pioupioute,x(cassé),cassé,RAS,1
+31/03/2023,20,,0,beau,,Pioupioute,,no egg,RAS,0
+01/04/2023,12,,0,couvert/qq gouttes,"œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte",Pioupioute,x,RAS,RAS,1
+02/04/2023,12,,3,couvert/vent/pluie,Augustine malade: amirudène 7J,Pioupioute,,no egg,RAS,0
+03/04/2023,9,,15,pluie,,Pioupioute,,no egg,RAS,0
+04/04/2023,9,,3,pluie/éclaircie,Augustine DCD,Pioupioute,,no egg,RAS,0
+05/04/2023,15,,0,beau,aliment pondeuse,Pioupioute,,no egg,RAS,0
+06/04/2023,17,,0,beau,,Pioupioute,,no egg,RAS,0
+07/04/2023,13,,0,beau,,Pioupioute,,no egg,RAS,0
+08/04/2023,18,,0,beau,,Pioupioute,x,RAS,RAS,1
+09/04/2023,20,,0,beau,,Pioupioute,,no egg,RAS,0
+10/04/2023,24,,0,beau,,Pioupioute,x(cassé),cassé,RAS,1
+11/04/2023,19,,0,beau,,Pioupioute,,no egg,RAS,0
+12/04/2023,16,,0,beau,,Pioupioute,x(cassé),cassé,RAS,1
+13/04/2023,17,,5,beau/pluie,,Pioupioute,x(cassé),cassé,RAS,1
+14/04/2023,8,,4,giboulées,,Pioupioute,x,RAS,RAS,1
+15/04/2023,11,,3,giboulées,arrêt antibiotique Pioupioute/ponction à l'envt,Pioupioute,x(cassé),cassé,RAS,1
+16/04/2023,13,,1,giboulées/éclaircies,Pioupioute a pondu un œuf normal/veut couver,Pioupioute,x,RAS,RAS,1
+17/04/2023,16,,0,beau,,Pioupioute,,no egg,RAS,0
+18/04/2023,16,,0,beau,,Pioupioute,x,RAS,RAS,1
+19/04/2023,17,,0,beau,,Pioupioute,x,RAS,RAS,1
+20/04/2023,22,,0,beau,,Pioupioute,x,RAS,RAS,1
+21/04/2023,22,,0,beau,,Pioupioute,x,RAS,RAS,1
+22/04/2023,22,,0,beau,,Pioupioute,,no egg,RAS,0
+23/04/2023,13,,0,couvert/bruine,15°C à 5h du mat,Pioupioute,x,RAS,RAS,1
+24/04/2023,19,,7,beau/pluie,découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?,Pioupioute,,no egg,RAS,0
+25/04/2023,17,,0,beau,,Pioupioute,x,RAS,RAS,1
+26/04/2023,15,,17,pluie,,Pioupioute,x,RAS,RAS,1
+27/04/2023,18,,2,couvert,,Pioupioute,x,RAS,RAS,1
+28/04/2023,23,,0,voilé/beau,,Pioupioute,,no egg,RAS,0
+29/04/2023,24,,0,voilé,,Pioupioute,x,RAS,RAS,1
+30/04/2023,17,,0,couvert/pluie,œuf d'Albertine très clair,Pioupioute,,no egg,RAS,0
+01/05/2023,18,,36,giboulées,dont 29mm dans la nuit du 29 au 30/04,Pioupioute,x,RAS,RAS,1
+02/05/2023,18,,2,giboulées/éclaircies,,Pioupioute,,no egg,RAS,0
+03/05/2023,20,,0,beau,,Pioupioute,,no egg,RAS,0
+04/05/2023,25,,0,beau,,Pioupioute,,no egg,RAS,0
+05/05/2023,25,,0,beau,,Pioupioute,x,RAS,RAS,1
+06/05/2023,23,,0,beau,,Pioupioute,,no egg,RAS,0
+07/05/2023,24,,0,beau/orage,1 œuf trouvé dans le poulailler cassé,Pioupioute,x,RAS,RAS,1
+08/05/2023,17,,8,averses,,Pioupioute,x,RAS,RAS,1
+09/05/2023,22,,0,beau,,Pioupioute,x,RAS,RAS,1
+10/05/2023,15,,15,couvert/pluie,,Pioupioute,,no egg,RAS,0
+11/05/2023,16,,2,pluie/giboulées,,Pioupioute,x,RAS,RAS,1
+12/05/2023,15,,0,éclaircies,,Pioupioute,,no egg,RAS,0
+13/05/2023,17,,6,pluie/éclaircies,,Pioupioute,x,RAS,RAS,1
+14/05/2023,13,,15,giboulées,,Pioupioute,,no egg,RAS,0
+15/05/2023,15,,10,"averses, éclaircies",,Pioupioute,x(cassé),cassé,RAS,1
+16/05/2023,11,,6,averses,"petit trou dans certains œufs, à surveiller si poules ou pie",Pioupioute,x(cassé),cassé,RAS,1
+17/05/2023,13,,2,pluie/éclaircie,,Pioupioute,,no egg,RAS,0
+18/05/2023,18,,0,beau,,Pioupioute,,no egg,RAS,0
+19/05/2023,14,,0,couvert,,Pioupioute,x,RAS,RAS,1
+20/05/2023,10,,4,pluie/couvert,,Pioupioute,x,RAS,RAS,1
+21/05/2023,15,,0,éclaircies/beau,,Pioupioute,x,RAS,RAS,1
+22/05/2023,16,,0,couvert/beau,,Pioupioute,,no egg,RAS,0
+23/05/2023,18,,4,pluie/éclaircies,,Pioupioute,x,RAS,RAS,1
+24/05/2023,22,,6,temps lourd/orages,,Pioupioute,,no egg,RAS,0
+25/05/2023,20,,25,lourd/orages,,Pioupioute,,no egg,RAS,0
+26/05/2023,17,,6,couvert/pluie,,Pioupioute,,no egg,RAS,0
+27/05/2023,23,,0,beau,,Pioupioute,,no egg,RAS,0
+28/05/2023,27,,0,beau,,Pioupioute,,no egg,RAS,0
+29/05/2023,27,,0,beau,,Pioupioute,x,RAS,RAS,1
+30/05/2023,27,,24,beau/orage fort,,Pioupioute,,no egg,RAS,0
+31/05/2023,26,,0,éclaircies,,Pioupioute,,no egg,RAS,0
+01/06/2023,24,,5,beau/pluie,,Pioupioute,x,RAS,RAS,1
+02/06/2023,22,,1,pluie/éclaircies,,Pioupioute,x,RAS,RAS,1
+03/06/2023,23,,0,beau,,Pioupioute,,no egg,RAS,0
+04/06/2023,25,,2,beau/orage,changement de poulailler,Pioupioute,x,RAS,RAS,1
+05/06/2023,26,,0,beau,,Pioupioute,x,RAS,RAS,1
+06/06/2023,25,,5,beau/pluie,,Pioupioute,,no egg,RAS,0
+07/06/2023,26,,0,beau,,Pioupioute,,no egg,RAS,0
+08/06/2023,27,,0,beau,,Pioupioute,,no egg,RAS,0
+09/06/2023,27,,0,beau/orageux,,Pioupioute,x,RAS,RAS,1
+10/06/2023,26,,3,couvert/orage,,Pioupioute,x,RAS,RAS,1
+11/06/2023,27,,0,beau/orageux,,Pioupioute,x,RAS,RAS,1
+12/06/2023,25,,1,beau/orage,,Pioupioute,,no egg,RAS,0
+13/06/2023,27,,31,couvert/orage,les 2 œufs ont été cassé par une poule ou une bête,Pioupioute,,no egg,RAS,0
+14/06/2023,24,,23,beau/orage,"l'œuf d'Albertine très fragile, elle a des vers en plus/ Avipar/Avipou",Pioupioute,x,RAS,RAS,1
+15/06/2023,21,,3,pluie/éclaircie,,Pioupioute,,no egg,RAS,0
+16/06/2023,25,,0,couvert/beau,Saquiel malade/doxycycline,Pioupioute,x,RAS,RAS,1
+17/06/2023,26,,0,beau,,Pioupioute,x,RAS,RAS,1
+18/06/2023,30,,11,beau/orage,0 œuf,Pioupioute,,no egg,RAS,0
+19/06/2023,27,,0,mitigé/,,Pioupioute,,no egg,RAS,0
+20/06/2023,22,,0,couvert/beau,quelques gouttes,Pioupioute,,no egg,RAS,0
+21/06/2023,25,,0,lourd,œuf de Valérie très fragile trouvé ds poulailler,Pioupioute,x,RAS,RAS,1
+22/06/2023,20,,7,orage,,Pioupioute,,no egg,RAS,0
+23/06/2023,23,,6,pluie/éclaircies,Cunégonde veut couver,Pioupioute,x,RAS,RAS,1
+24/06/2023,28,,0,beau,,Pioupioute,,no egg,RAS,0
+25/06/2023,28,24,0,beau,,Pioupioute,,no egg,RAS,0
+26/06/2023,32,28,0,beau,,Pioupioute,x,RAS,RAS,1
+27/06/2023,21,22,0,couvert,,Pioupioute,,no egg,RAS,0
+28/06/2023,27,24,0,nuageux,,Pioupioute,,no egg,RAS,0
+29/06/2023,26,24,0,beau,,Pioupioute,,no egg,RAS,0
+30/06/2023,24,22,13,nuageux/orage,,Pioupioute,,no egg,RAS,0
+01/07/2023,19,20,3,pluie/couvert/vent,8 œuf sous Cunégonde: 6marans+1valérie+1joséphine,Pioupioute,,no egg,RAS,0
+02/07/2023,22,20,0,couvert/vent,1œuf valérie et 1oeuf Joséphine sous Cunégonde,Pioupioute,,no egg,RAS,0
+03/07/2023,25,22,0,éclaircies,1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde,Pioupioute,,no egg,RAS,0
+04/07/2023,27,23,0,couvert/éclaircies,,Pioupioute,,no egg,RAS,0
+05/07/2023,26,24,1,lourd/orages,"Valérie tousse, avicoryl dans l'eau",Pioupioute,,no egg,RAS,0
+06/07/2023,27,24,0,éclaircies,,Pioupioute,,no egg,RAS,0
+07/07/2023,27,24,0,beau/lourd/orageux,,Pioupioute,mue,no egg,mue,0
+08/07/2023,33,24,6,beau/orages,vit C dans l'eau+oligoélément,Pioupioute,,no egg,RAS,0
+09/07/2023,32,26,0,beau,,Pioupioute,,no egg,RAS,0
+10/07/2023,28,25,0,couvert/lourd,21°c et 80%H le matin,Pioupioute,,no egg,RAS,0
+11/07/2023,31,27,0,beau,"22°C et 82%H  matin, 27°c à 22h",Pioupioute,,no egg,RAS,0
+12/07/2023,28,26,1,beau/orageux,œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler,Pioupioute,,no egg,RAS,0
+13/07/2023,21,22,1,pluie/couvert,,Pioupioute,,no egg,RAS,0
+14/07/2023,23,22,0,bruine/couvert,,Pioupioute,,no egg,RAS,0
+15/07/2023,31,26,0,beau,fin doxycyline pour Saquiel/ 24°C et 75%H à 23h ext/0 œuf,Pioupioute,,no egg,RAS,0
+16/07/2023,30,21,3,beau/averses,17°C et 80%H à 20h,Pioupioute,,no egg,RAS,0
+17/07/2023,27,23,0,mitigé/beau,,Pioupioute,,no egg,RAS,0
+18/07/2023,27,26,0,beau,installation voile d'ombrage sur la terrasse,Pioupioute,,no egg,RAS,0
+19/07/2023,33,26,0,beau,36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver,Pioupioute,,no egg,RAS,0
+20/07/2023,24,23,2,orage/couvert,orages la nuit du 18 au 19/07,Pioupioute,,no egg,RAS,0
+21/07/2023,27,23,0,beau,Valérie semble vouloir couver aussi cette coquine!!,Pioupioute,,no egg,RAS,0
+22/07/2023,19,21,0,couvert/bruine,Valérie couve…........,Pioupioute,,no egg,RAS,0
+23/07/2023,29,23,0,soleil et qq nuages,,Pioupioute,,no egg,RAS,0
+24/07/2023,30,26,0,beau,0 œuf/ 26°c à 21h30,Pioupioute,,no egg,RAS,0
+25/07/2023,21,21,3,couvert/pluie,,Pioupioute,,no egg,RAS,0
+26/07/2023,15,19,3,pluie/couvert/vent,trouvé 1 œuf d'Albertine dans le jardin,Pioupioute,,no egg,RAS,0
+27/07/2023,28,21,0,beau,,Pioupioute,,no egg,RAS,0
+28/07/2023,30,23,16,beau/orages,0 œuf,Pioupioute,,no egg,RAS,0
+29/07/2023,29,24,0,beau,,Pioupioute,,no egg,RAS,0
+30/07/2023,31,25,0,beau/orage,,Pioupioute,,no egg,RAS,0
+31/07/2023,22,23,12,pluie/couvert,,Pioupioute,,no egg,RAS,0
+01/08/2023,27,21,0,beau,découverte de poux rouges/retour dans l'ancien poulailler/T°p=T°ext,Pioupioute,,no egg,RAS,0
+02/08/2023,24,24,0,couvert/vent,"retour dans le poulailler ""terrasse""",Pioupioute,,no egg,RAS,0
+03/08/2023,28,24,3,beau/couvert/pluie,traitement exzolt,Pioupioute,,no egg,RAS,0
+04/08/2023,17,,0,bruine/éclaircies,,Pioupioute,,no egg,RAS,0
+05/08/2023,18,18,13,giboulées,1 œuf cassé et 1 œuf mou/retour ancien poulailler,Pioupioute,,no egg,RAS,0
+06/08/2023,22,20,0,éclaircies,,Pioupioute,,no egg,RAS,0
+07/08/2023,23,20,1,Bruine/éclaircies/vent,,Pioupioute,,no egg,RAS,0
+08/08/2023,23,,0,beau,0 œuf,Pioupioute,,no egg,RAS,0
+09/08/2023,28,20,0,beau,0 oeuf/T°C poulailler à 22-23h,Pioupioute,,no egg,RAS,0
+10/08/2023,30,21,0,beau,traitement exzolt,Pioupioute,,no egg,RAS,0
+11/08/2023,30,25,0,beau,avhydratC+Gascodrène,Pioupioute,,no egg,RAS,0
+12/08/2023,33,21,0,Brumeux/beau,avhydratC+Gascodrène,Pioupioute,,no egg,RAS,0
+13/08/2023,32,23,0,beau,avhydratC+Gascodrène,Pioupioute,,no egg,RAS,0
+14/08/2023,30,26,0,voilé,avhydratC+Gascodrène,Pioupioute,,no egg,RAS,0
+15/08/2023,32,26,0,beau/vent,avhydratC+Gascodrène,Pioupioute,,no egg,RAS,0
+16/08/2023,26,23,"0,5",pluie fine/couvert,,Pioupioute,,no egg,RAS,0
+17/08/2023,25,23,0,couvert,,Pioupioute,,no egg,RAS,0
+18/08/2023,32,26,0,bruine le matin,avhydrat C+gascodrène,Pioupioute,,no egg,RAS,0
+19/08/2023,32,26,0,voilé/vent,avhydratC+Gascodrène,Pioupioute,,no egg,RAS,0
+20/08/2023,34,26,0,vigilance canicule,avhydratC+Gascodrène,Pioupioute,,no egg,RAS,0
+21/08/2023,37,29,0,canicule,avhydratC+Gascodrène,Pioupioute,,no egg,RAS,0
+22/08/2023,34,26,0,canicule,idem,Pioupioute,,no egg,RAS,0
+23/08/2023,36,27,0,canicule,C+Gasco/ nuit tropicale 27°c/ 73% H à 22h40,Pioupioute,,no egg,RAS,0
+24/08/2023,40,28,0,canicule,C+Gasco,Pioupioute,,no egg,RAS,0
+25/08/2023,"40,5",28,0,canicule,c+Gasco,Pioupioute,,no egg,RAS,0
+26/08/2023,23,20,3,pluie/couvert,,Pioupioute,,no egg,RAS,0
+27/08/2023,19,17,8,pluie,,Pioupioute,,no egg,RAS,0
+28/08/2023,16,14,37,pluie/éclaircies,,Pioupioute,,no egg,RAS,0
+29/08/2023,17,16,5,pluie/éclaircies,,Pioupioute,,no egg,RAS,0
+30/08/2023,20,15,0,éclaircies/vent,,Pioupioute,,no egg,RAS,0
+31/08/2023,22,16,1,éclaircies/averses,,Pioupioute,,no egg,RAS,0
+01/09/2023,28,17,0,beau,,Pioupioute,,no egg,RAS,0
+02/09/2023,31,20,0,beau,,Pioupioute,,no egg,RAS,0
+03/09/2023,22,18,0,couvert,trouvé un oeuf minuscule Saquiel ou Albertine,Pioupioute,,no egg,RAS,0
+04/09/2023,26,21,0,beau/voilé,,Pioupioute,,no egg,RAS,0
+05/09/2023,28,22,0,voilé/vent,sable du Sahara dans l'air,Pioupioute,,no egg,RAS,0
+06/09/2023,29,21,0,voilé,sable du Sahara dans l'air,Pioupioute,,no egg,RAS,0
+07/09/2023,27,23,0,voilé,sable du Sahara dans l'air,Pioupioute,,no egg,RAS,0
+08/09/2023,30,20,0,beau,,Pioupioute,,no egg,RAS,0
+09/09/2023,29,21,0,beau,,Pioupioute,,no egg,RAS,0
+10/09/2023,30,22,0,beau,,Pioupioute,,no egg,RAS,0
+11/09/2023,30,20,0,beau,,Pioupioute,,no egg,RAS,0
+12/09/2023,30,20,0,couvert/éclaircies,,Pioupioute,,no egg,RAS,0
+13/09/2023,24,17,22,mitigé/orages,,Pioupioute,,no egg,RAS,0
+14/09/2023,25,17,0,éclaircies,,Pioupioute,,no egg,RAS,0
+15/09/2023,28,18,0,beau,,Pioupioute,,no egg,RAS,0
+16/09/2023,28,17,3,beau/orageux/pluie,,Pioupioute,,no egg,RAS,0
+17/09/2023,28,21,0,beau,,Pioupioute,,no egg,RAS,0
+18/09/2023,25,19,3,beau/orages,,Pioupioute,,no egg,RAS,0
+19/09/2023,26,17,6,beau/orages,,Pioupioute,,no egg,RAS,0
+20/09/2023,25,15,0,beau,,Pioupioute,,no egg,RAS,0
+21/09/2023,27,18,0,couvert/beau,,Pioupioute,,no egg,RAS,0
+22/09/2023,20,14,9,couvert/pluie,,Pioupioute,,no egg,RAS,0
+23/09/2023,20,12,0,éclaircies/vent,,Pioupioute,,no egg,RAS,0
+24/09/2023,23,13,0,éclaircies,,Pioupioute,,no egg,RAS,0
+25/09/2023,24,15,0,beau,,Pioupioute,,no egg,RAS,0
+26/09/2023,27,15,0,beau,,Pioupioute,,no egg,RAS,0
+27/09/2023,28,16,0,beau,,Pioupioute,,no egg,RAS,0
+28/09/2023,30,19,0,beau,,Pioupioute,,no egg,RAS,0
+29/09/2023,31,20,0,beau,,Pioupioute,,no egg,RAS,0
+30/09/2023,30,20,0,beau,,Pioupioute,,no egg,RAS,0
+01/10/2023,30,19,0,beau,,Pioupioute,,no egg,RAS,0
+02/10/2023,32,20,0,beau,,Pioupioute,,no egg,RAS,0
+03/10/2023,31,20,0,beau/vent,,Pioupioute,,no egg,RAS,0
+04/10/2023,22,19,0,couvert,,Pioupioute,,no egg,RAS,0
+05/10/2023,28,16,0,nuageux,,Pioupioute,,no egg,RAS,0
+06/10/2023,28,16,0,beau,,Pioupioute,,no egg,RAS,0
+07/10/2023,28,17,0,beau,,Pioupioute,,no egg,RAS,0
+08/10/2023,30,15,0,beau,,Pioupioute,,no egg,RAS,0
+09/10/2023,29,17,0,beau,,Pioupioute,,no egg,RAS,0
+10/10/2023,29,16,0,beau,,Pioupioute,,no egg,RAS,0
+11/10/2023,30,18,0,beau,,Pioupioute,,no egg,RAS,0
+12/10/2023,31,17,0,beau,,Pioupioute,,no egg,RAS,0
+13/10/2023,30,18,0,beau,,Pioupioute,,no egg,RAS,0
+14/10/2023,29,18,0,beau,,Pioupioute,,no egg,RAS,0
+15/10/2023,24,16,5,couvert/pluie,,Pioupioute,,no egg,RAS,0
+16/10/2023,19,11,0,éclaircies,,Pioupioute,,no egg,RAS,0
+17/10/2023,19,15,0,éclaircies,,Pioupioute,,no egg,RAS,0
+18/10/2023,26,17,0,beau/vent,,Pioupioute,,no egg,RAS,0
+19/10/2023,26,17,3,couvert/pluie,,Pioupioute,,no egg,RAS,0
+20/10/2023,25,17,13,couvert/pluie,,Pioupioute,,no egg,RAS,0
+21/10/2023,20,14,3,éclaircies/pluie,,Pioupioute,,no egg,RAS,0
+22/10/2023,19,11,0,beau,,Pioupioute,,no egg,RAS,0
+23/10/2023,15,13,0,maussade,,Pioupioute,,no egg,RAS,0
+24/10/2023,20,14,0,éclaircies,Albertine malade/rhume,Pioupioute,,no egg,RAS,0
+25/10/2023,20,11,0,pluie/éclaircies,avicoryl,Pioupioute,,no egg,RAS,0
+26/10/2023,18,15,1,couvert/pluie,,Pioupioute,,no egg,RAS,0
+27/10/2023,15,13,8,couvert/pluie,,Pioupioute,,no egg,RAS,0
+28/10/2023,18,10,0,beau,,Pioupioute,,no egg,RAS,0
+29/10/2023,19,14,0,beau,,Pioupioute,,no egg,RAS,0
+30/10/2023,17,14,0,couvert,,Pioupioute,,no egg,RAS,0
+31/10/2023,15,10,9,couvert/pluie,,Pioupioute,,no egg,RAS,0
+01/11/2023,19,10,0,beau,,Pioupioute,,no egg,RAS,0
+02/11/2023,19,10,5,éclaircies/pluie,,Pioupioute,,no egg,RAS,0
+03/11/2023,13,8,17,pluie,,Pioupioute,,no egg,RAS,0
+04/11/2023,10,9,5,pluie,,Pioupioute,,no egg,RAS,0
+05/11/2023,13,9,6,pluie/éclaircies,,Pioupioute,,no egg,RAS,0
+06/11/2023,19,9,0,beau,,Pioupioute,,no egg,RAS,0
+07/11/2023,12,8,8,averses/pluie,,Pioupioute,,no egg,RAS,0
+08/11/2023,17,5,0,beau,,Pioupioute,,no egg,RAS,0
+09/11/2023,19,6,0,beau,petite gelée matinale,Pioupioute,,no egg,RAS,0
+10/11/2023,13,9,6,pluie/beau,,Pioupioute,,no egg,RAS,0
+11/11/2023,11,9,7,pluie/éclaircies,,Pioupioute,,no egg,RAS,0
+12/11/2023,12,12,0,pluie,,Pioupioute,,no egg,RAS,0
+13/11/2023,17,11,0,couvert/éclaircies,,Pioupioute,,no egg,RAS,0
+14/11/2023,24,12,0,beau,,Pioupioute,,no egg,RAS,0
+15/11/2023,24,14,5,beau/pluie,,Pioupioute,,no egg,RAS,0
+16/11/2023,16,10,5,pluie/éclaircies,,Pioupioute,,no egg,RAS,0
+17/11/2023,16,12,2,couvert/pluie,,Pioupioute,,no egg,RAS,0
+18/11/2023,15,9,0,éclaircies,,Pioupioute,,no egg,RAS,0
+19/11/2023,oubli,oubli,0,beau,environ 20°C,Pioupioute,,no egg,RAS,0
+20/11/2023,21,10,0,beau,,Pioupioute,,no egg,RAS,0
+21/11/2023,14,9,9,couvert/pluie,,Pioupioute,,no egg,RAS,0
+22/11/2023,9,oubli,10,pluie,,Pioupioute,,no egg,RAS,0
+23/11/2023,9,7,3,pluie/éclaircies/vent,,Pioupioute,,no egg,RAS,0
+24/11/2023,11,5,0,beau/vent,,Pioupioute,,no egg,RAS,0
+25/11/2023,7,7,0,gris/vent,,Pioupioute,,no egg,RAS,0
+26/11/2023,9,4,0,gris ,,Pioupioute,,no egg,RAS,0
+27/11/2023,12,0,0,beau,belle gelée matinale -3°c,Pioupioute,,no egg,RAS,0
+28/11/2023,13,10,27,éclaircies/pluie/vent,,Pioupioute,,no egg,RAS,0
+29/11/2023,9,7,0,éclaircies,,Pioupioute,,no egg,RAS,0
+30/11/2023,16,9,0,éclaircies,,Pioupioute,,no egg,RAS,0
+01/12/2023,11,8,6,bruine/pluie,,Pioupioute,,no egg,RAS,0
+02/12/2023,8,5,14,pluie,,Pioupioute,,no egg,RAS,0
+03/12/2023,6,4,2,pluie/éclaircies,,Pioupioute,,no egg,RAS,0
+04/12/2023,11,3,0,beau,gelée matinale,Pioupioute,,no egg,RAS,0
+05/12/2023,12,7,"0,5",éclaircies/pluie,,Pioupioute,,no egg,RAS,0
+06/12/2023,9,6,0,éclaircies/vent,,Pioupioute,,no egg,RAS,0
+07/12/2023,10,2,0,beau,,Pioupioute,,no egg,RAS,0
+08/12/2023,14,6,0,beau,,Pioupioute,,no egg,RAS,0
+09/12/2023,9,6,18,pluie/vent,,Pioupioute,,no egg,RAS,0
+10/12/2023,14,15,1,pluie/éclaircies,,Pioupioute,,no egg,RAS,0
+11/12/2023,18,11,0,beau/couvert,,Pioupioute,,no egg,RAS,0
+12/12/2023,19,10,0,beau,,Pioupioute,,no egg,RAS,0
+13/12/2023,16,9,3,voilé/pluie,,Pioupioute,,no egg,RAS,0
+14/12/2023,10,7,20,averses/pluie/vent,,Pioupioute,,no egg,RAS,0
+15/12/2023,10,7,1,averses/éclaircies/vent,,Pioupioute,,no egg,RAS,0
+16/12/2023,9,7,1,bruine,,Pioupioute,,no egg,RAS,0
+17/12/2023,13,3,0,beau,,Pioupioute,,no egg,RAS,0
+18/12/2023,15,3,0,beau,-4°C ce matin,Pioupioute,,no egg,RAS,0
+19/12/2023,16,3,0,beau,gelée matinale,Pioupioute,,no egg,RAS,0
+20/12/2023,4,5,0,gris,,Pioupioute,,no egg,RAS,0
+21/12/2023,8,6,11,pluie/éclaircies/vent,,Pioupioute,,no egg,RAS,0
+22/12/2023,11,11,0,vent/bruine,,Pioupioute,,no egg,RAS,0
+23/12/2023,12,9,1,gris/vent/éclaircies/pluie,,Pioupioute,,no egg,RAS,0
+24/12/2023,12,9,0,éclaircies,,Pioupioute,,no egg,RAS,0
+25/12/2023,13,7,0,beau,,Pioupioute,,no egg,RAS,0
+26/12/2023,12,4,0,beau,,Pioupioute,,no egg,RAS,0
+27/12/2023,15,3,0,beau,,Pioupioute,,no egg,RAS,0
+28/12/2023,17,5,0,beau,grosse gelée matinale,Pioupioute,,no egg,RAS,0
+29/12/2023,10,4,0,gris,,Pioupioute,,no egg,RAS,0
+30/12/2023,9,7,0,gris/éclaircies,,Pioupioute,,no egg,RAS,0
+31/12/2023,17,7,0,beau,,Pioupioute,,no egg,RAS,0
+01/01/2023,,,,,,Valérie,,no egg,RAS,0
+02/01/2023,,,,,,Valérie,,no egg,RAS,0
+03/01/2023,,,,,,Valérie,,no egg,RAS,0
+04/01/2023,15,,0,beau,,Valérie,,no egg,RAS,0
+05/01/2023,14,,0,beau,,Valérie,,no egg,RAS,0
+06/01/2023,oubli,,0,beau,,Valérie,,no egg,RAS,0
+07/01/2023,13,,0,beau,,Valérie,,no egg,RAS,0
+08/01/2023,9,,0,mitigé,,Valérie,,no egg,RAS,0
+09/01/2023,8,,16,vent éclaircie,,Valérie,,no egg,RAS,0
+10/01/2023,14,,0,beau,,Valérie,,no egg,RAS,0
+11/01/2023,9,,0,beau,,Valérie,,no egg,RAS,0
+12/01/2023,12,,0,beau,,Valérie,,no egg,RAS,0
+13/01/2023,13,,0,mitigé,,Valérie,,no egg,RAS,0
+14/01/2023,13,,0,beau,,Valérie,,no egg,RAS,0
+15/01/2023,10,,2,pluie/beau,,Valérie,,no egg,RAS,0
+16/01/2023,6,,50,pluie/vent,,Valérie,,no egg,RAS,0
+17/01/2023,5,,1,pluie/vent,,Valérie,,no egg,RAS,0
+18/01/2023,5,,5,pluie/éclaircie,,Valérie,,no egg,RAS,0
+19/01/2023,5,,,couvert/éclaircie,,Valérie,,no egg,RAS,0
+20/01/2023,5,,12,pluie/neige/soleil,,Valérie,,no egg,RAS,0
+21/01/2023,2,,2,idem/vent,,Valérie,,no egg,RAS,0
+22/01/2023,0,,0,Couvert/vent,,Valérie,,no egg,RAS,0
+23/01/2023,oubli,,,oubli,malade (moi),Valérie,,no egg,RAS,0
+24/01/2023,2,,,couvert/éclaircie,,Valérie,,no egg,RAS,0
+25/01/2023,0,,,couvert,,Valérie,,no egg,RAS,0
+26/01/2023,0,,,couvert,,Valérie,,no egg,RAS,0
+27/01/2023,0,,,,,Valérie,,no egg,RAS,0
+28/01/2023,0,,,couvert,Cunégonde pique Shrek,Valérie,,no egg,RAS,0
+29/01/2023,0,,,couvert,aliment poulette+vitamines,Valérie,,no egg,RAS,0
+30/01/2023,4,,,éclaircie,,Valérie,,no egg,RAS,0
+31/01/2023,8,,0,beau temps,,Valérie,,no egg,RAS,0
+01/02/2023,10,,0,beau temps,pas sûre de l'œuf de Pioupioute,Valérie,,no egg,RAS,0
+02/02/2023,12,,0,beau temps,petit lait en boisson/aliment pondeuse,Valérie,,no egg,RAS,0
+03/02/2023,12,,0,beau temps,petit lait+aliment,Valérie,,no egg,RAS,0
+04/02/2023,10,,0,beau temps,petit lait+aliment,Valérie,,no egg,RAS,0
+05/02/2023,10,,0,beau temps,aliment,Valérie,,no egg,RAS,0
+06/02/2023,12,,0,beau temps,,Valérie,,no egg,RAS,0
+07/02/2023,8,,0,couvert/vent,,Valérie,,no egg,RAS,0
+08/02/2023,8,,0,beau/vent,,Valérie,,no egg,RAS,0
+09/02/2023,10,,0,beau,,Valérie,,no egg,RAS,0
+10/02/2023,14,,0,beau,,Valérie,,no egg,RAS,0
+11/02/2023,14,,0,beau,aliment+blé,Valérie,,no egg,RAS,0
+12/02/2023,14,,0,beau,,Valérie,,no egg,RAS,0
+13/02/2023,15,,0,beau,,Valérie,,no egg,RAS,0
+14/02/2023,15,,0,beau,,Valérie,,no egg,RAS,0
+15/02/2023,16,,0,beau,,Valérie,,no egg,RAS,0
+16/02/2023,16,,0,beau,,Valérie,,no egg,RAS,0
+17/02/2023,16,,0,beau,,Valérie,,no egg,RAS,0
+18/02/2023,18,,0,beau,avipar(vermifuge naturel),Valérie,,no egg,RAS,0
+19/02/2023,18,,0,beau,,Valérie,,no egg,RAS,0
+20/02/2023,20,,0,beau,antibio Pioupioute suspicion pb génital,Valérie,,no egg,RAS,0
+21/02/2023,15,,0,mitigé,,Valérie,,no egg,RAS,0
+22/02/2023,13,,0,couvert,,Valérie,,no egg,RAS,0
+23/02/2023,11,,4,couvert,"pluie nuit 22,à23/02",Valérie,,no egg,RAS,0
+24/02/2023,12,,"2,5",beau,"pluie nuit 23,à24/02",Valérie,,no egg,RAS,0
+25/02/2023,7,,0,couvert,,Valérie,,no egg,RAS,0
+26/02/2023,5,,0,vent/froid/couvert,,Valérie,,no egg,RAS,0
+27/02/2023,1,,0,vent/neige/éclaircie,,Valérie,x,RAS,RAS,1
+28/02/2023,2,,0,éclaircie/vent,,Valérie,,no egg,RAS,0
+01/03/2023,8,,0,beau,,Valérie,x,RAS,RAS,1
+02/03/2023,7,,0,couvert,,Valérie,x,RAS,RAS,1
+03/03/2023,7,,0,couvert,,Valérie,,no egg,RAS,0
+04/03/2023,10,,"1,5",éclaircie,,Valérie,,no egg,RAS,0
+05/03/2023,10,,0,éclaircie,,Valérie,x,RAS,RAS,1
+06/03/2023,10,,0,beau,,Valérie,x,RAS,RAS,1
+07/03/2023,12,,0,éclaircie/averse,,Valérie,x,RAS,RAS,1
+08/03/2023,23,,2,voilé,lentypou,Valérie,,no egg,RAS,0
+09/03/2023,20,,0,éclaircies,qq gouttes dans la nuit,Valérie,x,RAS,RAS,1
+10/03/2023,18,,"0,5",mitigé,,Valérie,,no egg,RAS,0
+11/03/2023,15,,0,mitigé/vent violent,,Valérie,x,RAS,RAS,1
+12/03/2023,15,,"0,5",vent/pluie,17°C à 3h30 du mat,Valérie,x,RAS,RAS,1
+13/03/2023,23,,4,bruine puis très beau,,Valérie,x,RAS,RAS,1
+14/03/2023,22,,14,beau/orage/tempête,pluie nuit du 13/03 au 14/03,Valérie,x,RAS,RAS,1
+15/03/2023,12,,2,giboulées,,Valérie,x,RAS,RAS,1
+16/03/2023,15,,5,pluie/éclaircie,,Valérie,x,RAS,RAS,1
+17/03/2023,19,,0,beau/vent,arrêt lentypou,Valérie,x,RAS,RAS,1
+18/03/2023,18,,0,couvert/beau/vent,,Valérie,,no egg,RAS,0
+19/03/2023,16,,7,beau/pluie,,Valérie,x,RAS,RAS,1
+20/03/2023,16,,"1,5",giboulées,pas sûr de l'œuf de Rémiel,Valérie,x,RAS,RAS,1
+21/03/2023,17,,0,beau,,Valérie,,no egg,RAS,0
+22/03/2023,19,,0,beau,,Valérie,x,RAS,RAS,1
+23/03/2023,22,,0,beau,,Valérie,,no egg,RAS,0
+24/03/2023,22,,0,beau,,Valérie,x,RAS,RAS,1
+25/03/2023,17,,1,beau puis bruine,Pioupioute à l'ENVT,Valérie,,no egg,RAS,0
+26/03/2023,19,,0,beau,trouvé un micro œuf,Valérie,x,RAS,RAS,1
+27/03/2023,9,,8,pluie/éclaircie/vent,tempête la nuit,Valérie,,no egg,RAS,0
+28/03/2023,10,,5,giboulées,,Valérie,x,RAS,RAS,1
+29/03/2023,16,,0,beau,,Valérie,,no egg,RAS,0
+30/03/2023,22,,0,beau,,Valérie,x,RAS,RAS,1
+31/03/2023,20,,0,beau,,Valérie,x,RAS,RAS,1
+01/04/2023,12,,0,couvert/qq gouttes,"œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte",Valérie,,no egg,RAS,0
+02/04/2023,12,,3,couvert/vent/pluie,Augustine malade: amirudène 7J,Valérie,x,RAS,RAS,1
+03/04/2023,9,,15,pluie,,Valérie,,no egg,RAS,0
+04/04/2023,9,,3,pluie/éclaircie,Augustine DCD,Valérie,x,RAS,RAS,1
+05/04/2023,15,,0,beau,aliment pondeuse,Valérie,x,RAS,RAS,1
+06/04/2023,17,,0,beau,,Valérie,,no egg,RAS,0
+07/04/2023,13,,0,beau,,Valérie,x,RAS,RAS,1
+08/04/2023,18,,0,beau,,Valérie,,no egg,RAS,0
+09/04/2023,20,,0,beau,,Valérie,,no egg,RAS,0
+10/04/2023,24,,0,beau,,Valérie,x,RAS,RAS,1
+11/04/2023,19,,0,beau,,Valérie,x,RAS,RAS,1
+12/04/2023,16,,0,beau,,Valérie,x,RAS,RAS,1
+13/04/2023,17,,5,beau/pluie,,Valérie,x,RAS,RAS,1
+14/04/2023,8,,4,giboulées,,Valérie,x,RAS,RAS,1
+15/04/2023,11,,3,giboulées,arrêt antibiotique Pioupioute/ponction à l'envt,Valérie,,no egg,RAS,0
+16/04/2023,13,,1,giboulées/éclaircies,Pioupioute a pondu un œuf normal/veut couver,Valérie,x,RAS,RAS,1
+17/04/2023,16,,0,beau,,Valérie,,no egg,RAS,0
+18/04/2023,16,,0,beau,,Valérie,x,RAS,RAS,1
+19/04/2023,17,,0,beau,,Valérie,x,RAS,RAS,1
+20/04/2023,22,,0,beau,,Valérie,x,RAS,RAS,1
+21/04/2023,22,,0,beau,,Valérie,x,RAS,RAS,1
+22/04/2023,22,,0,beau,,Valérie,x,RAS,RAS,1
+23/04/2023,13,,0,couvert/bruine,15°C à 5h du mat,Valérie,,no egg,RAS,0
+24/04/2023,19,,7,beau/pluie,découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?,Valérie,x,RAS,RAS,1
+25/04/2023,17,,0,beau,,Valérie,,no egg,RAS,0
+26/04/2023,15,,17,pluie,,Valérie,x,RAS,RAS,1
+27/04/2023,18,,2,couvert,,Valérie,,no egg,RAS,0
+28/04/2023,23,,0,voilé/beau,,Valérie,x,RAS,RAS,1
+29/04/2023,24,,0,voilé,,Valérie,x,RAS,RAS,1
+30/04/2023,17,,0,couvert/pluie,œuf d'Albertine très clair,Valérie,x,RAS,RAS,1
+01/05/2023,18,,36,giboulées,dont 29mm dans la nuit du 29 au 30/04,Valérie,x,RAS,RAS,1
+02/05/2023,18,,2,giboulées/éclaircies,,Valérie,x,RAS,RAS,1
+03/05/2023,20,,0,beau,,Valérie,x,RAS,RAS,1
+04/05/2023,25,,0,beau,,Valérie,x,RAS,RAS,1
+05/05/2023,25,,0,beau,,Valérie,,no egg,RAS,0
+06/05/2023,23,,0,beau,,Valérie,x,RAS,RAS,1
+07/05/2023,24,,0,beau/orage,1 œuf trouvé dans le poulailler cassé,Valérie,x,RAS,RAS,1
+08/05/2023,17,,8,averses,,Valérie,x,RAS,RAS,1
+09/05/2023,22,,0,beau,,Valérie,x,RAS,RAS,1
+10/05/2023,15,,15,couvert/pluie,,Valérie,x,RAS,RAS,1
+11/05/2023,16,,2,pluie/giboulées,,Valérie,x,RAS,RAS,1
+12/05/2023,15,,0,éclaircies,,Valérie,x,RAS,RAS,1
+13/05/2023,17,,6,pluie/éclaircies,,Valérie,x,RAS,RAS,1
+14/05/2023,13,,15,giboulées,,Valérie,x,RAS,RAS,1
+15/05/2023,15,,10,"averses, éclaircies",,Valérie,x,RAS,RAS,1
+16/05/2023,11,,6,averses,"petit trou dans certains œufs, à surveiller si poules ou pie",Valérie,,no egg,RAS,0
+17/05/2023,13,,2,pluie/éclaircie,,Valérie,x,RAS,RAS,1
+18/05/2023,18,,0,beau,,Valérie,x,RAS,RAS,1
+19/05/2023,14,,0,couvert,,Valérie,x,RAS,RAS,1
+20/05/2023,10,,4,pluie/couvert,,Valérie,x,RAS,RAS,1
+21/05/2023,15,,0,éclaircies/beau,,Valérie,x,RAS,RAS,1
+22/05/2023,16,,0,couvert/beau,,Valérie,x,RAS,RAS,1
+23/05/2023,18,,4,pluie/éclaircies,,Valérie,,no egg,RAS,0
+24/05/2023,22,,6,temps lourd/orages,,Valérie,x,RAS,RAS,1
+25/05/2023,20,,25,lourd/orages,,Valérie,x,RAS,RAS,1
+26/05/2023,17,,6,couvert/pluie,,Valérie,x,RAS,RAS,1
+27/05/2023,23,,0,beau,,Valérie,x,RAS,RAS,1
+28/05/2023,27,,0,beau,,Valérie,x,RAS,RAS,1
+29/05/2023,27,,0,beau,,Valérie,x,RAS,RAS,1
+30/05/2023,27,,24,beau/orage fort,,Valérie,x,RAS,RAS,1
+31/05/2023,26,,0,éclaircies,,Valérie,x,RAS,RAS,1
+01/06/2023,24,,5,beau/pluie,,Valérie,x,RAS,RAS,1
+02/06/2023,22,,1,pluie/éclaircies,,Valérie,x,RAS,RAS,1
+03/06/2023,23,,0,beau,,Valérie,x,RAS,RAS,1
+04/06/2023,25,,2,beau/orage,changement de poulailler,Valérie,,no egg,RAS,0
+05/06/2023,26,,0,beau,,Valérie,x,RAS,RAS,1
+06/06/2023,25,,5,beau/pluie,,Valérie,x,RAS,RAS,1
+07/06/2023,26,,0,beau,,Valérie,x,RAS,RAS,1
+08/06/2023,27,,0,beau,,Valérie,,no egg,RAS,0
+09/06/2023,27,,0,beau/orageux,,Valérie,x,RAS,RAS,1
+10/06/2023,26,,3,couvert/orage,,Valérie,x,RAS,RAS,1
+11/06/2023,27,,0,beau/orageux,,Valérie,,no egg,RAS,0
+12/06/2023,25,,1,beau/orage,,Valérie,x,RAS,RAS,1
+13/06/2023,27,,31,couvert/orage,les 2 œufs ont été cassé par une poule ou une bête,Valérie,x,RAS,RAS,1
+14/06/2023,24,,23,beau/orage,"l'œuf d'Albertine très fragile, elle a des vers en plus/ Avipar/Avipou",Valérie,,no egg,RAS,0
+15/06/2023,21,,3,pluie/éclaircie,,Valérie,x,RAS,RAS,1
+16/06/2023,25,,0,couvert/beau,Saquiel malade/doxycycline,Valérie,x,RAS,RAS,1
+17/06/2023,26,,0,beau,,Valérie,x,RAS,RAS,1
+18/06/2023,30,,11,beau/orage,0 œuf,Valérie,,no egg,RAS,0
+19/06/2023,27,,0,mitigé/,,Valérie,x,RAS,RAS,1
+20/06/2023,22,,0,couvert/beau,quelques gouttes,Valérie,,no egg,RAS,0
+21/06/2023,25,,0,lourd,œuf de Valérie très fragile trouvé ds poulailler,Valérie,x(cassé),cassé,RAS,1
+22/06/2023,20,,7,orage,,Valérie,x,RAS,RAS,1
+23/06/2023,23,,6,pluie/éclaircies,Cunégonde veut couver,Valérie,,no egg,RAS,0
+24/06/2023,28,,0,beau,,Valérie,x,RAS,RAS,1
+25/06/2023,28,24,0,beau,,Valérie,x,RAS,RAS,1
+26/06/2023,32,28,0,beau,,Valérie,x,RAS,RAS,1
+27/06/2023,21,22,0,couvert,,Valérie,,no egg,RAS,0
+28/06/2023,27,24,0,nuageux,,Valérie,x,RAS,RAS,1
+29/06/2023,26,24,0,beau,,Valérie,,no egg,RAS,0
+30/06/2023,24,22,13,nuageux/orage,,Valérie,,no egg,RAS,0
+01/07/2023,19,20,3,pluie/couvert/vent,8 œuf sous Cunégonde: 6marans+1valérie+1joséphine,Valérie,x,RAS,RAS,1
+02/07/2023,22,20,0,couvert/vent,1œuf valérie et 1oeuf Joséphine sous Cunégonde,Valérie,x,RAS,RAS,1
+03/07/2023,25,22,0,éclaircies,1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde,Valérie,x,RAS,RAS,1
+04/07/2023,27,23,0,couvert/éclaircies,,Valérie,,no egg,RAS,0
+05/07/2023,26,24,1,lourd/orages,"Valérie tousse, avicoryl dans l'eau",Valérie,x,RAS,RAS,1
+06/07/2023,27,24,0,éclaircies,,Valérie,x,RAS,RAS,1
+07/07/2023,27,24,0,beau/lourd/orageux,,Valérie,x,RAS,RAS,1
+08/07/2023,33,24,6,beau/orages,vit C dans l'eau+oligoélément,Valérie,x,RAS,RAS,1
+09/07/2023,32,26,0,beau,,Valérie,,no egg,RAS,0
+10/07/2023,28,25,0,couvert/lourd,21°c et 80%H le matin,Valérie,x,RAS,RAS,1
+11/07/2023,31,27,0,beau,"22°C et 82%H  matin, 27°c à 22h",Valérie,x,RAS,RAS,1
+12/07/2023,28,26,1,beau/orageux,œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler,Valérie,x,RAS,RAS,1
+13/07/2023,21,22,1,pluie/couvert,,Valérie,x,RAS,RAS,1
+14/07/2023,23,22,0,bruine/couvert,,Valérie,,no egg,RAS,0
+15/07/2023,31,26,0,beau,fin doxycyline pour Saquiel/ 24°C et 75%H à 23h ext/0 œuf,Valérie,,no egg,RAS,0
+16/07/2023,30,21,3,beau/averses,17°C et 80%H à 20h,Valérie,x,RAS,RAS,1
+17/07/2023,27,23,0,mitigé/beau,,Valérie,x,RAS,RAS,1
+18/07/2023,27,26,0,beau,installation voile d'ombrage sur la terrasse,Valérie,x,RAS,RAS,1
+19/07/2023,33,26,0,beau,36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver,Valérie,x,RAS,RAS,1
+20/07/2023,24,23,2,orage/couvert,orages la nuit du 18 au 19/07,Valérie,,no egg,RAS,0
+21/07/2023,27,23,0,beau,Valérie semble vouloir couver aussi cette coquine!!,Valérie,x,RAS,RAS,1
+22/07/2023,19,21,0,couvert/bruine,Valérie couve…........,Valérie,,no egg,RAS,0
+23/07/2023,29,23,0,soleil et qq nuages,,Valérie,,no egg,RAS,0
+24/07/2023,30,26,0,beau,0 œuf/ 26°c à 21h30,Valérie,,no egg,RAS,0
+25/07/2023,21,21,3,couvert/pluie,,Valérie,,no egg,RAS,0
+26/07/2023,15,19,3,pluie/couvert/vent,trouvé 1 œuf d'Albertine dans le jardin,Valérie,,no egg,RAS,0
+27/07/2023,28,21,0,beau,,Valérie,,no egg,RAS,0
+28/07/2023,30,23,16,beau/orages,0 œuf,Valérie,,no egg,RAS,0
+29/07/2023,29,24,0,beau,,Valérie,,no egg,RAS,0
+30/07/2023,31,25,0,beau/orage,,Valérie,,no egg,RAS,0
+31/07/2023,22,23,12,pluie/couvert,,Valérie,,no egg,RAS,0
+01/08/2023,27,21,0,beau,découverte de poux rouges/retour dans l'ancien poulailler/T°p=T°ext,Valérie,,no egg,RAS,0
+02/08/2023,24,24,0,couvert/vent,"retour dans le poulailler ""terrasse""",Valérie,,no egg,RAS,0
+03/08/2023,28,24,3,beau/couvert/pluie,traitement exzolt,Valérie,,no egg,RAS,0
+04/08/2023,17,,0,bruine/éclaircies,,Valérie,,no egg,RAS,0
+05/08/2023,18,18,13,giboulées,1 œuf cassé et 1 œuf mou/retour ancien poulailler,Valérie,,no egg,RAS,0
+06/08/2023,22,20,0,éclaircies,,Valérie,,no egg,RAS,0
+07/08/2023,23,20,1,Bruine/éclaircies/vent,,Valérie,,no egg,RAS,0
+08/08/2023,23,,0,beau,0 œuf,Valérie,,no egg,RAS,0
+09/08/2023,28,20,0,beau,0 oeuf/T°C poulailler à 22-23h,Valérie,,no egg,RAS,0
+10/08/2023,30,21,0,beau,traitement exzolt,Valérie,,no egg,RAS,0
+11/08/2023,30,25,0,beau,avhydratC+Gascodrène,Valérie,,no egg,RAS,0
+12/08/2023,33,21,0,Brumeux/beau,avhydratC+Gascodrène,Valérie,,no egg,RAS,0
+13/08/2023,32,23,0,beau,avhydratC+Gascodrène,Valérie,,no egg,RAS,0
+14/08/2023,30,26,0,voilé,avhydratC+Gascodrène,Valérie,,no egg,RAS,0
+15/08/2023,32,26,0,beau/vent,avhydratC+Gascodrène,Valérie,,no egg,RAS,0
+16/08/2023,26,23,"0,5",pluie fine/couvert,,Valérie,,no egg,RAS,0
+17/08/2023,25,23,0,couvert,,Valérie,,no egg,RAS,0
+18/08/2023,32,26,0,bruine le matin,avhydrat C+gascodrène,Valérie,,no egg,RAS,0
+19/08/2023,32,26,0,voilé/vent,avhydratC+Gascodrène,Valérie,,no egg,RAS,0
+20/08/2023,34,26,0,vigilance canicule,avhydratC+Gascodrène,Valérie,,no egg,RAS,0
+21/08/2023,37,29,0,canicule,avhydratC+Gascodrène,Valérie,,no egg,RAS,0
+22/08/2023,34,26,0,canicule,idem,Valérie,,no egg,RAS,0
+23/08/2023,36,27,0,canicule,C+Gasco/ nuit tropicale 27°c/ 73% H à 22h40,Valérie,,no egg,RAS,0
+24/08/2023,40,28,0,canicule,C+Gasco,Valérie,,no egg,RAS,0
+25/08/2023,"40,5",28,0,canicule,c+Gasco,Valérie,,no egg,RAS,0
+26/08/2023,23,20,3,pluie/couvert,,Valérie,,no egg,RAS,0
+27/08/2023,19,17,8,pluie,,Valérie,,no egg,RAS,0
+28/08/2023,16,14,37,pluie/éclaircies,,Valérie,,no egg,RAS,0
+29/08/2023,17,16,5,pluie/éclaircies,,Valérie,,no egg,RAS,0
+30/08/2023,20,15,0,éclaircies/vent,,Valérie,,no egg,RAS,0
+31/08/2023,22,16,1,éclaircies/averses,,Valérie,,no egg,RAS,0
+01/09/2023,28,17,0,beau,,Valérie,,no egg,RAS,0
+02/09/2023,31,20,0,beau,,Valérie,,no egg,RAS,0
+03/09/2023,22,18,0,couvert,trouvé un oeuf minuscule Saquiel ou Albertine,Valérie,,no egg,RAS,0
+04/09/2023,26,21,0,beau/voilé,,Valérie,,no egg,RAS,0
+05/09/2023,28,22,0,voilé/vent,sable du Sahara dans l'air,Valérie,,no egg,RAS,0
+06/09/2023,29,21,0,voilé,sable du Sahara dans l'air,Valérie,,no egg,RAS,0
+07/09/2023,27,23,0,voilé,sable du Sahara dans l'air,Valérie,,no egg,RAS,0
+08/09/2023,30,20,0,beau,,Valérie,,no egg,RAS,0
+09/09/2023,29,21,0,beau,,Valérie,,no egg,RAS,0
+10/09/2023,30,22,0,beau,,Valérie,,no egg,RAS,0
+11/09/2023,30,20,0,beau,,Valérie,,no egg,RAS,0
+12/09/2023,30,20,0,couvert/éclaircies,,Valérie,,no egg,RAS,0
+13/09/2023,24,17,22,mitigé/orages,,Valérie,,no egg,RAS,0
+14/09/2023,25,17,0,éclaircies,,Valérie,,no egg,RAS,0
+15/09/2023,28,18,0,beau,,Valérie,,no egg,RAS,0
+16/09/2023,28,17,3,beau/orageux/pluie,,Valérie,,no egg,RAS,0
+17/09/2023,28,21,0,beau,,Valérie,,no egg,RAS,0
+18/09/2023,25,19,3,beau/orages,,Valérie,,no egg,RAS,0
+19/09/2023,26,17,6,beau/orages,,Valérie,,no egg,RAS,0
+20/09/2023,25,15,0,beau,,Valérie,fin couvaison,no egg,fin couvaison,0
+21/09/2023,27,18,0,couvert/beau,,Valérie,mue,no egg,mue,0
+22/09/2023,20,14,9,couvert/pluie,,Valérie,,no egg,RAS,0
+23/09/2023,20,12,0,éclaircies/vent,,Valérie,,no egg,RAS,0
+24/09/2023,23,13,0,éclaircies,,Valérie,,no egg,RAS,0
+25/09/2023,24,15,0,beau,,Valérie,,no egg,RAS,0
+26/09/2023,27,15,0,beau,,Valérie,,no egg,RAS,0
+27/09/2023,28,16,0,beau,,Valérie,,no egg,RAS,0
+28/09/2023,30,19,0,beau,,Valérie,,no egg,RAS,0
+29/09/2023,31,20,0,beau,,Valérie,,no egg,RAS,0
+30/09/2023,30,20,0,beau,,Valérie,,no egg,RAS,0
+01/10/2023,30,19,0,beau,,Valérie,,no egg,RAS,0
+02/10/2023,32,20,0,beau,,Valérie,,no egg,RAS,0
+03/10/2023,31,20,0,beau/vent,,Valérie,,no egg,RAS,0
+04/10/2023,22,19,0,couvert,,Valérie,,no egg,RAS,0
+05/10/2023,28,16,0,nuageux,,Valérie,,no egg,RAS,0
+06/10/2023,28,16,0,beau,,Valérie,,no egg,RAS,0
+07/10/2023,28,17,0,beau,,Valérie,,no egg,RAS,0
+08/10/2023,30,15,0,beau,,Valérie,,no egg,RAS,0
+09/10/2023,29,17,0,beau,,Valérie,,no egg,RAS,0
+10/10/2023,29,16,0,beau,,Valérie,,no egg,RAS,0
+11/10/2023,30,18,0,beau,,Valérie,,no egg,RAS,0
+12/10/2023,31,17,0,beau,,Valérie,,no egg,RAS,0
+13/10/2023,30,18,0,beau,,Valérie,,no egg,RAS,0
+14/10/2023,29,18,0,beau,,Valérie,,no egg,RAS,0
+15/10/2023,24,16,5,couvert/pluie,,Valérie,,no egg,RAS,0
+16/10/2023,19,11,0,éclaircies,,Valérie,,no egg,RAS,0
+17/10/2023,19,15,0,éclaircies,,Valérie,,no egg,RAS,0
+18/10/2023,26,17,0,beau/vent,,Valérie,,no egg,RAS,0
+19/10/2023,26,17,3,couvert/pluie,,Valérie,,no egg,RAS,0
+20/10/2023,25,17,13,couvert/pluie,,Valérie,,no egg,RAS,0
+21/10/2023,20,14,3,éclaircies/pluie,,Valérie,,no egg,RAS,0
+22/10/2023,19,11,0,beau,,Valérie,,no egg,RAS,0
+23/10/2023,15,13,0,maussade,,Valérie,,no egg,RAS,0
+24/10/2023,20,14,0,éclaircies,Albertine malade/rhume,Valérie,,no egg,RAS,0
+25/10/2023,20,11,0,pluie/éclaircies,avicoryl,Valérie,,no egg,RAS,0
+26/10/2023,18,15,1,couvert/pluie,,Valérie,,no egg,RAS,0
+27/10/2023,15,13,8,couvert/pluie,,Valérie,,no egg,RAS,0
+28/10/2023,18,10,0,beau,,Valérie,,no egg,RAS,0
+29/10/2023,19,14,0,beau,,Valérie,,no egg,RAS,0
+30/10/2023,17,14,0,couvert,,Valérie,,no egg,RAS,0
+31/10/2023,15,10,9,couvert/pluie,,Valérie,,no egg,RAS,0
+01/11/2023,19,10,0,beau,,Valérie,,no egg,RAS,0
+02/11/2023,19,10,5,éclaircies/pluie,,Valérie,,no egg,RAS,0
+03/11/2023,13,8,17,pluie,,Valérie,,no egg,RAS,0
+04/11/2023,10,9,5,pluie,,Valérie,,no egg,RAS,0
+05/11/2023,13,9,6,pluie/éclaircies,,Valérie,,no egg,RAS,0
+06/11/2023,19,9,0,beau,,Valérie,,no egg,RAS,0
+07/11/2023,12,8,8,averses/pluie,,Valérie,,no egg,RAS,0
+08/11/2023,17,5,0,beau,,Valérie,,no egg,RAS,0
+09/11/2023,19,6,0,beau,petite gelée matinale,Valérie,,no egg,RAS,0
+10/11/2023,13,9,6,pluie/beau,,Valérie,,no egg,RAS,0
+11/11/2023,11,9,7,pluie/éclaircies,,Valérie,,no egg,RAS,0
+12/11/2023,12,12,0,pluie,,Valérie,,no egg,RAS,0
+13/11/2023,17,11,0,couvert/éclaircies,,Valérie,,no egg,RAS,0
+14/11/2023,24,12,0,beau,,Valérie,,no egg,RAS,0
+15/11/2023,24,14,5,beau/pluie,,Valérie,,no egg,RAS,0
+16/11/2023,16,10,5,pluie/éclaircies,,Valérie,,no egg,RAS,0
+17/11/2023,16,12,2,couvert/pluie,,Valérie,,no egg,RAS,0
+18/11/2023,15,9,0,éclaircies,,Valérie,x,RAS,RAS,1
+19/11/2023,oubli,oubli,0,beau,environ 20°C,Valérie,,no egg,RAS,0
+20/11/2023,21,10,0,beau,,Valérie,x,RAS,RAS,1
+21/11/2023,14,9,9,couvert/pluie,,Valérie,x,RAS,RAS,1
+22/11/2023,9,oubli,10,pluie,,Valérie,,no egg,RAS,0
+23/11/2023,9,7,3,pluie/éclaircies/vent,,Valérie,x,RAS,RAS,1
+24/11/2023,11,5,0,beau/vent,,Valérie,,no egg,RAS,0
+25/11/2023,7,7,0,gris/vent,,Valérie,,no egg,RAS,0
+26/11/2023,9,4,0,gris ,,Valérie,x,RAS,RAS,1
+27/11/2023,12,0,0,beau,belle gelée matinale -3°c,Valérie,,no egg,RAS,0
+28/11/2023,13,10,27,éclaircies/pluie/vent,,Valérie,,no egg,RAS,0
+29/11/2023,9,7,0,éclaircies,,Valérie,,no egg,RAS,0
+30/11/2023,16,9,0,éclaircies,,Valérie,x,RAS,RAS,1
+01/12/2023,11,8,6,bruine/pluie,,Valérie,,no egg,RAS,0
+02/12/2023,8,5,14,pluie,,Valérie,x,RAS,RAS,1
+03/12/2023,6,4,2,pluie/éclaircies,,Valérie,x,RAS,RAS,1
+04/12/2023,11,3,0,beau,gelée matinale,Valérie,,no egg,RAS,0
+05/12/2023,12,7,"0,5",éclaircies/pluie,,Valérie,,no egg,RAS,0
+06/12/2023,9,6,0,éclaircies/vent,,Valérie,x,RAS,RAS,1
+07/12/2023,10,2,0,beau,,Valérie,,no egg,RAS,0
+08/12/2023,14,6,0,beau,,Valérie,,no egg,RAS,0
+09/12/2023,9,6,18,pluie/vent,,Valérie,,no egg,RAS,0
+10/12/2023,14,15,1,pluie/éclaircies,,Valérie,,no egg,RAS,0
+11/12/2023,18,11,0,beau/couvert,,Valérie,,no egg,RAS,0
+12/12/2023,19,10,0,beau,,Valérie,,no egg,RAS,0
+13/12/2023,16,9,3,voilé/pluie,,Valérie,,no egg,RAS,0
+14/12/2023,10,7,20,averses/pluie/vent,,Valérie,,no egg,RAS,0
+15/12/2023,10,7,1,averses/éclaircies/vent,,Valérie,,no egg,RAS,0
+16/12/2023,9,7,1,bruine,,Valérie,,no egg,RAS,0
+17/12/2023,13,3,0,beau,,Valérie,,no egg,RAS,0
+18/12/2023,15,3,0,beau,-4°C ce matin,Valérie,,no egg,RAS,0
+19/12/2023,16,3,0,beau,gelée matinale,Valérie,,no egg,RAS,0
+20/12/2023,4,5,0,gris,,Valérie,,no egg,RAS,0
+21/12/2023,8,6,11,pluie/éclaircies/vent,,Valérie,,no egg,RAS,0
+22/12/2023,11,11,0,vent/bruine,,Valérie,,no egg,RAS,0
+23/12/2023,12,9,1,gris/vent/éclaircies/pluie,,Valérie,,no egg,RAS,0
+24/12/2023,12,9,0,éclaircies,,Valérie,,no egg,RAS,0
+25/12/2023,13,7,0,beau,,Valérie,,no egg,RAS,0
+26/12/2023,12,4,0,beau,,Valérie,,no egg,RAS,0
+27/12/2023,15,3,0,beau,,Valérie,,no egg,RAS,0
+28/12/2023,17,5,0,beau,grosse gelée matinale,Valérie,,no egg,RAS,0
+29/12/2023,10,4,0,gris,,Valérie,,no egg,RAS,0
+30/12/2023,9,7,0,gris/éclaircies,,Valérie,,no egg,RAS,0
+31/12/2023,17,7,0,beau,,Valérie,,no egg,RAS,0
+01/01/2023,,,,,,Rémiel,,no egg,RAS,0
+02/01/2023,,,,,,Rémiel,,no egg,RAS,0
+03/01/2023,,,,,,Rémiel,,no egg,RAS,0
+04/01/2023,15,,0,beau,,Rémiel,,no egg,RAS,0
+05/01/2023,14,,0,beau,,Rémiel,x,RAS,RAS,1
+06/01/2023,oubli,,0,beau,,Rémiel,,no egg,RAS,0
+07/01/2023,13,,0,beau,,Rémiel,,no egg,RAS,0
+08/01/2023,9,,0,mitigé,,Rémiel,x,RAS,RAS,1
+09/01/2023,8,,16,vent éclaircie,,Rémiel,,no egg,RAS,0
+10/01/2023,14,,0,beau,,Rémiel,,no egg,RAS,0
+11/01/2023,9,,0,beau,,Rémiel,,no egg,RAS,0
+12/01/2023,12,,0,beau,,Rémiel,,no egg,RAS,0
+13/01/2023,13,,0,mitigé,,Rémiel,,no egg,RAS,0
+14/01/2023,13,,0,beau,,Rémiel,,no egg,RAS,0
+15/01/2023,10,,2,pluie/beau,,Rémiel,,no egg,RAS,0
+16/01/2023,6,,50,pluie/vent,,Rémiel,,no egg,RAS,0
+17/01/2023,5,,1,pluie/vent,,Rémiel,,no egg,RAS,0
+18/01/2023,5,,5,pluie/éclaircie,,Rémiel,,no egg,RAS,0
+19/01/2023,5,,,couvert/éclaircie,,Rémiel,,no egg,RAS,0
+20/01/2023,5,,12,pluie/neige/soleil,,Rémiel,,no egg,RAS,0
+21/01/2023,2,,2,idem/vent,,Rémiel,,no egg,RAS,0
+22/01/2023,0,,0,Couvert/vent,,Rémiel,,no egg,RAS,0
+23/01/2023,oubli,,,oubli,malade (moi),Rémiel,,no egg,RAS,0
+24/01/2023,2,,,couvert/éclaircie,,Rémiel,,no egg,RAS,0
+25/01/2023,0,,,couvert,,Rémiel,,no egg,RAS,0
+26/01/2023,0,,,couvert,,Rémiel,,no egg,RAS,0
+27/01/2023,0,,,,,Rémiel,,no egg,RAS,0
+28/01/2023,0,,,couvert,Cunégonde pique Shrek,Rémiel,,no egg,RAS,0
+29/01/2023,0,,,couvert,aliment poulette+vitamines,Rémiel,,no egg,RAS,0
+30/01/2023,4,,,éclaircie,,Rémiel,,no egg,RAS,0
+31/01/2023,8,,0,beau temps,,Rémiel,,no egg,RAS,0
+01/02/2023,10,,0,beau temps,pas sûre de l'œuf de Pioupioute,Rémiel,x,RAS,RAS,1
+02/02/2023,12,,0,beau temps,petit lait en boisson/aliment pondeuse,Rémiel,x,RAS,RAS,1
+03/02/2023,12,,0,beau temps,petit lait+aliment,Rémiel,,no egg,RAS,0
+04/02/2023,10,,0,beau temps,petit lait+aliment,Rémiel,,no egg,RAS,0
+05/02/2023,10,,0,beau temps,aliment,Rémiel,,no egg,RAS,0
+06/02/2023,12,,0,beau temps,,Rémiel,,no egg,RAS,0
+07/02/2023,8,,0,couvert/vent,,Rémiel,x,RAS,RAS,1
+08/02/2023,8,,0,beau/vent,,Rémiel,,no egg,RAS,0
+09/02/2023,10,,0,beau,,Rémiel,x,RAS,RAS,1
+10/02/2023,14,,0,beau,,Rémiel,,no egg,RAS,0
+11/02/2023,14,,0,beau,aliment+blé,Rémiel,,no egg,RAS,0
+12/02/2023,14,,0,beau,,Rémiel,,no egg,RAS,0
+13/02/2023,15,,0,beau,,Rémiel,x,RAS,RAS,1
+14/02/2023,15,,0,beau,,Rémiel,x,RAS,RAS,1
+15/02/2023,16,,0,beau,,Rémiel,,no egg,RAS,0
+16/02/2023,16,,0,beau,,Rémiel,,no egg,RAS,0
+17/02/2023,16,,0,beau,,Rémiel,,no egg,RAS,0
+18/02/2023,18,,0,beau,avipar(vermifuge naturel),Rémiel,,no egg,RAS,0
+19/02/2023,18,,0,beau,,Rémiel,x,RAS,RAS,1
+20/02/2023,20,,0,beau,antibio Pioupioute suspicion pb génital,Rémiel,,no egg,RAS,0
+21/02/2023,15,,0,mitigé,,Rémiel,x,RAS,RAS,1
+22/02/2023,13,,0,couvert,,Rémiel,,no egg,RAS,0
+23/02/2023,11,,4,couvert,"pluie nuit 22,à23/02",Rémiel,,no egg,RAS,0
+24/02/2023,12,,"2,5",beau,"pluie nuit 23,à24/02",Rémiel,,no egg,RAS,0
+25/02/2023,7,,0,couvert,,Rémiel,x,RAS,RAS,1
+26/02/2023,5,,0,vent/froid/couvert,,Rémiel,,no egg,RAS,0
+27/02/2023,1,,0,vent/neige/éclaircie,,Rémiel,,no egg,RAS,0
+28/02/2023,2,,0,éclaircie/vent,,Rémiel,,no egg,RAS,0
+01/03/2023,8,,0,beau,,Rémiel,x,RAS,RAS,1
+02/03/2023,7,,0,couvert,,Rémiel,,no egg,RAS,0
+03/03/2023,7,,0,couvert,,Rémiel,x,RAS,RAS,1
+04/03/2023,10,,"1,5",éclaircie,,Rémiel,,no egg,RAS,0
+05/03/2023,10,,0,éclaircie,,Rémiel,,no egg,RAS,0
+06/03/2023,10,,0,beau,,Rémiel,,no egg,RAS,0
+07/03/2023,12,,0,éclaircie/averse,,Rémiel,x,RAS,RAS,1
+08/03/2023,23,,2,voilé,lentypou,Rémiel,,no egg,RAS,0
+09/03/2023,20,,0,éclaircies,qq gouttes dans la nuit,Rémiel,,no egg,RAS,0
+10/03/2023,18,,"0,5",mitigé,,Rémiel,,no egg,RAS,0
+11/03/2023,15,,0,mitigé/vent violent,,Rémiel,,no egg,RAS,0
+12/03/2023,15,,"0,5",vent/pluie,17°C à 3h30 du mat,Rémiel,,no egg,RAS,0
+13/03/2023,23,,4,bruine puis très beau,,Rémiel,x,RAS,RAS,1
+14/03/2023,22,,14,beau/orage/tempête,pluie nuit du 13/03 au 14/03,Rémiel,x,RAS,RAS,1
+15/03/2023,12,,2,giboulées,,Rémiel,,no egg,RAS,0
+16/03/2023,15,,5,pluie/éclaircie,,Rémiel,x,RAS,RAS,1
+17/03/2023,19,,0,beau/vent,arrêt lentypou,Rémiel,,no egg,RAS,0
+18/03/2023,18,,0,couvert/beau/vent,,Rémiel,x,RAS,RAS,1
+19/03/2023,16,,7,beau/pluie,,Rémiel,x,RAS,RAS,1
+20/03/2023,16,,"1,5",giboulées,pas sûr de l'œuf de Rémiel,Rémiel,x?,pondeuse incertaine,RAS,1
+21/03/2023,17,,0,beau,,Rémiel,,no egg,RAS,0
+22/03/2023,19,,0,beau,,Rémiel,x,RAS,RAS,1
+23/03/2023,22,,0,beau,,Rémiel,,no egg,RAS,0
+24/03/2023,22,,0,beau,,Rémiel,,no egg,RAS,0
+25/03/2023,17,,1,beau puis bruine,Pioupioute à l'ENVT,Rémiel,,no egg,RAS,0
+26/03/2023,19,,0,beau,trouvé un micro œuf,Rémiel,x,RAS,RAS,1
+27/03/2023,9,,8,pluie/éclaircie/vent,tempête la nuit,Rémiel,,no egg,RAS,0
+28/03/2023,10,,5,giboulées,,Rémiel,x,RAS,RAS,1
+29/03/2023,16,,0,beau,,Rémiel,,no egg,RAS,0
+30/03/2023,22,,0,beau,,Rémiel,x,RAS,RAS,1
+31/03/2023,20,,0,beau,,Rémiel,,no egg,RAS,0
+01/04/2023,12,,0,couvert/qq gouttes,"œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte",Rémiel,,no egg,RAS,0
+02/04/2023,12,,3,couvert/vent/pluie,Augustine malade: amirudène 7J,Rémiel,,no egg,RAS,0
+03/04/2023,9,,15,pluie,,Rémiel,,no egg,RAS,0
+04/04/2023,9,,3,pluie/éclaircie,Augustine DCD,Rémiel,x,RAS,RAS,1
+05/04/2023,15,,0,beau,aliment pondeuse,Rémiel,x,RAS,RAS,1
+06/04/2023,17,,0,beau,,Rémiel,,no egg,RAS,0
+07/04/2023,13,,0,beau,,Rémiel,x,RAS,RAS,1
+08/04/2023,18,,0,beau,,Rémiel,,no egg,RAS,0
+09/04/2023,20,,0,beau,,Rémiel,,no egg,RAS,0
+10/04/2023,24,,0,beau,,Rémiel,,no egg,RAS,0
+11/04/2023,19,,0,beau,,Rémiel,,no egg,RAS,0
+12/04/2023,16,,0,beau,,Rémiel,,no egg,RAS,0
+13/04/2023,17,,5,beau/pluie,,Rémiel,x,RAS,RAS,1
+14/04/2023,8,,4,giboulées,,Rémiel,,no egg,RAS,0
+15/04/2023,11,,3,giboulées,arrêt antibiotique Pioupioute/ponction à l'envt,Rémiel,x,RAS,RAS,1
+16/04/2023,13,,1,giboulées/éclaircies,Pioupioute a pondu un œuf normal/veut couver,Rémiel,,no egg,RAS,0
+17/04/2023,16,,0,beau,,Rémiel,,no egg,RAS,0
+18/04/2023,16,,0,beau,,Rémiel,x,RAS,RAS,1
+19/04/2023,17,,0,beau,,Rémiel,,no egg,RAS,0
+20/04/2023,22,,0,beau,,Rémiel,x,RAS,RAS,1
+21/04/2023,22,,0,beau,,Rémiel,x,RAS,RAS,1
+22/04/2023,22,,0,beau,,Rémiel,,no egg,RAS,0
+23/04/2023,13,,0,couvert/bruine,15°C à 5h du mat,Rémiel,,no egg,RAS,0
+24/04/2023,19,,7,beau/pluie,découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?,Rémiel,,no egg,RAS,0
+25/04/2023,17,,0,beau,,Rémiel,,no egg,RAS,0
+26/04/2023,15,,17,pluie,,Rémiel,x,RAS,RAS,1
+27/04/2023,18,,2,couvert,,Rémiel,,no egg,RAS,0
+28/04/2023,23,,0,voilé/beau,,Rémiel,x,RAS,RAS,1
+29/04/2023,24,,0,voilé,,Rémiel,,no egg,RAS,0
+30/04/2023,17,,0,couvert/pluie,œuf d'Albertine très clair,Rémiel,,no egg,RAS,0
+01/05/2023,18,,36,giboulées,dont 29mm dans la nuit du 29 au 30/04,Rémiel,,no egg,RAS,0
+02/05/2023,18,,2,giboulées/éclaircies,,Rémiel,x,RAS,RAS,1
+03/05/2023,20,,0,beau,,Rémiel,,no egg,RAS,0
+04/05/2023,25,,0,beau,,Rémiel,,no egg,RAS,0
+05/05/2023,25,,0,beau,,Rémiel,,no egg,RAS,0
+06/05/2023,23,,0,beau,,Rémiel,x,RAS,RAS,1
+07/05/2023,24,,0,beau/orage,1 œuf trouvé dans le poulailler cassé,Rémiel,,no egg,RAS,0
+08/05/2023,17,,8,averses,,Rémiel,x,RAS,RAS,1
+09/05/2023,22,,0,beau,,Rémiel,,no egg,RAS,0
+10/05/2023,15,,15,couvert/pluie,,Rémiel,x,RAS,RAS,1
+11/05/2023,16,,2,pluie/giboulées,,Rémiel,,no egg,RAS,0
+12/05/2023,15,,0,éclaircies,,Rémiel,,no egg,RAS,0
+13/05/2023,17,,6,pluie/éclaircies,,Rémiel,,no egg,RAS,0
+14/05/2023,13,,15,giboulées,,Rémiel,,no egg,RAS,0
+15/05/2023,15,,10,"averses, éclaircies",,Rémiel,x,RAS,RAS,1
+16/05/2023,11,,6,averses,"petit trou dans certains œufs, à surveiller si poules ou pie",Rémiel,,no egg,RAS,0
+17/05/2023,13,,2,pluie/éclaircie,,Rémiel,,no egg,RAS,0
+18/05/2023,18,,0,beau,,Rémiel,x,RAS,RAS,1
+19/05/2023,14,,0,couvert,,Rémiel,,no egg,RAS,0
+20/05/2023,10,,4,pluie/couvert,,Rémiel,,no egg,RAS,0
+21/05/2023,15,,0,éclaircies/beau,,Rémiel,x,RAS,RAS,1
+22/05/2023,16,,0,couvert/beau,,Rémiel,,no egg,RAS,0
+23/05/2023,18,,4,pluie/éclaircies,,Rémiel,,no egg,RAS,0
+24/05/2023,22,,6,temps lourd/orages,,Rémiel,,no egg,RAS,0
+25/05/2023,20,,25,lourd/orages,,Rémiel,,no egg,RAS,0
+26/05/2023,17,,6,couvert/pluie,,Rémiel,x,RAS,RAS,1
+27/05/2023,23,,0,beau,,Rémiel,,no egg,RAS,0
+28/05/2023,27,,0,beau,,Rémiel,,no egg,RAS,0
+29/05/2023,27,,0,beau,,Rémiel,,no egg,RAS,0
+30/05/2023,27,,24,beau/orage fort,,Rémiel,x,RAS,RAS,1
+31/05/2023,26,,0,éclaircies,,Rémiel,,no egg,RAS,0
+01/06/2023,24,,5,beau/pluie,,Rémiel,,no egg,RAS,0
+02/06/2023,22,,1,pluie/éclaircies,,Rémiel,,no egg,RAS,0
+03/06/2023,23,,0,beau,,Rémiel,x,RAS,RAS,1
+04/06/2023,25,,2,beau/orage,changement de poulailler,Rémiel,,no egg,RAS,0
+05/06/2023,26,,0,beau,,Rémiel,x,RAS,RAS,1
+06/06/2023,25,,5,beau/pluie,,Rémiel,,no egg,RAS,0
+07/06/2023,26,,0,beau,,Rémiel,,no egg,RAS,0
+08/06/2023,27,,0,beau,,Rémiel,,no egg,RAS,0
+09/06/2023,27,,0,beau/orageux,,Rémiel,x,RAS,RAS,1
+10/06/2023,26,,3,couvert/orage,,Rémiel,x(mou),mou,RAS,1
+11/06/2023,27,,0,beau/orageux,,Rémiel,,no egg,RAS,0
+12/06/2023,25,,1,beau/orage,,Rémiel,,no egg,RAS,0
+13/06/2023,27,,31,couvert/orage,les 2 œufs ont été cassé par une poule ou une bête,Rémiel,x,RAS,RAS,1
+14/06/2023,24,,23,beau/orage,"l'œuf d'Albertine très fragile, elle a des vers en plus/ Avipar/Avipou",Rémiel,,no egg,RAS,0
+15/06/2023,21,,3,pluie/éclaircie,,Rémiel,,no egg,RAS,0
+16/06/2023,25,,0,couvert/beau,Saquiel malade/doxycycline,Rémiel,,no egg,RAS,0
+17/06/2023,26,,0,beau,,Rémiel,x(tordu),tordu,RAS,1
+18/06/2023,30,,11,beau/orage,0 œuf,Rémiel,,no egg,RAS,0
+19/06/2023,27,,0,mitigé/,,Rémiel,x,RAS,RAS,1
+20/06/2023,22,,0,couvert/beau,quelques gouttes,Rémiel,,no egg,RAS,0
+21/06/2023,25,,0,lourd,œuf de Valérie très fragile trouvé ds poulailler,Rémiel,,no egg,RAS,0
+22/06/2023,20,,7,orage,,Rémiel,,no egg,RAS,0
+23/06/2023,23,,6,pluie/éclaircies,Cunégonde veut couver,Rémiel,,no egg,RAS,0
+24/06/2023,28,,0,beau,,Rémiel,,no egg,RAS,0
+25/06/2023,28,24,0,beau,,Rémiel,,no egg,RAS,0
+26/06/2023,32,28,0,beau,,Rémiel,x(cassé),cassé,RAS,1
+27/06/2023,21,22,0,couvert,,Rémiel,x,RAS,RAS,1
+28/06/2023,27,24,0,nuageux,,Rémiel,x,RAS,RAS,1
+29/06/2023,26,24,0,beau,,Rémiel,,no egg,RAS,0
+30/06/2023,24,22,13,nuageux/orage,,Rémiel,x,RAS,RAS,1
+01/07/2023,19,20,3,pluie/couvert/vent,8 œuf sous Cunégonde: 6marans+1valérie+1joséphine,Rémiel,,no egg,RAS,0
+02/07/2023,22,20,0,couvert/vent,1œuf valérie et 1oeuf Joséphine sous Cunégonde,Rémiel,x,RAS,RAS,1
+03/07/2023,25,22,0,éclaircies,1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde,Rémiel,,no egg,RAS,0
+04/07/2023,27,23,0,couvert/éclaircies,,Rémiel,x(cassé),cassé,RAS,1
+05/07/2023,26,24,1,lourd/orages,"Valérie tousse, avicoryl dans l'eau",Rémiel,,no egg,RAS,0
+06/07/2023,27,24,0,éclaircies,,Rémiel,x,RAS,RAS,1
+07/07/2023,27,24,0,beau/lourd/orageux,,Rémiel,,no egg,RAS,0
+08/07/2023,33,24,6,beau/orages,vit C dans l'eau+oligoélément,Rémiel,,no egg,RAS,0
+09/07/2023,32,26,0,beau,,Rémiel,,no egg,RAS,0
+10/07/2023,28,25,0,couvert/lourd,21°c et 80%H le matin,Rémiel,x,RAS,RAS,1
+11/07/2023,31,27,0,beau,"22°C et 82%H  matin, 27°c à 22h",Rémiel,,no egg,RAS,0
+12/07/2023,28,26,1,beau/orageux,œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler,Rémiel,x(cassé),cassé,RAS,1
+13/07/2023,21,22,1,pluie/couvert,,Rémiel,,no egg,RAS,0
+14/07/2023,23,22,0,bruine/couvert,,Rémiel,x,RAS,RAS,1
+15/07/2023,31,26,0,beau,fin doxycyline pour Saquiel/ 24°C et 75%H à 23h ext/0 œuf,Rémiel,,no egg,RAS,0
+16/07/2023,30,21,3,beau/averses,17°C et 80%H à 20h,Rémiel,,no egg,RAS,0
+17/07/2023,27,23,0,mitigé/beau,,Rémiel,,no egg,RAS,0
+18/07/2023,27,26,0,beau,installation voile d'ombrage sur la terrasse,Rémiel,,no egg,RAS,0
+19/07/2023,33,26,0,beau,36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver,Rémiel,,no egg,RAS,0
+20/07/2023,24,23,2,orage/couvert,orages la nuit du 18 au 19/07,Rémiel,x,RAS,RAS,1
+21/07/2023,27,23,0,beau,Valérie semble vouloir couver aussi cette coquine!!,Rémiel,,no egg,RAS,0
+22/07/2023,19,21,0,couvert/bruine,Valérie couve…........,Rémiel,x,RAS,RAS,1
+23/07/2023,29,23,0,soleil et qq nuages,,Rémiel,,no egg,RAS,0
+24/07/2023,30,26,0,beau,0 œuf/ 26°c à 21h30,Rémiel,,no egg,RAS,0
+25/07/2023,21,21,3,couvert/pluie,,Rémiel,,no egg,RAS,0
+26/07/2023,15,19,3,pluie/couvert/vent,trouvé 1 œuf d'Albertine dans le jardin,Rémiel,,no egg,RAS,0
+27/07/2023,28,21,0,beau,,Rémiel,,no egg,RAS,0
+28/07/2023,30,23,16,beau/orages,0 œuf,Rémiel,,no egg,RAS,0
+29/07/2023,29,24,0,beau,,Rémiel,,no egg,RAS,0
+30/07/2023,31,25,0,beau/orage,,Rémiel,,no egg,RAS,0
+31/07/2023,22,23,12,pluie/couvert,,Rémiel,,no egg,RAS,0
+01/08/2023,27,21,0,beau,découverte de poux rouges/retour dans l'ancien poulailler/T°p=T°ext,Rémiel,,no egg,RAS,0
+02/08/2023,24,24,0,couvert/vent,"retour dans le poulailler ""terrasse""",Rémiel,,no egg,RAS,0
+03/08/2023,28,24,3,beau/couvert/pluie,traitement exzolt,Rémiel,,no egg,RAS,0
+04/08/2023,17,,0,bruine/éclaircies,,Rémiel,x(cassé),cassé,RAS,1
+05/08/2023,18,18,13,giboulées,1 œuf cassé et 1 œuf mou/retour ancien poulailler,Rémiel,,no egg,RAS,0
+06/08/2023,22,20,0,éclaircies,,Rémiel,,no egg,RAS,0
+07/08/2023,23,20,1,Bruine/éclaircies/vent,,Rémiel,x(cassé),cassé,RAS,1
+08/08/2023,23,,0,beau,0 œuf,Rémiel,,no egg,RAS,0
+09/08/2023,28,20,0,beau,0 oeuf/T°C poulailler à 22-23h,Rémiel,,no egg,RAS,0
+10/08/2023,30,21,0,beau,traitement exzolt,Rémiel,,no egg,RAS,0
+11/08/2023,30,25,0,beau,avhydratC+Gascodrène,Rémiel,,no egg,RAS,0
+12/08/2023,33,21,0,Brumeux/beau,avhydratC+Gascodrène,Rémiel,,no egg,RAS,0
+13/08/2023,32,23,0,beau,avhydratC+Gascodrène,Rémiel,,no egg,RAS,0
+14/08/2023,30,26,0,voilé,avhydratC+Gascodrène,Rémiel,,no egg,RAS,0
+15/08/2023,32,26,0,beau/vent,avhydratC+Gascodrène,Rémiel,,no egg,RAS,0
+16/08/2023,26,23,"0,5",pluie fine/couvert,,Rémiel,,no egg,RAS,0
+17/08/2023,25,23,0,couvert,,Rémiel,,no egg,RAS,0
+18/08/2023,32,26,0,bruine le matin,avhydrat C+gascodrène,Rémiel,x(cassé),cassé,RAS,1
+19/08/2023,32,26,0,voilé/vent,avhydratC+Gascodrène,Rémiel,,no egg,RAS,0
+20/08/2023,34,26,0,vigilance canicule,avhydratC+Gascodrène,Rémiel,,no egg,RAS,0
+21/08/2023,37,29,0,canicule,avhydratC+Gascodrène,Rémiel,x(cassé),cassé,RAS,1
+22/08/2023,34,26,0,canicule,idem,Rémiel,,no egg,RAS,0
+23/08/2023,36,27,0,canicule,C+Gasco/ nuit tropicale 27°c/ 73% H à 22h40,Rémiel,,no egg,RAS,0
+24/08/2023,40,28,0,canicule,C+Gasco,Rémiel,,no egg,RAS,0
+25/08/2023,"40,5",28,0,canicule,c+Gasco,Rémiel,,no egg,RAS,0
+26/08/2023,23,20,3,pluie/couvert,,Rémiel,x,RAS,RAS,1
+27/08/2023,19,17,8,pluie,,Rémiel,,no egg,RAS,0
+28/08/2023,16,14,37,pluie/éclaircies,,Rémiel,,no egg,RAS,0
+29/08/2023,17,16,5,pluie/éclaircies,,Rémiel,x,RAS,RAS,1
+30/08/2023,20,15,0,éclaircies/vent,,Rémiel,,no egg,RAS,0
+31/08/2023,22,16,1,éclaircies/averses,,Rémiel,,no egg,RAS,0
+01/09/2023,28,17,0,beau,,Rémiel,,no egg,RAS,0
+02/09/2023,31,20,0,beau,,Rémiel,,no egg,RAS,0
+03/09/2023,22,18,0,couvert,trouvé un oeuf minuscule Saquiel ou Albertine,Rémiel,,no egg,RAS,0
+04/09/2023,26,21,0,beau/voilé,,Rémiel,,no egg,RAS,0
+05/09/2023,28,22,0,voilé/vent,sable du Sahara dans l'air,Rémiel,x,RAS,RAS,1
+06/09/2023,29,21,0,voilé,sable du Sahara dans l'air,Rémiel,,no egg,RAS,0
+07/09/2023,27,23,0,voilé,sable du Sahara dans l'air,Rémiel,,no egg,RAS,0
+08/09/2023,30,20,0,beau,,Rémiel,,no egg,RAS,0
+09/09/2023,29,21,0,beau,,Rémiel,,no egg,RAS,0
+10/09/2023,30,22,0,beau,,Rémiel,,no egg,RAS,0
+11/09/2023,30,20,0,beau,,Rémiel,,no egg,RAS,0
+12/09/2023,30,20,0,couvert/éclaircies,,Rémiel,,no egg,RAS,0
+13/09/2023,24,17,22,mitigé/orages,,Rémiel,,no egg,RAS,0
+14/09/2023,25,17,0,éclaircies,,Rémiel,,no egg,RAS,0
+15/09/2023,28,18,0,beau,,Rémiel,,no egg,RAS,0
+16/09/2023,28,17,3,beau/orageux/pluie,,Rémiel,,no egg,RAS,0
+17/09/2023,28,21,0,beau,,Rémiel,,no egg,RAS,0
+18/09/2023,25,19,3,beau/orages,,Rémiel,,no egg,RAS,0
+19/09/2023,26,17,6,beau/orages,,Rémiel,,no egg,RAS,0
+20/09/2023,25,15,0,beau,,Rémiel,,no egg,RAS,0
+21/09/2023,27,18,0,couvert/beau,,Rémiel,x,RAS,RAS,1
+22/09/2023,20,14,9,couvert/pluie,,Rémiel,,no egg,RAS,0
+23/09/2023,20,12,0,éclaircies/vent,,Rémiel,,no egg,RAS,0
+24/09/2023,23,13,0,éclaircies,,Rémiel,,no egg,RAS,0
+25/09/2023,24,15,0,beau,,Rémiel,x,RAS,RAS,1
+26/09/2023,27,15,0,beau,,Rémiel,,no egg,RAS,0
+27/09/2023,28,16,0,beau,,Rémiel,,no egg,RAS,0
+28/09/2023,30,19,0,beau,,Rémiel,x(cassé),cassé,RAS,1
+29/09/2023,31,20,0,beau,,Rémiel,,no egg,RAS,0
+30/09/2023,30,20,0,beau,,Rémiel,,no egg,RAS,0
+01/10/2023,30,19,0,beau,,Rémiel,,no egg,RAS,0
+02/10/2023,32,20,0,beau,,Rémiel,,no egg,RAS,0
+03/10/2023,31,20,0,beau/vent,,Rémiel,,no egg,RAS,0
+04/10/2023,22,19,0,couvert,,Rémiel,,no egg,RAS,0
+05/10/2023,28,16,0,nuageux,,Rémiel,x(cassé),cassé,RAS,1
+06/10/2023,28,16,0,beau,,Rémiel,,no egg,RAS,0
+07/10/2023,28,17,0,beau,,Rémiel,,no egg,RAS,0
+08/10/2023,30,15,0,beau,,Rémiel,,no egg,RAS,0
+09/10/2023,29,17,0,beau,,Rémiel,,no egg,RAS,0
+10/10/2023,29,16,0,beau,,Rémiel,,no egg,RAS,0
+11/10/2023,30,18,0,beau,,Rémiel,,no egg,RAS,0
+12/10/2023,31,17,0,beau,,Rémiel,,no egg,RAS,0
+13/10/2023,30,18,0,beau,,Rémiel,,no egg,RAS,0
+14/10/2023,29,18,0,beau,,Rémiel,,no egg,RAS,0
+15/10/2023,24,16,5,couvert/pluie,,Rémiel,,no egg,RAS,0
+16/10/2023,19,11,0,éclaircies,,Rémiel,,no egg,RAS,0
+17/10/2023,19,15,0,éclaircies,,Rémiel,,no egg,RAS,0
+18/10/2023,26,17,0,beau/vent,,Rémiel,,no egg,RAS,0
+19/10/2023,26,17,3,couvert/pluie,,Rémiel,,no egg,RAS,0
+20/10/2023,25,17,13,couvert/pluie,,Rémiel,,no egg,RAS,0
+21/10/2023,20,14,3,éclaircies/pluie,,Rémiel,,no egg,RAS,0
+22/10/2023,19,11,0,beau,,Rémiel,,no egg,RAS,0
+23/10/2023,15,13,0,maussade,,Rémiel,,no egg,RAS,0
+24/10/2023,20,14,0,éclaircies,Albertine malade/rhume,Rémiel,,no egg,RAS,0
+25/10/2023,20,11,0,pluie/éclaircies,avicoryl,Rémiel,,no egg,RAS,0
+26/10/2023,18,15,1,couvert/pluie,,Rémiel,mue,no egg,mue,0
+27/10/2023,15,13,8,couvert/pluie,,Rémiel,,no egg,RAS,0
+28/10/2023,18,10,0,beau,,Rémiel,,no egg,RAS,0
+29/10/2023,19,14,0,beau,,Rémiel,,no egg,RAS,0
+30/10/2023,17,14,0,couvert,,Rémiel,,no egg,RAS,0
+31/10/2023,15,10,9,couvert/pluie,,Rémiel,,no egg,RAS,0
+01/11/2023,19,10,0,beau,,Rémiel,,no egg,RAS,0
+02/11/2023,19,10,5,éclaircies/pluie,,Rémiel,,no egg,RAS,0
+03/11/2023,13,8,17,pluie,,Rémiel,,no egg,RAS,0
+04/11/2023,10,9,5,pluie,,Rémiel,,no egg,RAS,0
+05/11/2023,13,9,6,pluie/éclaircies,,Rémiel,,no egg,RAS,0
+06/11/2023,19,9,0,beau,,Rémiel,,no egg,RAS,0
+07/11/2023,12,8,8,averses/pluie,,Rémiel,,no egg,RAS,0
+08/11/2023,17,5,0,beau,,Rémiel,,no egg,RAS,0
+09/11/2023,19,6,0,beau,petite gelée matinale,Rémiel,,no egg,RAS,0
+10/11/2023,13,9,6,pluie/beau,,Rémiel,,no egg,RAS,0
+11/11/2023,11,9,7,pluie/éclaircies,,Rémiel,,no egg,RAS,0
+12/11/2023,12,12,0,pluie,,Rémiel,,no egg,RAS,0
+13/11/2023,17,11,0,couvert/éclaircies,,Rémiel,,no egg,RAS,0
+14/11/2023,24,12,0,beau,,Rémiel,,no egg,RAS,0
+15/11/2023,24,14,5,beau/pluie,,Rémiel,,no egg,RAS,0
+16/11/2023,16,10,5,pluie/éclaircies,,Rémiel,,no egg,RAS,0
+17/11/2023,16,12,2,couvert/pluie,,Rémiel,,no egg,RAS,0
+18/11/2023,15,9,0,éclaircies,,Rémiel,,no egg,RAS,0
+19/11/2023,oubli,oubli,0,beau,environ 20°C,Rémiel,,no egg,RAS,0
+20/11/2023,21,10,0,beau,,Rémiel,,no egg,RAS,0
+21/11/2023,14,9,9,couvert/pluie,,Rémiel,,no egg,RAS,0
+22/11/2023,9,oubli,10,pluie,,Rémiel,,no egg,RAS,0
+23/11/2023,9,7,3,pluie/éclaircies/vent,,Rémiel,,no egg,RAS,0
+24/11/2023,11,5,0,beau/vent,,Rémiel,,no egg,RAS,0
+25/11/2023,7,7,0,gris/vent,,Rémiel,,no egg,RAS,0
+26/11/2023,9,4,0,gris ,,Rémiel,,no egg,RAS,0
+27/11/2023,12,0,0,beau,belle gelée matinale -3°c,Rémiel,,no egg,RAS,0
+28/11/2023,13,10,27,éclaircies/pluie/vent,,Rémiel,,no egg,RAS,0
+29/11/2023,9,7,0,éclaircies,,Rémiel,,no egg,RAS,0
+30/11/2023,16,9,0,éclaircies,,Rémiel,,no egg,RAS,0
+01/12/2023,11,8,6,bruine/pluie,,Rémiel,,no egg,RAS,0
+02/12/2023,8,5,14,pluie,,Rémiel,,no egg,RAS,0
+03/12/2023,6,4,2,pluie/éclaircies,,Rémiel,,no egg,RAS,0
+04/12/2023,11,3,0,beau,gelée matinale,Rémiel,,no egg,RAS,0
+05/12/2023,12,7,"0,5",éclaircies/pluie,,Rémiel,,no egg,RAS,0
+06/12/2023,9,6,0,éclaircies/vent,,Rémiel,,no egg,RAS,0
+07/12/2023,10,2,0,beau,,Rémiel,,no egg,RAS,0
+08/12/2023,14,6,0,beau,,Rémiel,,no egg,RAS,0
+09/12/2023,9,6,18,pluie/vent,,Rémiel,,no egg,RAS,0
+10/12/2023,14,15,1,pluie/éclaircies,,Rémiel,,no egg,RAS,0
+11/12/2023,18,11,0,beau/couvert,,Rémiel,,no egg,RAS,0
+12/12/2023,19,10,0,beau,,Rémiel,,no egg,RAS,0
+13/12/2023,16,9,3,voilé/pluie,,Rémiel,,no egg,RAS,0
+14/12/2023,10,7,20,averses/pluie/vent,,Rémiel,,no egg,RAS,0
+15/12/2023,10,7,1,averses/éclaircies/vent,,Rémiel,,no egg,RAS,0
+16/12/2023,9,7,1,bruine,,Rémiel,,no egg,RAS,0
+17/12/2023,13,3,0,beau,,Rémiel,,no egg,RAS,0
+18/12/2023,15,3,0,beau,-4°C ce matin,Rémiel,,no egg,RAS,0
+19/12/2023,16,3,0,beau,gelée matinale,Rémiel,,no egg,RAS,0
+20/12/2023,4,5,0,gris,,Rémiel,,no egg,RAS,0
+21/12/2023,8,6,11,pluie/éclaircies/vent,,Rémiel,,no egg,RAS,0
+22/12/2023,11,11,0,vent/bruine,,Rémiel,,no egg,RAS,0
+23/12/2023,12,9,1,gris/vent/éclaircies/pluie,,Rémiel,,no egg,RAS,0
+24/12/2023,12,9,0,éclaircies,,Rémiel,,no egg,RAS,0
+25/12/2023,13,7,0,beau,,Rémiel,,no egg,RAS,0
+26/12/2023,12,4,0,beau,,Rémiel,,no egg,RAS,0
+27/12/2023,15,3,0,beau,,Rémiel,,no egg,RAS,0
+28/12/2023,17,5,0,beau,grosse gelée matinale,Rémiel,,no egg,RAS,0
+29/12/2023,10,4,0,gris,,Rémiel,,no egg,RAS,0
+30/12/2023,9,7,0,gris/éclaircies,,Rémiel,,no egg,RAS,0
+31/12/2023,17,7,0,beau,,Rémiel,,no egg,RAS,0
+01/01/2023,,,,,,Saquiel,?,pondeuse incertaine,RAS,1
+02/01/2023,,,,,,Saquiel,?,pondeuse incertaine,RAS,1
+03/01/2023,,,,,,Saquiel,?,pondeuse incertaine,RAS,1
+04/01/2023,15,,0,beau,,Saquiel,x,RAS,RAS,1
+05/01/2023,14,,0,beau,,Saquiel,,no egg,RAS,0
+06/01/2023,oubli,,0,beau,,Saquiel,,no egg,RAS,0
+07/01/2023,13,,0,beau,,Saquiel,,no egg,RAS,0
+08/01/2023,9,,0,mitigé,,Saquiel,,no egg,RAS,0
+09/01/2023,8,,16,vent éclaircie,,Saquiel,,no egg,RAS,0
+10/01/2023,14,,0,beau,,Saquiel,x,RAS,RAS,1
+11/01/2023,9,,0,beau,,Saquiel,,no egg,RAS,0
+12/01/2023,12,,0,beau,,Saquiel,x,RAS,RAS,1
+13/01/2023,13,,0,mitigé,,Saquiel,,no egg,RAS,0
+14/01/2023,13,,0,beau,,Saquiel,x,RAS,RAS,1
+15/01/2023,10,,2,pluie/beau,,Saquiel,,no egg,RAS,0
+16/01/2023,6,,50,pluie/vent,,Saquiel,x,RAS,RAS,1
+17/01/2023,5,,1,pluie/vent,,Saquiel,,no egg,RAS,0
+18/01/2023,5,,5,pluie/éclaircie,,Saquiel,x,RAS,RAS,1
+19/01/2023,5,,,couvert/éclaircie,,Saquiel,,no egg,RAS,0
+20/01/2023,5,,12,pluie/neige/soleil,,Saquiel,x,RAS,RAS,1
+21/01/2023,2,,2,idem/vent,,Saquiel,,no egg,RAS,0
+22/01/2023,0,,0,Couvert/vent,,Saquiel,x,RAS,RAS,1
+23/01/2023,oubli,,,oubli,malade (moi),Saquiel,,no egg,RAS,0
+24/01/2023,2,,,couvert/éclaircie,,Saquiel,x,RAS,RAS,1
+25/01/2023,0,,,couvert,,Saquiel,,no egg,RAS,0
+26/01/2023,0,,,couvert,,Saquiel,x,RAS,RAS,1
+27/01/2023,0,,,,,Saquiel,x,RAS,RAS,1
+28/01/2023,0,,,couvert,Cunégonde pique Shrek,Saquiel,x,RAS,RAS,1
+29/01/2023,0,,,couvert,aliment poulette+vitamines,Saquiel,,no egg,RAS,0
+30/01/2023,4,,,éclaircie,,Saquiel,x,RAS,RAS,1
+31/01/2023,8,,0,beau temps,,Saquiel,,no egg,RAS,0
+01/02/2023,10,,0,beau temps,pas sûre de l'œuf de Pioupioute,Saquiel,,no egg,RAS,0
+02/02/2023,12,,0,beau temps,petit lait en boisson/aliment pondeuse,Saquiel,x,RAS,RAS,1
+03/02/2023,12,,0,beau temps,petit lait+aliment,Saquiel,,no egg,RAS,0
+04/02/2023,10,,0,beau temps,petit lait+aliment,Saquiel,x,RAS,RAS,1
+05/02/2023,10,,0,beau temps,aliment,Saquiel,,no egg,RAS,0
+06/02/2023,12,,0,beau temps,,Saquiel,,no egg,RAS,0
+07/02/2023,8,,0,couvert/vent,,Saquiel,,no egg,RAS,0
+08/02/2023,8,,0,beau/vent,,Saquiel,x,RAS,RAS,1
+09/02/2023,10,,0,beau,,Saquiel,,no egg,RAS,0
+10/02/2023,14,,0,beau,,Saquiel,,no egg,RAS,0
+11/02/2023,14,,0,beau,aliment+blé,Saquiel,,no egg,RAS,0
+12/02/2023,14,,0,beau,,Saquiel,,no egg,RAS,0
+13/02/2023,15,,0,beau,,Saquiel,,no egg,RAS,0
+14/02/2023,15,,0,beau,,Saquiel,,no egg,RAS,0
+15/02/2023,16,,0,beau,,Saquiel,,no egg,RAS,0
+16/02/2023,16,,0,beau,,Saquiel,x(cassé),cassé,RAS,1
+17/02/2023,16,,0,beau,,Saquiel,,no egg,RAS,0
+18/02/2023,18,,0,beau,avipar(vermifuge naturel),Saquiel,,no egg,RAS,0
+19/02/2023,18,,0,beau,,Saquiel,,no egg,RAS,0
+20/02/2023,20,,0,beau,antibio Pioupioute suspicion pb génital,Saquiel,,no egg,RAS,0
+21/02/2023,15,,0,mitigé,,Saquiel,,no egg,RAS,0
+22/02/2023,13,,0,couvert,,Saquiel,,no egg,RAS,0
+23/02/2023,11,,4,couvert,"pluie nuit 22,à23/02",Saquiel,,no egg,RAS,0
+24/02/2023,12,,"2,5",beau,"pluie nuit 23,à24/02",Saquiel,,no egg,RAS,0
+25/02/2023,7,,0,couvert,,Saquiel,,no egg,RAS,0
+26/02/2023,5,,0,vent/froid/couvert,,Saquiel,x(cassé),cassé,RAS,1
+27/02/2023,1,,0,vent/neige/éclaircie,,Saquiel,x(cassé),cassé,RAS,1
+28/02/2023,2,,0,éclaircie/vent,,Saquiel,,no egg,RAS,0
+01/03/2023,8,,0,beau,,Saquiel,,no egg,RAS,0
+02/03/2023,7,,0,couvert,,Saquiel,,no egg,RAS,0
+03/03/2023,7,,0,couvert,,Saquiel,x(cassé),cassé,RAS,1
+04/03/2023,10,,"1,5",éclaircie,,Saquiel,,no egg,RAS,0
+05/03/2023,10,,0,éclaircie,,Saquiel,x(cassé),cassé,RAS,1
+06/03/2023,10,,0,beau,,Saquiel,,no egg,RAS,0
+07/03/2023,12,,0,éclaircie/averse,,Saquiel,,no egg,RAS,0
+08/03/2023,23,,2,voilé,lentypou,Saquiel,x(cassé),cassé,RAS,1
+09/03/2023,20,,0,éclaircies,qq gouttes dans la nuit,Saquiel,,no egg,RAS,0
+10/03/2023,18,,"0,5",mitigé,,Saquiel,,no egg,RAS,0
+11/03/2023,15,,0,mitigé/vent violent,,Saquiel,,no egg,RAS,0
+12/03/2023,15,,"0,5",vent/pluie,17°C à 3h30 du mat,Saquiel,,no egg,RAS,0
+13/03/2023,23,,4,bruine puis très beau,,Saquiel,x(cassé),cassé,RAS,1
+14/03/2023,22,,14,beau/orage/tempête,pluie nuit du 13/03 au 14/03,Saquiel,,no egg,RAS,0
+15/03/2023,12,,2,giboulées,,Saquiel,,no egg,RAS,0
+16/03/2023,15,,5,pluie/éclaircie,,Saquiel,x(cassé),cassé,RAS,1
+17/03/2023,19,,0,beau/vent,arrêt lentypou,Saquiel,,no egg,RAS,0
+18/03/2023,18,,0,couvert/beau/vent,,Saquiel,,no egg,RAS,0
+19/03/2023,16,,7,beau/pluie,,Saquiel,,no egg,RAS,0
+20/03/2023,16,,"1,5",giboulées,pas sûr de l'œuf de Rémiel,Saquiel,,no egg,RAS,0
+21/03/2023,17,,0,beau,,Saquiel,,no egg,RAS,0
+22/03/2023,19,,0,beau,,Saquiel,,no egg,RAS,0
+23/03/2023,22,,0,beau,,Saquiel,,no egg,RAS,0
+24/03/2023,22,,0,beau,,Saquiel,x(cassé),cassé,RAS,1
+25/03/2023,17,,1,beau puis bruine,Pioupioute à l'ENVT,Saquiel,,no egg,RAS,0
+26/03/2023,19,,0,beau,trouvé un micro œuf,Saquiel,x(cassé),cassé,RAS,1
+27/03/2023,9,,8,pluie/éclaircie/vent,tempête la nuit,Saquiel,,no egg,RAS,0
+28/03/2023,10,,5,giboulées,,Saquiel,,no egg,RAS,0
+29/03/2023,16,,0,beau,,Saquiel,x(cassé),cassé,RAS,1
+30/03/2023,22,,0,beau,,Saquiel,x,RAS,RAS,1
+31/03/2023,20,,0,beau,,Saquiel,,no egg,RAS,0
+01/04/2023,12,,0,couvert/qq gouttes,"œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte",Saquiel,x,RAS,RAS,1
+02/04/2023,12,,3,couvert/vent/pluie,Augustine malade: amirudène 7J,Saquiel,x,RAS,RAS,1
+03/04/2023,9,,15,pluie,,Saquiel,,no egg,RAS,0
+04/04/2023,9,,3,pluie/éclaircie,Augustine DCD,Saquiel,,no egg,RAS,0
+05/04/2023,15,,0,beau,aliment pondeuse,Saquiel,,no egg,RAS,0
+06/04/2023,17,,0,beau,,Saquiel,,no egg,RAS,0
+07/04/2023,13,,0,beau,,Saquiel,,no egg,RAS,0
+08/04/2023,18,,0,beau,,Saquiel,x,RAS,RAS,1
+09/04/2023,20,,0,beau,,Saquiel,,no egg,RAS,0
+10/04/2023,24,,0,beau,,Saquiel,x(cassé),cassé,RAS,1
+11/04/2023,19,,0,beau,,Saquiel,x(cassé),cassé,RAS,1
+12/04/2023,16,,0,beau,,Saquiel,,no egg,RAS,0
+13/04/2023,17,,5,beau/pluie,,Saquiel,,no egg,RAS,0
+14/04/2023,8,,4,giboulées,,Saquiel,,no egg,RAS,0
+15/04/2023,11,,3,giboulées,arrêt antibiotique Pioupioute/ponction à l'envt,Saquiel,,no egg,RAS,0
+16/04/2023,13,,1,giboulées/éclaircies,Pioupioute a pondu un œuf normal/veut couver,Saquiel,x(cassé),cassé,RAS,1
+17/04/2023,16,,0,beau,,Saquiel,x(cassé),cassé,RAS,1
+18/04/2023,16,,0,beau,,Saquiel,,no egg,RAS,0
+19/04/2023,17,,0,beau,,Saquiel,x(cassé),cassé,RAS,1
+20/04/2023,22,,0,beau,,Saquiel,,no egg,RAS,0
+21/04/2023,22,,0,beau,,Saquiel,,no egg,RAS,0
+22/04/2023,22,,0,beau,,Saquiel,,no egg,RAS,0
+23/04/2023,13,,0,couvert/bruine,15°C à 5h du mat,Saquiel,,no egg,RAS,0
+24/04/2023,19,,7,beau/pluie,découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?,Saquiel,x?,pondeuse incertaine,RAS,1
+25/04/2023,17,,0,beau,,Saquiel,,no egg,RAS,0
+26/04/2023,15,,17,pluie,,Saquiel,,no egg,RAS,0
+27/04/2023,18,,2,couvert,,Saquiel,,no egg,RAS,0
+28/04/2023,23,,0,voilé/beau,,Saquiel,,no egg,RAS,0
+29/04/2023,24,,0,voilé,,Saquiel,,no egg,RAS,0
+30/04/2023,17,,0,couvert/pluie,œuf d'Albertine très clair,Saquiel,,no egg,RAS,0
+01/05/2023,18,,36,giboulées,dont 29mm dans la nuit du 29 au 30/04,Saquiel,,no egg,RAS,0
+02/05/2023,18,,2,giboulées/éclaircies,,Saquiel,,no egg,RAS,0
+03/05/2023,20,,0,beau,,Saquiel,,no egg,RAS,0
+04/05/2023,25,,0,beau,,Saquiel,,no egg,RAS,0
+05/05/2023,25,,0,beau,,Saquiel,,no egg,RAS,0
+06/05/2023,23,,0,beau,,Saquiel,,no egg,RAS,0
+07/05/2023,24,,0,beau/orage,1 œuf trouvé dans le poulailler cassé,Saquiel,,no egg,RAS,0
+08/05/2023,17,,8,averses,,Saquiel,,no egg,RAS,0
+09/05/2023,22,,0,beau,,Saquiel,,no egg,RAS,0
+10/05/2023,15,,15,couvert/pluie,,Saquiel,,no egg,RAS,0
+11/05/2023,16,,2,pluie/giboulées,,Saquiel,,no egg,RAS,0
+12/05/2023,15,,0,éclaircies,,Saquiel,,no egg,RAS,0
+13/05/2023,17,,6,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+14/05/2023,13,,15,giboulées,,Saquiel,,no egg,RAS,0
+15/05/2023,15,,10,"averses, éclaircies",,Saquiel,,no egg,RAS,0
+16/05/2023,11,,6,averses,"petit trou dans certains œufs, à surveiller si poules ou pie",Saquiel,,no egg,RAS,0
+17/05/2023,13,,2,pluie/éclaircie,,Saquiel,,no egg,RAS,0
+18/05/2023,18,,0,beau,,Saquiel,,no egg,RAS,0
+19/05/2023,14,,0,couvert,,Saquiel,,no egg,RAS,0
+20/05/2023,10,,4,pluie/couvert,,Saquiel,,no egg,RAS,0
+21/05/2023,15,,0,éclaircies/beau,,Saquiel,,no egg,RAS,0
+22/05/2023,16,,0,couvert/beau,,Saquiel,,no egg,RAS,0
+23/05/2023,18,,4,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+24/05/2023,22,,6,temps lourd/orages,,Saquiel,,no egg,RAS,0
+25/05/2023,20,,25,lourd/orages,,Saquiel,,no egg,RAS,0
+26/05/2023,17,,6,couvert/pluie,,Saquiel,,no egg,RAS,0
+27/05/2023,23,,0,beau,,Saquiel,,no egg,RAS,0
+28/05/2023,27,,0,beau,,Saquiel,,no egg,RAS,0
+29/05/2023,27,,0,beau,,Saquiel,,no egg,RAS,0
+30/05/2023,27,,24,beau/orage fort,,Saquiel,,no egg,RAS,0
+31/05/2023,26,,0,éclaircies,,Saquiel,,no egg,RAS,0
+01/06/2023,24,,5,beau/pluie,,Saquiel,,no egg,RAS,0
+02/06/2023,22,,1,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+03/06/2023,23,,0,beau,,Saquiel,,no egg,RAS,0
+04/06/2023,25,,2,beau/orage,changement de poulailler,Saquiel,,no egg,RAS,0
+05/06/2023,26,,0,beau,,Saquiel,,no egg,RAS,0
+06/06/2023,25,,5,beau/pluie,,Saquiel,,no egg,RAS,0
+07/06/2023,26,,0,beau,,Saquiel,,no egg,RAS,0
+08/06/2023,27,,0,beau,,Saquiel,,no egg,RAS,0
+09/06/2023,27,,0,beau/orageux,,Saquiel,,no egg,RAS,0
+10/06/2023,26,,3,couvert/orage,,Saquiel,,no egg,RAS,0
+11/06/2023,27,,0,beau/orageux,,Saquiel,,no egg,RAS,0
+12/06/2023,25,,1,beau/orage,,Saquiel,,no egg,RAS,0
+13/06/2023,27,,31,couvert/orage,les 2 œufs ont été cassé par une poule ou une bête,Saquiel,,no egg,RAS,0
+14/06/2023,24,,23,beau/orage,"l'œuf d'Albertine très fragile, elle a des vers en plus/ Avipar/Avipou",Saquiel,,no egg,RAS,0
+15/06/2023,21,,3,pluie/éclaircie,,Saquiel,,no egg,RAS,0
+16/06/2023,25,,0,couvert/beau,Saquiel malade/doxycycline,Saquiel,,no egg,RAS,0
+17/06/2023,26,,0,beau,,Saquiel,,no egg,RAS,0
+18/06/2023,30,,11,beau/orage,0 œuf,Saquiel,,no egg,RAS,0
+19/06/2023,27,,0,mitigé/,,Saquiel,,no egg,RAS,0
+20/06/2023,22,,0,couvert/beau,quelques gouttes,Saquiel,,no egg,RAS,0
+21/06/2023,25,,0,lourd,œuf de Valérie très fragile trouvé ds poulailler,Saquiel,,no egg,RAS,0
+22/06/2023,20,,7,orage,,Saquiel,,no egg,RAS,0
+23/06/2023,23,,6,pluie/éclaircies,Cunégonde veut couver,Saquiel,,no egg,RAS,0
+24/06/2023,28,,0,beau,,Saquiel,,no egg,RAS,0
+25/06/2023,28,24,0,beau,,Saquiel,,no egg,RAS,0
+26/06/2023,32,28,0,beau,,Saquiel,,no egg,RAS,0
+27/06/2023,21,22,0,couvert,,Saquiel,,no egg,RAS,0
+28/06/2023,27,24,0,nuageux,,Saquiel,,no egg,RAS,0
+29/06/2023,26,24,0,beau,,Saquiel,,no egg,RAS,0
+30/06/2023,24,22,13,nuageux/orage,,Saquiel,,no egg,RAS,0
+01/07/2023,19,20,3,pluie/couvert/vent,8 œuf sous Cunégonde: 6marans+1valérie+1joséphine,Saquiel,mue,no egg,mue,0
+02/07/2023,22,20,0,couvert/vent,1œuf valérie et 1oeuf Joséphine sous Cunégonde,Saquiel,,no egg,RAS,0
+03/07/2023,25,22,0,éclaircies,1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde,Saquiel,,no egg,RAS,0
+04/07/2023,27,23,0,couvert/éclaircies,,Saquiel,,no egg,RAS,0
+05/07/2023,26,24,1,lourd/orages,"Valérie tousse, avicoryl dans l'eau",Saquiel,,no egg,RAS,0
+06/07/2023,27,24,0,éclaircies,,Saquiel,,no egg,RAS,0
+07/07/2023,27,24,0,beau/lourd/orageux,,Saquiel,,no egg,RAS,0
+08/07/2023,33,24,6,beau/orages,vit C dans l'eau+oligoélément,Saquiel,,no egg,RAS,0
+09/07/2023,32,26,0,beau,,Saquiel,,no egg,RAS,0
+10/07/2023,28,25,0,couvert/lourd,21°c et 80%H le matin,Saquiel,,no egg,RAS,0
+11/07/2023,31,27,0,beau,"22°C et 82%H  matin, 27°c à 22h",Saquiel,,no egg,RAS,0
+12/07/2023,28,26,1,beau/orageux,œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler,Saquiel,,no egg,RAS,0
+13/07/2023,21,22,1,pluie/couvert,,Saquiel,,no egg,RAS,0
+14/07/2023,23,22,0,bruine/couvert,,Saquiel,,no egg,RAS,0
+15/07/2023,31,26,0,beau,fin doxycyline pour Saquiel/ 24°C et 75%H à 23h ext/0 œuf,Saquiel,,no egg,RAS,0
+16/07/2023,30,21,3,beau/averses,17°C et 80%H à 20h,Saquiel,,no egg,RAS,0
+17/07/2023,27,23,0,mitigé/beau,,Saquiel,,no egg,RAS,0
+18/07/2023,27,26,0,beau,installation voile d'ombrage sur la terrasse,Saquiel,,no egg,RAS,0
+19/07/2023,33,26,0,beau,36°C à 16h/26° à 22h30/ Joséphine semble vouloir couver,Saquiel,,no egg,RAS,0
+20/07/2023,24,23,2,orage/couvert,orages la nuit du 18 au 19/07,Saquiel,,no egg,RAS,0
+21/07/2023,27,23,0,beau,Valérie semble vouloir couver aussi cette coquine!!,Saquiel,,no egg,RAS,0
+22/07/2023,19,21,0,couvert/bruine,Valérie couve…........,Saquiel,,no egg,RAS,0
+23/07/2023,29,23,0,soleil et qq nuages,,Saquiel,,no egg,RAS,0
+24/07/2023,30,26,0,beau,0 œuf/ 26°c à 21h30,Saquiel,,no egg,RAS,0
+25/07/2023,21,21,3,couvert/pluie,,Saquiel,,no egg,RAS,0
+26/07/2023,15,19,3,pluie/couvert/vent,trouvé 1 œuf d'Albertine dans le jardin,Saquiel,,no egg,RAS,0
+27/07/2023,28,21,0,beau,,Saquiel,,no egg,RAS,0
+28/07/2023,30,23,16,beau/orages,0 œuf,Saquiel,,no egg,RAS,0
+29/07/2023,29,24,0,beau,,Saquiel,,no egg,RAS,0
+30/07/2023,31,25,0,beau/orage,,Saquiel,,no egg,RAS,0
+31/07/2023,22,23,12,pluie/couvert,,Saquiel,,no egg,RAS,0
+01/08/2023,27,21,0,beau,découverte de poux rouges/retour dans l'ancien poulailler/T°p=T°ext,Saquiel,,no egg,RAS,0
+02/08/2023,24,24,0,couvert/vent,"retour dans le poulailler ""terrasse""",Saquiel,,no egg,RAS,0
+03/08/2023,28,24,3,beau/couvert/pluie,traitement exzolt,Saquiel,,no egg,RAS,0
+04/08/2023,17,,0,bruine/éclaircies,,Saquiel,,no egg,RAS,0
+05/08/2023,18,18,13,giboulées,1 œuf cassé et 1 œuf mou/retour ancien poulailler,Saquiel,,no egg,RAS,0
+06/08/2023,22,20,0,éclaircies,,Saquiel,,no egg,RAS,0
+07/08/2023,23,20,1,Bruine/éclaircies/vent,,Saquiel,,no egg,RAS,0
+08/08/2023,23,,0,beau,0 œuf,Saquiel,,no egg,RAS,0
+09/08/2023,28,20,0,beau,0 oeuf/T°C poulailler à 22-23h,Saquiel,,no egg,RAS,0
+10/08/2023,30,21,0,beau,traitement exzolt,Saquiel,,no egg,RAS,0
+11/08/2023,30,25,0,beau,avhydratC+Gascodrène,Saquiel,,no egg,RAS,0
+12/08/2023,33,21,0,Brumeux/beau,avhydratC+Gascodrène,Saquiel,,no egg,RAS,0
+13/08/2023,32,23,0,beau,avhydratC+Gascodrène,Saquiel,,no egg,RAS,0
+14/08/2023,30,26,0,voilé,avhydratC+Gascodrène,Saquiel,,no egg,RAS,0
+15/08/2023,32,26,0,beau/vent,avhydratC+Gascodrène,Saquiel,,no egg,RAS,0
+16/08/2023,26,23,"0,5",pluie fine/couvert,,Saquiel,,no egg,RAS,0
+17/08/2023,25,23,0,couvert,,Saquiel,,no egg,RAS,0
+18/08/2023,32,26,0,bruine le matin,avhydrat C+gascodrène,Saquiel,,no egg,RAS,0
+19/08/2023,32,26,0,voilé/vent,avhydratC+Gascodrène,Saquiel,,no egg,RAS,0
+20/08/2023,34,26,0,vigilance canicule,avhydratC+Gascodrène,Saquiel,,no egg,RAS,0
+21/08/2023,37,29,0,canicule,avhydratC+Gascodrène,Saquiel,,no egg,RAS,0
+22/08/2023,34,26,0,canicule,idem,Saquiel,,no egg,RAS,0
+23/08/2023,36,27,0,canicule,C+Gasco/ nuit tropicale 27°c/ 73% H à 22h40,Saquiel,,no egg,RAS,0
+24/08/2023,40,28,0,canicule,C+Gasco,Saquiel,,no egg,RAS,0
+25/08/2023,"40,5",28,0,canicule,c+Gasco,Saquiel,,no egg,RAS,0
+26/08/2023,23,20,3,pluie/couvert,,Saquiel,,no egg,RAS,0
+27/08/2023,19,17,8,pluie,,Saquiel,,no egg,RAS,0
+28/08/2023,16,14,37,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+29/08/2023,17,16,5,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+30/08/2023,20,15,0,éclaircies/vent,,Saquiel,,no egg,RAS,0
+31/08/2023,22,16,1,éclaircies/averses,,Saquiel,,no egg,RAS,0
+01/09/2023,28,17,0,beau,,Saquiel,,no egg,RAS,0
+02/09/2023,31,20,0,beau,,Saquiel,,no egg,RAS,0
+03/09/2023,22,18,0,couvert,trouvé un oeuf minuscule Saquiel ou Albertine,Saquiel,,no egg,RAS,0
+04/09/2023,26,21,0,beau/voilé,,Saquiel,,no egg,RAS,0
+05/09/2023,28,22,0,voilé/vent,sable du Sahara dans l'air,Saquiel,,no egg,RAS,0
+06/09/2023,29,21,0,voilé,sable du Sahara dans l'air,Saquiel,,no egg,RAS,0
+07/09/2023,27,23,0,voilé,sable du Sahara dans l'air,Saquiel,,no egg,RAS,0
+08/09/2023,30,20,0,beau,,Saquiel,,no egg,RAS,0
+09/09/2023,29,21,0,beau,,Saquiel,,no egg,RAS,0
+10/09/2023,30,22,0,beau,,Saquiel,,no egg,RAS,0
+11/09/2023,30,20,0,beau,,Saquiel,,no egg,RAS,0
+12/09/2023,30,20,0,couvert/éclaircies,,Saquiel,,no egg,RAS,0
+13/09/2023,24,17,22,mitigé/orages,,Saquiel,,no egg,RAS,0
+14/09/2023,25,17,0,éclaircies,,Saquiel,,no egg,RAS,0
+15/09/2023,28,18,0,beau,,Saquiel,,no egg,RAS,0
+16/09/2023,28,17,3,beau/orageux/pluie,,Saquiel,,no egg,RAS,0
+17/09/2023,28,21,0,beau,,Saquiel,,no egg,RAS,0
+18/09/2023,25,19,3,beau/orages,,Saquiel,,no egg,RAS,0
+19/09/2023,26,17,6,beau/orages,,Saquiel,,no egg,RAS,0
+20/09/2023,25,15,0,beau,,Saquiel,,no egg,RAS,0
+21/09/2023,27,18,0,couvert/beau,,Saquiel,,no egg,RAS,0
+22/09/2023,20,14,9,couvert/pluie,,Saquiel,,no egg,RAS,0
+23/09/2023,20,12,0,éclaircies/vent,,Saquiel,DCD,no egg,DCD,0
+24/09/2023,23,13,0,éclaircies,,Saquiel,,no egg,RAS,0
+25/09/2023,24,15,0,beau,,Saquiel,,no egg,RAS,0
+26/09/2023,27,15,0,beau,,Saquiel,,no egg,RAS,0
+27/09/2023,28,16,0,beau,,Saquiel,,no egg,RAS,0
+28/09/2023,30,19,0,beau,,Saquiel,,no egg,RAS,0
+29/09/2023,31,20,0,beau,,Saquiel,,no egg,RAS,0
+30/09/2023,30,20,0,beau,,Saquiel,,no egg,RAS,0
+01/10/2023,30,19,0,beau,,Saquiel,,no egg,RAS,0
+02/10/2023,32,20,0,beau,,Saquiel,,no egg,RAS,0
+03/10/2023,31,20,0,beau/vent,,Saquiel,,no egg,RAS,0
+04/10/2023,22,19,0,couvert,,Saquiel,,no egg,RAS,0
+05/10/2023,28,16,0,nuageux,,Saquiel,,no egg,RAS,0
+06/10/2023,28,16,0,beau,,Saquiel,,no egg,RAS,0
+07/10/2023,28,17,0,beau,,Saquiel,,no egg,RAS,0
+08/10/2023,30,15,0,beau,,Saquiel,,no egg,RAS,0
+09/10/2023,29,17,0,beau,,Saquiel,,no egg,RAS,0
+10/10/2023,29,16,0,beau,,Saquiel,,no egg,RAS,0
+11/10/2023,30,18,0,beau,,Saquiel,,no egg,RAS,0
+12/10/2023,31,17,0,beau,,Saquiel,,no egg,RAS,0
+13/10/2023,30,18,0,beau,,Saquiel,,no egg,RAS,0
+14/10/2023,29,18,0,beau,,Saquiel,,no egg,RAS,0
+15/10/2023,24,16,5,couvert/pluie,,Saquiel,,no egg,RAS,0
+16/10/2023,19,11,0,éclaircies,,Saquiel,,no egg,RAS,0
+17/10/2023,19,15,0,éclaircies,,Saquiel,,no egg,RAS,0
+18/10/2023,26,17,0,beau/vent,,Saquiel,,no egg,RAS,0
+19/10/2023,26,17,3,couvert/pluie,,Saquiel,,no egg,RAS,0
+20/10/2023,25,17,13,couvert/pluie,,Saquiel,,no egg,RAS,0
+21/10/2023,20,14,3,éclaircies/pluie,,Saquiel,,no egg,RAS,0
+22/10/2023,19,11,0,beau,,Saquiel,,no egg,RAS,0
+23/10/2023,15,13,0,maussade,,Saquiel,,no egg,RAS,0
+24/10/2023,20,14,0,éclaircies,Albertine malade/rhume,Saquiel,,no egg,RAS,0
+25/10/2023,20,11,0,pluie/éclaircies,avicoryl,Saquiel,,no egg,RAS,0
+26/10/2023,18,15,1,couvert/pluie,,Saquiel,,no egg,RAS,0
+27/10/2023,15,13,8,couvert/pluie,,Saquiel,,no egg,RAS,0
+28/10/2023,18,10,0,beau,,Saquiel,,no egg,RAS,0
+29/10/2023,19,14,0,beau,,Saquiel,,no egg,RAS,0
+30/10/2023,17,14,0,couvert,,Saquiel,,no egg,RAS,0
+31/10/2023,15,10,9,couvert/pluie,,Saquiel,,no egg,RAS,0
+01/11/2023,19,10,0,beau,,Saquiel,,no egg,RAS,0
+02/11/2023,19,10,5,éclaircies/pluie,,Saquiel,,no egg,RAS,0
+03/11/2023,13,8,17,pluie,,Saquiel,,no egg,RAS,0
+04/11/2023,10,9,5,pluie,,Saquiel,,no egg,RAS,0
+05/11/2023,13,9,6,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+06/11/2023,19,9,0,beau,,Saquiel,,no egg,RAS,0
+07/11/2023,12,8,8,averses/pluie,,Saquiel,,no egg,RAS,0
+08/11/2023,17,5,0,beau,,Saquiel,,no egg,RAS,0
+09/11/2023,19,6,0,beau,petite gelée matinale,Saquiel,,no egg,RAS,0
+10/11/2023,13,9,6,pluie/beau,,Saquiel,,no egg,RAS,0
+11/11/2023,11,9,7,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+12/11/2023,12,12,0,pluie,,Saquiel,,no egg,RAS,0
+13/11/2023,17,11,0,couvert/éclaircies,,Saquiel,,no egg,RAS,0
+14/11/2023,24,12,0,beau,,Saquiel,,no egg,RAS,0
+15/11/2023,24,14,5,beau/pluie,,Saquiel,,no egg,RAS,0
+16/11/2023,16,10,5,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+17/11/2023,16,12,2,couvert/pluie,,Saquiel,,no egg,RAS,0
+18/11/2023,15,9,0,éclaircies,,Saquiel,,no egg,RAS,0
+19/11/2023,oubli,oubli,0,beau,environ 20°C,Saquiel,,no egg,RAS,0
+20/11/2023,21,10,0,beau,,Saquiel,,no egg,RAS,0
+21/11/2023,14,9,9,couvert/pluie,,Saquiel,,no egg,RAS,0
+22/11/2023,9,oubli,10,pluie,,Saquiel,,no egg,RAS,0
+23/11/2023,9,7,3,pluie/éclaircies/vent,,Saquiel,,no egg,RAS,0
+24/11/2023,11,5,0,beau/vent,,Saquiel,,no egg,RAS,0
+25/11/2023,7,7,0,gris/vent,,Saquiel,,no egg,RAS,0
+26/11/2023,9,4,0,gris ,,Saquiel,,no egg,RAS,0
+27/11/2023,12,0,0,beau,belle gelée matinale -3°c,Saquiel,,no egg,RAS,0
+28/11/2023,13,10,27,éclaircies/pluie/vent,,Saquiel,,no egg,RAS,0
+29/11/2023,9,7,0,éclaircies,,Saquiel,,no egg,RAS,0
+30/11/2023,16,9,0,éclaircies,,Saquiel,,no egg,RAS,0
+01/12/2023,11,8,6,bruine/pluie,,Saquiel,,no egg,RAS,0
+02/12/2023,8,5,14,pluie,,Saquiel,,no egg,RAS,0
+03/12/2023,6,4,2,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+04/12/2023,11,3,0,beau,gelée matinale,Saquiel,,no egg,RAS,0
+05/12/2023,12,7,"0,5",éclaircies/pluie,,Saquiel,,no egg,RAS,0
+06/12/2023,9,6,0,éclaircies/vent,,Saquiel,,no egg,RAS,0
+07/12/2023,10,2,0,beau,,Saquiel,,no egg,RAS,0
+08/12/2023,14,6,0,beau,,Saquiel,,no egg,RAS,0
+09/12/2023,9,6,18,pluie/vent,,Saquiel,,no egg,RAS,0
+10/12/2023,14,15,1,pluie/éclaircies,,Saquiel,,no egg,RAS,0
+11/12/2023,18,11,0,beau/couvert,,Saquiel,,no egg,RAS,0
+12/12/2023,19,10,0,beau,,Saquiel,,no egg,RAS,0
+13/12/2023,16,9,3,voilé/pluie,,Saquiel,,no egg,RAS,0
+14/12/2023,10,7,20,averses/pluie/vent,,Saquiel,,no egg,RAS,0
+15/12/2023,10,7,1,averses/éclaircies/vent,,Saquiel,,no egg,RAS,0
+16/12/2023,9,7,1,bruine,,Saquiel,,no egg,RAS,0
+17/12/2023,13,3,0,beau,,Saquiel,,no egg,RAS,0
+18/12/2023,15,3,0,beau,-4°C ce matin,Saquiel,,no egg,RAS,0
+19/12/2023,16,3,0,beau,gelée matinale,Saquiel,,no egg,RAS,0
+20/12/2023,4,5,0,gris,,Saquiel,,no egg,RAS,0
+21/12/2023,8,6,11,pluie/éclaircies/vent,,Saquiel,,no egg,RAS,0
+22/12/2023,11,11,0,vent/bruine,,Saquiel,,no egg,RAS,0
+23/12/2023,12,9,1,gris/vent/éclaircies/pluie,,Saquiel,,no egg,RAS,0
+24/12/2023,12,9,0,éclaircies,,Saquiel,,no egg,RAS,0
+25/12/2023,13,7,0,beau,,Saquiel,,no egg,RAS,0
+26/12/2023,12,4,0,beau,,Saquiel,,no egg,RAS,0
+27/12/2023,15,3,0,beau,,Saquiel,,no egg,RAS,0
+28/12/2023,17,5,0,beau,grosse gelée matinale,Saquiel,,no egg,RAS,0
+29/12/2023,10,4,0,gris,,Saquiel,,no egg,RAS,0
+30/12/2023,9,7,0,gris/éclaircies,,Saquiel,,no egg,RAS,0
+31/12/2023,17,7,0,beau,,Saquiel,,no egg,RAS,0

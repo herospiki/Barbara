@@ -1,8 +1,7 @@
 import pandas as pd
+import os
 import re
 
-# Charger les données
-df_commentaires = pd.read_csv('interim/df_commentaires.csv', sep=';')
 
 def nettoyer_commentaires(df_commentaires):
     # Séparer les commentaires multiples (ceux contenant un /)
@@ -12,8 +11,6 @@ def nettoyer_commentaires(df_commentaires):
     df_commentaires['Commentaires_clean'] = df_commentaires['Commentaires_clean'].str.strip()
     df_commentaires = df_commentaires[df_commentaires['Commentaires_clean'] != ""] # Supprimer les segments vides éventuels
     return df_commentaires
-
-print(nettoyer_commentaires(df_commentaires))
 
 # Liste exhaustive des poules pour détection
 liste_poules = [
@@ -84,25 +81,43 @@ def categoriser_unique(texte):
                 return cat
     return "Autre"
 
-df_commentaires['Catégorie'] = df_commentaires['Commentaires'].apply(categoriser_unique)
-df_commentaires['Poules_Citées'] = df_commentaires['Commentaires'].apply(identifier_poules)
+def print_to_file(text):
+    print(text)
+  # 1. Créer le dossier s'il n'existe pas pour éviter l'erreur
+    os.makedirs('interim', exist_ok=True)
+
+    file_path = 'interim/analyse_detaillee_commentaires.txt'
+    
+    # 2. Utiliser le mode 'a' (append) directement. 
+    # Si le fichier n'existe pas, 'a' le crée comme 'w'. Pas besoin de IF.
+    with open(file_path, 'a', encoding='utf-8') as f:
+        # Convertir systématiquement en string pour éviter les crashs
+        f.write(str(text) + "\n")
 
 def stats_cat(df_commentaires):
+
     # Analyse par catégorie 
     stats_cat = df_commentaires['Catégorie'].str.split(', ').explode().value_counts()
-    print("\n--- Statistiques par Catégorie de Commentaires ---")
-    print(stats_cat)
+    print_to_file("\n--- Statistiques par Catégorie de Commentaires ---")
+    print_to_file(stats_cat.to_string())
     categories_prioritaires = definition_categories()
-    print("\n--- Exemples par Catégorie ---")
+    print_to_file("\n--- Exemples par Catégorie ---")
     for cat in categories_prioritaires.keys():
-        print(f"\n[{cat.upper()}]")
+        print_to_file(f"\n[{cat.upper()}]")
         exemples = df_commentaires[df_commentaires['Catégorie'] == cat]['Commentaires'].unique()[:5]
         for ex in exemples:
-            print(f" - {ex}")
-    return stats_cat
+            print_to_file(f" - {ex}")
 
+def all_steps():
+    # Charger les données
+    df_commentaires = pd.read_csv('interim/df_1_commentaires.csv', sep=';')
+    df_commentaires = nettoyer_commentaires(df_commentaires)
+    df_commentaires['Catégorie'] = df_commentaires['Commentaires'].apply(categoriser_unique)
+    df_commentaires['Poules_Citées'] = df_commentaires['Commentaires'].apply(identifier_poules)
+    
+    stats_cat(df_commentaires)
 
+    df_commentaires.to_csv('interim/analyse_detaillee_commentaires.csv', index=False, encoding='utf-8-sig', sep=';')
+    print("\nL'analyse détaillée a été exportée dans 'analyse_detaillee_commentaires.csv'")
 
-# Sauvegarder l'analyse détaillée
-df_commentaires.to_csv('analyse_detaillee_commentaires.csv', index=False, encoding='utf-8-sig', sep=';')
-print("\nL'analyse détaillée a été exportée dans 'analyse_detaillee_commentaires.csv'")
+all_steps()
