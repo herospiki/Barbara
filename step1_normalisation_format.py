@@ -29,8 +29,8 @@ poules_2025 = ['Joséphine', 'Cunégonde', 'Valérie', 'Pioupioute', 'Rémiel', 
 poules = set(poules_2023).union(set(poules_2024)).union(set(poules_2025))
 print(poules)
 
-poules_individuelles = ['Joséphine', 'Augustine', 'Pioupioute', 'Rémiel', 'Saquiel', 'Albertine', 'Tina', 'Nina']
-poules_marans_2_niveaux = ['Marans','Tina et Nina']    
+poules_individuelles = ['Joséphine', 'Augustine', 'Cunégonde', 'Valérie','Pioupioute', 'Rémiel', 'Saquiel', 'Albertine', 'Tina', 'Nina']
+poules_marans_2_niveaux = ['Marans','Nina et Tina']    
 poules_autres = [poule for poule in poules if poule not in poules_marans_2_niveaux]
 
 # Extraire les colonnes qui ne sont pas les poules
@@ -92,7 +92,7 @@ def pivoter_et_concatener_poules(df_2023, df_2024, df_2025, poules):
 df_pontes = pivoter_et_concatener_poules(df_2023, df_2024, df_2025, poules)
 df_pontes.sort_values(by='Date', inplace=True)
 
-# Traitement des poules Marans et non Marans / Individuelles ou groupe
+# Traitement des poules Marans et non Marans / Individuelles ou groupe/sous-groupe
 
 
 def format_poules_marans_2_niveaux(df, poules_marans_2_niveaux):
@@ -102,17 +102,17 @@ def format_poules_marans_2_niveaux(df, poules_marans_2_niveaux):
     df = df.copy()
  
     df.loc[df['Poule_brute'] == 'Marans', 'Poule_brute'] = 'MARANS_TOTAL'
-    df.loc[df['Poule_brute'] == 'Tina et Nina', 'Poule_brute'] = 'TINA_NINA'
+    df.loc[df['Poule_brute'] == 'Nina et Tina', 'Poule_brute'] = 'NINA_TINA'
 
      #  Pour les poules individuelles, on précise le niveau d'observation (individuel)
 
     df.loc[df['Poule_brute'].isin(poules_individuelles), 'niveau_observation'] = 'individuel'
     # pour les poules marans, on précise le niveau d'observation (groupe) et on remplace le group_id par MARANS 
-    # Lorsque les poules brutes sont dans la liste [MARANS_TOTAL, TINA_NINA, TINA, NINA, ALBERTINE]
+    # Lorsque les poules brutes sont dans la liste [MARANS_TOTAL, NINA_TINA, TINA, NINA, ALBERTINE]
     # on remplace le group_id par MARANS
-    df.loc[df['Poule_brute'].isin(['MARANS_TOTAL', 'TINA_NINA', 'Tina', 'Nina', 'Albertine']), 'group_id'] = 'MARANS'
+    df.loc[df['Poule_brute'].isin(['MARANS_TOTAL', 'NINA_TINA', 'Tina', 'Nina', 'Albertine']), 'group_id'] = 'MARANS'
     df.loc[df['Poule_brute'].isin(['MARANS_TOTAL']), 'niveau_observation'] = 'groupe'
-    df.loc[df['Poule_brute'].isin(['TINA_NINA']), 'niveau_observation'] = 'sous-groupe'
+    df.loc[df['Poule_brute'].isin(['NINA_TINA']), 'niveau_observation'] = 'sous-groupe'
     return df
 
 df_pontes = format_poules_marans_2_niveaux(df_pontes, poules_marans_2_niveaux)
@@ -163,6 +163,6 @@ df_commentaires = pd.concat([df_commentaires_2023, df_commentaires_2024, df_comm
 df_commentaires.sort_values(by='Date', inplace=True)
 
 # On sauvegarde les df_pontes et df_meteo dans le répertoire interim
-df_pontes.to_csv('interim/df_long_1_pontes.csv', index=False, encoding='utf-8-sig', sep=';')
+df_pontes.to_csv('interim/df_1_pontes.csv', index=False, encoding='utf-8-sig', sep=';')
 df_meteo.to_csv('interim/df_1_meteo.csv', index=False, encoding='utf-8-sig', sep=';')
 df_commentaires.to_csv('interim/df_1_commentaires.csv', index=False, encoding='utf-8-sig', sep=';')

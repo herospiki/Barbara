@@ -57,7 +57,10 @@ def traiter_ponte_individuelle(row):
         # État de l'œuf (Cassé) si ce n'est pas le c de dcd 
         if 'c' in val_lower and 'dcd' not in val_lower:
             resultat['Etat_oeuf'] = 'cassé'
-            
+        # Extraire le mot entre les parenthèses
+        elif '(' in val_lower and ')' in val_lower:
+            resultat['Etat_oeuf'] = val_lower.split('(')[1].split(')')[0]
+      
         return pd.Series(resultat)
     
     # Cas 3: Valeurs numériques pures
@@ -75,7 +78,6 @@ def traiter_ponte_individuelle(row):
 # ===========================================================================
 # TRAITEMENT DES PONTES GROUPE
 # ===========================================================================
-
 
 
 def traiter_ponte_groupe(row):
@@ -141,7 +143,7 @@ def traiter_ponte_groupe(row):
     if statut_info == "décédée" and 'MARANS' in str(row['Poule_brute']).upper():
         resultat['Effectif'] = 2 # Passage de 3 à 2 pour les Marans
     elif row['Poule_brute'] == 'Nina et Tina':
-        resultat['Effectif'] = 1 # Passage de 2 à 1 pour Nina et Tina (cas non rencontré)
+        resultat['Effectif'] = 1 # Passage de 2 à 1 pour Nina et Tina 
 
     # 5. États et Doute
     if '?' in val:
@@ -166,7 +168,7 @@ def traiter_ponte_groupe(row):
 # EXECUTION DU SCRIPT
 # ===========================================================================
 
-def nettoyage_et_structuration():
+def nettoyage_completion_et_structuration():
     try:
         # 1. Chargement des données brute au format long
         df_long = pd.read_csv('interim/df_1_pontes.csv', sep=';')
@@ -183,7 +185,7 @@ def nettoyage_et_structuration():
         df_long['Effectif_theo'] = 1
         # 3 pour MARANS_TOTAL, 2 pour TINA_NINA (anciennement Nina et Tina)
         df_long.loc[df_long['Poule_brute'] == 'MARANS_TOTAL', 'Effectif_theo'] = 3
-        df_long.loc[df_long['Poule_brute'] == 'TINA_NINA', 'Effectif_theo'] = 2
+        df_long.loc[df_long['Poule_brute'] == 'NINA_TINA', 'Effectif_theo'] = 2
         
         mask_individuel = df_long['niveau_observation'] == 'individuel'
         # On traite les 'groupe' et 'sous-groupe' avec la fonction groupe
@@ -210,17 +212,17 @@ def nettoyage_et_structuration():
             group = group.sort_values('Date')
             
             if group['niveau_observation'].iloc[0] == 'individuel':
-                a_deceder = group['Effectif'] == 0
-                if a_deceder.any():
-                    premier_deces_pos = np.where(a_deceder)[0][0]
+                deces = group['Effectif'] == 0
+                if deces.any():
+                    premier_deces_pos = np.where(deces)[0][0]
                     group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 0
                     group.iloc[premier_deces_pos:, group.columns.get_loc('Ponte')] = 0
             else:
                 # Pour les groupes Marans, on propage le passage de 3 à 2
                 if 'MARANS' in str(poule).upper():
-                    a_deceder = group['Effectif'] == 2
-                    if a_deceder.any():
-                        premier_deces_pos = np.where(a_deceder)[0][0]
+                    deces = group['Effectif'] == 2
+                    if deces.any():
+                        premier_deces_pos = np.where(deces)[0][0]
                         group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 2
             
             # On ré-ajoute la colonne Poule_brute car include_groups=False l'exclut du traitement
@@ -233,11 +235,25 @@ def nettoyage_et_structuration():
         if 'Effectif_theo' in df_result.columns:
             df_result = df_result.drop(columns=['Effectif_theo'])
 
-        # 6. Sauvegarde du résultat structuré
+        # 5. Sauvegarde du résultat structuré
+        # Mettre dans l'ordre les colonnes
+        df_result = df_result[['Date', 'Poule_brute', 'Ponte_brute', 'Ponte', 'Effectif', 'Etat_oeuf', 'Doute', 'Remarques']]
+     
         output_meta = 'interim/df_2_pontes.csv'
         df_result.to_csv(output_meta, sep=';', index=False)
         
         print(f"✅ Traitement terminé. Fichier sauvegardé : {output_meta}")
+
+        poules_marans_et_groupes = ['MARANS_TOTAL', 'NINA_TINA', 'Nina', 'Tina','Albertine']
+        df_result_marans = df_result[df_result['Poule_brute'].isin(poules_marans_et_groupes)]
+        output_marans = 'interim/df_2_pontes_marans.csv'
+        df_result_marans.to_csv(output_marans, sep=';', index=False)
+        print(f"✅ Traitement terminé. Fichier sauvegardé : {output_marans}")
+
+        df_result_hors_marans = df_result[~df_result['Poule_brute'].isin(poules_marans_et_groupes)]
+        output_hors_marans = 'interim/df_2_pontes_hors_marans.csv'
+        df_result_hors_marans.to_csv(output_hors_marans, sep=';', index=False)
+        print(f"✅ Traitement terminé. Fichier sauvegardé : {output_hors_marans}")
         
         # Aperçu
         print("\nAperçu des 10 premières lignes traitées :")
@@ -251,5 +267,5 @@ def nettoyage_et_structuration():
         print(f"❌ Une erreur est survenue : {e}")
         traceback.print_exc()
 
-nettoyage_et_structuration()
+nettoyage_completion_et_structuration()
 

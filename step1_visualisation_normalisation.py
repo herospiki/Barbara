@@ -125,14 +125,142 @@ def create_summary_table():
     }
     return pd.DataFrame(changes).to_html(classes='table table-bordered table-striped', index=False)
 
+def create_marans_complexity_viz(df):
+    """Visualisation de la complexité du groupe Marans."""
+    if df is None or df.empty:
+        return None, "<p class='text-muted'>Aucune donnée disponible.</p>"
+        
+    marans = df[df['group_id'] == 'MARANS'].copy()
+    if marans.empty:
+        return None, "<p class='text-danger'>Données Marans non trouvées dans le dataset.</p>"
+    
+    # On extrait l'année pour gérer les périodes complètes par année
+    marans['Year'] = marans['Date'].dt.year
+    
+    summary = marans.groupby('Poule_brute').agg({
+        'Year': ['min', 'max'],
+        'Date': ['count']
+    }).reset_index()
+    
+    summary.columns = ['Entité (Poule_brute)', 'Year_min', 'Year_max', 'Nb Observations']
+    
+    # On définit les bornes : du 1er janvier de l'année min au 31 décembre de l'année max
+    summary['Début'] = pd.to_datetime(summary['Year_min'].astype(str) + '-01-01')
+    summary['Fin'] = pd.to_datetime(summary['Year_max'].astype(str) + '-12-31')
+    
+    # Ajout d'une colonne de "Nature"
+    def categorize(name):
+        name_str = str(name).lower()
+        if "3 marans" in name_str or "total" in name_str: return "Total (Somme)"
+        if "nina" in name_str and "tina" in name_str: return "Sous-groupe (2 poules)"
+        return "Individuel (1 poule)"
+    
+    summary['Nature'] = summary['Entité (Poule_brute)'].apply(categorize)
+    summary = summary.sort_values(by=['Nature', 'Début'], ascending=[False, True])
+    
+    # Graphique de Gantt-like pour montrer le recouvrement
+    fig = go.Figure()
+    
+    colors = {"Total": "#e74c3c", "Sous-groupe (2 poules)": "#e67e22", "Individuel (1 poule)": "#3498db"}
+    added_to_legend = set()
+
+    for _, row in summary.iterrows():
+        nature = row['Nature']
+        show_legend = nature not in added_to_legend
+        if show_legend:
+            added_to_legend.add(nature)
+            
+        # Largeur de la barre en millisecondes pour un axe de type 'date'
+        duration_ms = (row['Fin'] - row['Début']).total_seconds() * 1000
+            
+        fig.add_trace(go.Bar(
+            base=row['Début'],
+            x=[duration_ms],
+            y=[row['Entité (Poule_brute)']],
+            orientation='h',
+            name=nature,
+            legendgroup=nature,
+            showlegend=show_legend,
+            marker_color=colors.get(nature, "gray"),
+            hovertemplate=f"<b>{row['Entité (Poule_brute)']}</b><br>Type: {nature}<br>Période: {row['Year_min']} - {row['Year_max']}<extra></extra>"
+        ))
+        
+    fig.update_layout(
+        title="Superposition des niveaux de reporting Marans <br><sup>Démontre le risque de triple comptage si traité sans filtre spécifique</sup>",
+        xaxis=dict(
+            title="Chronologie",
+            type='date',
+            tickformat='%Y',
+            dtick='M12'
+        ),
+        yaxis_title="",
+        height=400,
+        barmode='overlay',
+        template="plotly_white",
+        margin=dict(l=150, t=80)
+    )
+    
+    # Formattage des dates pour le tableau
+    summary['Début'] = summary['Début'].dt.strftime('%d/%m/%Y')
+    summary['Fin'] = summary['Fin'].dt.strftime('%d/%m/%Y')
+    return fig, summary.to_html(classes='table table-sm table-hover bg-white', index=False)
+
+def create_notation_frequency_viz(df, is_marans=True):
+    """Crée un histogramme de fréquence des notations brutes."""
+    if df is None or df.empty:
+        return None
+    
+    if is_marans:
+        subset = df[df['group_id'] == 'MARANS'].copy()
+        title = "Répartition des notations : Groupe MARANS"
+    else:
+        subset = df[df['group_id'] != 'MARANS'].copy()
+        title = "Répartition des notations : Poules Individuelles"
+        
+    if subset.empty:
+        return None
+
+    # Calcul des fréquences
+    counts = subset['Ponte_brute'].value_counts().reset_index()
+    counts.columns = ['Notation', 'Occurrences']
+    counts = counts.sort_values(by='Occurrences', ascending=False)
+
+    # Création du graphique
+    fig = go.Figure(data=[go.Bar(
+        x=counts['Notation'],
+        y=counts['Occurrences'],
+        marker=dict(
+            color=counts['Occurrences'],
+            colorscale='Viridis',
+            showscale=True,
+            colorbar=dict(title="Nombre total d'occurrences")
+        ),
+        hovertemplate="<b>%{x}</b><br>Occurrences: %{y}<extra></extra>"
+    )])
+
+    fig.update_layout(
+        title=title,
+        xaxis_title="Type de notation",
+        yaxis_title="Nombre total d'occurrences",
+        template="plotly_white",
+        height=500,
+        margin=dict(t=80, b=100)
+    )
+    
+    return fig
+
 def generate_report():
     print("Génération du rapport d'évolution structurelle...")
+    
+    dfs = load_data()
     
     fig_sankey = create_structural_evolution_viz()
     table_summary = create_summary_table()
     
-    # On garde aussi l'aperçu des fichiers df_1_...
-    dfs = load_data()
+    fig_marans, table_marans = create_marans_complexity_viz(dfs.get('pontes'))
+    
+    fig_freq_marans = create_notation_frequency_viz(dfs.get('pontes'), is_marans=True)
+    fig_freq_indiv = create_notation_frequency_viz(dfs.get('pontes'), is_marans=False)
     
     html_content = f"""
     <html>
@@ -179,12 +307,32 @@ def generate_report():
             .stat-value {{ font-size: 2rem; font-weight: 800; color: #1e3c72; }}
             .stat-label {{ color: #6c757d; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }}
             small {{ color: #6c757d; display: block; margin-bottom: 8px; }}
+            .table-matrix {{
+                font-size: 0.75rem;
+                white-space: nowrap;
+            }}
+            .table-matrix th {{ 
+                background-color: #f8f9fa; 
+                position: sticky; 
+                top: 0; 
+                z-index: 10;
+            }}
+            .matrix-container {{
+                margin-top: 20px;
+                padding: 15px;
+                background: #f8f9fa;
+                border-radius: 10px;
+            }}
+            .table-responsive {{
+                max-height: 400px;
+                overflow: auto;
+            }}
         </style>
     </head>
     <body>
         <div class="header">
             <h1>🛠️ Normalisation & Formatage des Données</h1>
-            <p class="lead">Passage des fichiers bruts vers le format structuré "Interim" (df_1)</p>
+            <p class="lead">Passage des fichiers bruts vers un format structuré intermédiaire (df_1)</p>
         </div>
         
         <div class="container pb-5">
@@ -221,6 +369,35 @@ def generate_report():
                 <div class="table-container">
                     {table_summary}
                 </div>
+            </div>
+
+            <div class="card border-warning">
+                <h2>⚠️ Focus : Cas Spécifique du Groupe "MARANS"</h2>
+                <p>Le groupe <strong>Marans</strong> présente une structure hybride qui rend sa gestion complexe. Les données brutes contiennent simultanément :</p>
+                <ul>
+                    <li>Le total cumulé pour le groupe (ex: "3 Marans")</li>
+                    <li>Des sous-totaux pour un duo (ex: "Nina et Tina")</li>
+                    <li>Des relevés individuels (ex: "Albertine", "Nina", "Tina")</li>
+                </ul>
+                <p class="text-muted">La visualisation ci-dessous montre comment ces périodes se chevauchent, justifiant la nécessité d'une étape de déduplication et de priorisation dans le Step 2.</p>
+                
+                {fig_marans.to_html(full_html=False, include_plotlyjs='cdn') if fig_marans else ""}
+                
+                <div class="mt-4">
+                    <p class="step-title">Détail des entités relevées pour MARANS :</p>
+                    <div class="table-container">
+                        {table_marans}
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>� Répartition des Notations (Fréquence)</h2>
+                <p class="text-muted">Analyse de la fréquence des notations brutes relevées sur le terrain. Cela permet de visualiser la prédominance de certains codes (ex: 'x') et la variété des annotations complexes.</p>
+                
+                {fig_freq_marans.to_html(full_html=False, include_plotlyjs='cdn') if fig_freq_marans else ""}
+                <hr>
+                {fig_freq_indiv.to_html(full_html=False, include_plotlyjs='cdn') if fig_freq_indiv else ""}
             </div>
 
             <div class="card">

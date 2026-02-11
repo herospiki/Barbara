@@ -5,7 +5,7 @@ from plotly.subplots import make_subplots
 import os
 
 # Configuration de l'affichage
-output_html = "audit/rapport_visualisation_audit.html"
+output_html = "audit/step0_visualisation_audit.html"
 
 def charger_donnees():
     """Charge les fichiers CSV du dossier audit."""
@@ -33,11 +33,14 @@ def create_presence_heatmap(df):
     # Transformer True/False en 1/0 pour la heatmap
     df_plot = df_plot.map(lambda x: 1 if x == True else 0)
     
+    # La largeur de la heatmap doit être suffisante pour afficher correctement les étiquettes
+    # et le contenu de la heatmap
     fig = px.imshow(df_plot, 
                     labels=dict(x="Année", y="Poule / Groupe", color="Présence"),
                     x=['2023', '2024', '2025'],
                     color_continuous_scale=[[0, 'rgba(239, 85, 59, 0.7)'], [1, 'rgba(0, 204, 150, 0.7)']],
-                    title="Présence des Poules et Groupes par Année")
+                   # title="Présence des Poules et Groupes par Année", 
+                    aspect="auto")
     
     fig.update_layout(
         coloraxis_showscale=False,
@@ -108,7 +111,7 @@ def create_notations_summary(df):
     fig = px.bar(df_plot,
                  x='Notation',
                  y='Fréquence',
-                 title="Répartition des notations (Fréquence cumulée toutes poules)",
+                 title="Fréquence cumulée toutes poules",
                  labels={'Fréquence': 'Nombre total d\'occurrences', 'Notation': 'Type de notation'},
                  color='Fréquence',
                  color_continuous_scale='Viridis')
@@ -128,11 +131,11 @@ def create_column_comparison(df):
                  x='Presence',
                  orientation='h',
                  title="Disponibilité des colonnes sur les 3 ans",
-                 labels={'Presence': 'Nombre d\'années présentes', 'Colonne': 'Nom de la colonne'},
+                 labels={'Presence': 'Nombre d\'années', 'Colonne': 'Nom de la colonne'},
                  color='Presence',
                  color_continuous_scale='Viridis')
     
-    fig.update_layout(height=600)
+    fig.update_layout(height=600, width=600)
     return fig
 
 def generate_report():
@@ -207,10 +210,16 @@ def generate_report():
         <div class="container pb-5">
             <!-- KPIs -->
             <div class="row mb-5">
+            <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">3</div>
+                        <div class="stat-label">Années</div>
+                    </div>
+                </div>
                 <div class="col-md-4">
                     <div class="stat-card">
                         <div class="stat-value">{len(dfs['presence'])}</div>
-                        <div class="stat-label">Sujets suivis</div>
+                        <div class="stat-label">Sujets mentionnés</div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -219,19 +228,18 @@ def generate_report():
                         <div class="stat-label">Colonnes analysées</div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="stat-card">
-                        <div class="stat-value">3</div>
-                        <div class="stat-label">Années consolidées</div>
-                    </div>
-                </div>
+                
             </div>
 
             <div class="row">
                 <div class="col-lg-6">
                     <div class="card">
-                        <h2>🧬 Présence des Sujets</h2>
+                        <h2>🧬 Présence des Sujets par Année</h2>
                         {fig1.to_html(full_html=False, include_plotlyjs='cdn')}
+                    </div>
+                    <div class="card" style="min-height: 100px;">
+                        📝 Analyse de la Cohorte
+                        <p><i>Insérez vos observations ici :</i></p>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -249,7 +257,7 @@ def generate_report():
             </div>
 
             <div class="card">
-                <h2>🥚 Matrice des Notations (Pontes)</h2>
+                <h2>🥚 Répartition des Notations (Pontes)</h2>
                 {fig3.to_html(full_html=False, include_plotlyjs=False)}
             </div>
             

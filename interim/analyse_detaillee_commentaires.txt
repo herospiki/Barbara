@@ -292,3 +292,764 @@ Vie du Poulailler / Divers        2
 [VIE DU POULAILLER / DIVERS]
  - idem
  - Cunégonde de retour avec les autres
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           740
+Météo / Environnement           310
+Santé / Soins                    59
+Anomalies Œufs                   20
+Localisation Œufs                12
+Vie du Poulailler / Divers       11
+Installation / Technique         10
+Alimentation                      8
+Suivi de Ponte / Observation      5
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - Pioupioute a pondu un œuf normal/veut couver
+ - changement de poulailler
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+ - œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler
+ - installation voile d'ombrage sur la terrasse
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - œuf d'Albertine très clair
+ - 1œuf valérie et 1oeuf Joséphine sous Cunégonde
+ - 1oeuf Albertine et un œuf Valérie donc 12 œufs sous Cunégonde
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+ - idem
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           741
+Météo / Environnement           310
+Santé / Soins                    59
+Anomalies Œufs                   20
+Localisation Œufs                12
+Vie du Poulailler / Divers       11
+Suivi de Ponte / Observation      8
+Alimentation                      8
+Installation / Technique          6
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - changement de poulailler
+ - œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler
+ - installation voile d'ombrage sur la terrasse
+ - retour dans le poulailler "terrasse"
+ - retrait du voile d’ombrage
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal/veut couver
+ - œuf d'Albertine très clair
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+ - idem
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           741
+Météo / Environnement           310
+Santé / Soins                    59
+Anomalies Œufs                   20
+Localisation Œufs                12
+Vie du Poulailler / Divers       11
+Suivi de Ponte / Observation      8
+Alimentation                      8
+Installation / Technique          6
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - changement de poulailler
+ - œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler
+ - installation voile d'ombrage sur la terrasse
+ - retour dans le poulailler "terrasse"
+ - retrait du voile d’ombrage
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal/veut couver
+ - œuf d'Albertine très clair
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+ - idem
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           741
+Météo / Environnement           310
+Santé / Soins                    59
+Anomalies Œufs                   20
+Localisation Œufs                12
+Vie du Poulailler / Divers       11
+Suivi de Ponte / Observation      8
+Alimentation                      8
+Installation / Technique          6
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - changement de poulailler
+ - œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler
+ - installation voile d'ombrage sur la terrasse
+ - retour dans le poulailler "terrasse"
+ - retrait du voile d’ombrage
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal/veut couver
+ - œuf d'Albertine très clair
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+ - idem
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           741
+Météo / Environnement           310
+Santé / Soins                    59
+Anomalies Œufs                   20
+Localisation Œufs                12
+Vie du Poulailler / Divers       11
+Suivi de Ponte / Observation      8
+Alimentation                      8
+Installation / Technique          6
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - changement de poulailler
+ - œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler
+ - installation voile d'ombrage sur la terrasse
+ - retour dans le poulailler "terrasse"
+ - retrait du voile d’ombrage
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal/veut couver
+ - œuf d'Albertine très clair
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+ - idem
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           741
+Météo / Environnement           310
+Santé / Soins                    59
+Anomalies Œufs                   20
+Localisation Œufs                12
+Vie du Poulailler / Divers       11
+Suivi de Ponte / Observation      8
+Alimentation                      8
+Installation / Technique          6
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - changement de poulailler
+ - œuf d'Albertine et Rémiel pondu cette nuit dans le poulailler
+ - installation voile d'ombrage sur la terrasse
+ - retour dans le poulailler "terrasse"
+ - retrait du voile d’ombrage
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal/veut couver
+ - œuf d'Albertine très clair
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+ - idem
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           741
+Météo / Environnement           310
+Santé / Soins                    59
+Anomalies Œufs                   20
+Vie du Poulailler / Divers       13
+Localisation Œufs                12
+Suivi de Ponte / Observation      9
+Alimentation                      8
+Installation / Technique          3
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - installation voile d'ombrage sur la terrasse
+ - retrait du voile d’ombrage
+ - changement du thermomètre
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal/veut couver
+ - œuf d'Albertine très clair
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - changement de poulailler
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           741
+Météo / Environnement           310
+Santé / Soins                    59
+Anomalies Œufs                   20
+Vie du Poulailler / Divers       13
+Localisation Œufs                12
+Suivi de Ponte / Observation      9
+Alimentation                      8
+Installation / Technique          3
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - installation voile d'ombrage sur la terrasse
+ - retrait du voile d’ombrage
+ - changement du thermomètre
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal/veut couver
+ - œuf d'Albertine très clair
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - changement de poulailler
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           741
+Météo / Environnement           307
+Santé / Soins                    62
+Anomalies Œufs                   20
+Vie du Poulailler / Divers       13
+Localisation Œufs                12
+Suivi de Ponte / Observation      9
+Alimentation                      8
+Installation / Technique          3
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - installation voile d'ombrage sur la terrasse
+ - retrait du voile d’ombrage
+ - changement du thermomètre
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal/veut couver
+ - œuf d'Albertine très clair
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - changement de poulailler
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           741
+Météo / Environnement           307
+Santé / Soins                    62
+Anomalies Œufs                   20
+Vie du Poulailler / Divers       13
+Localisation Œufs                12
+Suivi de Ponte / Observation      9
+Alimentation                      8
+Installation / Technique          3
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson/aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+ - aliment pondeuse
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler/mini œuf de Saquiel?
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - installation voile d'ombrage sur la terrasse
+ - retrait du voile d’ombrage
+ - changement du thermomètre
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal/veut couver
+ - œuf d'Albertine très clair
+ - 8 œuf sous Cunégonde: 6marans+1valérie+1joséphine
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - changement de poulailler
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
+ - Valérie couve…........
+
+--- Statistiques par Catégorie de Commentaires ---
+Catégorie
+Autre                           744
+Météo / Environnement           284
+Santé / Soins                    65
+Anomalies Œufs                   23
+Vie du Poulailler / Divers       22
+Localisation Œufs                14
+Suivi de Ponte / Observation     11
+Alimentation                      8
+Installation / Technique          4
+
+--- Exemples par Catégorie ---
+
+[MÉTÉO / ENVIRONNEMENT]
+ - pluie nuit 22,à23/02
+ - pluie nuit 23,à24/02
+ - qq gouttes dans la nuit
+ - 17°C à 3h30 du mat
+ - pluie nuit du 13/03 au 14/03
+
+[SANTÉ / SOINS]
+ - malade (moi)
+ - aliment poulette+vitamines
+ - avipar(vermifuge naturel)
+ - antibio Pioupioute suspicion pb génital
+ - lentypou
+
+[ALIMENTATION]
+ - petit lait en boisson
+ - aliment pondeuse
+ - petit lait+aliment
+ - aliment
+ - aliment+blé
+
+[ANOMALIES ŒUFS]
+ - trouvé un micro œuf
+ - découverte d'une fibrine (?) dans le poulailler
+ - 1 œuf trouvé dans le poulailler cassé
+ - petit trou dans certains œufs, à surveiller si poules ou pie
+ - les 2 œufs ont été cassé par une poule ou une bête
+
+[LOCALISATION ŒUFS]
+ - œuf d'Augustine trouvé dans le jardin, pas sûr du jour de ponte
+ - œuf de Valérie très fragile trouvé ds poulailler
+ - trouvé 1 œuf d'Albertine dans le jardin
+ - 1 œuf de marans trouvé dans le poulailler
+ - Trouvé 3 œufs de marans dans le jardin (date de ponte?)
+
+[INSTALLATION / TECHNIQUE]
+ - installation voile d'ombrage sur la terrasse
+ - retrait du voile d’ombrage
+ - changement du thermomètre
+ - épervier dans la volière
+
+[SUIVI DE PONTE / OBSERVATION]
+ - pas sûre de l'œuf de Pioupioute
+ - pas sûr de l'œuf de Rémiel
+ - Pioupioute a pondu un œuf normal
+ - mini œuf de Saquiel?
+ - œuf d'Albertine très clair
+
+[VIE DU POULAILLER / DIVERS]
+ - Cunégonde pique Shrek
+ - veut couver
+ - changement de poulailler
+ - Cunégonde veut couver
+ - Valérie semble vouloir couver aussi cette coquine!!
