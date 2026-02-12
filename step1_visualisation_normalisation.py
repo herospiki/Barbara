@@ -11,7 +11,8 @@ def load_data():
     files = {
         'meteo': 'interim/df_1_meteo.csv',
         'pontes': 'interim/df_1_pontes.csv',
-        'commentaires': 'interim/df_1_commentaires.csv'
+        'commentaires': 'interim/df_1_commentaires.csv',
+        'marans_indiv': 'interim/df_1_marans_individuels.csv'
     }
     dfs = {}
     for key, path in files.items():
@@ -125,85 +126,103 @@ def create_summary_table():
     }
     return pd.DataFrame(changes).to_html(classes='table table-bordered table-striped', index=False)
 
-def create_marans_complexity_viz(df):
-    """Visualisation de la complexité du groupe Marans."""
-    if df is None or df.empty:
-        return None, "<p class='text-muted'>Aucune donnée disponible.</p>"
-        
-    marans = df[df['group_id'] == 'MARANS'].copy()
-    if marans.empty:
-        return None, "<p class='text-danger'>Données Marans non trouvées dans le dataset.</p>"
+def create_marans_complexity_viz(df_pontes, df_marans_indiv):
+    """Visualisation de la simplification du groupe Marans (Individuel vs Groupe)."""
+    if df_pontes is None or df_pontes.empty:
+        return None, "<p class='text-muted'>Aucune donnée de pontes disponible.</p>"
+
+    # 1. Données du Groupe Consolidé (Marans)
+    marans_group = df_pontes[df_pontes['group_id'] == 'MARANS'].copy()
     
-    # On extrait l'année pour gérer les périodes complètes par année
-    marans['Year'] = marans['Date'].dt.year
+    # 2. Données Individuelles (si disponibles)
+    if df_marans_indiv is not None and not df_marans_indiv.empty:
+        # On utilise les données individuelles sauvegardées séparément
+        combined = pd.concat([marans_group, df_marans_indiv], ignore_index=True)
+    else:
+        # Fallback si le fichier individuel n'est pas trouvé (pour rétro-compatibilité)
+        print("Avertissement : Fichier Marans individuels non trouvé, visualisation partielle.")
+        combined = marans_group
+
+    if combined.empty:
+        return None, "<p class='text-danger'>Données Marans non trouvées.</p>"
     
-    summary = marans.groupby('Poule_brute').agg({
+    # On normalise les dates
+    combined['Date'] = pd.to_datetime(combined['Date'])
+    combined['Year'] = combined['Date'].dt.year
+    
+    # Agrégation pour le graphique de Gantt
+    summary = combined.groupby('Poule_brute').agg({
         'Year': ['min', 'max'],
-        'Date': ['count']
+        'Date': ['count', 'min', 'max']
     }).reset_index()
     
-    summary.columns = ['Entité (Poule_brute)', 'Year_min', 'Year_max', 'Nb Observations']
+    # Aplatir les colonnes
+    summary.columns = ['Entité', 'Year_min', 'Year_max', 'Nb_Observations', 'Date_min', 'Date_max']
     
-    # On définit les bornes : du 1er janvier de l'année min au 31 décembre de l'année max
-    summary['Début'] = pd.to_datetime(summary['Year_min'].astype(str) + '-01-01')
-    summary['Fin'] = pd.to_datetime(summary['Year_max'].astype(str) + '-12-31')
-    
-    # Ajout d'une colonne de "Nature"
+    # Catégorisation
     def categorize(name):
         name_str = str(name).lower()
-        if "3 marans" in name_str or "total" in name_str: return "Total (Somme)"
+        if name_str == 'marans': return "Groupe (Consolidé)"
         if "nina" in name_str and "tina" in name_str: return "Sous-groupe (2 poules)"
-        return "Individuel (1 poule)"
+        return "Individuel (Source)"
     
-    summary['Nature'] = summary['Entité (Poule_brute)'].apply(categorize)
-    summary = summary.sort_values(by=['Nature', 'Début'], ascending=[False, True])
+    summary['Nature'] = summary['Entité'].apply(categorize)
     
-    # Graphique de Gantt-like pour montrer le recouvrement
+    # Tri pour l'affichage (Groupe en haut, puis sous-groupes, puis individus)
+    nature_order = {"Groupe (Consolidé)": 0, "Sous-groupe (2 poules)": 1, "Individuel (Source)": 2}
+    summary['Order'] = summary['Nature'].map(nature_order)
+    summary = summary.sort_values(by=['Order', 'Date_min'])
+    
+    # Graphique de Gantt
     fig = go.Figure()
     
-    colors = {"Total": "#e74c3c", "Sous-groupe (2 poules)": "#e67e22", "Individuel (1 poule)": "#3498db"}
-    added_to_legend = set()
-
+    colors = {
+        "Groupe (Consolidé)": "#2ecc71", 
+        "Sous-groupe (2 poules)": "#e67e22", 
+        "Individuel (Source)": "#3498db"
+    }
+    
     for _, row in summary.iterrows():
         nature = row['Nature']
-        show_legend = nature not in added_to_legend
-        if show_legend:
-            added_to_legend.add(nature)
-            
-        # Largeur de la barre en millisecondes pour un axe de type 'date'
-        duration_ms = (row['Fin'] - row['Début']).total_seconds() * 1000
-            
+        
+        # Durée en ms pour plotly
+        duration_ms = (row['Date_max'] - row['Date_min']).total_seconds() * 1000
+        # Si durée nulle (1 seul jour), on met 1 jour par défaut pour voir la barre
+        if duration_ms == 0: duration_ms = 86400000 
+
         fig.add_trace(go.Bar(
-            base=row['Début'],
+            base=row['Date_min'],
             x=[duration_ms],
-            y=[row['Entité (Poule_brute)']],
+            y=[row['Entité']],
             orientation='h',
             name=nature,
             legendgroup=nature,
-            showlegend=show_legend,
+            showlegend=(nature not in [t.name for t in fig.data]), # Afficher légende une seule fois par groupe
             marker_color=colors.get(nature, "gray"),
-            hovertemplate=f"<b>{row['Entité (Poule_brute)']}</b><br>Type: {nature}<br>Période: {row['Year_min']} - {row['Year_max']}<extra></extra>"
+            hovertemplate=f"<b>{row['Entité']}</b><br>Type: {nature}<br>Début: {row['Date_min'].strftime('%d/%m/%Y')}<br>Fin: {row['Date_max'].strftime('%d/%m/%Y')}<br>Obs: {row['Nb_Observations']}<extra></extra>"
         ))
         
     fig.update_layout(
-        title="Superposition des niveaux de reporting Marans <br><sup>Démontre le risque de triple comptage si traité sans filtre spécifique</sup>",
+        title="Consolidation Marans : Des sources individuelles au groupe unique",
         xaxis=dict(
             title="Chronologie",
             type='date',
             tickformat='%Y',
             dtick='M12'
         ),
-        yaxis_title="",
+        yaxis=dict(title=""),
         height=400,
-        barmode='overlay',
+        barmode='overlay', # Superposition pour montrer la couverture temporelle
         template="plotly_white",
         margin=dict(l=150, t=80)
     )
     
-    # Formattage des dates pour le tableau
-    summary['Début'] = summary['Début'].dt.strftime('%d/%m/%Y')
-    summary['Fin'] = summary['Fin'].dt.strftime('%d/%m/%Y')
-    return fig, summary.to_html(classes='table table-sm table-hover bg-white', index=False)
+    # Formatage tableau HTML
+    summary_display = summary[['Entité', 'Nature', 'Nb_Observations', 'Date_min', 'Date_max']].copy()
+    summary_display['Date_min'] = summary_display['Date_min'].dt.strftime('%d/%m/%Y')
+    summary_display['Date_max'] = summary_display['Date_max'].dt.strftime('%d/%m/%Y')
+    
+    return fig, summary_display.to_html(classes='table table-sm table-hover bg-white', index=False)
 
 def create_notation_frequency_viz(df, is_marans=True):
     """Crée un histogramme de fréquence des notations brutes."""
@@ -257,7 +276,7 @@ def generate_report():
     fig_sankey = create_structural_evolution_viz()
     table_summary = create_summary_table()
     
-    fig_marans, table_marans = create_marans_complexity_viz(dfs.get('pontes'))
+    fig_marans, table_marans = create_marans_complexity_viz(dfs.get('pontes'), dfs.get('marans_indiv'))
     
     fig_freq_marans = create_notation_frequency_viz(dfs.get('pontes'), is_marans=True)
     fig_freq_indiv = create_notation_frequency_viz(dfs.get('pontes'), is_marans=False)
@@ -372,14 +391,14 @@ def generate_report():
             </div>
 
             <div class="card border-warning">
-                <h2>⚠️ Focus : Cas Spécifique du Groupe "MARANS"</h2>
-                <p>Le groupe <strong>Marans</strong> présente une structure hybride qui rend sa gestion complexe. Les données brutes contiennent simultanément :</p>
+                <h2>⚠️ Focus : Simplification du Groupe "MARANS"</h2>
+                <p>Le traitement des Marans a été standardisé dès l'étape 1. Les données brutes contiennent des niveaux d'information hétérogènes (individus, sous-groupes, totaux).</p>
+                <p><strong>Stratégie adoptée :</strong></p>
                 <ul>
-                    <li>Le total cumulé pour le groupe (ex: "3 Marans")</li>
-                    <li>Des sous-totaux pour un duo (ex: "Nina et Tina")</li>
-                    <li>Des relevés individuels (ex: "Albertine", "Nina", "Tina")</li>
+                    <li>Conservation des données brutes individuelles dans un fichier séparé (<code>df_1_marans_individuels.csv</code>) pour audit.</li>
+                    <li>Création d'une entité unique <strong>MARANS</strong> dans le flux principal, qui consolide toutes les observations.</li>
                 </ul>
-                <p class="text-muted">La visualisation ci-dessous montre comment ces périodes se chevauchent, justifiant la nécessité d'une étape de déduplication et de priorisation dans le Step 2.</p>
+                <p class="text-muted">La visualisation ci-dessous compare les données sources disparates (bleu/orange) avec la donnée consolidée finale (vert).</p>
                 
                 {fig_marans.to_html(full_html=False, include_plotlyjs='cdn') if fig_marans else ""}
                 

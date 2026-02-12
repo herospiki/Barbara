@@ -9,14 +9,22 @@ def load_data():
     """Charge les données avant et après traitement."""
     df1_path = 'interim/df_1_pontes.csv'
     df2_path = 'interim/df_2_pontes.csv'
-    df_marans_path = 'interim/df_2_pontes_marans.csv'
-    df_hors_marans_path = 'interim/df_2_pontes_hors_marans.csv'
     
     data = {}
-    if os.path.exists(df1_path): data['df1'] = pd.read_csv(df1_path, sep=';')
-    if os.path.exists(df2_path): data['df2'] = pd.read_csv(df2_path, sep=';')
-    if os.path.exists(df_marans_path): data['df_marans'] = pd.read_csv(df_marans_path, sep=';')
-    if os.path.exists(df_hors_marans_path): data['df_hors_marans'] = pd.read_csv(df_hors_marans_path, sep=';')
+    if os.path.exists(df1_path): 
+        data['df1'] = pd.read_csv(df1_path, sep=';')
+        
+    if os.path.exists(df2_path): 
+        df2 = pd.read_csv(df2_path, sep=';')
+        data['df2'] = df2
+        
+        # Dérivation des sous-ensembles
+        data['df_marans'] = df2[df2['Poule_brute'] == 'MARANS'].copy()
+        data['df_hors_marans'] = df2[df2['Poule_brute'] != 'MARANS'].copy()
+    else:
+        data['df2'] = None
+        data['df_marans'] = None
+        data['df_hors_marans'] = None
 
     return data.get('df1'), data.get('df2'), data.get('df_marans'), data.get('df_hors_marans')
 
@@ -40,11 +48,7 @@ def create_cleaning_flow_sankey():
         ("Etat_oeuf", "df_2_pontes", ""),
         ("Doute", "df_2_pontes", ""),
         ("Remarques", "df_2_pontes", ""),
-        ("Effectif", "df_2_pontes", ""),
-
-        # --- Séparation finale ---
-        ("df_2_pontes", "Groupe Marans", "Filtre spécifiques"),
-        ("df_2_pontes", "Hors Marans", "Autres poules")
+        ("Effectif", "df_2_pontes", "")
     ]
     
     all_nodes = list(dict.fromkeys([l[0] for l in links] + [l[1] for l in links]))
@@ -52,7 +56,6 @@ def create_cleaning_flow_sankey():
     
     def get_node_color(name):
         if name == "df_2_pontes": return "#2ecc71"  # Vert (Cible)
-        if name in ["Groupe Marans", "Hors Marans"]: return "#27ae60" # Vert foncé (Final)
         if name in ["Analyse Regex & Texte", "Ponte", "Etat_oeuf", "Doute", "Remarques", "Effectif"]: 
             return "#f39c12" # Orange (Attributs/Transfo)
         return "#3498db" # Bleu (Source)
@@ -229,7 +232,7 @@ def generate_report():
                     <div class="col-lg-3">
                         <div class="mt-4">
                             <h5>🕊️ Groupe Marans</h5>
-                            <p class="text-muted small">Suivi spécifique pour les poules historiques et les récoltes groupées. <i>(Somme directe impossible car recouvrement d'effectifs)</i></p>
+                            <p class="text-muted small">Suivi spécifique pour les poules historiques et les récoltes groupées. <i>(Données consolidées : l'addition des pontes est désormais fiable)</i></p>
                             <div>
                                 {' '.join([f'<span class="badge bg-primary badge-group">{p}</span>' for p in marans_list])}
                             </div>
@@ -260,40 +263,33 @@ def generate_report():
             </div>
 
             <div class="card">
-                <h2>📁 Résultats de la Séparation en Fichiers</h2>
-                <div class="row text-center">
-                    <div class="col-md-6">
-                        <div class="p-3 border rounded bg-white">
-                            <h4 class="text-primary">df_2_pontes_marans.csv</h4>
-                            <div class="display-6 fw-bold">{len(df_marans) if df_marans is not None else 0}</div>
-                            <div class="text-muted">Lignes enregistrées</div>
-                            <div class="mt-2 small text-muted">Contient les données individuelles et groupées Marans</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="p-3 border rounded bg-white">
-                            <h4 class="text-secondary">df_2_pontes_hors_marans.csv</h4>
-                            <div class="display-6 fw-bold">{int(eggs_hors_marans)}</div>
-                            <div class="text-muted">Œufs totalisés</div>
-                            <div class="mt-2 small text-muted">{len(df_hors_marans) if df_hors_marans is not None else 0} lignes de données</div>
+                <h2>📁 Résultat : Fichier Unique Structuré</h2>
+                <div class="text-center p-4">
+                    <div class="p-3 border rounded bg-white" style="border-left: 5px solid #2ecc71 !important;">
+                        <h4 class="text-success">df_2_pontes.csv</h4>
+                        <div class="display-6 fw-bold">{len(df2) if df2 is not None else 0}</div>
+                        <div class="text-muted">Total Lignes Traitées</div>
+                        <div class="mt-3">
+                            <span class="badge bg-primary me-2">Dont Marans : {len(df_marans) if df_marans is not None else 0}</span>
+                            <span class="badge bg-secondary">Dont Hors Marans : {len(df_hors_marans) if df_hors_marans is not None else 0}</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="card">
-                <h2>📑 Aperçus par Groupes (Données Traitées)</h2>
+                <h2>📑 Comparaison Avant / Après (df_1 vs df_2)</h2>
                 <div class="row">
                     <div class="col-lg-6">
-                        <p class="preview-title">Tableau Marans (Extrait)</p>
+                        <p class="preview-title">Source (df_1_pontes.csv)</p>
                         <div class="table-container border rounded p-2 bg-light">
-                            {table_marans}
+                            {table_df1}
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <p class="preview-title">Tableau Hors Marans (Extrait)</p>
+                        <p class="preview-title">Résultat Structuré (df_2_pontes.csv)</p>
                         <div class="table-container border rounded p-2 bg-light">
-                            {table_hors_marans}
+                            {table_df2}
                         </div>
                     </div>
                 </div>
@@ -303,10 +299,10 @@ def generate_report():
                 <h2>📝 Synthèse du Nettoyage & Structuration</h2>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><b>Mapping des codes :</b> Transformation des notations complexes ('x', 'x?', 'xx', '(+1)') en valeurs entières calculables pour l'analyse statistique.</li>
-                    <li class="list-group-item"><b>Gestion de la Redondance (Marans) :</b> Identification et isolation du groupe Marans où les données individuelles et les totaux de groupe se chevauchent, empêchant une somme globale simple.</li>
+                    <li class="list-group-item"><b>Consolidation Marans :</b> Regroupement de toutes les observations (individuelles et groupées) sous une entité unique, permettant une <b>somme directe fiable</b> de la production.</li>
                     <li class="list-group-item"><b>Dynamique des Effectifs :</b> Calcul de l'effectif présent (1, 2, 3) avec <b>propagation automatique du statut 'décédée'</b> pour garantir la cohérence des taux de ponte futurs.</li>
                     <li class="list-group-item"><b>Structuration Granulaire :</b> Extraction systématique des états de l'œuf (cassé) et des doutes de saisie dans des colonnes dédiées pour un filtrage précis.</li>
-                    <li class="list-group-item"><b>Séparation Analytique :</b> Génération de deux exports distincts permettant d'analyser d'un côté la production propre (Hors Marans) et de l'autre le comportement complexe de la colonie Marans.</li>
+                    <li class="list-group-item"><b>Séparation Analytique :</b> Intégration dans un fichier unique avec distinction claire (via <code>group_id</code>) permettant d'analyser d'un côté la production propre (Hors Marans) et de l'autre le comportement complexe de la colonie Marans.</li>
                 </ul>
             </div>
         </div>

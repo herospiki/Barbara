@@ -47,7 +47,7 @@ from step0_audit_donnees import comparer_structures
 comp = comparer_structures(df_2023[autres_colonnes_2023], \
 df_2024[autres_colonnes_2024], \
 df_2025[autres_colonnes_2025])
-comp.to_csv('interim/audit_autres_colonnes.csv', index=False, encoding='utf-8-sig', sep=';')
+comp.to_csv('audit/audit_autres_colonnes.csv', index=False, encoding='utf-8-sig', sep=';')
 
 
 # Séparation des données en plusieurs dataframes :

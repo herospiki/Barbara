@@ -1,15 +1,15 @@
 ﻿Colonne;Type;Non-Nuls;Nuls;% Nuls;Uniques;Top 3 Valeurs
-Date;datetime64[us];365;0;0.0%;365;'2023-01-01 00:00:00': 1, '2023-01-02 00:00:00': 1, '2023-01-03 00:00:00': 1
-Joséphine;str;223;142;38.9%;3;'x': 220, 'x(cassé)': 2, 'mue': 1
-Albertine;str;107;258;70.7%;5;'x': 100, 'x(cassé)': 4, 'x?': 1
-Augustine;str;11;354;97.0%;5;'x': 7, 'zentonyl': 1, 'antibio': 1
-Cunégonde;str;193;172;47.1%;3;'x': 190, 'x(cassé)': 2, 'x?': 1
-Pioupioute;str;71;294;80.5%;6;'x': 53, 'x(cassé)': 14, 'x? ': 1
-Valérie;str;117;248;67.9%;4;'x': 114, 'x(cassé)': 1, 'fin couvaison': 1
-Rémiel;str;74;291;79.7%;6;'x': 61, 'x(cassé)': 9, 'x?': 1
-Saquiel;str;42;323;88.5%;6;'x': 20, 'x(cassé)': 16, '?': 3
-T°C (12-15h);float64;365;0;0.0%;38;'15.0': 20, '27.0': 19, '12.0': 17
+Date;datetime64[ns];365;0;0.0%;365;'2023-01-01 00:00:00': 1, '2023-01-02 00:00:00': 1, '2023-01-03 00:00:00': 1
+Joséphine;object;223;142;38.9%;3;'x': 220, 'x(cassé)': 2, 'mue': 1
+Albertine;object;107;258;70.7%;5;'x': 100, 'x(cassé)': 4, 'x?': 1
+Augustine;object;11;354;97.0%;5;'x': 7, 'zentonyl': 1, 'antibio': 1
+Cunégonde;object;193;172;47.1%;3;'x': 190, 'x(cassé)': 2, 'x?': 1
+Pioupioute;object;71;294;80.5%;6;'x': 53, 'x(cassé)': 14, 'x? ': 1
+Valérie;object;117;248;67.9%;4;'x': 114, 'x(cassé)': 1, 'fin couvaison': 1
+Rémiel;object;74;291;79.7%;6;'x': 61, 'x(cassé)': 9, 'x?': 1
+Saquiel;object;42;323;88.5%;6;'x': 20, 'x(cassé)': 16, '?': 3
+T°C (12-15h);float64;365;0;0.0%;38;'15.0': 20, '27.0': 19, '22.0': 17
 T°C poulailler;object;189;176;48.2%;30;'20': 16, '26': 12, '17': 12
 Pluie;float64;365;0;0.0%;32;'0.0': 246, '3.0': 17, '1.0': 15
-Météo;str;364;1;0.3%;96;'beau': 131, 'couvert': 17, 'éclaircies': 15
-Commentaires;str;93;272;74.5%;79;'avhydratC+Gascodrène': 8, '0 œuf': 3, 'sable du Sahara dans l'air': 3
+Météo;object;364;1;0.3%;96;'beau': 131, 'couvert': 17, 'éclaircies': 15
+Commentaires;object;93;272;74.5%;79;'avhydratC+Gascodrène': 8, '0 œuf': 3, 'sable du Sahara dans l'air': 3
