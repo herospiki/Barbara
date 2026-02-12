@@ -68,6 +68,8 @@ def traitement_meteo(df_meteo):
     return df_meteo
 
 df_meteo_clean = traitement_meteo(charger_donnees())
+df_meteo_clean = df_meteo_clean.drop(columns=['T°C (12h-15h)', 'Humidité'])
+df_meteo_clean = df_meteo_clean.rename(columns={'T°C (12h-15h)_traite': 'T°C (12h-15h)', 'Humidité_traite': 'Humidité'})    
 
 df_meteo_clean.to_csv('interim/df_2_meteo.csv', sep=';', index=False)
 

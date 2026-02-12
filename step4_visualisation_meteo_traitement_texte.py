@@ -4,22 +4,22 @@ import os
 
 def generate_step4_visualization():
     # 1. Charger les données
-    # On compare idéalement df_2 (numérique nettoyé) et df_4 (texte traité et catégorisé)
+    # On compare idéalement df_2 (numérique nettoyé) et df_3 (texte traité et catégorisé)
     try:
         df2 = pd.read_csv('interim/df_2_meteo.csv', sep=';')
-        df4 = pd.read_csv('interim/df_4_meteo.csv', sep=';')
+        df3 = pd.read_csv('interim/df_3_meteo.csv', sep=';')
     except FileNotFoundError:
         print("Erreur : Fichiers interim non trouvés. Assurez-vous d'avoir exécuté step4_meteo_traitement_texte.py")
         return
 
     # 2. Préparation des statistiques
-    total_obs = len(df4)
+    total_obs = len(df3)
     # Nombre de lignes avec des météos multiples (présence d'un '/')
-    meteos_multiples = df4['Météo'].str.contains('/', na=False).sum()
+    meteos_multiples = df3['Météo'].str.contains('/', na=False).sum()
     
     # Statistiques sur les catégories (Météo_1_Cat est la catégorie principale)
-    if 'Météo_1_Cat' in df4.columns:
-        cat_counts = df4['Météo_1_Cat'].value_counts()
+    if 'Météo_1_Cat' in df3.columns:
+        cat_counts = df3['Météo_1_Cat'].value_counts()
         top_cat = cat_counts.index[0] if not cat_counts.empty else "N/A"
         top_cat_val = cat_counts.iloc[0] if not cat_counts.empty else 0
     else:
@@ -28,10 +28,10 @@ def generate_step4_visualization():
 
     # 3. Exemples de transformations
     # On cherche des lignes où Météo != Météo_Corrigée (corrections orthographiques)
-    corrections = df4[df4['Météo'].str.lower() != df4['Météo_Corrigée'].str.lower()].head(3)
+    corrections = df3[df3['Météo'].str.lower() != df2['Météo'].str.lower()].head(3)
     
     # On cherche des lignes avec split (Météo_2 non nul)
-    splits = df4[df4['Météo_2'].notna()].head(3)
+    splits = df3[df3['Météo_2'].notna()].head(3)
 
     # 4. Génération du HTML
     html_content = f"""
@@ -190,10 +190,10 @@ def generate_step4_visualization():
             </div>
 
             <div class="card">
-                <h2>📊 Aperçu des Données Catégorisées (df_4)</h2>
+                <h2>📊 Aperçu des Données Catégorisées (df_3)</h2>
                 <p class="text-muted">Colonnes splittées et leurs catégories associées :</p>
                 <div class="table-container">
-                    {df4[['Date', 'Météo_Corrigée', 'Météo_1', 'Météo_1_Cat', 'Météo_2', 'Météo_2_Cat','Météo_3','Météo_3_Cat','Météo_4','Météo_4_Cat']].head(12).to_html(classes='table table-sm table-hover bg-white', index=False, justify='left')}
+                    {df3[['Date', 'Météo', 'Météo_1', 'Météo_1_Cat', 'Météo_2', 'Météo_2_Cat','Météo_3','Météo_3_Cat','Météo_4','Météo_4_Cat']].head(12).to_html(classes='table table-sm table-hover bg-white', index=False, justify='left')}
                 </div>
             </div>
 

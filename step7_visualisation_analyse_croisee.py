@@ -66,15 +66,20 @@ def generer_visualisations(df):
     df['Temp_Arrondie'] = df['T°C (12h-15h)'].round(0)
     temp_stats = df.groupby('Temp_Arrondie').agg({
         'Nombre_pontes': 'sum', 
-        'Effectif_poules': 'sum'
+        'Effectif_poules': 'sum',
+        'Date': 'count'
     }).reset_index()
+    
+    temp_stats.rename(columns={'Date': 'Nb_Jours'}, inplace=True)
     
     temp_stats = temp_stats[temp_stats['Effectif_poules'] > 10] # Filtre pour avoir assez de données
     temp_stats['Taux_Ponte_%'] = (temp_stats['Nombre_pontes'] / temp_stats['Effectif_poules'] * 100).round(1)
     
     fig1 = px.scatter(temp_stats, x='Temp_Arrondie', y='Taux_Ponte_%', 
-                      title="📈 Tendance : Taux de Ponte Global par Température",
-                      labels={'Temp_Arrondie': 'Température (°C)', 'Taux_Ponte_%': 'Taux de Ponte Global (%)'},
+                      size='Nb_Jours',
+                      title="📈 Tendance : Taux de Ponte Global par Température (Taille = Nb Jours)",
+                      labels={'Temp_Arrondie': 'Température (°C)', 'Taux_Ponte_%': 'Taux de Ponte Global (%)', 'Nb_Jours': 'Nombre de Jours'},
+                      hover_data=['Nb_Jours', 'Nombre_pontes'],
                       template="plotly_white")
     figures.append(fig1)
     explanations.append("""
@@ -82,6 +87,8 @@ def generer_visualisations(df):
         <h3>📈 KPI : Tendance Température (Calcul Global)</h3>
         <p><strong>Définition :</strong> Pour chaque température, nous calculons le taux de ponte sur l'ensemble des jours concernés : 
         <code>Somme(Œufs) / Somme(Capacité de ponte)</code>.</p>
+        <p><strong>Taille des points :</strong> Plus le point est gros, plus cette température a été observée souvent (nombre de jours). 
+        Cela permet de donner plus de poids visuel aux températures fréquentes (zones de confiance) qu'aux extrêmes rares.</p>
         <p><strong>Lecture :</strong> Il ne s'agit pas d'une simple moyenne de pourcentages, mais bien de la performance réelle accumulée à cette température. 
         Cela permet de gommer les variations d'effectif et de voir l'efficacité biologique pure.</p>
     </div>

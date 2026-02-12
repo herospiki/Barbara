@@ -120,9 +120,7 @@ def apply_mapping_meteo(df_meteo):
     
 
 new_df_meteo = nettoyage_et_split_meteo(df_meteo)
-new_df_meteo.to_csv('interim/df_3_meteo.csv', sep=';', index=False)
-
 meteo_categories_df = apply_mapping_meteo(new_df_meteo)
-print(meteo_categories_df.head())
-
-meteo_categories_df.to_csv('interim/df_4_meteo.csv', sep=';', index=False) 
+meteo_categories_df.rename(columns ={'Météo_Clean':'Météo'}, inplace=True)
+meteo_categories_df.drop(columns=['Météo_Corrigée'], inplace=True)
+meteo_categories_df.to_csv('interim/df_3_meteo.csv', sep=';', index=False) 
