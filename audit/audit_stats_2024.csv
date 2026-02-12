@@ -1,18 +1,18 @@
 ﻿Colonne;Type;Non-Nuls;Nuls;% Nuls;Uniques;Top 3 Valeurs
-Date;datetime64[ns];366;0;0.0%;366;'2024-01-01 00:00:00': 1, '2024-01-02 00:00:00': 1, '2024-01-03 00:00:00': 1
-Joséphine;object;7;359;98.1%;5;'x': 2, 'x(mou)': 2, 'Très malade': 1
-Albertine;object;113;253;69.1%;6;'x': 101, 'x ?': 5, 'x(cassé)': 4
-Cunégonde;object;147;219;59.8%;5;'x': 143, 'x(mou) ?': 1, 'arrêt couvade': 1
-Valérie;object;131;235;64.2%;3;'x': 128, 'x ?': 2, 'mue': 1
-Pioupioute;object;2;364;99.5%;2;'problème': 1, 'veut pondre': 1
-Rémiel;object;7;359;98.1%;7;'x?(mou)': 1, 'x ?(cassé)': 1, 'x(mou)': 1
-Nina et Tina;object;117;249;68.0%;3;'x': 115, '2x': 1, 'x(cassé)': 1
-Nina;object;1;365;99.7%;1;'mue': 1
+Date;datetime64[us];366;0;0.0%;366;'2024-01-01 00:00:00': 1, '2024-01-02 00:00:00': 1, '2024-01-03 00:00:00': 1
+Joséphine;str;7;359;98.1%;5;'x': 2, 'x(mou)': 2, 'Très malade': 1
+Albertine;str;113;253;69.1%;6;'x': 101, 'x ?': 5, 'x(cassé)': 4
+Cunégonde;str;147;219;59.8%;5;'x': 143, 'x(mou) ?': 1, 'arrêt couvade': 1
+Valérie;str;131;235;64.2%;3;'x': 128, 'x ?': 2, 'mue': 1
+Pioupioute;str;2;364;99.5%;2;'problème': 1, 'veut pondre': 1
+Rémiel;str;7;359;98.1%;7;'x?(mou)': 1, 'x ?(cassé)': 1, 'x(mou)': 1
+Nina et Tina;str;117;249;68.0%;3;'x': 115, '2x': 1, 'x(cassé)': 1
+Nina;str;1;365;99.7%;1;'mue': 1
 Marans;object;327;39;10.7%;6;'0': 142, '1': 82, '2': 72
-Tina;object;85;281;76.8%;7;'x': 67, 'x(cassé)': 11, 'x ?': 3
+Tina;str;85;281;76.8%;7;'x': 67, 'x(cassé)': 11, 'x ?': 3
 T°C (12h-15h);int64;366;0;0.0%;32;'17': 28, '18': 22, '13': 21
 T°C nuit;float64;340;26;7.1%;28;'10.0': 26, '6.0': 24, '14.0': 23
 Humidité;float64;349;17;4.6%;57;'0.45': 16, '0.38': 13, '0.5': 13
 Pluie(mm);float64;366;0;0.0%;28;'0.0': 249, '2.0': 19, '1.0': 13
-Météo;object;365;1;0.3%;110;'beau': 91, 'pluie': 19, 'couvert/pluie': 16
-Commentaires;object;79;287;78.4%;58;'gelée matinale': 10, 'petite gelée matinale': 6, 'sable du Sahara': 3
+Météo;str;365;1;0.3%;110;'beau': 91, 'pluie': 19, 'couvert/pluie': 16
+Commentaires;str;79;287;78.4%;58;'gelée matinale': 10, 'petite gelée matinale': 6, 'sable du Sahara': 3

@@ -29,9 +29,10 @@ poules_2025 = ['Joséphine', 'Cunégonde', 'Valérie', 'Pioupioute', 'Rémiel', 
 poules = set(poules_2023).union(set(poules_2024)).union(set(poules_2025))
 print(poules)
 
-poules_individuelles = ['Joséphine', 'Augustine', 'Cunégonde', 'Valérie','Pioupioute', 'Rémiel', 'Saquiel', 'Albertine', 'Tina', 'Nina']
-poules_marans_2_niveaux = ['Marans','Nina et Tina']    
-poules_autres = [poule for poule in poules if poule not in poules_marans_2_niveaux]
+# Définition des groupes de poules
+poules_individuelles_hors_marans = ['Joséphine', 'Augustine', 'Cunégonde', 'Valérie','Pioupioute', 'Rémiel', 'Saquiel']
+poules_marans_individuelles = ['Albertine', 'Tina', 'Nina']
+poules_marans_groupes = ['Marans', 'Nina et Tina']
 
 # Extraire les colonnes qui ne sont pas les poules
 autres_colonnes_2023 = df_2023.columns.difference(poules_2023)
@@ -92,30 +93,67 @@ def pivoter_et_concatener_poules(df_2023, df_2024, df_2025, poules):
 df_pontes = pivoter_et_concatener_poules(df_2023, df_2024, df_2025, poules)
 df_pontes.sort_values(by='Date', inplace=True)
 
-# Traitement des poules Marans et non Marans / Individuelles ou groupe/sous-groupe
+# ===========================================================================
+# NOUVEAU : Regroupement simplifié des Marans dès le début
+# ===========================================================================
 
-
-def format_poules_marans_2_niveaux(df, poules_marans_2_niveaux):
-    # On ajoute les colonnes niveau_observation et group_id 
-    # et on remplace le nom de poule Marans par MARANS_TOTAL 
-    # et on remplace le nom de poule Tina et Nina par TINA_NINA
+def regrouper_marans_simplifie(df):
+    """
+    Regroupe toutes les poules Marans (Albertine, Nina, Tina, Nina et Tina, Marans)
+    en un seul groupe 'MARANS' dès le début.
+    
+    Gère l'effectif variable selon l'année :
+    - 2023 : effectif = 1 (Albertine seule)
+    - 2024 : effectif = 3 (Albertine + Nina + Tina)
+    - 2025 : effectif = 3 (puis 2 après décès)
+    
+    Sauvegarde les données individuelles dans un fichier séparé pour analyses futures.
+    """
     df = df.copy()
- 
-    df.loc[df['Poule_brute'] == 'Marans', 'Poule_brute'] = 'MARANS_TOTAL'
-    df.loc[df['Poule_brute'] == 'Nina et Tina', 'Poule_brute'] = 'NINA_TINA'
+    df['Date'] = pd.to_datetime(df['Date'])
+    
+    # 1. Sauvegarder les données individuelles Marans + sous-groupe Nina et Tina
+    poules_marans_a_conserver = ['Albertine', 'Nina', 'Tina', 'Nina et Tina']
+    df_marans_individuels = df[df['Poule_brute'].isin(poules_marans_a_conserver)].copy()
+    df_marans_individuels.to_csv('interim/df_1_marans_individuels.csv', index=False, encoding='utf-8-sig', sep=';')
+    print(f"✅ Données individuelles Marans sauvegardées : {len(df_marans_individuels)} lignes")
+    
+    # 2. Identifier et traiter les lignes Marans
+    marans_a_regrouper = ['Albertine', 'Nina', 'Tina', 'Nina et Tina', 'Marans']
+    
+    # Séparer les données Marans et non-Marans
+    df_marans = df[df['Poule_brute'].isin(marans_a_regrouper)].copy()
+    df_autres = df[~df['Poule_brute'].isin(marans_a_regrouper)].copy()
+    
+    # 3. Pour chaque date, fusionner les lignes Marans en une seule
+    # On prend la première valeur non-NaN pour Ponte_brute
+    def fusionner_marans_par_date(group):
+        # Prendre la première valeur non-NaN
+        ponte_brute = group['Ponte_brute'].dropna().iloc[0] if not group['Ponte_brute'].dropna().empty else None
+        date = group.name  # Le nom du groupe est la Date
+        return pd.Series({
+            'Date': date,
+            'Poule_brute': 'MARANS',
+            'Ponte_brute': ponte_brute
+        })
+    
+    df_marans_fusionne = df_marans.groupby('Date', group_keys=False).apply(fusionner_marans_par_date, include_groups=False)
+    df_marans_fusionne = df_marans_fusionne.reset_index(drop=True)
+    
+    # 4. Ajouter les colonnes niveau_observation et group_id
+    df_marans_fusionne['niveau_observation'] = 'groupe'
+    df_marans_fusionne['group_id'] = 'MARANS'
+    
+    df_autres['niveau_observation'] = 'individuel'
+    df_autres['group_id'] = None
+    
+    # 5. Recombiner les dataframes
+    df_final = pd.concat([df_autres, df_marans_fusionne], axis=0)
+    df_final = df_final.sort_values(by='Date').reset_index(drop=True)
+    
+    return df_final
 
-     #  Pour les poules individuelles, on précise le niveau d'observation (individuel)
-
-    df.loc[df['Poule_brute'].isin(poules_individuelles), 'niveau_observation'] = 'individuel'
-    # pour les poules marans, on précise le niveau d'observation (groupe) et on remplace le group_id par MARANS 
-    # Lorsque les poules brutes sont dans la liste [MARANS_TOTAL, NINA_TINA, TINA, NINA, ALBERTINE]
-    # on remplace le group_id par MARANS
-    df.loc[df['Poule_brute'].isin(['MARANS_TOTAL', 'NINA_TINA', 'Tina', 'Nina', 'Albertine']), 'group_id'] = 'MARANS'
-    df.loc[df['Poule_brute'].isin(['MARANS_TOTAL']), 'niveau_observation'] = 'groupe'
-    df.loc[df['Poule_brute'].isin(['NINA_TINA']), 'niveau_observation'] = 'sous-groupe'
-    return df
-
-df_pontes = format_poules_marans_2_niveaux(df_pontes, poules_marans_2_niveaux)
+df_pontes = regrouper_marans_simplifie(df_pontes)
 
 
 # Premiers choix de conservation de certaines colonnes 
@@ -166,3 +204,8 @@ df_commentaires.sort_values(by='Date', inplace=True)
 df_pontes.to_csv('interim/df_1_pontes.csv', index=False, encoding='utf-8-sig', sep=';')
 df_meteo.to_csv('interim/df_1_meteo.csv', index=False, encoding='utf-8-sig', sep=';')
 df_commentaires.to_csv('interim/df_1_commentaires.csv', index=False, encoding='utf-8-sig', sep=';')
+
+print(f"\n✅ Fichiers sauvegardés :")
+print(f"  - df_1_pontes.csv : {len(df_pontes)} lignes")
+print(f"  - df_1_meteo.csv : {len(df_meteo)} lignes")
+print(f"  - df_1_commentaires.csv : {len(df_commentaires)} lignes")

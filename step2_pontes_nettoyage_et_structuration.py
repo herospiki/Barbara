@@ -76,15 +76,15 @@ def traiter_ponte_individuelle(row):
 
 
 # ===========================================================================
-# TRAITEMENT DES PONTES GROUPE
+# TRAITEMENT DES PONTES GROUPE (MARANS UNIQUEMENT)
 # ===========================================================================
 
 
-def traiter_ponte_groupe(row):
+def traiter_ponte_groupe_marans(row):
     """
-    Traite une ligne de ponte pour un groupe.
+    Traite une ligne de ponte pour le groupe MARANS.
     Codes spécifiques : n = Nina, t = Tina, a = Albertine.
-    Statut_Poule est NaN pour les groupes, l'info de Mue/Décès va en remarques.
+    Gère les effectifs variables et ajoute l'info des poules dans Remarques.
     """
     val = str(row['Ponte_brute']).strip().replace('\xa0', '').lower()
     
@@ -93,7 +93,7 @@ def traiter_ponte_groupe(row):
         'Ponte': 0,
         'Etat_oeuf': 'RAS',
         'Doute': False,
-        'Effectif': row.get('Effectif_theo', 0),
+        'Effectif': row.get('Effectif_theo', 3),  # Par défaut 3 Marans
         'Remarques': ''
     }
     
@@ -131,35 +131,32 @@ def traiter_ponte_groupe(row):
     elif 'mue' in val or '(m)' in val or '(m?)' in val:
         statut_info = "en mue"
 
-    # 3. Construction des Remarques
-    if poule_str and statut_info:
-        resultat['Remarques'] = f"{poule_str} {statut_info}"
-    elif statut_info:
-        resultat['Remarques'] = statut_info.capitalize()
-    elif poule_str:
-        resultat['Remarques'] = f"Poule(s) : {poule_str}"
+    # 3. Construction des Remarques (TOUJOURS ajouter l'info des poules si disponible)
+    remarques_parts = []
+    
+    if poule_str:
+        remarques_parts.append(f"Poule(s) : {poule_str}")
+    
+    if statut_info:
+        if poule_str:
+            remarques_parts.append(statut_info)
+        else:
+            remarques_parts.append(statut_info.capitalize())
+    
+    resultat['Remarques'] = " - ".join(remarques_parts)
 
-    # 4. Ajustement Effectif si décès détecté dans le groupe MARANS
-    if statut_info == "décédée" and 'MARANS' in str(row['Poule_brute']).upper():
-        resultat['Effectif'] = 2 # Passage de 3 à 2 pour les Marans
-    elif row['Poule_brute'] == 'Nina et Tina':
-        resultat['Effectif'] = 1 # Passage de 2 à 1 pour Nina et Tina 
+    # 4. Ajustement Effectif si décès détecté
+    if statut_info == "décédée":
+        resultat['Effectif'] = 2  # Passage de 3 à 2 pour les Marans
 
     # 5. États et Doute
     if '?' in val:
-        
         resultat['Doute'] = True
-        if statut_info:
+        if resultat['Remarques']:
             resultat['Remarques'] += " (?)"
         
-    if 'c' in val: # c = cassé
+    if 'c' in val and 'dcd' not in val:  # c = cassé
         resultat['Etat_oeuf'] = 'cassé'
-    
-
-    # On conserve la notation originale si vraiment complexe
-    if len(val) > nb_x + val.count(' ') + val.count('x') + 2:
-        suffix = f" (Notation: {val})"
-        resultat['Remarques'] += suffix
 
     return pd.Series(resultat)
 
@@ -175,28 +172,36 @@ def nettoyage_completion_et_structuration():
         print(f"✅ Chargement de {len(df_long)} lignes de pontes.")
 
         # 2. Préparation des masques pour le traitement
-        # L'étape 1 a déjà normalisé niveau_observation (individuel, groupe, sous-groupe)
+        # L'étape 1 a déjà normalisé niveau_observation (individuel, groupe)
         # et group_id (MARANS).
         
         # On s'assure que les valeurs manquantes sont gérées
         df_long['niveau_observation'] = df_long['niveau_observation'].fillna('individuel')
         
+        # Convertir Date en datetime pour extraire l'année
+        df_long['Date'] = pd.to_datetime(df_long['Date'])
+        
         # Pré-remplissage de l'effectif théorique (utilisé par les fonctions de traitement)
         df_long['Effectif_theo'] = 1
-        # 3 pour MARANS_TOTAL, 2 pour TINA_NINA (anciennement Nina et Tina)
-        df_long.loc[df_long['Poule_brute'] == 'MARANS_TOTAL', 'Effectif_theo'] = 3
-        df_long.loc[df_long['Poule_brute'] == 'NINA_TINA', 'Effectif_theo'] = 2
+        
+        # Pour MARANS, l'effectif varie selon l'année :
+        # - 2023 : 1 (Albertine seule)
+        # - 2024 : 3 (Albertine + Nina + Tina)
+        # - 2025 : 3 (puis 2 après décès, géré par la propagation)
+        mask_marans = df_long['Poule_brute'] == 'MARANS'
+        df_long.loc[mask_marans & (df_long['Date'].dt.year == 2023), 'Effectif_theo'] = 1
+        df_long.loc[mask_marans & (df_long['Date'].dt.year == 2024), 'Effectif_theo'] = 3
+        df_long.loc[mask_marans & (df_long['Date'].dt.year == 2025), 'Effectif_theo'] = 3
         
         mask_individuel = df_long['niveau_observation'] == 'individuel'
-        # On traite les 'groupe' et 'sous-groupe' avec la fonction groupe
-        mask_groupe = df_long['niveau_observation'].isin(['groupe', 'sous-groupe'])
+        mask_groupe = df_long['niveau_observation'] == 'groupe'
     
         # 3. Application des traitements
         print("🔄 Traitement des données individuelles...")
         res_indiv = df_long[mask_individuel].apply(traiter_ponte_individuelle, axis=1)
         
-        print("🔄 Traitement des données groupes...")
-        res_groupe = df_long[mask_groupe].apply(traiter_ponte_groupe, axis=1)
+        print("🔄 Traitement des données groupe MARANS...")
+        res_groupe = df_long[mask_groupe].apply(traiter_ponte_groupe_marans, axis=1)
         
         # 4. Fusion des résultats avec le DataFrame original
         df_result = pd.concat([
@@ -218,8 +223,8 @@ def nettoyage_completion_et_structuration():
                     group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 0
                     group.iloc[premier_deces_pos:, group.columns.get_loc('Ponte')] = 0
             else:
-                # Pour les groupes Marans, on propage le passage de 3 à 2
-                if 'MARANS' in str(poule).upper():
+                # Pour le groupe MARANS, on propage le passage de 3 à 2
+                if poule == 'MARANS':
                     deces = group['Effectif'] == 2
                     if deces.any():
                         premier_deces_pos = np.where(deces)[0][0]
@@ -235,30 +240,22 @@ def nettoyage_completion_et_structuration():
         if 'Effectif_theo' in df_result.columns:
             df_result = df_result.drop(columns=['Effectif_theo'])
 
-        # 5. Sauvegarde du résultat structuré
+        # 6. Sauvegarde du résultat structuré final
         # Mettre dans l'ordre les colonnes
-        df_result = df_result[['Date', 'Poule_brute', 'Ponte_brute', 'Ponte', 'Effectif', 'Etat_oeuf', 'Doute', 'Remarques']]
+        df_result = df_result[['Date', 'Poule_brute', 'Ponte_brute', 'Ponte', 'Effectif', 'Etat_oeuf', 'Doute', 'Remarques', 'niveau_observation', 'group_id']]
      
-        output_meta = 'interim/df_2_pontes.csv'
-        df_result.to_csv(output_meta, sep=';', index=False)
+        output_final = 'interim/df_2_pontes.csv'
+        df_result.to_csv(output_final, sep=';', index=False)
         
-        print(f"✅ Traitement terminé. Fichier sauvegardé : {output_meta}")
-
-        poules_marans_et_groupes = ['MARANS_TOTAL', 'NINA_TINA', 'Nina', 'Tina','Albertine']
-        df_result_marans = df_result[df_result['Poule_brute'].isin(poules_marans_et_groupes)]
-        output_marans = 'interim/df_2_pontes_marans.csv'
-        df_result_marans.to_csv(output_marans, sep=';', index=False)
-        print(f"✅ Traitement terminé. Fichier sauvegardé : {output_marans}")
-
-        df_result_hors_marans = df_result[~df_result['Poule_brute'].isin(poules_marans_et_groupes)]
-        output_hors_marans = 'interim/df_2_pontes_hors_marans.csv'
-        df_result_hors_marans.to_csv(output_hors_marans, sep=';', index=False)
-        print(f"✅ Traitement terminé. Fichier sauvegardé : {output_hors_marans}")
+        print(f"✅ Traitement terminé. Fichier sauvegardé : {output_final}")
         
         # Aperçu
-        print("\nAperçu des 10 premières lignes traitées :")
-        cols_to_show = ['Date', 'Poule_brute', 'Ponte_brute', 'Ponte', 'Effectif']
-        print(df_result[cols_to_show].head(10))
+        print("\nAperçu des 15 premières lignes traitées :")
+        cols_to_show = ['Date', 'Poule_brute', 'Ponte_brute', 'Ponte', 'Effectif', 'Remarques']
+        print(df_result[cols_to_show].head(15))
+        
+        print("\nAperçu des lignes MARANS :")
+        print(df_result[df_result['Poule_brute'] == 'MARANS'][cols_to_show].head(20))
 
     except FileNotFoundError as e:
         print(f"❌ Erreur : Fichier non trouvé. {e}")
@@ -268,4 +265,3 @@ def nettoyage_completion_et_structuration():
         traceback.print_exc()
 
 nettoyage_completion_et_structuration()
-
