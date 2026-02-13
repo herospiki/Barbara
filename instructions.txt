@@ -1,5 +1,0 @@
-Pourrais-tu examiner les fichiers step_1_normalisation_format.py 
-, step2_pontes_nettoyage_et_structuration.py et step2_marans_specifique.py ? 
-L'objectif est de simplifier au maximum les traitements effectués, quitte à bypasser certaines étapes.
-Sur le regroupement des Marans, peut-être que ça peut être plus simple de faire les choix dès le début ?
-
