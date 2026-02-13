@@ -1,0 +1,457 @@
+
+    <html>
+    <head>
+        <title>Traitement Texte Météo - Barbara</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #f8f9fa;
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+                color: white;
+                padding: 50px 20px;
+                text-align: center;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                margin-bottom: 30px;
+            }
+            .container { max-width: 1300px; }
+            .card {
+                background: white;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+                margin-bottom: 40px;
+                padding: 25px;
+            }
+            h1 { font-weight: 800; letter-spacing: -1px; }
+            h2 { color: #2c3e50; font-weight: 700; margin-bottom: 20px; border-left: 5px solid #3498db; padding-left: 15px; }
+            .stat-card {
+                background: #fff;
+                padding: 20px;
+                border-radius: 12px;
+                text-align: center;
+                border-bottom: 4px solid #3498db;
+                margin-bottom: 20px;
+                transition: transform 0.3s;
+            }
+            .stat-card:hover { transform: translateY(-5px); }
+            .stat-value { font-size: 2.2rem; font-weight: 800; color: #2c3e50; }
+            .stat-label { color: #7f8c8d; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; font-weight: 600; }
+            .table-container { overflow-x: auto; }
+            thead th { 
+                background-color: #f1f4f9 !important; 
+                text-align: left !important; 
+                color: #2c3e50;
+                font-weight: 700;
+                border-bottom: 2px solid #dee2e6 !important;
+            }
+            .badge-cat {
+                background-color: #3498db;
+                color: white;
+                padding: 5px 10px;
+                border-radius: 12px;
+                font-size: 0.8rem;
+            }
+            .arrow { color: #95a5a6; margin: 0 10px; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>📝 Traitement Textuel & Catégorisation (Step 4)</h1>
+            <p class="lead">Normalisation des libellés météo, split des conditions multiples et mapping thématique</p>
+        </div>
+        
+        <div class="container pb-5">
+            <!-- KPIs -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">481</div>
+                        <div class="stat-label">Obs. avec multi-conditions (split)</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">BEAU</div>
+                        <div class="stat-label">Catégorie la plus fréquente</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">1096</div>
+                        <div class="stat-label">Total Observations classées</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>🛠️ Logique de Nettoyage et Correction</h2>
+                <div class="table-container">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Type d'Action</th>
+                                <th>Entrée Brute</th>
+                                <th>Transformation</th>
+                                <th>Résultat</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Correction Orthographique</b></td>
+                                <td class="text-muted">acalmie, éclairicie</td>
+                                <td class="arrow">→</td>
+                                <td><span class="badge bg-success">accalmie, éclaircies</span></td>
+                            </tr>
+                            <tr>
+                                <td><b>Normalisation Séparateur</b></td>
+                                <td class="text-muted">beau puis bruine</td>
+                                <td class="arrow">→</td>
+                                <td><span class="badge bg-info">beau/bruine</span></td>
+                            </tr>
+                            <tr>
+                                <td><b>Split de Colonnes</b></td>
+                                <td class="text-muted">"Soleil/Vent"</td>
+                                <td class="arrow">→</td>
+                                <td>Col 1: <code>Soleil</code> | Col 2: <code>Vent</code></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>🏷️ Mapping des Catégories</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Détail des termes rencontrés pour chaque catégorie :</p>
+                        <ul class="list-group list-group-flush" style="max-height: 500px; overflow-y: auto;">
+                            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">AUTRE/NON CLASSE</h6>
+                    <small class="badge bg-light text-dark">13 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">accalmie, averse orageuse, beau(ciel blanc), dégradation, grêle et pluie, maussade, orage avec grésil, orage sec, orages faibles, petite averse, petites averses, pluie-neige, variable</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">BEAU</h6>
+                    <small class="badge bg-light text-dark">7 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">assez beau, beau, beau temps, dégagé, ensoleillé, soleil, très beau</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">CANICULE</h6>
+                    <small class="badge bg-light text-dark">2 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">canicule, vigilance canicule</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">CHAUD</h6>
+                    <small class="badge bg-light text-dark">3 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">chaud, lourd, temps lourd</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">COUVERT</h6>
+                    <small class="badge bg-light text-dark">8 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">brouillard, brouillard épais, brumeux, couvert, gris, nuageux, très voilé, voilé</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">ECLAIRCIES</h6>
+                    <small class="badge bg-light text-dark">3 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">belles éclaircies, éclaircie, éclaircies</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">FROID</h6>
+                    <small class="badge bg-light text-dark">1 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">froid</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">MITIGE</h6>
+                    <small class="badge bg-light text-dark">1 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">mitigé</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">NEIGE</h6>
+                    <small class="badge bg-light text-dark">1 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">neige</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">NUAGES</h6>
+                    <small class="badge bg-light text-dark">1 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">qq nuages</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">ORAGE</h6>
+                    <small class="badge bg-light text-dark">4 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">orage, orage fort, orages, orageux</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">PLUIE</h6>
+                    <small class="badge bg-light text-dark">8 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">averse, averses, bruine, fortes pluies, giboulées, pluie, pluie fine, qq gouttes</p>
+            </li>
+            
+            <li class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 text-primary">VENT</h6>
+                    <small class="badge bg-light text-dark">4 variantes</small>
+                </div>
+                <p class="mb-1 small text-muted" style="line-height: 1.4;">tempête, vent, vent chaud, vent violent</p>
+            </li>
+            
+                        </ul>
+                    </div>
+                    <div class="col-md-6 border-start">
+                        <p class="text-center font-weight-bold"><b>Répartition Top 5 Catégories</b></p>
+                        <div class="table-container">
+                            <table border="1" class="dataframe table table-sm table-borderless">
+  <tbody>
+    <tr>
+      <td>BEAU</td>
+      <td>461</td>
+    </tr>
+    <tr>
+      <td>COUVERT</td>
+      <td>307</td>
+    </tr>
+    <tr>
+      <td>PLUIE</td>
+      <td>181</td>
+    </tr>
+    <tr>
+      <td>ECLAIRCIES</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>MITIGE</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📊 Aperçu des Données Catégorisées (df_3)</h2>
+                <p class="text-muted">Colonnes splittées et leurs catégories associées :</p>
+                <div class="table-container">
+                    <table border="1" class="dataframe table table-sm table-hover bg-white">
+  <thead>
+    <tr style="text-align: left;">
+      <th>Date</th>
+      <th>Météo</th>
+      <th>Météo_1</th>
+      <th>Météo_1_Cat</th>
+      <th>Météo_2</th>
+      <th>Météo_2_Cat</th>
+      <th>Météo_3</th>
+      <th>Météo_3_Cat</th>
+      <th>Météo_4</th>
+      <th>Météo_4_Cat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023-01-01</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-02</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-03</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-04</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-05</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-06</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-07</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-08</td>
+      <td>mitigé</td>
+      <td>mitigé</td>
+      <td>MITIGE</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-09</td>
+      <td>vent/éclaircie</td>
+      <td>vent</td>
+      <td>VENT</td>
+      <td>éclaircie</td>
+      <td>ECLAIRCIES</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-10</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-11</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-12</td>
+      <td>beau</td>
+      <td>beau</td>
+      <td>BEAU</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📝 Synthèse du Traitement</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><b>Mapping Correctif :</b> 18 expressions courantes corrigées avant traitement.</li>
+                    <li class="list-group-item"><b>Multi-Conditions :</b> Jusqu'à 4 conditions simultanées capturées par observation.</li>
+                    <li class="list-group-item"><b>Robustesse :</b> Gestion des majuscules/minuscules et des espaces superflus.</li>
+                    <li class="list-group-item"><b>Finalité :</b> Transition d'un texte libre vers des variables catégorielles exploitables en Machine Learning ou Statistique.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer class="text-center py-4 text-muted border-top">
+            Généré automatiquement par Antigravity - Traitement Texte Step 4 - 13/02/2026 12:13
+        </footer>
+    </body>
+    </html>
+    

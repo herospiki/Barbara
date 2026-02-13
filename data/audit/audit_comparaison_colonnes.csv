@@ -1,0 +1,26 @@
+﻿Colonne;2023;2024;2025;Toutes annees;Presence
+3 Marans;False;False;True;False;1
+Albertine;True;True;False;False;2
+Augustine;True;False;False;False;1
+Commentaires;True;True;True;True;3
+Cunégonde;True;True;True;True;3
+Date;True;True;True;True;3
+Humidité;False;True;True;False;2
+Joséphine;True;True;True;True;3
+Marans;False;True;False;False;1
+Météo;True;True;True;True;3
+Nina;False;True;False;False;1
+Nina et Tina;False;True;False;False;1
+Pioupioute;True;True;True;True;3
+Pluie;True;False;False;False;1
+Pluie(mm);False;True;True;False;2
+Rémiel;True;True;True;True;3
+Saquiel;True;False;False;False;1
+Tina;False;True;False;False;1
+T° mini;False;False;True;False;1
+T°C (12-15h);True;False;False;False;1
+T°C (12h-15h);False;True;True;False;2
+T°C nuit;False;True;False;False;1
+T°C poulailler;True;False;False;False;1
+Valérie;True;True;True;True;3
+œuf trouvé/date de la trouvaille;False;False;True;False;1

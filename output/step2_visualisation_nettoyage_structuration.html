@@ -1,0 +1,388 @@
+
+    <html>
+    <head>
+        <title>Nettoyage & Structuration - Barbara</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #f1f4f9;
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+                color: white;
+                padding: 50px 20px;
+                text-align: center;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                margin-bottom: 30px;
+            }
+            .container { max-width: 1300px; }
+            .card {
+                background: white;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+                margin-bottom: 40px;
+                padding: 25px;
+            }
+            h1 { font-weight: 800; letter-spacing: -1px; }
+            h2 { color: #1e3c72; font-weight: 700; margin-bottom: 20px; border-left: 5px solid #1e3c72; padding-left: 15px; }
+            .stat-card {
+                background: #fff;
+                padding: 20px;
+                border-radius: 12px;
+                text-align: center;
+                border-bottom: 4px solid #1e3c72;
+                margin-bottom: 20px;
+            }
+            .stat-value { font-size: 2rem; font-weight: 800; color: #1e3c72; }
+            .stat-label { color: #6c757d; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
+            .table-container { overflow-x: auto; }
+            .preview-title { font-size: 1.1rem; font-weight: 700; color: #1e3c72; margin-top: 15px; }
+            .badge-group { margin: 2px; font-size: 0.9rem; }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧹 Nettoyage & Structuration du fichier de Pontes</h1>
+            <p class="lead">Passage des notations brutes (df_1) aux variables quantitatives (df_2)</p>
+             <p class="lead"> Traitement du cas des poules Marans (groupe) </p>
+        </div>
+        
+        <div class="container pb-5">
+            <!-- KPIs -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">1220</div>
+                        <div class="stat-label">Œufs Validés (Hors Marans)</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">1096</div>
+                        <div class="stat-label">Volume de données Marans</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">19</div>
+                        <div class="stat-label">Alertes Qualité (?)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📊 Logique de Transformation & Séparation</h2>
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.3.0.min.js" integrity="sha256-bO3dS6yCpk9aK4gUpNELtCiDeSYvGYnK7jFI58NQnHI=" crossorigin="anonymous"></script>                <div id="77af9ffc-1cd5-4b5a-929d-84eb10af23a9" class="plotly-graph-div" style="height:500px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("77af9ffc-1cd5-4b5a-929d-84eb10af23a9")) {                    Plotly.newPlot(                        "77af9ffc-1cd5-4b5a-929d-84eb10af23a9",                        [{"link":{"customdata":["Parsing","Effectif th\u00e9orique (1\u002f2\u002f3)","Init Marans\u002fNina-Tina","Calcul entier (n)","D\u00e9tections 'c' (cass\u00e9)","D\u00e9tecteur '?'","Extraction texte \u002f (m)","Ajustement si 'dcd'","","","","",""],"hovertemplate":"%{source.label} \u2192 %{target.label}\u003cbr \u002f\u003eAction: %{customdata}\u003cextra\u003e\u003c\u002fextra\u003e","source":[0,1,2,3,3,3,3,3,4,5,6,7,8],"target":[3,8,8,4,5,6,7,8,9,9,9,9,9],"value":[1,1,1,1,1,1,1,1,1,1,1,1,1,0.5,0.5]},"node":{"color":["#3498db","#3498db","#3498db","#f39c12","#f39c12","#f39c12","#f39c12","#f39c12","#f39c12","#2ecc71"],"label":["Ponte_brute","niveau_observation","Poule_brute","Analyse Regex & Texte","Ponte","Etat_oeuf","Doute","Remarques","Effectif","df_2_pontes"],"line":{"color":"black","width":0.5},"pad":15,"thickness":20},"type":"sankey"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"title":{"text":"Flux de Nettoyage et S\u00e9paration des Groupes"},"font":{"size":12},"height":500},                        {"responsive": true}                    )                };            </script>        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="mt-4">
+                            <h5>🕊️ Groupe Marans</h5>
+                            <p class="text-muted small">Suivi spécifique pour les poules historiques et les récoltes groupées. <i>(Données consolidées : l'addition des pontes est désormais fiable)</i></p>
+                            <div>
+                                <span class="badge bg-primary badge-group">MARANS</span>
+                            </div>
+                            <hr>
+                            <h5>🐔 Hors Marans</h5>
+                            <p class="text-muted small">Autres colonies et individus suivis séparément.</p>
+                            <div>
+                                <span class="badge bg-secondary badge-group">Joséphine</span> <span class="badge bg-secondary badge-group">Valérie</span> <span class="badge bg-secondary badge-group">Saquiel</span> <span class="badge bg-secondary badge-group">Rémiel</span> <span class="badge bg-secondary badge-group">Cunégonde</span> <span class="badge bg-secondary badge-group">Augustine</span> <span class="badge bg-secondary badge-group">Pioupioute</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <h2>🥚 État des Œufs</h2>
+                        <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.3.0.min.js" integrity="sha256-bO3dS6yCpk9aK4gUpNELtCiDeSYvGYnK7jFI58NQnHI=" crossorigin="anonymous"></script>                <div id="099cbfe8-574e-4b00-8c8d-e39b4f219b50" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("099cbfe8-574e-4b00-8c8d-e39b4f219b50")) {                    Plotly.newPlot(                        "099cbfe8-574e-4b00-8c8d-e39b4f219b50",                        [{"hovertemplate":"\u003cb\u003e%{x}\u003c\u002fb\u003e\u003cbr\u003eOccurrences: %{y}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#e74c3c"},"x":["cass\u00e9","mou","tordu","obus","double"],"y":{"dtype":"i1","bdata":"QQYBAQE="},"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"margin":{"t":50,"b":100},"title":{"text":"Distribution de 'Etat_oeuf' (Hors RAS)"},"xaxis":{"title":{"text":"Etat_oeuf"}},"yaxis":{"title":{"text":"Nombre"}},"height":400},                        {"responsive": true}                    )                };            </script>        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <h2>💬 Analyse des Remarques</h2>
+                        <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.3.0.min.js" integrity="sha256-bO3dS6yCpk9aK4gUpNELtCiDeSYvGYnK7jFI58NQnHI=" crossorigin="anonymous"></script>                <div id="6dfc1d02-3369-4e24-ac68-efe7a5794091" class="plotly-graph-div" style="height:400px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("6dfc1d02-3369-4e24-ac68-efe7a5794091")) {                    Plotly.newPlot(                        "6dfc1d02-3369-4e24-ac68-efe7a5794091",                        [{"hovertemplate":"\u003cb\u003e%{x}\u003c\u002fb\u003e\u003cbr\u003eOccurrences: %{y}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#3498db"},"x":["Poule(s) : Tina","Poule(s) : Nina, Albertine","Poule(s) : Nina","Poule(s) : Tina, Albertine","Poule(s) : Nina, Tina","Mue","Poule(s) : Albertine","En mue","?","veut pondre","malade","couve","antibio","fin antibio","retrait point"],"y":{"dtype":"i1","bdata":"LhIREA4MCwYDAwICAgIB"},"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"margin":{"t":50,"b":100},"title":{"text":"Top 15 des Remarques extraites"},"xaxis":{"title":{"text":"Remarques"}},"yaxis":{"title":{"text":"Nombre"}},"height":400},                        {"responsive": true}                    )                };            </script>        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📁 Résultat : Fichier Unique Structuré</h2>
+                <div class="text-center p-4">
+                    <div class="p-3 border rounded bg-white" style="border-left: 5px solid #2ecc71 !important;">
+                        <h4 class="text-success">df_2_pontes.csv</h4>
+                        <div class="display-6 fw-bold">7306</div>
+                        <div class="text-muted">Total Lignes Traitées</div>
+                        <div class="mt-3">
+                            <span class="badge bg-primary me-2">Dont Marans : 1096</span>
+                            <span class="badge bg-secondary">Dont Hors Marans : 6210</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📑 Comparaison Avant / Après (df_1 vs df_2)</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="preview-title">Source (df_1_pontes.csv)</p>
+                        <div class="table-container border rounded p-2 bg-light">
+                            <table border="1" class="dataframe table table-sm table-hover bg-white">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Date</th>
+      <th>Poule_brute</th>
+      <th>Ponte_brute</th>
+      <th>niveau_observation</th>
+      <th>group_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Joséphine</td>
+      <td>x</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Valérie</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Saquiel</td>
+      <td>?</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Rémiel</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>MARANS</td>
+      <td>NaN</td>
+      <td>groupe</td>
+      <td>MARANS</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Cunégonde</td>
+      <td>x</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Augustine</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Pioupioute</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-02</td>
+      <td>Joséphine</td>
+      <td>x</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-02</td>
+      <td>Cunégonde</td>
+      <td>x</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="preview-title">Résultat Structuré (df_2_pontes.csv)</p>
+                        <div class="table-container border rounded p-2 bg-light">
+                            <table border="1" class="dataframe table table-sm table-hover bg-white">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Date</th>
+      <th>Poule_brute</th>
+      <th>Ponte_brute</th>
+      <th>Ponte</th>
+      <th>Effectif</th>
+      <th>Etat_oeuf</th>
+      <th>Doute</th>
+      <th>Remarques</th>
+      <th>niveau_observation</th>
+      <th>group_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Joséphine</td>
+      <td>x</td>
+      <td>1</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>False</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Valérie</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>False</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Saquiel</td>
+      <td>?</td>
+      <td>0</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>True</td>
+      <td>?</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Rémiel</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>False</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>MARANS</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>False</td>
+      <td>NaN</td>
+      <td>groupe</td>
+      <td>MARANS</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Cunégonde</td>
+      <td>x</td>
+      <td>1</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>False</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Augustine</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>False</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-01</td>
+      <td>Pioupioute</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>False</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-02</td>
+      <td>Joséphine</td>
+      <td>x</td>
+      <td>1</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>False</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>2023-01-02</td>
+      <td>Cunégonde</td>
+      <td>x</td>
+      <td>1</td>
+      <td>1</td>
+      <td>RAS</td>
+      <td>False</td>
+      <td>NaN</td>
+      <td>individuel</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📝 Synthèse du Nettoyage & Structuration</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><b>Mapping des codes :</b> Transformation des notations complexes ('x', 'x?', 'xx', '(+1)') en valeurs entières calculables pour l'analyse statistique.</li>
+                    <li class="list-group-item"><b>Consolidation Marans :</b> Regroupement de toutes les observations (individuelles et groupées) sous une entité unique, permettant une <b>somme directe fiable</b> de la production.</li>
+                    <li class="list-group-item"><b>Dynamique des Effectifs :</b> Calcul de l'effectif présent (1, 2, 3) avec <b>propagation automatique du statut 'décédée'</b> pour garantir la cohérence des taux de ponte futurs.</li>
+                    <li class="list-group-item"><b>Structuration Granulaire :</b> Extraction systématique des états de l'œuf (cassé) et des doutes de saisie dans des colonnes dédiées pour un filtrage précis.</li>
+                    <li class="list-group-item"><b>Séparation Analytique :</b> Intégration dans un fichier unique avec distinction claire (via <code>group_id</code>) permettant d'analyser d'un côté la production propre (Hors Marans) et de l'autre le comportement complexe de la colonie Marans.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer class="text-center py-4 text-muted border-top">
+            Généré automatiquement par Antigravity - Structuration Step 2 - 13/02/2026 11:36
+        </footer>
+    </body>
+    </html>
+    
