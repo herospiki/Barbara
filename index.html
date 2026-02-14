@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord - Analyses Barbara</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --sidebar-bg: #f8fafc;
+            --sidebar-width: 300px;
+            --text-color: #1e293b;
+            --border-color: #e2e8f0;
+            --hover-bg: #e0f2fe;
+            --active-bg: #dbeafe;
+            --active-text: #1d4ed8;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            color: var(--text-color);
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: var(--sidebar-width);
+            background-color: var(--sidebar-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+
+        .sidebar-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            background: white;
+        }
+
+        .sidebar-header h1 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0;
+            color: #0f172a;
+        }
+
+        .sidebar-header p {
+            font-size: 0.875rem;
+            color: #64748b;
+            margin: 0.5rem 0 0 0;
+        }
+
+        .nav-list {
+            padding: 1rem;
+            list-style: none;
+            margin: 0;
+        }
+
+        .nav-item {
+            margin-bottom: 0.5rem;
+        }
+
+        .nav-btn {
+            width: 100%;
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border: none;
+            background: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.95rem;
+            color: #475569;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .nav-btn:hover {
+            background-color: var(--hover-bg);
+            color: var(--primary-color);
+        }
+
+        .nav-btn.active {
+            background-color: var(--active-bg);
+            color: var(--active-text);
+            font-weight: 500;
+        }
+
+        .nav-icon {
+            opacity: 0.7;
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: white;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: white;
+        }
+
+        /* Empty State */
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #94a3b8;
+        }
+
+        .empty-state svg {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h1>Analyses Barbara</h1>
+            <p>Tableau de bord des résultats</p>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <button class="nav-btn" onclick="loadPage('output/step0_visualisation_audit.html', this)">
+                    <span>Step 0: Audit Données</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn" onclick="loadPage('output/step1_visualisation_normalisation.html', this)">
+                    <span>Step 1: Normalisation</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn"
+                    onclick="loadPage('output/step2_visualisation_nettoyage_structuration.html', this)">
+                    <span>Step 2: Nettoyage et Structuration</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn" onclick="loadPage('output/step3_visualisation_nettoyage_meteo.html', this)">
+                    <span>Step 3: Nettoyage Météo</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn"
+                    onclick="loadPage('output/step4_visualisation_meteo_traitement_texte.html', this)">
+                    <span>Step 4: Météo & Traitement Texte</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn"
+                    onclick="loadPage('output/step5_visualisation_analyse_commentaires.html', this)">
+                    <span>Step 5: Analyse Commentaires</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn" onclick="loadPage('output/analyse_croisee.html', this)">
+                    <span>Analyse Croisée</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn" onclick="loadPage('output/pontes_finale.html', this)">
+                    <span>Pontes Finale</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <iframe id="content-frame" name="content-frame" src=""></iframe>
+    </div>
+
+    <script>
+        function loadPage(url, button) {
+            // Update Iframe
+            const iframe = document.getElementById('content-frame');
+            iframe.src = url;
+
+            // Update Active State
+            const buttons = document.querySelectorAll('.nav-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+        }
+
+        // Load first page by default
+        document.addEventListener('DOMContentLoaded', () => {
+            const firstButton = document.querySelector('.nav-btn');
+            if (firstButton) {
+                // Manually trigger click to load first page and set active state
+                firstButton.click();
+            }
+        });
+    </script>
+</body>
+
+</html>
