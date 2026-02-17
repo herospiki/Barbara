@@ -1,8 +1,10 @@
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 import os
-import numpy as np
+import calendar
+import locale
+locale.setlocale(locale.LC_TIME, 'French_France.1252')  # Windows
+
 
 # Configuration
 output_html = "output/pontes_finale.html"
@@ -24,6 +26,7 @@ def charger_donnees():
     # Colonnes temporelles
     df['Annee'] = df['Date'].dt.year
     df['Mois'] = df['Date'].dt.month
+    df['Jour'] = df['Date'].dt.day      
     df['Annee_Mois'] = df['Date'].dt.to_period('M').astype(str)
     
     # Type de poule
@@ -136,21 +139,19 @@ def generer_visualisations(df):
     </div>
     """)
 
+
     # 5. Saisonnalité (Heatmap)
     # -------------------------
-    df['Jour'] = df['Date'].dt.day_name().map({
-        'Monday': 'Lun', 'Tuesday': 'Mar', 'Wednesday': 'Mer', 'Thursday': 'Jeu', 'Friday': 'Ven', 'Saturday': 'Sam', 'Sunday': 'Dim'
-    })
-    
+
     heat_data = df.groupby(['Jour', 'Mois']).agg({'Ponte': 'sum', 'Effectif': 'sum'}).reset_index()
     heat_data['Taux'] = (heat_data['Ponte'] / heat_data['Effectif'] * 100).round(1)
     
-    pivot = heat_data.pivot(index='Jour', columns='Mois', values='Taux')
-    pivot = pivot.reindex(['Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim'])
+    pivot = heat_data.pivot(index='Mois', columns='Jour', values='Taux')
+    pivot.index = pivot.index.map(lambda m: calendar.month_name[m].capitalize())
     
     fig5 = px.imshow(pivot, 
-                     title='🌡️ Saisonnalité : Taux de Ponte Moyen (%) par Jour et Mois',
-                     labels=dict(x="Mois", y="Jour", color="%"),
+                     title='🌡️ Saisonnalité : Taux de Ponte (%) par Jour et Mois',
+                     labels=dict(x="Jour", y="Mois", color="%"),
                      text_auto=True, 
                      color_continuous_scale='YlGnBu', 
                      template="plotly_white")
@@ -159,8 +160,8 @@ def generer_visualisations(df):
     <div class="explanation">
         <h3>🌡️ Analyse de Saisonnalité</h3>
         <p><strong>Formule :</strong> Taux (%) = (Somme des œufs [Jour + Mois] / Somme des effectifs [Jour + Mois]) × 100</p>
-        <p><strong>Explication :</strong> Cette heatmap agrège les données de toute la période (2023-2025) par jour de la semaine et par mois. 
-        Elle permet de voir si les poules sont plus productives certains jours (ex: tous les lundis de juin cumulés).</p>
+        <p><strong>Explication :</strong> Cette heatmap agrège les données de toute la période (2023-2025) par jour et par mois. 
+        Elle permet de voir si les poules sont plus productives à certaines périodes de l'année.</p>
         <p>Comme pour les autres graphiques, l'utilisation de la <strong>somme des effectifs</strong> permet de rapporter la production au nombre réel de poules présentes, 
         garantissant ainsi que les taux sont comparables même si l'effectif a changé au fil des ans.</p>
     </div>

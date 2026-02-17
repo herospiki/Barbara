@@ -82,7 +82,7 @@ def categoriser_unique(texte):
 def print_to_file(file_path,text):
  
   # 1. Créer le dossier s'il n'existe pas pour éviter l'erreur
-    os.makedirs('data/interim', exist_ok=True)
+    os.makedirs('data/intermediaire', exist_ok=True)
 
     
     
