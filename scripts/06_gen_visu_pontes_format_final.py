@@ -27,7 +27,7 @@ def charger_donnees():
     df['Annee_Mois'] = df['Date'].dt.to_period('M').astype(str)
     
     # Type de poule
-    df['Type'] = df['Poule'].apply(lambda x: 'Groupe MARANS' if x == 'MARANS' else 'Poule Seule')
+    df['Type'] = df['Poule'].apply(lambda x: 'Groupe' if x == 'MARANS' else 'Poule Seule')
     
     return df
 

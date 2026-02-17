@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import unicodedata
 
 df_meteo = pd.read_csv('data/intermediaire/df_2_meteo.csv', sep=';')
 
@@ -14,7 +15,8 @@ MAPPING_CORRECTIF =  {
     'soleil et qq nuages' : 'soleil/qq nuages', 
     'bruine le matin': 'bruine/mitigé',
     'fortes pluie' : 'fortes pluies',
-    'éclairicie':'éclaircies'
+    'éclairicie':'éclaircies',
+    'orage avec grésil':'orage/grésil',
 }
     
 def corriger_terme_meteo(expression):
@@ -61,46 +63,110 @@ def nettoyage_et_split_meteo(df_meteo):
     return df_meteo
 
 
-# Mapping des termes détaillés (Clé) vers la catégorie
+
+# -----------------------------
+# 2. DICTIONNAIRE DE MAPPING
+# -----------------------------
 MAPPING_METEO = {
-    # Catégorie BEAU
-    'beau': 'BEAU', 'soleil': 'BEAU', 'ensoleillé': 'BEAU', 'dégagé': 'BEAU', 
-    'beau temps': 'BEAU', 'assez beau': 'BEAU', 'très beau' :'BEAU',
-    
-    # Catégorie PLUIE
-    'pluie':'PLUIE', 'bruine': 'PLUIE','averse': 'PLUIE', 'averses': 'PLUIE', 'giboulées': 'PLUIE', 
-    'qq gouttes': 'PLUIE', 'pluie fine': 'PLUIE', 'fortes pluies':'PLUIE',
-    
-    # Catégorie VENT
-    'vent': 'VENT', 'tempête': 'VENT', 'vent violent': 'VENT', 'vent chaud': 'VENT',
-    
-    # Catégorie COUVERT/GRIS
-    'couvert': 'COUVERT', 'nuageux': 'COUVERT', 'gris': 'COUVERT', 'voilé': 'COUVERT', 
-    'brumeux': 'COUVERT', 'brouillard': 'COUVERT', 'nuageux/': 'COUVERT', 'brouillard épais': 'COUVERT',
-    'très voilé' :'COUVERT',
-    
-    # Catégorie CHALEUR/FROID
-    'froid': 'FROID', 'chaud': 'CHAUD', 'lourd': 'CHAUD', 'temps lourd':'CHAUD',
-    'canicule': 'CANICULE', 'vigilance canicule': 'CANICULE',
-    
-    # Catégorie PHENOMENE SPECIFIQUE
-    'neige': 'NEIGE', 'orage': 'ORAGE', 'orageux': 'ORAGE', 'orages': 'ORAGE',
-    'orage fort': 'ORAGE',
-    
-    # Catégorie ECLAIRCIE
-    'éclaircie': 'ECLAIRCIES', 'éclaircies': 'ECLAIRCIES', 'belles éclaircies':'ECLAIRCIES',
 
-    # Catégorie NUAGES
+    # ☀ BEAU
+    "beau": "BEAU",
+    "beau temps": "BEAU",
+    "tres beau": "BEAU",
+    "assez beau": "BEAU",
+    "ensoleille": "BEAU",
+    "soleil": "BEAU",
+    "beau(ciel blanc)": "BEAU",
+    "degage": "BEAU",
 
-    'qq nuages' : 'NUAGES',
+
+    # ⛅ ECLAIRCIES
+    "eclaircie": "ECLAIRCIES",
+    "eclaircies": "ECLAIRCIES",
+    "belles eclaircies": "ECLAIRCIES",
+
+    # ☁ COUVERT
+    "couvert": "COUVERT",
+    "nuageux": "COUVERT",
+    "gris": "COUVERT",
+    "voile": "COUVERT",
+    "tres voile": "COUVERT",
+    "brumeux": "COUVERT",
+    "brouillard": "COUVERT",
+    "brouillard epais": "COUVERT",
+    "maussade": "COUVERT",
+
+    # 🌧 PLUIE
+    "pluie": "PLUIE",
+    "pluie fine": "PLUIE",
+    "bruine": "PLUIE",
+    "averse": "PLUIE",
+    "averses": "PLUIE",
+    "fortes pluies": "PLUIE",
+    "petite averse": "PLUIE",
+    "petites averses": "PLUIE",
+    "qq gouttes": "PLUIE",
+    "giboulees": "PLUIE",
+
+    # ⛈ ORAGE
+    "orage": "ORAGE",
+    "orages": "ORAGE",
+    "orageux": "ORAGE",
+    "orage fort": "ORAGE",
+    "orage sec": "ORAGE",
+    "orages faibles": "ORAGE",
+    "averse orageuse": "ORAGE",
+        # NEIGE
+    "neige": "NEIGE",
+    "pluie neige": "PLUIE_MIXTE",
+    "grele et pluie": "PLUIE_MIXTE",
+    "gresil": "PLUIE_MIXTE",
+    "pluie-neige": "PLUIE_MIXTE",
     
-    # Catégorie MITIGE / TRANSITION
-    'mitigé': 'MITIGE', 'idem': 'MITIGE',
-    
-    # Autres
-    'absente': 'NON ENREGISTRE',
+    # 🌬 VENT
+    "vent": "VENT",
+    "vent violent": "VENT",
+    "tempete": "VENT",
+    "vent chaud": "VENT",
+
+    # 🌡 CHALEUR
+    "chaud": "CHAUD",
+    "lourd": "CHAUD",
+    "temps lourd": "CHAUD",
+    "canicule": "CANICULE",
+    "vigilance canicule": "CANICULE",
+
+    # ❄ FROID
+    "froid": "FROID",
+
+    # ⚖ INSTABLE
+    "variable": "INSTABLE",
+    "mitige": "INSTABLE",
+    "degradation": "INSTABLE",
+    "accalmie": "INSTABLE",
+
+    # NUAGES
+    "qq nuages": "PASSAGES NUAGEUX",
 }
+
+
+def normalize_meteo_text(text: str) -> str:
+    if text is None:
+        return None
     
+    # lowercase
+    text = text.lower().strip()
+    
+    # remove accents
+    text = ''.join(
+        c for c in unicodedata.normalize('NFD', text)
+        if unicodedata.category(c) != 'Mn'
+    )
+    
+    # normalize spaces
+    text = re.sub(r"\s+", " ", text)
+    
+    return text
 
 # Fonctions pour nettoyer et mapper 
 
@@ -108,7 +174,7 @@ def mapper_terme_meteo(terme):
     if pd.isna(terme) or terme == '' or terme is None or terme == '?':
         return None 
     # Nettoyage de base : minuscule, retrait des espaces
-    terme_nettoye = terme.lower().strip()
+    terme_nettoye = normalize_meteo_text(terme)
     
     # Essayer de mapper le terme nettoyé
     return MAPPING_METEO.get(terme_nettoye, 'AUTRE/NON CLASSE')
@@ -120,9 +186,36 @@ def apply_mapping_meteo(df_meteo):
             df_meteo[col + '_Cat'] = df_meteo[col].apply(mapper_terme_meteo)
     return df_meteo
     
+# Regroupement des catégories : Météo_1_Cat, Météo_2_Cat, Météo_3_Cat, Météo_4_Cat
+# Sous la forme Météo_Cat : Météo_1_Cat|Météo_2_Cat|Météo_3_Cat|Météo_4_Cat 
+# si la catégorie n'est pas vide. Si la colonne est vide, on ne met pas de | .
+# Exemple : si on a Météo_1_Cat = BEAU, Météo_2_Cat = NUAGES, Météo_3_Cat = '', Météo_4_Cat = '',
+# on aura Météo_Cat = BEAU|NUAGES
+
+def regroupement_meteo(df_meteo):
+  cols = ['Météo_1_Cat', 'Météo_2_Cat', 'Météo_3_Cat', 'Météo_4_Cat']
+  # sécuriser colonnes manquantes
+  for col in cols:
+    if col not in df_meteo.columns:
+      df_meteo[col] = ''
+    
+    # normaliser NaN -> '' + strip
+    df_meteo[cols] = df_meteo[cols].fillna('').apply(lambda s: s.astype(str).str.strip())
+   
+   
+    # concat seulement valeurs non vides et en ordonnant les valeurs
+    df_meteo['Météo_Cat'] = df_meteo[cols].apply(
+        lambda row: '|'.join(sorted([v for v in row if v != ''])),
+        axis=1
+    )
+    
+    return df_meteo
+
+
 
 new_df_meteo = nettoyage_et_split_meteo(df_meteo)
 meteo_categories_df = apply_mapping_meteo(new_df_meteo)
 meteo_categories_df.rename(columns ={'Météo_Clean':'Météo'}, inplace=True)
 meteo_categories_df.drop(columns=['Météo_Corrigée'], inplace=True)
+meteo_categories_df = regroupement_meteo(meteo_categories_df)
 meteo_categories_df.to_csv('data/intermediaire/df_3_meteo.csv', sep=';', index=False) 

@@ -70,6 +70,11 @@ df_meteo_clean = traitement_meteo(charger_donnees())
 df_meteo_clean = df_meteo_clean.drop(columns=['T°C (12h-15h)', 'Humidité'])
 df_meteo_clean = df_meteo_clean.rename(columns={'T°C (12h-15h)_traite': 'T°C (12h-15h)', 'Humidité_traite': 'Humidité'})    
 
+# Ajout des valeurs du THI (Humidex)
+# THI = (1,8*T + 32) - ((0,55 - 0,0055*H)*(1,8*T -26))
+df_meteo_clean['THI'] = (1.8 * df_meteo_clean['T°C (12h-15h)'] + 32) - ((0.55 - 0.0055 * df_meteo_clean['Humidité']*100) * (1.8 * df_meteo_clean['T°C (12h-15h)'] - 26))
+df_meteo_clean['THI'] = df_meteo_clean['THI'].round(2)
+
 df_meteo_clean.to_csv('data/intermediaire/df_2_meteo.csv', sep=';', index=False)
 
 
