@@ -125,10 +125,10 @@
             </div>
 
             <div class="card">
-                <h2>🏷️ Mapping des Catégories</h2>
+                <h2>🏷️ Mapping en Catégories</h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <p>Détail des termes rencontrés pour chaque catégorie :</p>
+                        <p>Détail des termes pour chaque catégorie :</p>
                         <ul class="list-group list-group-flush" style="max-height: 500px; overflow-y: auto;">
                             
             <li class="list-group-item">
@@ -244,23 +244,70 @@
   <tbody>
     <tr>
       <td>BEAU</td>
-      <td>462</td>
+      <td>502</td>
     </tr>
     <tr>
       <td>COUVERT</td>
-      <td>308</td>
+      <td>416</td>
     </tr>
     <tr>
       <td>PLUIE</td>
-      <td>182</td>
+      <td>324</td>
     </tr>
     <tr>
       <td>ECLAIRCIES</td>
-      <td>100</td>
+      <td>224</td>
     </tr>
     <tr>
-      <td>INSTABLE</td>
-      <td>12</td>
+      <td>VENT</td>
+      <td>82</td>
+    </tr>
+  </tbody>
+</table>
+                        </div>
+                        <p class="text-center font-weight-bold"><b>Répartition Top 10 - Mentions journalières</b></p>
+                        <div class="table-container">
+                            <table border="1" class="dataframe table table-sm table-borderless">
+  <tbody>
+    <tr>
+      <td>BEAU</td>
+      <td>363</td>
+    </tr>
+    <tr>
+      <td>COUVERT</td>
+      <td>127</td>
+    </tr>
+    <tr>
+      <td>COUVERT | PLUIE</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>ECLAIRCIES | PLUIE</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>PLUIE</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>ECLAIRCIES</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>BEAU | COUVERT</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>COUVERT | ECLAIRCIES</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>BEAU | ORAGE</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>BEAU | PLUIE</td>
+      <td>18</td>
     </tr>
   </tbody>
 </table>
@@ -278,14 +325,12 @@
     <tr style="text-align: left;">
       <th>Date</th>
       <th>Météo</th>
-      <th>Météo_1</th>
+      <th>Météo_Clean</th>
       <th>Météo_1_Cat</th>
-      <th>Météo_2</th>
       <th>Météo_2_Cat</th>
-      <th>Météo_3</th>
       <th>Météo_3_Cat</th>
-      <th>Météo_4</th>
       <th>Météo_4_Cat</th>
+      <th>Météo_Cat</th>
     </tr>
   </thead>
   <tbody>
@@ -297,9 +342,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
     <tr>
       <td>2023-01-02</td>
@@ -309,9 +352,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
     <tr>
       <td>2023-01-03</td>
@@ -321,9 +362,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
     <tr>
       <td>2023-01-04</td>
@@ -333,9 +372,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
     <tr>
       <td>2023-01-05</td>
@@ -345,9 +382,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
     <tr>
       <td>2023-01-06</td>
@@ -357,9 +392,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
     <tr>
       <td>2023-01-07</td>
@@ -369,9 +402,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
     <tr>
       <td>2023-01-08</td>
@@ -381,21 +412,17 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>INSTABLE</td>
     </tr>
     <tr>
       <td>2023-01-09</td>
       <td>vent/éclaircie</td>
-      <td>vent</td>
+      <td>vent/éclaircie</td>
       <td>VENT</td>
-      <td>éclaircie</td>
       <td>ECLAIRCIES</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>ECLAIRCIES | VENT</td>
     </tr>
     <tr>
       <td>2023-01-10</td>
@@ -405,9 +432,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
     <tr>
       <td>2023-01-11</td>
@@ -417,9 +442,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
     <tr>
       <td>2023-01-12</td>
@@ -429,9 +452,7 @@
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>BEAU</td>
     </tr>
   </tbody>
 </table>
@@ -450,7 +471,7 @@
         </div>
         
         <footer class="text-center py-4 text-muted border-top">
-            Généré automatiquement par Antigravity - Traitement Texte Step 4 - 16/02/2026 12:06
+            Généré automatiquement par Antigravity - Traitement Texte Step 4 - 17/02/2026 10:09
         </footer>
     </body>
     </html>

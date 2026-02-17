@@ -122,6 +122,8 @@ def traiter_ponte_groupe_marans(row):
         poules_trouvees.append('Tina')
     if '(a)' in val or 'x(a)' in val:
         poules_trouvees.append('Albertine')
+    if '(m)' in val or 'x(m)' in val:
+        poules_trouvees.append('Mouette ?')
     
     poule_str = ", ".join(poules_trouvees) if poules_trouvees else ""
 

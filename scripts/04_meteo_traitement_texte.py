@@ -28,7 +28,7 @@ def corriger_terme_meteo(expression):
     # On doit rechercher le terme dans l'expression de départ et remplacer uniquement
     # le terme en question 
     for terme, correction in MAPPING_CORRECTIF.items():
-        expression_nettoyee = expression_nettoyee.replace(terme, correction)
+        expression_nettoyee = expression_nettoyee.replace(terme, correction)    
     return expression_nettoyee
 
 def split_meteo(df_meteo):
@@ -205,7 +205,7 @@ def regroupement_meteo(df_meteo):
    
     # concat seulement valeurs non vides et en ordonnant les valeurs
     df_meteo['Météo_Cat'] = df_meteo[cols].apply(
-        lambda row: '|'.join(sorted([v for v in row if v != ''])),
+        lambda row: ' | '.join(sorted([v for v in row if v != ''])),
         axis=1
     )
     
@@ -215,7 +215,5 @@ def regroupement_meteo(df_meteo):
 
 new_df_meteo = nettoyage_et_split_meteo(df_meteo)
 meteo_categories_df = apply_mapping_meteo(new_df_meteo)
-meteo_categories_df.rename(columns ={'Météo_Clean':'Météo'}, inplace=True)
-meteo_categories_df.drop(columns=['Météo_Corrigée'], inplace=True)
 meteo_categories_df = regroupement_meteo(meteo_categories_df)
 meteo_categories_df.to_csv('data/intermediaire/df_3_meteo.csv', sep=';', index=False) 
