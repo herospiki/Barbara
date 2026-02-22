@@ -12,6 +12,7 @@ output_html = "output/check_meteo.html"
 
 seuil_t = 5    # °C — seuil d'alerte écart température
 seuil_p = 10   # mm — seuil d'alerte écart précipitations
+seuil_h = 20   # % — seuil d'alerte écart humidité
 
 # ===========================================================================
 # 1. CHARGEMENT DES DONNÉES
@@ -36,6 +37,7 @@ df_histo_jour = df_histo.groupby('Date').agg(
     Histo_Temp_max  = ('Temp_C',       'max'),
     Histo_Temp_min  = ('Temp_C',       'min'),
     Histo_Hum_moy   = ('Humidite_pct', 'mean'),
+    Histo_Hum_min   = ('Humidite_pct', 'min'),
     Histo_Hum_max   = ('Humidite_pct', 'max'),
     Histo_Pluie_sum = ('Pluie_mm',     'sum'),
     Histo_THI_moy   = ('THI',          'mean'),
@@ -64,36 +66,41 @@ print("📊 Calcul des métriques...")
 
 resultats = []
 
-def metriques(s1, s2, label):
+def metriques(s1, s2, label, seuil=None):
     diff = (s1 - s2).abs()
+    n = int(diff.notna().sum())
+    pct = round((diff > seuil).sum() / n * 100, 1) if seuil is not None and n > 0 else None
     return {
         'Comparaison': label,
         'MAE': round(diff.mean(), 2),
         'RMSE': round(np.sqrt((diff**2).mean()), 2),
         'Max écart': round(diff.max(), 2),
         'Corrélation': round(s1.corr(s2), 3),
-        'Nb jours': int(diff.notna().sum())
+        f'% > seuil': pct,
+        'Nb jours': n
     }
 
 # Température CSV (12-15h) — meilleure correspondance avec Temp_max ou Temp_moy ?
 if 'T°C (12h-15h)' in df_comp.columns:
     resultats.append(metriques(df_comp['T°C (12h-15h)'], df_comp['Histo_Temp_moy'],
-                               'T°C CSV (12-15h) vs Histo T°C moyenne journalière'))
+                               'T°C CSV (12-15h) vs Histo T°C moyenne journalière', seuil=seuil_t))
     resultats.append(metriques(df_comp['T°C (12h-15h)'], df_comp['Histo_Temp_max'],
-                               'T°C CSV (12-15h) vs Histo T°C max journalier'))
+                               'T°C CSV (12-15h) vs Histo T°C max journalier', seuil=seuil_t))
 
 # Pluie
 if 'Pluie(mm)' in df_comp.columns:
     resultats.append(metriques(df_comp['Pluie(mm)'], df_comp['Histo_Pluie_sum'],
-                               'Pluie(mm) CSV vs Histo Pluie somme journalière'))
+                               'Pluie(mm) CSV vs Histo Pluie somme journalière', seuil=seuil_p))
 
 # Humidité (CSV en [0,1] → convertir en %)
 if 'Humidité' in df_comp.columns:
     h_csv = df_comp['Humidité'] * 100 if df_comp['Humidité'].median() < 2 else df_comp['Humidité']
     resultats.append(metriques(h_csv, df_comp['Histo_Hum_moy'],
-                               'Humidité CSV (%) vs Histo Humidité moyenne journalière (%)'))
+                               'Humidité CSV (%) vs Histo Humidité moyenne journalière (%)', seuil=seuil_h))
     resultats.append(metriques(h_csv, df_comp['Histo_Hum_max'],
-                               'Humidité CSV (%) vs Histo Humidité max journalière (%)'))
+                               'Humidité CSV (%) vs Histo Humidité max journalière (%)', seuil=seuil_h))
+    resultats.append(metriques(h_csv, df_comp['Histo_Hum_min'],
+                               'Humidité CSV (%) vs Histo Humidité min journalière (%)', seuil=seuil_h))
 
 df_resultats = pd.DataFrame(resultats)
 print("\n" + df_resultats.to_string(index=False))
@@ -231,17 +238,21 @@ with open(output_html, 'w', encoding='utf-8') as f:
 
     # Tableau métriques
     f.write('<div class="card"><h2>📋 Métriques de Cohérence</h2>')
-    f.write('<table><tr><th>Comparaison</th><th>MAE</th><th>RMSE</th><th>Max écart</th><th>Corrélation</th><th>Nb jours</th></tr>')
+    f.write('<table><tr><th>Comparaison</th><th>MAE</th><th>RMSE</th><th>Max écart</th><th>Corrélation</th><th>% > seuil</th><th>Nb jours</th></tr>')
     for _, r in df_resultats.iterrows():
         cm = couleur_mae(r['MAE']); cc = couleur_corr(r['Corrélation'])
+        pct_val = r.get('% > seuil')
+        pct_td = f"<td class='{'bad' if pct_val and pct_val > 10 else 'warn' if pct_val and pct_val > 5 else 'good'}'>{pct_val}%</td>" if pct_val is not None else "<td style='color:#ccc'>—</td>"
         f.write(f"<tr><td>{r['Comparaison']}</td>"
                 f"<td class='{cm}'>{r['MAE']}</td><td>{r['RMSE']}</td>"
                 f"<td>{r['Max écart']}</td><td class='{cc}'>{r['Corrélation']}</td>"
+                f"{pct_td}"
                 f"<td>{r['Nb jours']}</td></tr>")
     f.write('</table>')
     f.write('''<p class="note">
-      <b>MAE</b> = Erreur Absolue Moyenne (même unité que la variable) &nbsp;|&nbsp;
-      <b>RMSE</b> = Racine Erreur Quadratique Moyenne (pénalise davantage les gros écarts) &nbsp;|&nbsp;
+      <b>MAE</b> = Erreur Absolue Moyenne &nbsp;|&nbsp;
+      <b>RMSE</b> = Racine Erreur Quadratique Moyenne &nbsp;|&nbsp;
+      <b>% &gt; seuil</b> = % de jours dépassant le seuil d'alerte (T&gt;{seuil_t}°C) &nbsp;|&nbsp;
       <span class="good">● Bon</span> &nbsp;
       <span class="warn">● Acceptable</span> &nbsp;
       <span class="bad">● À vérifier</span>
