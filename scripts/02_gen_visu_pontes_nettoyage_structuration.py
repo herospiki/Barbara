@@ -33,7 +33,7 @@ def create_cleaning_flow_sankey():
     links = [
         # --- Sources ---
         ("Ponte_brute", "Analyse Regex & Texte", "Parsing"),
-        ("niveau_observation", "Effectif", "Effectif théorique (1/2/3)"),
+        ("niveau_observation", "Effectif", "Effectif théorique (1/2/3/4)"),
         ("Poule_brute", "Effectif", "Init Marans/Nina-Tina"),
         
         # --- Transformations ---

@@ -7137,7 +7137,7 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-03;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-03;Cunégonde;individuel;0;RAS;False;1;RAS
 2025-12-03;MARANS;groupe;0;RAS;False;2;RAS
-2025-12-04;MARANS;groupe;1;RAS;True;2;En mue (?)
+2025-12-04;MARANS;groupe;1;RAS;True;3;Poule(s) : Mouette (?)
 2025-12-04;Cunégonde;individuel;1;RAS;False;1;RAS
 2025-12-04;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-04;Pioupioute;individuel;0;RAS;False;1;RAS
@@ -7148,14 +7148,14 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-05;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-05;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-05;Cunégonde;individuel;1;RAS;False;1;RAS
-2025-12-05;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-05;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-06;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-06;Cunégonde;individuel;0;RAS;False;1;RAS
 2025-12-06;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-06;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-06;Joséphine;individuel;0;RAS;False;0;RAS
-2025-12-06;MARANS;groupe;0;RAS;False;2;RAS
-2025-12-07;MARANS;groupe;1;RAS;False;2;En mue
+2025-12-06;MARANS;groupe;0;RAS;False;3;RAS
+2025-12-07;MARANS;groupe;1;RAS;False;3;Poule(s) : Mouette
 2025-12-07;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-07;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-07;Valérie;individuel;0;RAS;False;1;RAS
@@ -7164,7 +7164,7 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-08;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-08;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-08;Valérie;individuel;0;RAS;False;1;RAS
-2025-12-08;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-08;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-08;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-08;Cunégonde;individuel;1;RAS;False;1;RAS
 2025-12-09;Joséphine;individuel;0;RAS;False;0;RAS
@@ -7172,8 +7172,8 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-09;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-09;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-09;Pioupioute;individuel;0;RAS;False;1;RAS
-2025-12-09;MARANS;groupe;1;RAS;False;2;En mue
-2025-12-10;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-09;MARANS;groupe;1;RAS;False;3;Poule(s) : Mouette
+2025-12-10;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-10;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-10;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-10;Valérie;individuel;0;RAS;False;1;RAS
@@ -7183,21 +7183,21 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-11;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-11;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-11;Pioupioute;individuel;0;RAS;False;1;RAS
-2025-12-11;MARANS;groupe;1;RAS;False;2;En mue
+2025-12-11;MARANS;groupe;1;RAS;False;3;Poule(s) : Mouette
 2025-12-11;Cunégonde;individuel;0;RAS;False;1;RAS
 2025-12-12;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-12;Cunégonde;individuel;1;RAS;False;1;RAS
 2025-12-12;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-12;Joséphine;individuel;0;RAS;False;0;RAS
-2025-12-12;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-12;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-12;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-13;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-13;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-13;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-13;Cunégonde;individuel;0;RAS;False;1;RAS
-2025-12-13;MARANS;groupe;1;RAS;False;2;RAS
+2025-12-13;MARANS;groupe;1;RAS;False;3;RAS
 2025-12-13;Pioupioute;individuel;0;RAS;False;1;RAS
-2025-12-14;MARANS;groupe;1;RAS;False;2;En mue
+2025-12-14;MARANS;groupe;1;RAS;False;3;Poule(s) : Mouette
 2025-12-14;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-14;Cunégonde;individuel;1;RAS;False;1;RAS
 2025-12-14;Rémiel;individuel;0;RAS;False;0;RAS
@@ -7208,8 +7208,8 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-15;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-15;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-15;Valérie;individuel;0;RAS;False;1;RAS
-2025-12-15;MARANS;groupe;0;RAS;False;2;RAS
-2025-12-16;MARANS;groupe;1;RAS;False;2;En mue
+2025-12-15;MARANS;groupe;0;RAS;False;3;RAS
+2025-12-16;MARANS;groupe;1;RAS;False;3;Poule(s) : Mouette
 2025-12-16;Cunégonde;individuel;1;RAS;False;1;RAS
 2025-12-16;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-16;Joséphine;individuel;0;RAS;False;0;RAS
@@ -7218,10 +7218,10 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-17;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-17;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-17;Rémiel;individuel;0;RAS;False;0;RAS
-2025-12-17;MARANS;groupe;1;RAS;False;2;RAS
+2025-12-17;MARANS;groupe;1;RAS;False;3;RAS
 2025-12-17;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-17;Cunégonde;individuel;1;RAS;False;1;RAS
-2025-12-18;MARANS;groupe;1;RAS;False;2;RAS
+2025-12-18;MARANS;groupe;1;RAS;False;3;RAS
 2025-12-18;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-18;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-18;Valérie;individuel;0;RAS;False;1;RAS
@@ -7229,13 +7229,13 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-18;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-19;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-19;Cunégonde;individuel;1;RAS;False;1;RAS
-2025-12-19;MARANS;groupe;1;RAS;False;2;RAS
+2025-12-19;MARANS;groupe;1;RAS;False;3;RAS
 2025-12-19;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-19;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-19;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-20;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-20;Cunégonde;individuel;0;RAS;False;1;RAS
-2025-12-20;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-20;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-20;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-20;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-20;Rémiel;individuel;0;RAS;False;0;RAS
@@ -7243,27 +7243,27 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-21;Cunégonde;individuel;0;RAS;False;1;RAS
 2025-12-21;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-21;Joséphine;individuel;0;RAS;False;0;RAS
-2025-12-21;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-21;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-21;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-22;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-22;Cunégonde;individuel;1;RAS;False;1;RAS
 2025-12-22;Joséphine;individuel;0;RAS;False;0;RAS
-2025-12-22;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-22;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-22;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-22;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-23;Pioupioute;individuel;0;RAS;False;1;RAS
-2025-12-23;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-23;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-23;Cunégonde;individuel;0;RAS;False;1;RAS
 2025-12-23;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-23;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-23;Valérie;individuel;0;RAS;False;1;RAS
-2025-12-24;MARANS;groupe;1;cassé;False;2;RAS
+2025-12-24;MARANS;groupe;1;cassé;False;3;RAS
 2025-12-24;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-24;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-24;Cunégonde;individuel;1;RAS;False;1;RAS
 2025-12-24;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-24;Valérie;individuel;0;RAS;False;1;RAS
-2025-12-25;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-25;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-25;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-25;Cunégonde;individuel;0;RAS;False;1;RAS
 2025-12-25;Valérie;individuel;0;RAS;False;1;RAS
@@ -7273,15 +7273,15 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-26;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-26;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-26;Pioupioute;individuel;0;RAS;False;1;RAS
-2025-12-26;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-26;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-26;Cunégonde;individuel;1;RAS;False;1;RAS
-2025-12-27;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-27;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-27;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-27;Valérie;individuel;0;RAS;False;1;RAS
 2025-12-27;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-27;Cunégonde;individuel;0;RAS;False;1;RAS
 2025-12-27;Pioupioute;individuel;0;RAS;False;1;RAS
-2025-12-28;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-28;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-28;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-28;Cunégonde;individuel;1;RAS;False;1;RAS
 2025-12-28;Joséphine;individuel;0;RAS;False;0;RAS
@@ -7290,10 +7290,10 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-29;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-29;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-29;Valérie;individuel;0;RAS;False;1;RAS
-2025-12-29;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-29;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-29;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-29;Cunégonde;individuel;0;RAS;False;1;RAS
-2025-12-30;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-30;MARANS;groupe;0;RAS;False;3;RAS
 2025-12-30;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-30;Pioupioute;individuel;0;RAS;False;1;RAS
 2025-12-30;Valérie;individuel;0;RAS;False;1;RAS
@@ -7304,4 +7304,4 @@ Date;Poule;niveau_observation;Ponte;Etat_oeuf;Doute;Effectif;Remarques
 2025-12-31;Joséphine;individuel;0;RAS;False;0;RAS
 2025-12-31;Rémiel;individuel;0;RAS;False;0;RAS
 2025-12-31;Pioupioute;individuel;0;RAS;False;1;RAS
-2025-12-31;MARANS;groupe;0;RAS;False;2;RAS
+2025-12-31;MARANS;groupe;0;RAS;False;3;RAS

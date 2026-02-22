@@ -1,0 +1,40 @@
+Feuilles: ['Pontes individuelles', 'Pontes Marans', 'Meteo', 'EvÞnements', 'Notes mÚthodologiques', 'Meteo_Hourly', 'Meteo_Daily', 'Histo_Meteo', 'Data_Looker_Pontes_Indiv', 'Data_Looker_Pontes_Marans']
+--- Pontes individuelles --- cols=['Unnamed: 0', 'CunÚgonde', 'Unnamed: 2', 'Unnamed: 3', 'ValÚrie', 'Unnamed: 5', 'Unnamed: 6', 'AliÚnor', 'Unnamed: 8', 'Unnamed: 9', 'Pioupioute', 'Unnamed: 11', 'Unnamed: 12']
+            Unnamed: 0 CunÚgonde Unnamed: 2       Unnamed: 3 ValÚrie Unnamed: 5      Unnamed: 6   AliÚnor Unnamed: 8        Unnamed: 9 Pioupioute Unnamed: 11        Unnamed: 12
+0                 Date   Statut      Ponte   Etat de l'oeuf   Statut      Ponte  Etat de l'oeuf  Statut      Ponte    Etat de l'oeuf    Statut       Ponte     Etat de l'oeuf   
+1  2026-01-01 00:00:00    Active      False              NaN  Active      False             NaN    Active       True               NaN  RetraitÚe       False                NaN
+--- Pontes Marans --- cols=['Unnamed: 0', 'MARANS', 'Unnamed: 2', 'Albertine', 'Unnamed: 4', 'Unnamed: 5', 'Tina', 'Unnamed: 7', 'Unnamed: 8', 'Mouette', 'Unnamed: 10', 'Unnamed: 11', 'GypaÞte', 'Unnamed: 13', 'Unnamed: 14']
+            Unnamed: 0                MARANS      Unnamed: 2 Albertine Unnamed: 4       Unnamed: 5    Tina Unnamed: 7      Unnamed: 8   Mouette Unnamed: 10       Unnamed: 11    GypaÞte Unnamed: 13        Unnamed: 14
+0                 Date  Nombre total d'oeufs  Etat des oeufs   Statut      Ponte   Etat de l'oeuf   Statut      Ponte  Etat de l'oeuf  Statut       Ponte    Etat de l'oeuf    Statut       Ponte     Etat de l'oeuf   
+1  2026-01-01 00:00:00                   NaN             NaN    Active      False              NaN  Active      False             NaN    Active        True               NaN     Active        True                NaN
+--- Meteo --- cols=['Date', 'T░C 6h', 'T░C (12-14h)', 'T░C 21h', 'H %', 'Pluie (mm)', 'MÚtÚo', 'Commentaires', 'THI']
+        Date  T░C 6h  T░C (12-14h)  T░C 21h   H %  Pluie (mm)  MÚtÚo  Commentaires       THI
+0 2026-01-01     NaN             6        0  0.38         NaN    NaN           NaN  51.16808
+1 2026-01-02     NaN             4        3  0.64         NaN    NaN           NaN  49.53344
+--- EvÞnements --- cols=['Date', 'Poule concernÚe', "Type d'ÚvÞnement", 'Description', "DÚbut/Fin de l'ÚvÞnement", 'Commentaires']
+        Date  Poule concernÚe  Type d'ÚvÞnement  Description DÚbut/Fin de l'ÚvÞnement  Commentaires
+0 2026-01-01              NaN               NaN          NaN                    DÚbut           NaN
+--- Notes mÚthodologiques --- cols=['Type de donnÚes / Notation', 'Commentaires', 'Unnamed: 2']
+  Type de donnÚes / Notation                                                                                                                                                                     Commentaires Unnamed: 2
+0                 Pluie (mm)                                                                                          RelevÚ le matin Ó 8h : la pÚriode couverte a donc un petit dÚcalage (vers le passÚ) fff        NaN
+1                        THI  Temperature Humidity Index THI = (1,8 x T + 32) û ( 0,55 û 0,0055 x H) x (1,8 x T û 26)) \n Avec T pour la tempÚrature ambiante en ░Celsius et H pour lÆhumiditÚ relative en %.        NaN
+--- Meteo_Hourly --- cols=['Date_Heure', 'Temp_C', 'Humidite_pct', 'Pluie_mm', 'THI']
+           Date_Heure  Temp_C  Humidite_pct  Pluie_mm    THI
+0 2026-01-01 00:00:00    -0.2            98         0  31.93
+1 2026-01-01 01:00:00     0.4            96         0  33.28
+--- Meteo_Daily --- cols=['Date', 'Lux_estim', 'Duree_Jour_h']
+        Date  Lux_estim Duree_Jour_h
+0 2026-01-01      28151   2026-07-09
+1 2026-01-02      20521   2026-08-09
+--- Histo_Meteo --- cols=['Date_Heure', 'Temp_C', 'Humidite_pct', 'Pluie_mm', 'Lux_estim', 'Duree_Jour_h', 'THI']
+           Date_Heure  Temp_C  Humidite_pct  Pluie_mm  Lux_estim Duree_Jour_h       THI
+0 2023-01-01 00:00:00     9.1            75         0      19816   2026-07-09  49.70275
+1 2023-01-01 01:00:00     8.4            84         0      19816   2026-07-09  48.07744
+--- Data_Looker_Pontes_Indiv --- cols=['Date', 'Poule', 'Statut', 'Ponte', 'Etat_Oeuf']
+        Date      Poule  Statut  Ponte  Etat_Oeuf
+0 2026-01-01  CunÚgonde  Active      0        NaN
+1 2026-01-02  CunÚgonde  Active      0        NaN
+--- Data_Looker_Pontes_Marans --- cols=[]
+Empty DataFrame
+Columns: []
+Index: []

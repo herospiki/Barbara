@@ -83,7 +83,7 @@ def traiter_ponte_individuelle(row):
 def traiter_ponte_groupe_marans(row):
     """
     Traite une ligne de ponte pour le groupe MARANS.
-    Codes spécifiques : n = Nina, t = Tina, a = Albertine.
+    Codes spécifiques : n = Nina, t = Tina, a = Albertine, m = Mouette
     Gère les effectifs variables et ajoute l'info des poules dans Remarques.
     """
     val = str(row['Ponte_brute']).strip().replace('\xa0', '').lower()
@@ -93,7 +93,7 @@ def traiter_ponte_groupe_marans(row):
         'Ponte': 0,
         'Etat_oeuf': 'RAS',
         'Doute': False,
-        'Effectif': row.get('Effectif_theo', 3),  # Par défaut 3 Marans
+        'Effectif': row.get('Effectif_theo', 3), # Par défaut 3 Marans
         'Remarques': ''
     }
     
@@ -122,15 +122,15 @@ def traiter_ponte_groupe_marans(row):
         poules_trouvees.append('Tina')
     if '(a)' in val or 'x(a)' in val:
         poules_trouvees.append('Albertine')
-    if '(m)' in val or 'x(m)' in val:
-        poules_trouvees.append('Mouette ?')
+    if '(m)' in val or 'x(m)' in val or '(m?)' in val:
+        poules_trouvees.append('Mouette')
     
     poule_str = ", ".join(poules_trouvees) if poules_trouvees else ""
 
     statut_info = ""
     if 'dcd' in val:
         statut_info = "décédée"
-    elif 'mue' in val or '(m)' in val or '(m?)' in val:
+    elif 'mue' in val:
         statut_info = "en mue"
 
     # 3. Construction des Remarques (TOUJOURS ajouter l'info des poules si disponible)
@@ -149,7 +149,7 @@ def traiter_ponte_groupe_marans(row):
 
     # 4. Ajustement Effectif si décès détecté
     if statut_info == "décédée":
-        resultat['Effectif'] = 2  # Passage de 3 à 2 pour les Marans
+      resultat['Effectif'] = resultat['Effectif'] - 1
 
     # 5. États et Doute
     if '?' in val:
@@ -189,11 +189,14 @@ def nettoyage_completion_et_structuration():
         # Pour MARANS, l'effectif varie selon l'année :
         # - 2023 : 1 (Albertine seule)
         # - 2024 : 3 (Albertine + Nina + Tina)
-        # - 2025 : 3 (puis 2 après décès, géré par la propagation)
+        # - 2025 : 3 poules de 2023/2024 + Mouette à partir du 4/12/2025 : Effectif_Theo  = 4 à partir du 4/12/2025
+        # - 2025 : 3 puis 2 après décès, géré par la propagation; puis 3 après arrivée de Mouette : 
+    
         mask_marans = df_long['Poule_brute'] == 'MARANS'
         df_long.loc[mask_marans & (df_long['Date'].dt.year == 2023), 'Effectif_theo'] = 1
         df_long.loc[mask_marans & (df_long['Date'].dt.year == 2024), 'Effectif_theo'] = 3
         df_long.loc[mask_marans & (df_long['Date'].dt.year == 2025), 'Effectif_theo'] = 3
+        df_long.loc[mask_marans & (df_long['Date'] >= '2025-12-04'), 'Effectif_theo'] = 4
         
         mask_individuel = df_long['niveau_observation'] == 'individuel'
         mask_groupe = df_long['niveau_observation'] == 'groupe'
@@ -213,10 +216,12 @@ def nettoyage_completion_et_structuration():
 
         # 5. Post-traitement : Propagation du décès / effectif
         print("🔄 Post-traitement : Propagation du décès et des effectifs...")
+        MOUETTE_DATE = pd.Timestamp('2025-12-04')
+
         def propager_status(group):
             # Le nom du groupe (Poule_brute) est accessible via l'attribut .name
             poule = group.name
-            group = group.sort_values('Date')
+            group = group.sort_values('Date').copy()
             
             if group['niveau_observation'].iloc[0] == 'individuel':
                 deces = group['Effectif'] == 0
@@ -225,12 +230,30 @@ def nettoyage_completion_et_structuration():
                     group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 0
                     group.iloc[premier_deces_pos:, group.columns.get_loc('Ponte')] = 0
             else:
-                # Pour le groupe MARANS, on propage le passage de 3 à 2
+                # Pour le groupe MARANS :
+                # - traiter_ponte_groupe_marans a déjà posé Effectif = Effectif_theo - 1
+                #   sur la ligne du décès.
+                # - Ici on propage cet effectif réduit jusqu'à l'arrivée de Mouette,
+                #   puis on ré-applique l'Effectif_theo à partir du 04/12/2025.
                 if poule == 'MARANS':
-                    deces = group['Effectif'] == 2
+                    effectif_col = group.columns.get_loc('Effectif')
+                    effectif_theo_col = group.columns.get_loc('Effectif_theo')
+
+                    # Détecte les lignes où un décès a eu lieu :
+                    # la fonction de traitement a posé Effectif = Effectif_theo - 1
+                    deces = group['Effectif'] < group['Effectif_theo']
                     if deces.any():
                         premier_deces_pos = np.where(deces)[0][0]
-                        group.iloc[premier_deces_pos:, group.columns.get_loc('Effectif')] = 2
+                        effectif_apres_deces = int(group.iloc[premier_deces_pos, effectif_col])
+
+                        # Propager l'effectif réduit jusqu'à la fin
+                        group.iloc[premier_deces_pos:, effectif_col] = effectif_apres_deces
+
+                        # À l'arrivée de Mouette (04/12/2025) : +1 sur l'effectif courant
+                        # (pas Effectif_theo car un décès a eu lieu → 2+1=3, pas 4)
+                        mask_mouette = group['Date'] >= MOUETTE_DATE
+                        if mask_mouette.any():
+                            group.loc[mask_mouette, 'Effectif'] = effectif_apres_deces + 1
             
             # On ré-ajoute la colonne Poule_brute car include_groups=False l'exclut du traitement
             group['Poule_brute'] = poule
@@ -238,7 +261,7 @@ def nettoyage_completion_et_structuration():
 
         df_result = df_result.groupby('Poule_brute', group_keys=False).apply(propager_status, include_groups=False)
 
-        # Nettoyage colonnes temporaires
+        # Nettoyage colonne temporaire Effectif_theo (utilisée pour la propagation)
         if 'Effectif_theo' in df_result.columns:
             df_result = df_result.drop(columns=['Effectif_theo'])
 
